@@ -2,4 +2,6 @@ Sincronização Tempos
 csv_outputs\16-12-2024-gustavo_0.h264 - 3.808463
 csv_outputs\16-12-2024-gustavo_1.h264 - 3.971083
 csv_outputs\16-12-2024-gustavo_2.h264 - 6.073370
+csv_outputs\16-12-2024-gustavo_3.h264 - 3.703088
+csv_outputs\16-12-2024-gustavo_4.h264 - A partir daqui acabou a sincronia com flash
 
