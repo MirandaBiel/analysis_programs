@@ -9,7 +9,7 @@ def normalize(signal):
 
 # Carregar os dados do ECG e BVP
 ecg_file = "ecg_data_5.csv"  # Substitua pelo caminho do arquivo ECG
-bvp_file = "sinal_filtrado_patch_10.csv"  # Substitua pelo caminho do arquivo BVP
+bvp_file = "sinal_filtrado_patch_10_invertido.csv"  # Substitua pelo caminho do arquivo BVP
 
 
 # Ler os dados do ECG
