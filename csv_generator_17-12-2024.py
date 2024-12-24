@@ -222,7 +222,7 @@ def process_video(video_path, video_file):
 
 if __name__ == '__main__':
     # Caminho da pasta com os vídeos
-    video_folder = "videos/Max/60"
+    video_folder = "videos/Max/30"
     
     # Obter lista de vídeos na pasta
     video_files = [f for f in os.listdir(video_folder) if f.endswith(('.mp4', '.avi', '.h264'))]

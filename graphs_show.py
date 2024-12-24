@@ -69,7 +69,7 @@ def plot_csv_files_in_patches(base_folder):
         print(f"Erro: {e}")
 
 # Caminho base para os arquivos CSV
-base_folder = r"csv_outputs\\16-12-2024-gustavo_2.h264\\CHROM"
+base_folder = r"csv_outputs/17-12-2024/video_face_9_60-10.h264/CHROM"
 
 # Executar o programa
 plot_csv_files_in_patches(base_folder)

@@ -5,3 +5,16 @@ csv_outputs\16-12-2024-gustavo_2.h264 - 6.073370
 csv_outputs\16-12-2024-gustavo_3.h264 - 3.703088
 csv_outputs\16-12-2024-gustavo_4.h264 - A partir daqui acabou a sincronia com flash
 
+max - 0  = 2.101 s = indice 130
+max - 1  = 1.600 s = indice 100
+max - 2  = 1.870 s = indice 116
+max - 3  = 1.460 s = indice 92
+max - 4  = 1.484 s = indice 93
+max - 5  = 1.580 s = indice 99
+max - 6  = 1.334 s = indice 84
+max - 7  = 1.585 s = indice 99
+max - 8  = 1.301 s = indice 82
+max - 9  = 1.868 s = indice 116
+max - 10 = 0.667 s = indice 44
+max - 11 = 0.751 s = indice 49
+max - 12 = 0.770 s = indice 50

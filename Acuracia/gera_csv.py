@@ -100,7 +100,17 @@ def process_patch(base_folder, ecg_folder, pre_folder):
                         try:
                             # Extrai o número x após "patch_"
                             pacth_number = int(pacth_name.split("_")[1])
+
+                            # Extrai o nome da última pasta no caminho
+                            folder_name = os.path.basename(video_name)
+
+                            # Divide o nome pelo caractere '_'
+                            parts = folder_name.split("_")
+
+                            # Extrai os números
+                            numbers = [parts[-2], parts[-1].split(".")[0]]  # Terceiro de trás para frente
                             
+                            video_number = int(numbers[0])
                             #========== Extrai os dados do CSV ===========#
                             patch_folder_path = os.path.join(base_folder, video_name, method_name, pacth_name)
                             spectrum_path = os.path.join(patch_folder_path, f"espectro_frequencia_patch_{pacth_number}.csv")
@@ -141,6 +151,87 @@ def process_patch(base_folder, ecg_folder, pre_folder):
                                         filtered_data.append(float(row["Filtered Signal"]))
                             else:
                                 print(f"Arquivo {raw_signal_path} não encontrado na pasta {pacth_name}.")
+                            
+                            match video_number:
+                                case 0:
+                                    spectrum_data = spectrum_data[130:]
+                                    freq_data = freq_data[130:]
+                                    raw_signal_data = raw_signal_data[130:]
+                                    time = time[130:]
+                                    filtered_data = filtered_data[130:]
+                                case 1:
+                                    spectrum_data = spectrum_data[100:]
+                                    freq_data = freq_data[100:]
+                                    raw_signal_data = raw_signal_data[100:]
+                                    time = time[100:]
+                                    filtered_data = filtered_data[100:]
+                                case 2:
+                                    spectrum_data = spectrum_data[116:]
+                                    freq_data = freq_data[116:]
+                                    raw_signal_data = raw_signal_data[116:]
+                                    time = time[116:]
+                                    filtered_data = filtered_data[116:]
+                                case 3:
+                                    spectrum_data = spectrum_data[92:]
+                                    freq_data = freq_data[92:]
+                                    raw_signal_data = raw_signal_data[92:]
+                                    time = time[92:]
+                                    filtered_data = filtered_data[92:]
+                                case 4:
+                                    spectrum_data = spectrum_data[93:]
+                                    freq_data = freq_data[93:]
+                                    raw_signal_data = raw_signal_data[93:]
+                                    time = time[93:]
+                                    filtered_data = filtered_data[93:]
+                                case 5:
+                                    spectrum_data = spectrum_data[99:]
+                                    freq_data = freq_data[99:]
+                                    raw_signal_data = raw_signal_data[99:]
+                                    time = time[99:]
+                                    filtered_data = filtered_data[99:]
+                                case 6:
+                                    spectrum_data = spectrum_data[84:]
+                                    freq_data = freq_data[84:]
+                                    raw_signal_data = raw_signal_data[84:]
+                                    time = time[84:]
+                                    filtered_data = filtered_data[84:]
+                                case 7:
+                                    spectrum_data = spectrum_data[99:]
+                                    freq_data = freq_data[99:]
+                                    raw_signal_data = raw_signal_data[99:]
+                                    time = time[99:]
+                                    filtered_data = filtered_data[99:]
+                                case 8:
+                                    spectrum_data = spectrum_data[82:]
+                                    freq_data = freq_data[82:]
+                                    raw_signal_data = raw_signal_data[82:]
+                                    time = time[82:]
+                                    filtered_data = filtered_data[82:]
+                                case 9:
+                                    spectrum_data = spectrum_data[116:]
+                                    freq_data = freq_data[116:]
+                                    raw_signal_data = raw_signal_data[116:]
+                                    time = time[116:]
+                                    filtered_data = filtered_data[116:]
+                                case 10:
+                                    spectrum_data = spectrum_data[44:]
+                                    freq_data = freq_data[44:]
+                                    raw_signal_data = raw_signal_data[44:]
+                                    time = time[44:]
+                                    filtered_data = filtered_data[44:]
+                                case 11:
+                                    spectrum_data = spectrum_data[49:]
+                                    freq_data = freq_data[49:]
+                                    raw_signal_data = raw_signal_data[49:]
+                                    time = time[49:]
+                                    filtered_data = filtered_data[49:]
+                                case 12:
+                                    spectrum_data = spectrum_data[50:]
+                                    freq_data = freq_data[50:]
+                                    raw_signal_data = raw_signal_data[50:]
+                                    time = time[50:]
+                                    filtered_data = filtered_data[50:]
+
 
                             #============= Calcula FC e FR ==============#
                             fs = len(raw_signal_data) / time[-1]
@@ -148,14 +239,6 @@ def process_patch(base_folder, ecg_folder, pre_folder):
                             ppg_irpm = pf.calc_frequencia_respiratoria(raw_signal_data, fs)
 
                             #============= Calculo com Pressao e ECG ==============#
-                            # Extrai o nome da última pasta no caminho
-                            folder_name = os.path.basename(video_name)
-
-                            # Divide o nome pelo caractere '_'
-                            parts = folder_name.split("_")
-
-                            # Extrai os números
-                            numbers = [parts[-2], parts[-1].split(".")[0]]  # Terceiro de trás para frente
                             ecg_bpm, pre_irpm = ecg_pre_aquisition(ecg_folder, pre_folder, numbers)
                             sec = numbers[1].split('-')[1]
                             video_number = int(numbers[0])
@@ -195,7 +278,7 @@ def process_patch(base_folder, ecg_folder, pre_folder):
                                 sec,
                                 sqi1,
                                 sqi2,
-                                "Gustavo"
+                                "Max"
                             )
 
                         except (IndexError, ValueError):
@@ -206,9 +289,9 @@ def process_patch(base_folder, ecg_folder, pre_folder):
 
 if __name__ == '__main__':
     # Caminho da pasta dos dados brutos
-    csv_folder = "csv_outputs/17-12-2024/Gustavo"
-    ecg_folder = "ECGs/Gustavo/17-12-2024"
-    pre_folder = "Pressure/Gustavo/17-12-2024"
+    csv_folder = "csv_outputs/17-12-2024"
+    ecg_folder = "ECGs/Max/17-12-2024"
+    pre_folder = "Pressure/Max/17-12-2024"
     process_patch(csv_folder, ecg_folder, pre_folder)
 
     
