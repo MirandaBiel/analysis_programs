@@ -159,12 +159,24 @@ def process_patch(base_folder, ecg_folder, pre_folder):
                             ecg_bpm, pre_irpm = ecg_pre_aquisition(ecg_folder, pre_folder, numbers)
                             sec = numbers[1].split('-')[1]
                             video_number = int(numbers[0])
-
+                            
                             #============= Calculo dos SQIs ==============#
                             sqi1 = pf.analyze_signal_spectrum(np.array(spectrum_data), np.array(freq_data))
                             #sqis = sq.PPG_analysis(signal_hf, fs, 5)['LSQI']
                             sqi2 = sq.PPG_analysis(filtered_data, fs, 5)['LSQI']
-
+                            
+                            if ppg_bpm == None:
+                                ppg_bpm = 0
+                            if ppg_irpm == None:
+                                ppg_irpm = 0
+                            if ecg_bpm == None:
+                                ecg_bpm = 0
+                            if pre_irpm == None:
+                                pre_irpm = 0
+                            if sqi1 == None:
+                                sqi1 = 0
+                            if sqi2 == None:
+                                sqi2 = 0
 
                             print(f"Analise video {int(numbers[0])}/{method_name}/patch_{pacth_number}:") 
                             print(f"irpm: {round(ppg_irpm, 4)}, {round(pre_irpm, 4)}, bpm: {round(ppg_bpm, 4)}, {round(ecg_bpm, 4)}, SQI1: {round(sqi1, 4)}, SQI2: {sqi2}")
