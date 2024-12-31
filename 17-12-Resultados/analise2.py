@@ -55,7 +55,7 @@ def analyze_and_save_results(df, output_file):
         f.write("\n\n")
 
         # 5. Impacto de excluir dados com SQI1 abaixo de um limiar
-        for threshold in [0.65, 0.7, 0.75]:
+        for threshold in [0.5, 0.7, 1.0]:
             filtered = df[df['SQI1'] >= threshold]
             errors_filtered = filtered[['Error_BPM_Abs', 'Error_iRPM_Abs']].mean()
             f.write(f"Erro após excluir SQI1 < {threshold}:\n")
@@ -63,12 +63,18 @@ def analyze_and_save_results(df, output_file):
             f.write("\n\n")
 
         # 6. Impacto de excluir dados com SQI2 abaixo de um limiar
-        for threshold in [0.65, 0.7, 0.75]:
+        for threshold in [0.5, 0.7, 1.0]:
             filtered = df[df['SQI2'] >= threshold]
             errors_filtered = filtered[['Error_BPM_Abs', 'Error_iRPM_Abs']].mean()
             f.write(f"Erro após excluir SQI2 < {threshold}:\n")
             f.write(errors_filtered.to_string())
             f.write("\n\n")
+
+        # 7. Lista ordenada dos 200 maiores valores de SQI1
+        top_sqi1 = df.nlargest(200, 'SQI1')
+        f.write("200 maiores valores de SQI1:\n")
+        f.write(top_sqi1[['Metodo', 'Patch', 'SQI1']].to_string(index=False))
+        f.write("\n\n")
 
     print(f"Resultados salvos em {output_file}")
 
