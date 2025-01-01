@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from unidecode import unidecode
 
 def calculate_errors(df):
     """Calcula erros absolutos e relativos."""
@@ -39,12 +40,44 @@ def analyze_individual_files(dfs, output_folder):
 def analyze_and_save_results(df, output_file):
     """Realiza as análises e salva os resultados em um arquivo de texto."""
     with open(output_file, 'w') as f:
-        f.write(f"Análise do arquivo: {df['Video'].iloc[0]}\n\n")
+        def write_line(text):
+            f.write(unidecode(text) + '\n')
+
+        write_line(f"Analise do arquivo: {df['Video'].iloc[0]}\n")
+
         # 1. Erros globais
         errors_global = df[['Error_BPM_Abs', 'Error_BPM_Rel', 'Error_iRPM_Abs', 'Error_iRPM_Rel']].mean()
-        f.write("Erros globais:\n")
-        f.write(errors_global.to_string())
-        f.write("\n\n")
+        write_line("Erros globais:")
+        write_line(errors_global.to_string())
+        write_line("")
+
+        # 2. Erros por método
+        write_line("Erros por metodo:")
+        for method, group in df.groupby('Metodo'):
+            errors_method = group[['Error_BPM_Abs', 'Error_BPM_Rel', 'Error_iRPM_Abs', 'Error_iRPM_Rel']].mean()
+            write_line(f"Metodo: {method}")
+            write_line(errors_method.to_string())
+            write_line("")
+
+        # 3. Erros por patch
+        write_line("Erros por patch:")
+        for patch, group in df.groupby('Patch'):
+            errors_patch = group[['Error_BPM_Abs', 'Error_BPM_Rel', 'Error_iRPM_Abs', 'Error_iRPM_Rel']].mean()
+            write_line(f"Patch: {patch}")
+            write_line(errors_patch.to_string())
+            write_line("")
+
+        # 4. Top 100 casos com melhores SQI1
+        top_sqi1 = df.nlargest(100, 'SQI1')
+        write_line("Top 100 casos com melhores SQI1:")
+        write_line(top_sqi1[['Metodo', 'Patch', 'Error_BPM_Abs', 'Error_BPM_Rel', 'Error_iRPM_Abs', 'Error_iRPM_Rel', 'SQI1', 'SQI2']].to_string(index=False))
+        write_line("")
+
+        # 5. Top 100 casos com menores SQI2
+        top_sqi2 = df.nsmallest(100, 'SQI2')
+        write_line("Top 100 casos com menores SQI2:")
+        write_line(top_sqi2[['Metodo', 'Patch', 'Error_BPM_Abs', 'Error_BPM_Rel', 'Error_iRPM_Abs', 'Error_iRPM_Rel', 'SQI1', 'SQI2']].to_string(index=False))
+        write_line("")
 
 def generate_plots(df, output_folder):
     """Gera gráficos para análises do vídeo individual."""
@@ -52,10 +85,18 @@ def generate_plots(df, output_folder):
 
     # Gráfico de erros absolutos BPM por método
     plt.figure()
-    df.groupby('Metodo')['Error_BPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto BPM por Método - {video_name}')
+    df.groupby('Metodo')['Error_BPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto BPM por Metodo - {video_name}')
     plt.ylabel('Erro Absoluto BPM')
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'erro_bpm_por_metodo.png'))
+    plt.close()
+
+    # Gráfico de erros absolutos iRPM por método
+    plt.figure()
+    df.groupby('Metodo')['Error_iRPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto iRPM por Metodo - {video_name}')
+    plt.ylabel('Erro Absoluto iRPM')
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_folder, 'erro_irpm_por_metodo.png'))
     plt.close()
 
     # Gráfico de erros absolutos iRPM por patch
@@ -64,6 +105,14 @@ def generate_plots(df, output_folder):
     plt.ylabel('Erro Absoluto iRPM')
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'erro_irpm_por_patch.png'))
+    plt.close()
+
+    # Gráfico de erros absolutos BPM por patch
+    plt.figure()
+    df.groupby('Patch')['Error_BPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto BPM por Patch - {video_name}')
+    plt.ylabel('Erro Absoluto BPM')
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_folder, 'erro_bpm_por_patch.png'))
     plt.close()
 
     # Gráfico de erro absoluto em função do SQI1
