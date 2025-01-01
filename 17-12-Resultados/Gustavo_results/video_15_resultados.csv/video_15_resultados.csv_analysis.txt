@@ -1,8 +1,0 @@
-Análise do arquivo: video_15_resultados.csv
-
-Erros globais:
-Error_BPM_Abs      4.956312
-Error_BPM_Rel      8.642746
-Error_iRPM_Abs     9.060153
-Error_iRPM_Rel    75.501274
-
