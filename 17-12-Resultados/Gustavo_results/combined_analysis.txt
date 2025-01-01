@@ -5,236 +5,236 @@ Analise Conjunta
 ==================================================
 
 Erros globais:
-Error_BPM_Abs      7.499093
-Error_BPM_Rel     14.069120
-Error_iRPM_Abs     7.290801
-Error_iRPM_Rel    50.294379
+Error_BPM_Abs      5.216467
+Error_BPM_Rel      9.578223
+Error_iRPM_Abs     7.475003
+Error_iRPM_Rel    51.893600
 
 
 Erros por metodo:
 Metodo: CHROM
-Error_BPM_Abs      6.635096
-Error_BPM_Rel     12.460587
-Error_iRPM_Abs     7.632599
-Error_iRPM_Rel    51.727290
+Error_BPM_Abs      4.151614
+Error_BPM_Rel      7.582112
+Error_iRPM_Abs     7.819751
+Error_iRPM_Rel    53.315488
 
 Metodo: GBGR
-Error_BPM_Abs      6.783288
-Error_BPM_Rel     12.733055
-Error_iRPM_Abs     7.855205
-Error_iRPM_Rel    52.776526
+Error_BPM_Abs      4.356541
+Error_BPM_Rel      7.964367
+Error_iRPM_Abs     8.109728
+Error_iRPM_Rel    54.727983
 
 Metodo: GREEN
-Error_BPM_Abs      8.440575
-Error_BPM_Rel     15.777128
-Error_iRPM_Abs     6.770980
-Error_iRPM_Rel    46.070746
+Error_BPM_Abs      6.317765
+Error_BPM_Rel     11.590623
+Error_iRPM_Abs     6.972730
+Error_iRPM_Rel    47.688882
 
 Metodo: ICA
-Error_BPM_Abs     10.296505
-Error_BPM_Rel     19.296381
-Error_iRPM_Abs     7.129953
-Error_iRPM_Rel    49.279315
+Error_BPM_Abs      8.230698
+Error_BPM_Rel     15.215024
+Error_iRPM_Abs     7.293505
+Error_iRPM_Rel    50.756671
 
 Metodo: LGI
-Error_BPM_Abs      6.321580
-Error_BPM_Rel     11.889936
-Error_iRPM_Abs     7.417590
-Error_iRPM_Rel    50.352071
+Error_BPM_Abs      3.790954
+Error_BPM_Rel      6.921848
+Error_iRPM_Abs     7.569618
+Error_iRPM_Rel    51.734509
 
 Metodo: OMIT
-Error_BPM_Abs      6.375525
-Error_BPM_Rel     11.989707
-Error_iRPM_Abs     7.493491
-Error_iRPM_Rel    50.650525
+Error_BPM_Abs      3.848421
+Error_BPM_Rel      7.028168
+Error_iRPM_Abs     7.649984
+Error_iRPM_Rel    52.050520
 
 Metodo: PBV
-Error_BPM_Abs      8.968943
-Error_BPM_Rel     16.715846
-Error_iRPM_Abs     7.863391
-Error_iRPM_Rel    54.623449
+Error_BPM_Abs      7.559984
+Error_BPM_Rel     13.917764
+Error_iRPM_Abs     8.087060
+Error_iRPM_Rel    56.509462
 
 Metodo: PCA
-Error_BPM_Abs      6.524831
-Error_BPM_Rel     12.263339
-Error_iRPM_Abs     7.921835
-Error_iRPM_Rel    53.252171
+Error_BPM_Abs      4.174092
+Error_BPM_Rel      7.645122
+Error_iRPM_Abs     8.152299
+Error_iRPM_Rel    55.076173
 
 Metodo: POS
-Error_BPM_Abs      7.222905
-Error_BPM_Rel     13.637955
-Error_iRPM_Abs     5.500128
-Error_iRPM_Rel    43.435111
+Error_BPM_Abs      4.621986
+Error_BPM_Rel      8.531909
+Error_iRPM_Abs     5.584781
+Error_iRPM_Rel    44.662987
 
 Metodo: SSR
-Error_BPM_Abs      5.408956
-Error_BPM_Rel     10.238979
-Error_iRPM_Abs     8.155872
-Error_iRPM_Rel    63.313920
+Error_BPM_Abs      2.412588
+Error_BPM_Rel      4.369177
+Error_iRPM_Abs     8.435447
+Error_iRPM_Rel    65.926144
 
 
 Erros por patch:
 Patch: 4
-Error_BPM_Abs      6.375631
-Error_BPM_Rel     12.034173
-Error_iRPM_Abs     6.510016
-Error_iRPM_Rel    44.332200
+Error_BPM_Abs      3.435604
+Error_BPM_Rel      6.268949
+Error_iRPM_Abs     6.607445
+Error_iRPM_Rel    45.353793
 
 Patch: 6
-Error_BPM_Abs      5.941462
-Error_BPM_Rel     11.265329
-Error_iRPM_Abs     7.342027
-Error_iRPM_Rel    50.118779
+Error_BPM_Abs      2.998379
+Error_BPM_Rel      5.498781
+Error_iRPM_Abs     7.481964
+Error_iRPM_Rel    51.445015
 
 Patch: 9
-Error_BPM_Abs      5.164682
-Error_BPM_Rel      9.764663
-Error_iRPM_Abs     6.267180
-Error_iRPM_Rel    43.930807
+Error_BPM_Abs      2.454861
+Error_BPM_Rel      4.454537
+Error_iRPM_Abs     6.523227
+Error_iRPM_Rel    45.889362
 
 Patch: 10
-Error_BPM_Abs      5.436125
-Error_BPM_Rel     10.315274
-Error_iRPM_Abs     7.234114
-Error_iRPM_Rel    51.453000
+Error_BPM_Abs      2.437173
+Error_BPM_Rel      4.441791
+Error_iRPM_Abs     7.435128
+Error_iRPM_Rel    53.232305
 
 Patch: 18
-Error_BPM_Abs     14.209711
-Error_BPM_Rel     26.283225
-Error_iRPM_Abs     8.086195
-Error_iRPM_Rel    54.590428
+Error_BPM_Abs     13.827339
+Error_BPM_Rel     25.450521
+Error_iRPM_Abs     8.164428
+Error_iRPM_Rel    55.593710
 
 Patch: 36
-Error_BPM_Abs      5.141178
-Error_BPM_Rel      9.711867
-Error_iRPM_Abs     7.348041
-Error_iRPM_Rel    49.182934
+Error_BPM_Abs      2.460657
+Error_BPM_Rel      4.458547
+Error_iRPM_Abs     7.545684
+Error_iRPM_Rel    50.772747
 
 Patch: 50
-Error_BPM_Abs      5.899051
-Error_BPM_Rel     11.123163
-Error_iRPM_Abs     7.111862
-Error_iRPM_Rel    49.274096
+Error_BPM_Abs      3.255790
+Error_BPM_Rel      5.938567
+Error_iRPM_Abs     7.261201
+Error_iRPM_Rel    50.678095
 
 Patch: 69
-Error_BPM_Abs      5.758013
-Error_BPM_Rel     10.893356
-Error_iRPM_Abs     9.014648
-Error_iRPM_Rel    62.851630
+Error_BPM_Abs      3.133290
+Error_BPM_Rel      5.747639
+Error_iRPM_Abs     9.213525
+Error_iRPM_Rel    64.707692
 
 Patch: 101
-Error_BPM_Abs      5.416125
-Error_BPM_Rel     10.257172
-Error_iRPM_Abs     8.166518
-Error_iRPM_Rel    53.639590
+Error_BPM_Abs      2.417826
+Error_BPM_Rel      4.383846
+Error_iRPM_Abs     8.377895
+Error_iRPM_Rel    55.300383
 
 Patch: 104
-Error_BPM_Abs      8.207003
-Error_BPM_Rel     15.472816
-Error_iRPM_Abs     6.904160
-Error_iRPM_Rel    48.727253
+Error_BPM_Abs      5.682249
+Error_BPM_Rel     10.510389
+Error_iRPM_Abs     7.186207
+Error_iRPM_Rel    50.904226
 
 Patch: 107
-Error_BPM_Abs      6.776310
-Error_BPM_Rel     12.764447
-Error_iRPM_Abs     6.632849
-Error_iRPM_Rel    44.171889
+Error_BPM_Abs      4.275801
+Error_BPM_Rel      7.854375
+Error_iRPM_Abs     6.794856
+Error_iRPM_Rel    45.502679
 
 Patch: 108
-Error_BPM_Abs      5.583569
-Error_BPM_Rel     10.551689
-Error_iRPM_Abs     7.013783
-Error_iRPM_Rel    49.944475
+Error_BPM_Abs      2.725316
+Error_BPM_Rel      4.949913
+Error_iRPM_Abs     7.346763
+Error_iRPM_Rel    52.440189
 
 Patch: 109
-Error_BPM_Abs      4.842621
-Error_BPM_Rel      9.126260
-Error_iRPM_Abs     7.349175
-Error_iRPM_Rel    52.457123
+Error_BPM_Abs      2.596731
+Error_BPM_Rel      4.721462
+Error_iRPM_Abs     7.596407
+Error_iRPM_Rel    54.514655
 
 Patch: 135
-Error_BPM_Abs     12.575425
-Error_BPM_Rel     23.307393
-Error_iRPM_Abs     7.793976
-Error_iRPM_Rel    53.412327
+Error_BPM_Abs     12.761367
+Error_BPM_Rel     23.597069
+Error_iRPM_Abs     8.011417
+Error_iRPM_Rel    55.215184
 
 Patch: 151
-Error_BPM_Abs      6.029552
-Error_BPM_Rel     11.419644
-Error_iRPM_Abs     7.777701
-Error_iRPM_Rel    53.564686
+Error_BPM_Abs      3.075338
+Error_BPM_Rel      5.630319
+Error_iRPM_Abs     7.938843
+Error_iRPM_Rel    55.069050
 
 Patch: 188
-Error_BPM_Abs      6.848673
-Error_BPM_Rel     12.862176
-Error_iRPM_Abs     6.246101
-Error_iRPM_Rel    42.589957
+Error_BPM_Abs      4.390852
+Error_BPM_Rel      8.032895
+Error_iRPM_Abs     6.321572
+Error_iRPM_Rel    43.473321
 
 Patch: 199
-Error_BPM_Abs     16.716538
-Error_BPM_Rel     30.979927
-Error_iRPM_Abs     9.889208
-Error_iRPM_Rel    67.411397
+Error_BPM_Abs     16.685380
+Error_BPM_Rel     30.821357
+Error_iRPM_Abs    10.084971
+Error_iRPM_Rel    69.232580
 
 Patch: 266
-Error_BPM_Abs      5.288040
-Error_BPM_Rel      9.990056
-Error_iRPM_Abs     7.840174
-Error_iRPM_Rel    53.889020
+Error_BPM_Abs      2.616063
+Error_BPM_Rel      4.752916
+Error_iRPM_Abs     8.099781
+Error_iRPM_Rel    55.939075
 
 Patch: 280
-Error_BPM_Abs      6.003893
-Error_BPM_Rel     11.214165
-Error_iRPM_Abs     6.947042
-Error_iRPM_Rel    47.944445
+Error_BPM_Abs      3.941868
+Error_BPM_Rel      7.157824
+Error_iRPM_Abs     7.030729
+Error_iRPM_Rel    48.959357
 
 Patch: 299
-Error_BPM_Abs      6.588778
-Error_BPM_Rel     12.427213
-Error_iRPM_Abs     6.698471
-Error_iRPM_Rel    45.906111
+Error_BPM_Abs      4.527099
+Error_BPM_Rel      8.375721
+Error_iRPM_Abs     6.443272
+Error_iRPM_Rel    44.999655
 
 Patch: 330
-Error_BPM_Abs      5.680825
-Error_BPM_Rel     10.704167
-Error_iRPM_Abs     7.502081
-Error_iRPM_Rel    50.319291
+Error_BPM_Abs      2.968257
+Error_BPM_Rel      5.384658
+Error_iRPM_Abs     7.847277
+Error_iRPM_Rel    52.745346
 
 Patch: 333
-Error_BPM_Abs      7.274901
-Error_BPM_Rel     13.686797
-Error_iRPM_Abs     6.562365
-Error_iRPM_Rel    45.135219
+Error_BPM_Abs      4.684859
+Error_BPM_Rel      8.598891
+Error_iRPM_Abs     6.779822
+Error_iRPM_Rel    46.853758
 
 Patch: 336
-Error_BPM_Abs      6.836136
-Error_BPM_Rel     12.761283
-Error_iRPM_Abs     7.071962
-Error_iRPM_Rel    48.435961
+Error_BPM_Abs      4.512573
+Error_BPM_Rel      8.189666
+Error_iRPM_Abs     7.279946
+Error_iRPM_Rel    50.129503
 
 Patch: 337
-Error_BPM_Abs      5.864508
-Error_BPM_Rel     11.110344
-Error_iRPM_Abs     6.930093
-Error_iRPM_Rel    47.851910
+Error_BPM_Abs      2.881343
+Error_BPM_Rel      5.265253
+Error_iRPM_Abs     7.029291
+Error_iRPM_Rel    48.953094
 
 Patch: 338
-Error_BPM_Abs      5.859378
-Error_BPM_Rel     11.075493
-Error_iRPM_Abs     7.309228
-Error_iRPM_Rel    53.362236
+Error_BPM_Abs      2.879572
+Error_BPM_Rel      5.235499
+Error_iRPM_Abs     7.463742
+Error_iRPM_Rel    54.970969
 
 Patch: 347
-Error_BPM_Abs      5.752140
-Error_BPM_Rel     10.873183
-Error_iRPM_Abs     6.492769
-Error_iRPM_Rel    45.755831
+Error_BPM_Abs      3.045074
+Error_BPM_Rel      5.566168
+Error_iRPM_Abs     6.806571
+Error_iRPM_Rel    48.068879
 
 Patch: 364
-Error_BPM_Abs     20.568517
-Error_BPM_Rel     38.185342
-Error_iRPM_Abs     6.755796
-Error_iRPM_Rel    47.332260
+Error_BPM_Abs     20.411862
+Error_BPM_Rel     37.763129
+Error_iRPM_Abs     7.101578
+Error_iRPM_Rel    49.829746
 
 
 
@@ -243,236 +243,236 @@ Analise Conjunta _tempo_10s
 ==================================================
 
 Erros globais:
-Error_BPM_Abs     10.465756
-Error_BPM_Rel     19.819529
-Error_iRPM_Abs     8.455958
-Error_iRPM_Rel    54.474840
+Error_BPM_Abs      5.986010
+Error_BPM_Rel     10.995175
+Error_iRPM_Abs     8.993031
+Error_iRPM_Rel    58.395742
 
 
 Erros por metodo:
 Metodo: CHROM
-Error_BPM_Abs      9.641563
-Error_BPM_Rel     18.249234
-Error_iRPM_Abs     8.870444
-Error_iRPM_Rel    57.214250
+Error_BPM_Abs      4.739974
+Error_BPM_Rel      8.606055
+Error_iRPM_Abs     9.422871
+Error_iRPM_Rel    61.275041
 
 Metodo: GBGR
-Error_BPM_Abs     10.138749
-Error_BPM_Rel     19.180697
-Error_iRPM_Abs     9.541149
-Error_iRPM_Rel    60.883495
+Error_BPM_Abs      5.401344
+Error_BPM_Rel      9.853191
+Error_iRPM_Abs    10.292754
+Error_iRPM_Rel    66.043713
 
 Metodo: GREEN
-Error_BPM_Abs     10.958756
-Error_BPM_Rel     20.662389
-Error_iRPM_Abs     7.666239
-Error_iRPM_Rel    49.744151
+Error_BPM_Abs      6.762556
+Error_BPM_Rel     12.376724
+Error_iRPM_Abs     8.206864
+Error_iRPM_Rel    53.641866
 
 Metodo: ICA
-Error_BPM_Abs     13.453122
-Error_BPM_Rel     25.454088
-Error_iRPM_Abs     8.710308
-Error_iRPM_Rel    56.219999
+Error_BPM_Abs      9.457858
+Error_BPM_Rel     17.550917
+Error_iRPM_Abs     9.255400
+Error_iRPM_Rel    60.226966
 
 Metodo: LGI
-Error_BPM_Abs      9.346196
-Error_BPM_Rel     17.754849
-Error_iRPM_Abs     8.371035
-Error_iRPM_Rel    53.864580
+Error_BPM_Abs      4.346693
+Error_BPM_Rel      7.930775
+Error_iRPM_Abs     8.813275
+Error_iRPM_Rel    57.241326
 
 Metodo: OMIT
-Error_BPM_Abs      9.345553
-Error_BPM_Rel     17.753863
-Error_iRPM_Abs     8.429265
-Error_iRPM_Rel    54.067862
+Error_BPM_Abs      4.346710
+Error_BPM_Rel      7.931112
+Error_iRPM_Abs     8.878784
+Error_iRPM_Rel    57.470018
 
 Metodo: PBV
-Error_BPM_Abs     11.457931
-Error_BPM_Rel     21.552709
-Error_iRPM_Abs     9.327052
-Error_iRPM_Rel    60.000870
+Error_BPM_Abs      8.775017
+Error_BPM_Rel     16.211393
+Error_iRPM_Abs     9.985306
+Error_iRPM_Rel    64.680824
 
 Metodo: PCA
-Error_BPM_Abs      9.536355
-Error_BPM_Rel     18.102051
-Error_iRPM_Abs     9.784519
-Error_iRPM_Rel    62.373364
+Error_BPM_Abs      4.917473
+Error_BPM_Rel      9.018179
+Error_iRPM_Abs    10.507091
+Error_iRPM_Rel    67.389518
 
 Metodo: POS
-Error_BPM_Abs     10.381812
-Error_BPM_Rel     19.788234
-Error_iRPM_Abs     5.363567
-Error_iRPM_Rel    35.717619
+Error_BPM_Abs      5.249724
+Error_BPM_Rel      9.706670
+Error_iRPM_Abs     5.526385
+Error_iRPM_Rel    37.362169
 
 Metodo: SSR
-Error_BPM_Abs      8.623456
-Error_BPM_Rel     16.515949
-Error_iRPM_Abs     9.537122
-Error_iRPM_Rel    59.533735
+Error_BPM_Abs      2.657987
+Error_BPM_Rel      4.827240
+Error_iRPM_Abs    10.303875
+Error_iRPM_Rel    64.612187
 
 
 Erros por patch:
 Patch: 4
-Error_BPM_Abs      9.538747
-Error_BPM_Rel     18.184059
-Error_iRPM_Abs     7.520470
-Error_iRPM_Rel    48.232195
+Error_BPM_Abs      3.686579
+Error_BPM_Rel      6.701694
+Error_iRPM_Abs     7.853814
+Error_iRPM_Rel    50.890579
 
 Patch: 6
-Error_BPM_Abs      9.556714
-Error_BPM_Rel     18.272895
-Error_iRPM_Abs     8.718410
-Error_iRPM_Rel    55.898817
+Error_BPM_Abs      3.754569
+Error_BPM_Rel      6.894927
+Error_iRPM_Abs     9.187824
+Error_iRPM_Rel    59.439572
 
 Patch: 9
-Error_BPM_Abs      8.216306
-Error_BPM_Rel     15.685907
-Error_iRPM_Abs     6.199598
-Error_iRPM_Rel    41.909263
+Error_BPM_Abs      2.839389
+Error_BPM_Rel      5.142045
+Error_iRPM_Abs     6.735251
+Error_iRPM_Rel    45.818499
 
 Patch: 10
-Error_BPM_Abs      8.608042
-Error_BPM_Rel     16.481134
-Error_iRPM_Abs     8.352053
-Error_iRPM_Rel    53.456636
+Error_BPM_Abs      2.631758
+Error_BPM_Rel      4.770716
+Error_iRPM_Abs     8.918951
+Error_iRPM_Rel    57.488113
 
 Patch: 18
-Error_BPM_Abs     14.016743
-Error_BPM_Rel     25.877028
-Error_iRPM_Abs     9.957285
-Error_iRPM_Rel    62.402840
+Error_BPM_Abs     13.180081
+Error_BPM_Rel     24.056757
+Error_iRPM_Abs    10.357417
+Error_iRPM_Rel    65.511366
 
 Patch: 36
-Error_BPM_Abs      8.120960
-Error_BPM_Rel     15.473604
-Error_iRPM_Abs     9.288930
-Error_iRPM_Rel    58.364578
+Error_BPM_Abs      2.797325
+Error_BPM_Rel      5.030517
+Error_iRPM_Abs     9.951533
+Error_iRPM_Rel    62.890637
 
 Patch: 50
-Error_BPM_Abs      8.701975
-Error_BPM_Rel     16.547545
-Error_iRPM_Abs     8.462081
-Error_iRPM_Rel    53.694252
+Error_BPM_Abs      3.435411
+Error_BPM_Rel      6.208327
+Error_iRPM_Abs     8.948204
+Error_iRPM_Rel    57.230270
 
 Patch: 69
-Error_BPM_Abs      9.011273
-Error_BPM_Rel     17.186290
-Error_iRPM_Abs    10.754435
-Error_iRPM_Rel    68.021097
+Error_BPM_Abs      3.840393
+Error_BPM_Rel      7.038258
+Error_iRPM_Abs    11.394521
+Error_iRPM_Rel    72.611412
 
 Patch: 101
-Error_BPM_Abs      8.917090
-Error_BPM_Rel     17.032449
-Error_iRPM_Abs    10.129110
-Error_iRPM_Rel    62.196015
+Error_BPM_Abs      2.983326
+Error_BPM_Rel      5.398539
+Error_iRPM_Abs    10.823611
+Error_iRPM_Rel    66.794753
 
 Patch: 104
-Error_BPM_Abs     13.162798
-Error_BPM_Rel     24.995763
-Error_iRPM_Abs     7.304141
-Error_iRPM_Rel    46.303927
+Error_BPM_Abs      8.417169
+Error_BPM_Rel     15.640974
+Error_iRPM_Abs     7.953487
+Error_iRPM_Rel    50.627079
 
 Patch: 107
-Error_BPM_Abs     11.372088
-Error_BPM_Rel     21.547862
-Error_iRPM_Abs     7.601542
-Error_iRPM_Rel    49.043783
+Error_BPM_Abs      6.632976
+Error_BPM_Rel     12.211887
+Error_iRPM_Abs     8.066894
+Error_iRPM_Rel    52.480698
 
 Patch: 108
-Error_BPM_Abs      8.431257
-Error_BPM_Rel     16.110517
-Error_iRPM_Abs     7.703200
-Error_iRPM_Rel    52.344499
+Error_BPM_Abs      2.713431
+Error_BPM_Rel      4.901595
+Error_iRPM_Abs     8.496960
+Error_iRPM_Rel    57.947894
 
 Patch: 109
-Error_BPM_Abs      7.475786
-Error_BPM_Rel     14.214077
-Error_iRPM_Abs     9.030569
-Error_iRPM_Rel    58.502154
+Error_BPM_Abs      3.032415
+Error_BPM_Rel      5.489860
+Error_iRPM_Abs     9.766111
+Error_iRPM_Rel    63.630039
 
 Patch: 135
-Error_BPM_Abs     12.211207
-Error_BPM_Rel     22.680294
-Error_iRPM_Abs     9.605563
-Error_iRPM_Rel    62.917493
+Error_BPM_Abs     12.560808
+Error_BPM_Rel     23.217468
+Error_iRPM_Abs    10.294074
+Error_iRPM_Rel    67.936709
 
 Patch: 151
-Error_BPM_Abs      9.435613
-Error_BPM_Rel     18.034700
-Error_iRPM_Abs     8.630943
-Error_iRPM_Rel    54.638281
+Error_BPM_Abs      3.583665
+Error_BPM_Rel      6.559267
+Error_iRPM_Abs     9.080025
+Error_iRPM_Rel    57.969253
 
 Patch: 188
-Error_BPM_Abs     10.709088
-Error_BPM_Rel     20.229983
-Error_iRPM_Abs     6.359131
-Error_iRPM_Rel    41.783512
+Error_BPM_Abs      5.968768
+Error_BPM_Rel     10.888738
+Error_iRPM_Abs     6.533635
+Error_iRPM_Rel    43.559853
 
 Patch: 199
-Error_BPM_Abs     17.591505
-Error_BPM_Rel     32.941709
-Error_iRPM_Abs    12.485921
-Error_iRPM_Rel    78.336447
+Error_BPM_Abs     17.634665
+Error_BPM_Rel     32.849972
+Error_iRPM_Abs    13.226507
+Error_iRPM_Rel    83.572091
 
 Patch: 266
-Error_BPM_Abs      8.433996
-Error_BPM_Rel     16.070534
-Error_iRPM_Abs     9.478041
-Error_iRPM_Rel    61.092569
+Error_BPM_Abs      3.149290
+Error_BPM_Rel      5.701673
+Error_iRPM_Abs    10.234439
+Error_iRPM_Rel    66.349379
 
 Patch: 280
-Error_BPM_Abs      7.975111
-Error_BPM_Rel     15.079604
-Error_iRPM_Abs     8.380659
-Error_iRPM_Rel    54.745213
+Error_BPM_Abs      3.839711
+Error_BPM_Rel      6.943059
+Error_iRPM_Abs     8.737696
+Error_iRPM_Rel    57.751998
 
 Patch: 299
-Error_BPM_Abs      9.877643
-Error_BPM_Rel     18.840225
-Error_iRPM_Abs     7.649869
-Error_iRPM_Rel    49.069496
+Error_BPM_Abs      5.907682
+Error_BPM_Rel     11.032429
+Error_iRPM_Abs     7.226496
+Error_iRPM_Rel    47.538700
 
 Patch: 330
-Error_BPM_Abs      9.227075
-Error_BPM_Rel     17.491874
-Error_iRPM_Abs     8.869932
-Error_iRPM_Rel    56.355744
+Error_BPM_Abs      3.906149
+Error_BPM_Rel      7.036380
+Error_iRPM_Abs     9.774456
+Error_iRPM_Rel    62.265667
 
 Patch: 333
-Error_BPM_Abs     11.882527
-Error_BPM_Rel     22.478414
-Error_iRPM_Abs     7.238706
-Error_iRPM_Rel    47.841396
+Error_BPM_Abs      6.954643
+Error_BPM_Rel     12.765565
+Error_iRPM_Abs     7.785343
+Error_iRPM_Rel    51.831562
 
 Patch: 336
-Error_BPM_Abs      9.087059
-Error_BPM_Rel     17.172808
-Error_iRPM_Abs     8.037065
-Error_iRPM_Rel    52.445686
+Error_BPM_Abs      4.430853
+Error_BPM_Rel      8.009563
+Error_iRPM_Abs     8.599669
+Error_iRPM_Rel    56.545679
 
 Patch: 337
-Error_BPM_Abs      9.222544
-Error_BPM_Rel     17.667202
-Error_iRPM_Abs     7.653289
-Error_iRPM_Rel    49.684684
+Error_BPM_Abs      3.303074
+Error_BPM_Rel      6.065990
+Error_iRPM_Abs     7.954485
+Error_iRPM_Rel    52.253796
 
 Patch: 338
-Error_BPM_Abs      9.636484
-Error_BPM_Rel     18.337121
-Error_iRPM_Abs     7.758288
-Error_iRPM_Rel    51.790600
+Error_BPM_Abs      3.776533
+Error_BPM_Rel      6.834837
+Error_iRPM_Abs     8.142764
+Error_iRPM_Rel    55.012704
 
 Patch: 347
-Error_BPM_Abs      8.202941
-Error_BPM_Rel     15.657364
-Error_iRPM_Abs     6.293469
-Error_iRPM_Rel    42.053940
+Error_BPM_Abs      2.756775
+Error_BPM_Rel      4.977980
+Error_iRPM_Abs     6.935388
+Error_iRPM_Rel    46.506431
 
 Patch: 364
-Error_BPM_Abs     24.067300
-Error_BPM_Rel     45.034625
-Error_iRPM_Abs     8.828719
-Error_iRPM_Rel    57.677394
+Error_BPM_Abs     24.171757
+Error_BPM_Rel     44.993583
+Error_iRPM_Abs     9.822621
+Error_iRPM_Rel    64.277693
 
 
 
@@ -957,1424 +957,234 @@ Analise Conjunta _fs_60
 ==================================================
 
 Erros globais:
-Error_BPM_Abs     10.271109
-Error_BPM_Rel     19.486436
-Error_iRPM_Abs     8.225644
-Error_iRPM_Rel    56.722401
+Error_BPM_Abs      5.767032
+Error_BPM_Rel     10.620446
+Error_iRPM_Abs     8.733928
+Error_iRPM_Rel    60.924249
 
 
 Erros por metodo:
 Metodo: CHROM
-Error_BPM_Abs      9.506715
-Error_BPM_Rel     18.052308
-Error_iRPM_Abs     8.686124
-Error_iRPM_Rel    58.051221
+Error_BPM_Abs      4.588269
+Error_BPM_Rel      8.384513
+Error_iRPM_Abs     9.215512
+Error_iRPM_Rel    62.216634
 
 Metodo: GBGR
-Error_BPM_Abs     10.109221
-Error_BPM_Rel     19.152239
-Error_iRPM_Abs     8.614472
-Error_iRPM_Rel    57.134281
+Error_BPM_Abs      5.368125
+Error_BPM_Rel      9.821177
+Error_iRPM_Abs     9.250242
+Error_iRPM_Rel    61.825848
 
 Metodo: GREEN
-Error_BPM_Abs     10.422923
-Error_BPM_Rel     19.760974
-Error_iRPM_Abs     7.385224
-Error_iRPM_Rel    50.173851
+Error_BPM_Abs      6.159744
+Error_BPM_Rel     11.362632
+Error_iRPM_Abs     7.890723
+Error_iRPM_Rel    54.125279
 
 Metodo: ICA
-Error_BPM_Abs     12.740860
-Error_BPM_Rel     24.172889
-Error_iRPM_Abs     7.790371
-Error_iRPM_Rel    54.126316
+Error_BPM_Abs      8.656563
+Error_BPM_Rel     16.109568
+Error_iRPM_Abs     8.220472
+Error_iRPM_Rel    57.871573
 
 Metodo: LGI
-Error_BPM_Abs      9.248147
-Error_BPM_Rel     17.587315
-Error_iRPM_Abs     8.849567
-Error_iRPM_Rel    59.272127
+Error_BPM_Abs      4.236388
+Error_BPM_Rel      7.742300
+Error_iRPM_Abs     9.351624
+Error_iRPM_Rel    63.324816
 
 Metodo: OMIT
-Error_BPM_Abs      9.154879
-Error_BPM_Rel     17.414263
-Error_iRPM_Abs     8.904566
-Error_iRPM_Rel    59.185178
+Error_BPM_Abs      4.132202
+Error_BPM_Rel      7.549062
+Error_iRPM_Abs     9.413498
+Error_iRPM_Rel    63.226998
 
 Metodo: PBV
-Error_BPM_Abs     10.843839
-Error_BPM_Rel     20.393758
-Error_iRPM_Abs     8.942735
-Error_iRPM_Rel    62.327267
+Error_BPM_Abs      8.084163
+Error_BPM_Rel     14.907574
+Error_iRPM_Abs     9.552950
+Error_iRPM_Rel    67.298021
 
 Metodo: PCA
-Error_BPM_Abs      9.130260
-Error_BPM_Rel     17.351541
-Error_iRPM_Abs     8.726762
-Error_iRPM_Rel    57.840204
+Error_BPM_Abs      4.460617
+Error_BPM_Rel      8.173856
+Error_iRPM_Abs     9.317114
+Error_iRPM_Rel    62.289712
 
 Metodo: POS
-Error_BPM_Abs     11.329351
-Error_BPM_Rel     21.576394
-Error_iRPM_Abs     6.044162
-Error_iRPM_Rel    51.241909
+Error_BPM_Abs      6.315705
+Error_BPM_Rel     11.718350
+Error_iRPM_Abs     6.292055
+Error_iRPM_Rel    54.826996
 
 Metodo: SSR
-Error_BPM_Abs      9.023289
-Error_BPM_Rel     17.225084
-Error_iRPM_Abs    10.569644
-Error_iRPM_Rel    87.752230
+Error_BPM_Abs      3.107800
+Error_BPM_Rel      5.625017
+Error_iRPM_Abs    11.465463
+Error_iRPM_Rel    96.357995
 
 
 Erros por patch:
 Patch: 4
-Error_BPM_Abs      8.928900
-Error_BPM_Rel     17.096361
-Error_iRPM_Abs     7.087430
-Error_iRPM_Rel    48.248746
+Error_BPM_Abs      3.000501
+Error_BPM_Rel      5.478034
+Error_iRPM_Abs     7.366643
+Error_iRPM_Rel    50.909198
 
 Patch: 6
-Error_BPM_Abs      9.236935
-Error_BPM_Rel     17.707566
-Error_iRPM_Abs     7.784332
-Error_iRPM_Rel    53.623017
+Error_BPM_Abs      3.394818
+Error_BPM_Rel      6.258933
+Error_iRPM_Abs     8.136986
+Error_iRPM_Rel    56.879297
 
 Patch: 9
-Error_BPM_Abs      8.281312
-Error_BPM_Rel     15.803348
-Error_iRPM_Abs     6.868572
-Error_iRPM_Rel    48.520764
+Error_BPM_Abs      2.912521
+Error_BPM_Rel      5.274167
+Error_iRPM_Abs     7.487847
+Error_iRPM_Rel    53.256438
 
 Patch: 10
-Error_BPM_Abs      8.785856
-Error_BPM_Rel     16.822312
-Error_iRPM_Abs     8.518301
-Error_iRPM_Rel    62.646578
+Error_BPM_Abs      2.831799
+Error_BPM_Rel      5.154542
+Error_iRPM_Abs     9.105981
+Error_iRPM_Rel    67.826799
 
 Patch: 18
-Error_BPM_Abs     12.225575
-Error_BPM_Rel     22.908122
-Error_iRPM_Abs     9.583753
-Error_iRPM_Rel    64.099407
+Error_BPM_Abs     11.165017
+Error_BPM_Rel     20.716737
+Error_iRPM_Abs     9.937193
+Error_iRPM_Rel    67.420004
 
 Patch: 36
-Error_BPM_Abs      7.920860
-Error_BPM_Rel     15.135926
-Error_iRPM_Abs     8.457232
-Error_iRPM_Rel    56.775895
+Error_BPM_Abs      2.572213
+Error_BPM_Rel      4.650629
+Error_iRPM_Abs     9.015874
+Error_iRPM_Rel    61.103368
 
 Patch: 50
-Error_BPM_Abs      8.395573
-Error_BPM_Rel     16.025652
-Error_iRPM_Abs     7.572501
-Error_iRPM_Rel    52.853619
+Error_BPM_Abs      3.090708
+Error_BPM_Rel      5.621197
+Error_iRPM_Abs     7.947426
+Error_iRPM_Rel    56.284557
 
 Patch: 69
-Error_BPM_Abs      8.588280
-Error_BPM_Rel     16.464427
-Error_iRPM_Abs    10.680868
-Error_iRPM_Rel    74.861447
+Error_BPM_Abs      3.364526
+Error_BPM_Rel      6.226162
+Error_iRPM_Abs    11.311758
+Error_iRPM_Rel    80.306806
 
 Patch: 101
-Error_BPM_Abs      8.769635
-Error_BPM_Rel     16.776191
-Error_iRPM_Abs     9.294230
-Error_iRPM_Rel    60.754425
+Error_BPM_Abs      2.817439
+Error_BPM_Rel      5.110249
+Error_iRPM_Abs     9.884371
+Error_iRPM_Rel    65.172964
 
 Patch: 104
-Error_BPM_Abs     11.388265
-Error_BPM_Rel     21.759530
-Error_iRPM_Abs     8.958198
-Error_iRPM_Rel    63.183277
+Error_BPM_Abs      6.420821
+Error_BPM_Rel     12.000213
+Error_iRPM_Abs     9.814301
+Error_iRPM_Rel    69.616348
 
 Patch: 107
-Error_BPM_Abs      9.922415
-Error_BPM_Rel     18.968905
-Error_iRPM_Abs     7.566773
-Error_iRPM_Rel    48.132241
+Error_BPM_Abs      5.002094
+Error_BPM_Rel      9.310560
+Error_iRPM_Abs     8.027779
+Error_iRPM_Rel    51.455214
 
 Patch: 108
-Error_BPM_Abs      8.434425
-Error_BPM_Rel     16.119984
-Error_iRPM_Abs     7.441354
-Error_iRPM_Rel    52.034965
+Error_BPM_Abs      2.716994
+Error_BPM_Rel      4.912246
+Error_iRPM_Abs     8.202383
+Error_iRPM_Rel    57.599667
 
 Patch: 109
-Error_BPM_Abs      7.453262
-Error_BPM_Rel     14.195680
-Error_iRPM_Abs     8.308316
-Error_iRPM_Rel    60.651058
+Error_BPM_Abs      3.007075
+Error_BPM_Rel      5.469163
+Error_iRPM_Abs     8.953576
+Error_iRPM_Rel    66.047556
 
 Patch: 135
-Error_BPM_Abs     14.199801
-Error_BPM_Rel     26.493738
-Error_iRPM_Abs     8.397220
-Error_iRPM_Rel    56.495344
+Error_BPM_Abs     14.797976
+Error_BPM_Rel     27.507592
+Error_iRPM_Abs     8.934687
+Error_iRPM_Rel    60.711791
 
 Patch: 151
-Error_BPM_Abs      9.774198
-Error_BPM_Rel     18.685553
-Error_iRPM_Abs     9.821784
-Error_iRPM_Rel    67.562874
+Error_BPM_Abs      3.964573
+Error_BPM_Rel      7.291477
+Error_iRPM_Abs    10.419721
+Error_iRPM_Rel    72.509421
 
 Patch: 188
-Error_BPM_Abs      9.334940
-Error_BPM_Rel     17.710387
-Error_iRPM_Abs     6.408084
-Error_iRPM_Rel    43.491444
+Error_BPM_Abs      4.422851
+Error_BPM_Rel      8.054192
+Error_iRPM_Abs     6.588707
+Error_iRPM_Rel    45.481277
 
 Patch: 199
-Error_BPM_Abs     17.610102
-Error_BPM_Rel     32.821844
-Error_iRPM_Abs    10.130479
-Error_iRPM_Rel    68.992521
+Error_BPM_Abs     17.655587
+Error_BPM_Rel     32.715123
+Error_iRPM_Abs    10.576635
+Error_iRPM_Rel    73.060174
 
 Patch: 266
-Error_BPM_Abs      8.097299
-Error_BPM_Rel     15.448252
-Error_iRPM_Abs     7.920779
-Error_iRPM_Rel    55.719386
+Error_BPM_Abs      2.770506
+Error_BPM_Rel      5.001605
+Error_iRPM_Abs     8.482519
+Error_iRPM_Rel    60.304549
 
 Patch: 280
-Error_BPM_Abs      8.253985
-Error_BPM_Rel     15.569591
-Error_iRPM_Abs     7.687091
-Error_iRPM_Rel    52.716914
+Error_BPM_Abs      4.153444
+Error_BPM_Rel      7.494294
+Error_iRPM_Abs     7.957432
+Error_iRPM_Rel    55.470162
 
 Patch: 299
-Error_BPM_Abs      9.879714
-Error_BPM_Rel     18.846323
-Error_iRPM_Abs     8.269015
-Error_iRPM_Rel    56.072520
+Error_BPM_Abs      5.910011
+Error_BPM_Rel     11.039289
+Error_iRPM_Abs     7.923035
+Error_iRPM_Rel    55.417102
 
 Patch: 330
-Error_BPM_Abs      8.402322
-Error_BPM_Rel     16.065946
-Error_iRPM_Abs     8.113442
-Error_iRPM_Rel    54.276463
+Error_BPM_Abs      2.978301
+Error_BPM_Rel      5.432211
+Error_iRPM_Abs     8.923404
+Error_iRPM_Rel    59.926477
 
 Patch: 333
-Error_BPM_Abs     11.218673
-Error_BPM_Rel     21.308300
-Error_iRPM_Abs     7.678469
-Error_iRPM_Rel    51.616833
+Error_BPM_Abs      6.207807
+Error_BPM_Rel     11.449187
+Error_iRPM_Abs     8.280076
+Error_iRPM_Rel    56.078929
 
 Patch: 336
-Error_BPM_Abs     10.898232
-Error_BPM_Rel     20.491081
-Error_iRPM_Abs     8.316137
-Error_iRPM_Rel    55.783557
+Error_BPM_Abs      6.468422
+Error_BPM_Rel     11.742620
+Error_iRPM_Abs     8.913625
+Error_iRPM_Rel    60.300784
 
 Patch: 337
-Error_BPM_Abs      9.346046
-Error_BPM_Rel     17.877665
-Error_iRPM_Abs     8.629681
-Error_iRPM_Rel    59.462976
+Error_BPM_Abs      3.442013
+Error_BPM_Rel      6.302761
+Error_iRPM_Abs     9.052926
+Error_iRPM_Rel    63.254374
 
 Patch: 338
-Error_BPM_Abs      9.348017
-Error_BPM_Rel     17.846216
-Error_iRPM_Abs     8.283805
-Error_iRPM_Rel    61.975306
+Error_BPM_Abs      3.452008
+Error_BPM_Rel      6.282568
+Error_iRPM_Abs     8.733971
+Error_iRPM_Rel    66.470499
 
 Patch: 347
-Error_BPM_Abs      9.234677
-Error_BPM_Rel     17.620579
-Error_iRPM_Abs     6.533483
-Error_iRPM_Rel    46.824774
+Error_BPM_Abs      3.917478
+Error_BPM_Rel      7.186596
+Error_iRPM_Abs     7.205403
+Error_iRPM_Rel    51.873619
 
 Patch: 364
-Error_BPM_Abs     23.445852
-Error_BPM_Rel     43.653293
-Error_iRPM_Abs     7.603720
-Error_iRPM_Rel    52.923975
-
-
-
-Analise Conjunta 
-
-==================================================
-
-Erros globais:
-Error_BPM_Abs      7.499093
-Error_BPM_Rel     14.069120
-Error_iRPM_Abs     7.290801
-Error_iRPM_Rel    50.294379
-
-
-Erros por metodo:
-Metodo: CHROM
-Error_BPM_Abs      6.635096
-Error_BPM_Rel     12.460587
-Error_iRPM_Abs     7.632599
-Error_iRPM_Rel    51.727290
-
-Metodo: GBGR
-Error_BPM_Abs      6.783288
-Error_BPM_Rel     12.733055
-Error_iRPM_Abs     7.855205
-Error_iRPM_Rel    52.776526
-
-Metodo: GREEN
-Error_BPM_Abs      8.440575
-Error_BPM_Rel     15.777128
-Error_iRPM_Abs     6.770980
-Error_iRPM_Rel    46.070746
-
-Metodo: ICA
-Error_BPM_Abs     10.296505
-Error_BPM_Rel     19.296381
-Error_iRPM_Abs     7.129953
-Error_iRPM_Rel    49.279315
-
-Metodo: LGI
-Error_BPM_Abs      6.321580
-Error_BPM_Rel     11.889936
-Error_iRPM_Abs     7.417590
-Error_iRPM_Rel    50.352071
-
-Metodo: OMIT
-Error_BPM_Abs      6.375525
-Error_BPM_Rel     11.989707
-Error_iRPM_Abs     7.493491
-Error_iRPM_Rel    50.650525
-
-Metodo: PBV
-Error_BPM_Abs      8.968943
-Error_BPM_Rel     16.715846
-Error_iRPM_Abs     7.863391
-Error_iRPM_Rel    54.623449
-
-Metodo: PCA
-Error_BPM_Abs      6.524831
-Error_BPM_Rel     12.263339
-Error_iRPM_Abs     7.921835
-Error_iRPM_Rel    53.252171
-
-Metodo: POS
-Error_BPM_Abs      7.222905
-Error_BPM_Rel     13.637955
-Error_iRPM_Abs     5.500128
-Error_iRPM_Rel    43.435111
-
-Metodo: SSR
-Error_BPM_Abs      5.408956
-Error_BPM_Rel     10.238979
-Error_iRPM_Abs     8.155872
-Error_iRPM_Rel    63.313920
-
-
-Erros por patch:
-Patch: 4
-Error_BPM_Abs      6.375631
-Error_BPM_Rel     12.034173
-Error_iRPM_Abs     6.510016
-Error_iRPM_Rel    44.332200
-
-Patch: 6
-Error_BPM_Abs      5.941462
-Error_BPM_Rel     11.265329
-Error_iRPM_Abs     7.342027
-Error_iRPM_Rel    50.118779
-
-Patch: 9
-Error_BPM_Abs      5.164682
-Error_BPM_Rel      9.764663
-Error_iRPM_Abs     6.267180
-Error_iRPM_Rel    43.930807
-
-Patch: 10
-Error_BPM_Abs      5.436125
-Error_BPM_Rel     10.315274
-Error_iRPM_Abs     7.234114
-Error_iRPM_Rel    51.453000
-
-Patch: 18
-Error_BPM_Abs     14.209711
-Error_BPM_Rel     26.283225
-Error_iRPM_Abs     8.086195
-Error_iRPM_Rel    54.590428
-
-Patch: 36
-Error_BPM_Abs      5.141178
-Error_BPM_Rel      9.711867
-Error_iRPM_Abs     7.348041
-Error_iRPM_Rel    49.182934
-
-Patch: 50
-Error_BPM_Abs      5.899051
-Error_BPM_Rel     11.123163
-Error_iRPM_Abs     7.111862
-Error_iRPM_Rel    49.274096
-
-Patch: 69
-Error_BPM_Abs      5.758013
-Error_BPM_Rel     10.893356
-Error_iRPM_Abs     9.014648
-Error_iRPM_Rel    62.851630
-
-Patch: 101
-Error_BPM_Abs      5.416125
-Error_BPM_Rel     10.257172
-Error_iRPM_Abs     8.166518
-Error_iRPM_Rel    53.639590
-
-Patch: 104
-Error_BPM_Abs      8.207003
-Error_BPM_Rel     15.472816
-Error_iRPM_Abs     6.904160
-Error_iRPM_Rel    48.727253
-
-Patch: 107
-Error_BPM_Abs      6.776310
-Error_BPM_Rel     12.764447
-Error_iRPM_Abs     6.632849
-Error_iRPM_Rel    44.171889
-
-Patch: 108
-Error_BPM_Abs      5.583569
-Error_BPM_Rel     10.551689
-Error_iRPM_Abs     7.013783
-Error_iRPM_Rel    49.944475
-
-Patch: 109
-Error_BPM_Abs      4.842621
-Error_BPM_Rel      9.126260
-Error_iRPM_Abs     7.349175
-Error_iRPM_Rel    52.457123
-
-Patch: 135
-Error_BPM_Abs     12.575425
-Error_BPM_Rel     23.307393
-Error_iRPM_Abs     7.793976
-Error_iRPM_Rel    53.412327
-
-Patch: 151
-Error_BPM_Abs      6.029552
-Error_BPM_Rel     11.419644
-Error_iRPM_Abs     7.777701
-Error_iRPM_Rel    53.564686
-
-Patch: 188
-Error_BPM_Abs      6.848673
-Error_BPM_Rel     12.862176
-Error_iRPM_Abs     6.246101
-Error_iRPM_Rel    42.589957
-
-Patch: 199
-Error_BPM_Abs     16.716538
-Error_BPM_Rel     30.979927
-Error_iRPM_Abs     9.889208
-Error_iRPM_Rel    67.411397
-
-Patch: 266
-Error_BPM_Abs      5.288040
-Error_BPM_Rel      9.990056
-Error_iRPM_Abs     7.840174
-Error_iRPM_Rel    53.889020
-
-Patch: 280
-Error_BPM_Abs      6.003893
-Error_BPM_Rel     11.214165
-Error_iRPM_Abs     6.947042
-Error_iRPM_Rel    47.944445
-
-Patch: 299
-Error_BPM_Abs      6.588778
-Error_BPM_Rel     12.427213
-Error_iRPM_Abs     6.698471
-Error_iRPM_Rel    45.906111
-
-Patch: 330
-Error_BPM_Abs      5.680825
-Error_BPM_Rel     10.704167
-Error_iRPM_Abs     7.502081
-Error_iRPM_Rel    50.319291
-
-Patch: 333
-Error_BPM_Abs      7.274901
-Error_BPM_Rel     13.686797
-Error_iRPM_Abs     6.562365
-Error_iRPM_Rel    45.135219
-
-Patch: 336
-Error_BPM_Abs      6.836136
-Error_BPM_Rel     12.761283
-Error_iRPM_Abs     7.071962
-Error_iRPM_Rel    48.435961
-
-Patch: 337
-Error_BPM_Abs      5.864508
-Error_BPM_Rel     11.110344
-Error_iRPM_Abs     6.930093
-Error_iRPM_Rel    47.851910
-
-Patch: 338
-Error_BPM_Abs      5.859378
-Error_BPM_Rel     11.075493
-Error_iRPM_Abs     7.309228
-Error_iRPM_Rel    53.362236
-
-Patch: 347
-Error_BPM_Abs      5.752140
-Error_BPM_Rel     10.873183
-Error_iRPM_Abs     6.492769
-Error_iRPM_Rel    45.755831
-
-Patch: 364
-Error_BPM_Abs     20.568517
-Error_BPM_Rel     38.185342
-Error_iRPM_Abs     6.755796
-Error_iRPM_Rel    47.332260
-
-
-
-Analise Conjunta _tempo_10s
-
-==================================================
-
-Erros globais:
-Error_BPM_Abs     10.465756
-Error_BPM_Rel     19.819529
-Error_iRPM_Abs     8.455958
-Error_iRPM_Rel    54.474840
-
-
-Erros por metodo:
-Metodo: CHROM
-Error_BPM_Abs      9.641563
-Error_BPM_Rel     18.249234
-Error_iRPM_Abs     8.870444
-Error_iRPM_Rel    57.214250
-
-Metodo: GBGR
-Error_BPM_Abs     10.138749
-Error_BPM_Rel     19.180697
-Error_iRPM_Abs     9.541149
-Error_iRPM_Rel    60.883495
-
-Metodo: GREEN
-Error_BPM_Abs     10.958756
-Error_BPM_Rel     20.662389
-Error_iRPM_Abs     7.666239
-Error_iRPM_Rel    49.744151
-
-Metodo: ICA
-Error_BPM_Abs     13.453122
-Error_BPM_Rel     25.454088
-Error_iRPM_Abs     8.710308
-Error_iRPM_Rel    56.219999
-
-Metodo: LGI
-Error_BPM_Abs      9.346196
-Error_BPM_Rel     17.754849
-Error_iRPM_Abs     8.371035
-Error_iRPM_Rel    53.864580
-
-Metodo: OMIT
-Error_BPM_Abs      9.345553
-Error_BPM_Rel     17.753863
-Error_iRPM_Abs     8.429265
-Error_iRPM_Rel    54.067862
-
-Metodo: PBV
-Error_BPM_Abs     11.457931
-Error_BPM_Rel     21.552709
-Error_iRPM_Abs     9.327052
-Error_iRPM_Rel    60.000870
-
-Metodo: PCA
-Error_BPM_Abs      9.536355
-Error_BPM_Rel     18.102051
-Error_iRPM_Abs     9.784519
-Error_iRPM_Rel    62.373364
-
-Metodo: POS
-Error_BPM_Abs     10.381812
-Error_BPM_Rel     19.788234
-Error_iRPM_Abs     5.363567
-Error_iRPM_Rel    35.717619
-
-Metodo: SSR
-Error_BPM_Abs      8.623456
-Error_BPM_Rel     16.515949
-Error_iRPM_Abs     9.537122
-Error_iRPM_Rel    59.533735
-
-
-Erros por patch:
-Patch: 4
-Error_BPM_Abs      9.538747
-Error_BPM_Rel     18.184059
-Error_iRPM_Abs     7.520470
-Error_iRPM_Rel    48.232195
-
-Patch: 6
-Error_BPM_Abs      9.556714
-Error_BPM_Rel     18.272895
-Error_iRPM_Abs     8.718410
-Error_iRPM_Rel    55.898817
-
-Patch: 9
-Error_BPM_Abs      8.216306
-Error_BPM_Rel     15.685907
-Error_iRPM_Abs     6.199598
-Error_iRPM_Rel    41.909263
-
-Patch: 10
-Error_BPM_Abs      8.608042
-Error_BPM_Rel     16.481134
-Error_iRPM_Abs     8.352053
-Error_iRPM_Rel    53.456636
-
-Patch: 18
-Error_BPM_Abs     14.016743
-Error_BPM_Rel     25.877028
-Error_iRPM_Abs     9.957285
-Error_iRPM_Rel    62.402840
-
-Patch: 36
-Error_BPM_Abs      8.120960
-Error_BPM_Rel     15.473604
-Error_iRPM_Abs     9.288930
-Error_iRPM_Rel    58.364578
-
-Patch: 50
-Error_BPM_Abs      8.701975
-Error_BPM_Rel     16.547545
-Error_iRPM_Abs     8.462081
-Error_iRPM_Rel    53.694252
-
-Patch: 69
-Error_BPM_Abs      9.011273
-Error_BPM_Rel     17.186290
-Error_iRPM_Abs    10.754435
-Error_iRPM_Rel    68.021097
-
-Patch: 101
-Error_BPM_Abs      8.917090
-Error_BPM_Rel     17.032449
-Error_iRPM_Abs    10.129110
-Error_iRPM_Rel    62.196015
-
-Patch: 104
-Error_BPM_Abs     13.162798
-Error_BPM_Rel     24.995763
-Error_iRPM_Abs     7.304141
-Error_iRPM_Rel    46.303927
-
-Patch: 107
-Error_BPM_Abs     11.372088
-Error_BPM_Rel     21.547862
-Error_iRPM_Abs     7.601542
-Error_iRPM_Rel    49.043783
-
-Patch: 108
-Error_BPM_Abs      8.431257
-Error_BPM_Rel     16.110517
-Error_iRPM_Abs     7.703200
-Error_iRPM_Rel    52.344499
-
-Patch: 109
-Error_BPM_Abs      7.475786
-Error_BPM_Rel     14.214077
-Error_iRPM_Abs     9.030569
-Error_iRPM_Rel    58.502154
-
-Patch: 135
-Error_BPM_Abs     12.211207
-Error_BPM_Rel     22.680294
-Error_iRPM_Abs     9.605563
-Error_iRPM_Rel    62.917493
-
-Patch: 151
-Error_BPM_Abs      9.435613
-Error_BPM_Rel     18.034700
-Error_iRPM_Abs     8.630943
-Error_iRPM_Rel    54.638281
-
-Patch: 188
-Error_BPM_Abs     10.709088
-Error_BPM_Rel     20.229983
-Error_iRPM_Abs     6.359131
-Error_iRPM_Rel    41.783512
-
-Patch: 199
-Error_BPM_Abs     17.591505
-Error_BPM_Rel     32.941709
-Error_iRPM_Abs    12.485921
-Error_iRPM_Rel    78.336447
-
-Patch: 266
-Error_BPM_Abs      8.433996
-Error_BPM_Rel     16.070534
-Error_iRPM_Abs     9.478041
-Error_iRPM_Rel    61.092569
-
-Patch: 280
-Error_BPM_Abs      7.975111
-Error_BPM_Rel     15.079604
-Error_iRPM_Abs     8.380659
-Error_iRPM_Rel    54.745213
-
-Patch: 299
-Error_BPM_Abs      9.877643
-Error_BPM_Rel     18.840225
-Error_iRPM_Abs     7.649869
-Error_iRPM_Rel    49.069496
-
-Patch: 330
-Error_BPM_Abs      9.227075
-Error_BPM_Rel     17.491874
-Error_iRPM_Abs     8.869932
-Error_iRPM_Rel    56.355744
-
-Patch: 333
-Error_BPM_Abs     11.882527
-Error_BPM_Rel     22.478414
-Error_iRPM_Abs     7.238706
-Error_iRPM_Rel    47.841396
-
-Patch: 336
-Error_BPM_Abs      9.087059
-Error_BPM_Rel     17.172808
-Error_iRPM_Abs     8.037065
-Error_iRPM_Rel    52.445686
-
-Patch: 337
-Error_BPM_Abs      9.222544
-Error_BPM_Rel     17.667202
-Error_iRPM_Abs     7.653289
-Error_iRPM_Rel    49.684684
-
-Patch: 338
-Error_BPM_Abs      9.636484
-Error_BPM_Rel     18.337121
-Error_iRPM_Abs     7.758288
-Error_iRPM_Rel    51.790600
-
-Patch: 347
-Error_BPM_Abs      8.202941
-Error_BPM_Rel     15.657364
-Error_iRPM_Abs     6.293469
-Error_iRPM_Rel    42.053940
-
-Patch: 364
-Error_BPM_Abs     24.067300
-Error_BPM_Rel     45.034625
-Error_iRPM_Abs     8.828719
-Error_iRPM_Rel    57.677394
-
-
-
-Analise Conjunta _tempo_30s
-
-==================================================
-
-Erros globais:
-Error_BPM_Abs      4.532429
-Error_BPM_Rel      8.318711
-Error_iRPM_Abs     6.125645
-Error_iRPM_Rel    46.113918
-
-
-Erros por metodo:
-Metodo: CHROM
-Error_BPM_Abs      3.628628
-Error_BPM_Rel      6.671940
-Error_iRPM_Abs     6.394755
-Error_iRPM_Rel    46.240329
-
-Metodo: GBGR
-Error_BPM_Abs      3.427827
-Error_BPM_Rel      6.285413
-Error_iRPM_Abs     6.169261
-Error_iRPM_Rel    44.669557
-
-Metodo: GREEN
-Error_BPM_Abs      5.922394
-Error_BPM_Rel     10.891867
-Error_iRPM_Abs     5.875721
-Error_iRPM_Rel    42.397341
-
-Metodo: ICA
-Error_BPM_Abs      7.139888
-Error_BPM_Rel     13.138675
-Error_iRPM_Abs     5.549599
-Error_iRPM_Rel    42.338630
-
-Metodo: LGI
-Error_BPM_Abs      3.296963
-Error_BPM_Rel      6.025024
-Error_iRPM_Abs     6.464144
-Error_iRPM_Rel    46.839561
-
-Metodo: OMIT
-Error_BPM_Abs      3.405497
-Error_BPM_Rel      6.225551
-Error_iRPM_Abs     6.557718
-Error_iRPM_Rel    47.233189
-
-Metodo: PBV
-Error_BPM_Abs      6.479954
-Error_BPM_Rel     11.878984
-Error_iRPM_Abs     6.399730
-Error_iRPM_Rel    49.246028
-
-Metodo: PCA
-Error_BPM_Abs      3.513308
-Error_BPM_Rel      6.424626
-Error_iRPM_Abs     6.059150
-Error_iRPM_Rel    44.130978
-
-Metodo: POS
-Error_BPM_Abs      4.063997
-Error_BPM_Rel      7.487676
-Error_iRPM_Abs     5.636689
-Error_iRPM_Rel    51.152603
-
-Metodo: SSR
-Error_BPM_Abs      2.194456
-Error_BPM_Rel      3.962009
-Error_iRPM_Abs     6.774622
-Error_iRPM_Rel    67.094106
-
-
-Erros por patch:
-Patch: 4
-Error_BPM_Abs      3.212515
-Error_BPM_Rel      5.884287
-Error_iRPM_Abs     5.499562
-Error_iRPM_Rel    40.432206
-
-Patch: 6
-Error_BPM_Abs      2.326210
-Error_BPM_Rel      4.257763
-Error_iRPM_Abs     5.965644
-Error_iRPM_Rel    44.338742
-
-Patch: 9
-Error_BPM_Abs      2.113058
-Error_BPM_Rel      3.843419
-Error_iRPM_Abs     6.334762
-Error_iRPM_Rel    45.952352
-
-Patch: 10
-Error_BPM_Abs      2.264207
-Error_BPM_Rel      4.149414
-Error_iRPM_Abs     6.116174
-Error_iRPM_Rel    49.449364
-
-Patch: 18
-Error_BPM_Abs     14.402679
-Error_BPM_Rel     26.689422
-Error_iRPM_Abs     6.215105
-Error_iRPM_Rel    46.778017
-
-Patch: 36
-Error_BPM_Abs      2.161396
-Error_BPM_Rel      3.950129
-Error_iRPM_Abs     5.407152
-Error_iRPM_Rel    40.001289
-
-Patch: 50
-Error_BPM_Abs      3.096126
-Error_BPM_Rel      5.698780
-Error_iRPM_Abs     5.761643
-Error_iRPM_Rel    44.853940
-
-Patch: 69
-Error_BPM_Abs      2.504753
-Error_BPM_Rel      4.600423
-Error_iRPM_Abs     7.274862
-Error_iRPM_Rel    57.682163
-
-Patch: 101
-Error_BPM_Abs      1.915159
-Error_BPM_Rel      3.481896
-Error_iRPM_Abs     6.203926
-Error_iRPM_Rel    45.083166
-
-Patch: 104
-Error_BPM_Abs      3.251209
-Error_BPM_Rel      5.949870
-Error_iRPM_Abs     6.504179
-Error_iRPM_Rel    51.150579
-
-Patch: 107
-Error_BPM_Abs      2.180533
-Error_BPM_Rel      3.981031
-Error_iRPM_Abs     5.664156
-Error_iRPM_Rel    39.299995
-
-Patch: 108
-Error_BPM_Abs      2.735881
-Error_BPM_Rel      4.992862
-Error_iRPM_Abs     6.324367
-Error_iRPM_Rel    47.544452
-
-Patch: 109
-Error_BPM_Abs      2.209456
-Error_BPM_Rel      4.038443
-Error_iRPM_Abs     5.667781
-Error_iRPM_Rel    46.412092
-
-Patch: 135
-Error_BPM_Abs     12.939642
-Error_BPM_Rel     23.934492
-Error_iRPM_Abs     5.982389
-Error_iRPM_Rel    43.907162
-
-Patch: 151
-Error_BPM_Abs      2.623491
-Error_BPM_Rel      4.804589
-Error_iRPM_Abs     6.924459
-Error_iRPM_Rel    52.491092
-
-Patch: 188
-Error_BPM_Abs      2.988259
-Error_BPM_Rel      5.494369
-Error_iRPM_Abs     6.133072
-Error_iRPM_Rel    43.396403
-
-Patch: 199
-Error_BPM_Abs     15.841572
-Error_BPM_Rel     29.018144
-Error_iRPM_Abs     7.292495
-Error_iRPM_Rel    56.486348
-
-Patch: 266
-Error_BPM_Abs      2.142083
-Error_BPM_Rel      3.909577
-Error_iRPM_Abs     6.202307
-Error_iRPM_Rel    46.685471
-
-Patch: 280
-Error_BPM_Abs      4.032674
-Error_BPM_Rel      7.348726
-Error_iRPM_Abs     5.513425
-Error_iRPM_Rel    41.143677
-
-Patch: 299
-Error_BPM_Abs      3.299914
-Error_BPM_Rel      6.014202
-Error_iRPM_Abs     5.747073
-Error_iRPM_Rel    42.742726
-
-Patch: 330
-Error_BPM_Abs      2.134575
-Error_BPM_Rel      3.916461
-Error_iRPM_Abs     6.134230
-Error_iRPM_Rel    44.282838
-
-Patch: 333
-Error_BPM_Abs      2.667274
-Error_BPM_Rel      4.895180
-Error_iRPM_Abs     5.886025
-Error_iRPM_Rel    42.429042
-
-Patch: 336
-Error_BPM_Abs      4.585214
-Error_BPM_Rel      8.349759
-Error_iRPM_Abs     6.106859
-Error_iRPM_Rel    44.426236
-
-Patch: 337
-Error_BPM_Abs      2.506472
-Error_BPM_Rel      4.553486
-Error_iRPM_Abs     6.206896
-Error_iRPM_Rel    46.019136
-
-Patch: 338
-Error_BPM_Abs      2.082273
-Error_BPM_Rel      3.813864
-Error_iRPM_Abs     6.860168
-Error_iRPM_Rel    54.933871
-
-Patch: 347
-Error_BPM_Abs      3.301340
-Error_BPM_Rel      6.089003
-Error_iRPM_Abs     6.692068
-Error_iRPM_Rel    49.457722
-
-Patch: 364
-Error_BPM_Abs     17.069733
-Error_BPM_Rel     31.336059
-Error_iRPM_Abs     4.682874
-Error_iRPM_Rel    36.987126
-
-
-
-Analise Conjunta _fs_30
-
-==================================================
-
-Erros globais:
-Error_BPM_Abs      4.727077
-Error_BPM_Rel      8.651803
-Error_iRPM_Abs     6.355958
-Error_iRPM_Rel    43.866357
-
-
-Erros por metodo:
-Metodo: CHROM
-Error_BPM_Abs      3.763476
-Error_BPM_Rel      6.868866
-Error_iRPM_Abs     6.579074
-Error_iRPM_Rel    45.403358
-
-Metodo: GBGR
-Error_BPM_Abs      3.457354
-Error_BPM_Rel      6.313870
-Error_iRPM_Abs     7.095938
-Error_iRPM_Rel    48.418770
-
-Metodo: GREEN
-Error_BPM_Abs      6.458228
-Error_BPM_Rel     11.793282
-Error_iRPM_Abs     6.156736
-Error_iRPM_Rel    41.967640
-
-Metodo: ICA
-Error_BPM_Abs      7.852150
-Error_BPM_Rel     14.419874
-Error_iRPM_Abs     6.469535
-Error_iRPM_Rel    44.432313
-
-Metodo: LGI
-Error_BPM_Abs      3.395013
-Error_BPM_Rel      6.192557
-Error_iRPM_Abs     5.985612
-Error_iRPM_Rel    41.432014
-
-Metodo: OMIT
-Error_BPM_Abs      3.596171
-Error_BPM_Rel      6.565151
-Error_iRPM_Abs     6.082417
-Error_iRPM_Rel    42.115873
-
-Metodo: PBV
-Error_BPM_Abs      7.094047
-Error_BPM_Rel     13.037934
-Error_iRPM_Abs     6.784047
-Error_iRPM_Rel    46.919631
-
-Metodo: PCA
-Error_BPM_Abs      3.919402
-Error_BPM_Rel      7.175136
-Error_iRPM_Abs     7.116907
-Error_iRPM_Rel    48.664139
-
-Metodo: POS
-Error_BPM_Abs      3.116458
-Error_BPM_Rel      5.699517
-Error_iRPM_Abs     4.956093
-Error_iRPM_Rel    35.628313
-
-Metodo: SSR
-Error_BPM_Abs      1.794622
-Error_BPM_Rel      3.252874
-Error_iRPM_Abs     5.742100
-Error_iRPM_Rel    38.875611
-
-
-Erros por patch:
-Patch: 4
-Error_BPM_Abs      3.822362
-Error_BPM_Rel      6.971985
-Error_iRPM_Abs     5.932602
-Error_iRPM_Rel    40.415655
-
-Patch: 6
-Error_BPM_Abs      2.645989
-Error_BPM_Rel      4.823091
-Error_iRPM_Abs     6.899722
-Error_iRPM_Rel    46.614541
-
-Patch: 9
-Error_BPM_Abs      2.048052
-Error_BPM_Rel      3.725977
-Error_iRPM_Abs     5.665788
-Error_iRPM_Rel    39.340851
-
-Patch: 10
-Error_BPM_Abs      2.086394
-Error_BPM_Rel      3.808235
-Error_iRPM_Abs     5.949926
-Error_iRPM_Rel    40.259422
-
-Patch: 18
-Error_BPM_Abs     16.193847
-Error_BPM_Rel     29.658329
-Error_iRPM_Abs     6.588637
-Error_iRPM_Rel    45.081450
-
-Patch: 36
-Error_BPM_Abs      2.361496
-Error_BPM_Rel      4.287808
-Error_iRPM_Abs     6.238849
-Error_iRPM_Rel    41.589972
-
-Patch: 50
-Error_BPM_Abs      3.402528
-Error_BPM_Rel      6.220673
-Error_iRPM_Abs     6.651223
-Error_iRPM_Rel    45.694574
-
-Patch: 69
-Error_BPM_Abs      2.927746
-Error_BPM_Rel      5.322286
-Error_iRPM_Abs     7.348428
-Error_iRPM_Rel    50.841813
-
-Patch: 101
-Error_BPM_Abs      2.062615
-Error_BPM_Rel      3.738154
-Error_iRPM_Abs     7.038806
-Error_iRPM_Rel    46.524756
-
-Patch: 104
-Error_BPM_Abs      5.025741
-Error_BPM_Rel      9.186102
-Error_iRPM_Abs     4.850122
-Error_iRPM_Rel    34.271229
-
-Patch: 107
-Error_BPM_Abs      3.630206
-Error_BPM_Rel      6.559989
-Error_iRPM_Abs     5.698925
-Error_iRPM_Rel    40.211537
-
-Patch: 108
-Error_BPM_Abs      2.732714
-Error_BPM_Rel      4.983395
-Error_iRPM_Abs     6.586212
-Error_iRPM_Rel    47.853986
-
-Patch: 109
-Error_BPM_Abs      2.231980
-Error_BPM_Rel      4.056840
-Error_iRPM_Abs     6.390035
-Error_iRPM_Rel    44.263187
-
-Patch: 135
-Error_BPM_Abs     10.951048
-Error_BPM_Rel     20.121048
-Error_iRPM_Abs     7.190732
-Error_iRPM_Rel    50.329311
-
-Patch: 151
-Error_BPM_Abs      2.284907
-Error_BPM_Rel      4.153735
-Error_iRPM_Abs     5.733618
-Error_iRPM_Rel    39.566498
-
-Patch: 188
-Error_BPM_Abs      4.362407
-Error_BPM_Rel      8.013965
-Error_iRPM_Abs     6.084119
-Error_iRPM_Rel    41.688471
-
-Patch: 199
-Error_BPM_Abs     15.822974
-Error_BPM_Rel     29.138009
-Error_iRPM_Abs     9.647937
-Error_iRPM_Rel    65.830274
-
-Patch: 266
-Error_BPM_Abs      2.478780
-Error_BPM_Rel      4.531860
-Error_iRPM_Abs     7.759569
-Error_iRPM_Rel    52.058653
-
-Patch: 280
-Error_BPM_Abs      3.753800
-Error_BPM_Rel      6.858739
-Error_iRPM_Abs     6.206993
-Error_iRPM_Rel    43.171976
-
-Patch: 299
-Error_BPM_Abs      3.297843
-Error_BPM_Rel      6.008104
-Error_iRPM_Abs     5.127927
-Error_iRPM_Rel    35.739703
-
-Patch: 330
-Error_BPM_Abs      2.959328
-Error_BPM_Rel      5.342388
-Error_iRPM_Abs     6.890720
-Error_iRPM_Rel    46.362119
-
-Patch: 333
-Error_BPM_Abs      3.331128
-Error_BPM_Rel      6.065294
-Error_iRPM_Abs     5.446262
-Error_iRPM_Rel    38.653605
-
-Patch: 336
-Error_BPM_Abs      2.774041
-Error_BPM_Rel      5.031485
-Error_iRPM_Abs     5.827788
-Error_iRPM_Rel    41.088365
-
-Patch: 337
-Error_BPM_Abs      2.382970
-Error_BPM_Rel      4.343023
-Error_iRPM_Abs     5.230504
-Error_iRPM_Rel    36.240844
-
-Patch: 338
-Error_BPM_Abs      2.370740
-Error_BPM_Rel      4.304770
-Error_iRPM_Abs     6.334651
-Error_iRPM_Rel    44.749165
-
-Patch: 347
-Error_BPM_Abs      2.269604
-Error_BPM_Rel      4.125788
-Error_iRPM_Abs     6.452054
-Error_iRPM_Rel    44.686889
-
-Patch: 364
-Error_BPM_Abs     17.691181
-Error_BPM_Rel     32.717392
-Error_iRPM_Abs     5.907873
-Error_iRPM_Rel    41.740545
-
-
-
-Analise Conjunta _fs_60
-
-==================================================
-
-Erros globais:
-Error_BPM_Abs     10.271109
-Error_BPM_Rel     19.486436
-Error_iRPM_Abs     8.225644
-Error_iRPM_Rel    56.722401
-
-
-Erros por metodo:
-Metodo: CHROM
-Error_BPM_Abs      9.506715
-Error_BPM_Rel     18.052308
-Error_iRPM_Abs     8.686124
-Error_iRPM_Rel    58.051221
-
-Metodo: GBGR
-Error_BPM_Abs     10.109221
-Error_BPM_Rel     19.152239
-Error_iRPM_Abs     8.614472
-Error_iRPM_Rel    57.134281
-
-Metodo: GREEN
-Error_BPM_Abs     10.422923
-Error_BPM_Rel     19.760974
-Error_iRPM_Abs     7.385224
-Error_iRPM_Rel    50.173851
-
-Metodo: ICA
-Error_BPM_Abs     12.740860
-Error_BPM_Rel     24.172889
-Error_iRPM_Abs     7.790371
-Error_iRPM_Rel    54.126316
-
-Metodo: LGI
-Error_BPM_Abs      9.248147
-Error_BPM_Rel     17.587315
-Error_iRPM_Abs     8.849567
-Error_iRPM_Rel    59.272127
-
-Metodo: OMIT
-Error_BPM_Abs      9.154879
-Error_BPM_Rel     17.414263
-Error_iRPM_Abs     8.904566
-Error_iRPM_Rel    59.185178
-
-Metodo: PBV
-Error_BPM_Abs     10.843839
-Error_BPM_Rel     20.393758
-Error_iRPM_Abs     8.942735
-Error_iRPM_Rel    62.327267
-
-Metodo: PCA
-Error_BPM_Abs      9.130260
-Error_BPM_Rel     17.351541
-Error_iRPM_Abs     8.726762
-Error_iRPM_Rel    57.840204
-
-Metodo: POS
-Error_BPM_Abs     11.329351
-Error_BPM_Rel     21.576394
-Error_iRPM_Abs     6.044162
-Error_iRPM_Rel    51.241909
-
-Metodo: SSR
-Error_BPM_Abs      9.023289
-Error_BPM_Rel     17.225084
-Error_iRPM_Abs    10.569644
-Error_iRPM_Rel    87.752230
-
-
-Erros por patch:
-Patch: 4
-Error_BPM_Abs      8.928900
-Error_BPM_Rel     17.096361
-Error_iRPM_Abs     7.087430
-Error_iRPM_Rel    48.248746
-
-Patch: 6
-Error_BPM_Abs      9.236935
-Error_BPM_Rel     17.707566
-Error_iRPM_Abs     7.784332
-Error_iRPM_Rel    53.623017
-
-Patch: 9
-Error_BPM_Abs      8.281312
-Error_BPM_Rel     15.803348
-Error_iRPM_Abs     6.868572
-Error_iRPM_Rel    48.520764
-
-Patch: 10
-Error_BPM_Abs      8.785856
-Error_BPM_Rel     16.822312
-Error_iRPM_Abs     8.518301
-Error_iRPM_Rel    62.646578
-
-Patch: 18
-Error_BPM_Abs     12.225575
-Error_BPM_Rel     22.908122
-Error_iRPM_Abs     9.583753
-Error_iRPM_Rel    64.099407
-
-Patch: 36
-Error_BPM_Abs      7.920860
-Error_BPM_Rel     15.135926
-Error_iRPM_Abs     8.457232
-Error_iRPM_Rel    56.775895
-
-Patch: 50
-Error_BPM_Abs      8.395573
-Error_BPM_Rel     16.025652
-Error_iRPM_Abs     7.572501
-Error_iRPM_Rel    52.853619
-
-Patch: 69
-Error_BPM_Abs      8.588280
-Error_BPM_Rel     16.464427
-Error_iRPM_Abs    10.680868
-Error_iRPM_Rel    74.861447
-
-Patch: 101
-Error_BPM_Abs      8.769635
-Error_BPM_Rel     16.776191
-Error_iRPM_Abs     9.294230
-Error_iRPM_Rel    60.754425
-
-Patch: 104
-Error_BPM_Abs     11.388265
-Error_BPM_Rel     21.759530
-Error_iRPM_Abs     8.958198
-Error_iRPM_Rel    63.183277
-
-Patch: 107
-Error_BPM_Abs      9.922415
-Error_BPM_Rel     18.968905
-Error_iRPM_Abs     7.566773
-Error_iRPM_Rel    48.132241
-
-Patch: 108
-Error_BPM_Abs      8.434425
-Error_BPM_Rel     16.119984
-Error_iRPM_Abs     7.441354
-Error_iRPM_Rel    52.034965
-
-Patch: 109
-Error_BPM_Abs      7.453262
-Error_BPM_Rel     14.195680
-Error_iRPM_Abs     8.308316
-Error_iRPM_Rel    60.651058
-
-Patch: 135
-Error_BPM_Abs     14.199801
-Error_BPM_Rel     26.493738
-Error_iRPM_Abs     8.397220
-Error_iRPM_Rel    56.495344
-
-Patch: 151
-Error_BPM_Abs      9.774198
-Error_BPM_Rel     18.685553
-Error_iRPM_Abs     9.821784
-Error_iRPM_Rel    67.562874
-
-Patch: 188
-Error_BPM_Abs      9.334940
-Error_BPM_Rel     17.710387
-Error_iRPM_Abs     6.408084
-Error_iRPM_Rel    43.491444
-
-Patch: 199
-Error_BPM_Abs     17.610102
-Error_BPM_Rel     32.821844
-Error_iRPM_Abs    10.130479
-Error_iRPM_Rel    68.992521
-
-Patch: 266
-Error_BPM_Abs      8.097299
-Error_BPM_Rel     15.448252
-Error_iRPM_Abs     7.920779
-Error_iRPM_Rel    55.719386
-
-Patch: 280
-Error_BPM_Abs      8.253985
-Error_BPM_Rel     15.569591
-Error_iRPM_Abs     7.687091
-Error_iRPM_Rel    52.716914
-
-Patch: 299
-Error_BPM_Abs      9.879714
-Error_BPM_Rel     18.846323
-Error_iRPM_Abs     8.269015
-Error_iRPM_Rel    56.072520
-
-Patch: 330
-Error_BPM_Abs      8.402322
-Error_BPM_Rel     16.065946
-Error_iRPM_Abs     8.113442
-Error_iRPM_Rel    54.276463
-
-Patch: 333
-Error_BPM_Abs     11.218673
-Error_BPM_Rel     21.308300
-Error_iRPM_Abs     7.678469
-Error_iRPM_Rel    51.616833
-
-Patch: 336
-Error_BPM_Abs     10.898232
-Error_BPM_Rel     20.491081
-Error_iRPM_Abs     8.316137
-Error_iRPM_Rel    55.783557
-
-Patch: 337
-Error_BPM_Abs      9.346046
-Error_BPM_Rel     17.877665
-Error_iRPM_Abs     8.629681
-Error_iRPM_Rel    59.462976
-
-Patch: 338
-Error_BPM_Abs      9.348017
-Error_BPM_Rel     17.846216
-Error_iRPM_Abs     8.283805
-Error_iRPM_Rel    61.975306
-
-Patch: 347
-Error_BPM_Abs      9.234677
-Error_BPM_Rel     17.620579
-Error_iRPM_Abs     6.533483
-Error_iRPM_Rel    46.824774
-
-Patch: 364
-Error_BPM_Abs     23.445852
-Error_BPM_Rel     43.653293
-Error_iRPM_Abs     7.603720
-Error_iRPM_Rel    52.923975
+Error_BPM_Abs     23.472628
+Error_BPM_Rel     43.439584
+Error_iRPM_Abs     8.444497
+Error_iRPM_Rel    58.930097
 

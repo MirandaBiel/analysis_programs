@@ -120,9 +120,9 @@ def analyze_and_save_results(df, output_file, suffix=""):
             write_line("")
 
 if __name__ == "__main__":
-    folder_path = "17-12-Resultados/Max"
-    output_folder = "17-12-Resultados/Max_results"
-    exclude_files = []  # Lista de arquivos para excluir
+    folder_path = "17-12-Resultados/Gustavo"
+    output_folder = "17-12-Resultados/Gustavo_results"
+    exclude_files = ['video_1_resultados.csv', 'video_9_resultados.csv']  # Lista de arquivos para excluir
 
     os.makedirs(output_folder, exist_ok=True)
 
