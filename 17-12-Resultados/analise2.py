@@ -18,6 +18,7 @@ def process_csv_files(folder_path):
     for file in all_files:
         file_path = os.path.join(folder_path, file)
         df = pd.read_csv(file_path)
+        df['Video'] = file  # Adiciona o nome do arquivo como coluna
         dfs.append(df)
     combined_df = pd.concat(dfs, ignore_index=True)
     return combined_df
@@ -49,15 +50,20 @@ def analyze_and_save_results(df, output_file):
 
         # 4. Menores erros por combinação de método e patch
         f.write("Menores erros por combinação de método e patch:\n")
-        grouped = df.groupby(['Metodo', 'Patch'])[['Error_BPM_Abs', 'Error_iRPM_Abs']].mean()
-        min_errors = grouped.idxmin()
-        f.write(grouped.loc[min_errors].to_string())
+        grouped = df.groupby(['Metodo', 'Patch'])[['Error_BPM_Abs', 'Error_iRPM_Abs', 'Error_BPM_Rel', 'Error_iRPM_Rel']].mean()
+        min_errors_abs = grouped[['Error_BPM_Abs', 'Error_iRPM_Abs']].idxmin()
+        min_errors_rel = grouped[['Error_BPM_Rel', 'Error_iRPM_Rel']].idxmin()
+        f.write("Menores erros absolutos:\n")
+        f.write(grouped.loc[min_errors_abs].to_string())
+        f.write("\n\n")
+        f.write("Menores erros relativos:\n")
+        f.write(grouped.loc[min_errors_rel].to_string())
         f.write("\n\n")
 
         # 5. Impacto de excluir dados com SQI1 abaixo de um limiar
         for threshold in [0.5, 0.7, 1.0]:
             filtered = df[df['SQI1'] >= threshold]
-            errors_filtered = filtered[['Error_BPM_Abs', 'Error_iRPM_Abs']].mean()
+            errors_filtered = filtered[['Error_BPM_Abs', 'Error_iRPM_Abs', 'Error_BPM_Rel', 'Error_iRPM_Rel']].mean()
             f.write(f"Erro após excluir SQI1 < {threshold}:\n")
             f.write(errors_filtered.to_string())
             f.write("\n\n")
@@ -65,7 +71,7 @@ def analyze_and_save_results(df, output_file):
         # 6. Impacto de excluir dados com SQI2 abaixo de um limiar
         for threshold in [0.5, 0.7, 1.0]:
             filtered = df[df['SQI2'] >= threshold]
-            errors_filtered = filtered[['Error_BPM_Abs', 'Error_iRPM_Abs']].mean()
+            errors_filtered = filtered[['Error_BPM_Abs', 'Error_iRPM_Abs', 'Error_BPM_Rel', 'Error_iRPM_Rel']].mean()
             f.write(f"Erro após excluir SQI2 < {threshold}:\n")
             f.write(errors_filtered.to_string())
             f.write("\n\n")
@@ -73,7 +79,13 @@ def analyze_and_save_results(df, output_file):
         # 7. Lista ordenada dos 200 maiores valores de SQI1
         top_sqi1 = df.nlargest(200, 'SQI1')
         f.write("200 maiores valores de SQI1:\n")
-        f.write(top_sqi1[['Metodo', 'Patch', 'SQI1']].to_string(index=False))
+        f.write(top_sqi1[['Video', 'Metodo', 'Patch', 'SQI1', 'Error_BPM_Abs', 'Error_BPM_Rel', 'Error_iRPM_Abs', 'Error_iRPM_Rel']].to_string(index=False))
+        f.write("\n\n")
+
+        # 8. Lista ordenada dos 500 menores erros absolutos BPM
+        top_lowest_errors = df.nsmallest(5000, 'Error_BPM_Abs')
+        f.write("500 menores erros absolutos BPM:\n")
+        f.write(top_lowest_errors[['Video', 'Metodo', 'Patch', 'SQI1', 'Error_BPM_Abs', 'Error_BPM_Rel', 'Error_iRPM_Abs', 'Error_iRPM_Rel']].to_string(index=False))
         f.write("\n\n")
 
     print(f"Resultados salvos em {output_file}")
@@ -115,8 +127,8 @@ def generate_plots(df, output_folder):
 
 if __name__ == '__main__':
     folder_path = "17-12-Resultados/Gustavo"
-    output_file = "analise_resultados.txt"
-    output_folder = "17-12-Resultados/Gustavo_analisado"
+    output_file = "17-12-Resultados/Gustavo_results.txt"
+    output_folder = "17-12-Resultados/Gustavo_results"
 
     os.makedirs(output_folder, exist_ok=True)
 
@@ -124,3 +136,4 @@ if __name__ == '__main__':
     data = calculate_errors(data)
     analyze_and_save_results(data, output_file)
     generate_plots(data, output_folder)
+
