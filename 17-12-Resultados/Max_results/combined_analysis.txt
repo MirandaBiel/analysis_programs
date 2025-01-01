@@ -1458,3 +1458,717 @@ Error_iRPM_Rel   NaN
 Erros por metodo:
 
 Erros por patch:
+
+
+Analise Conjunta 
+
+==================================================
+
+Erros globais:
+Error_BPM_Abs     22.953107
+Error_BPM_Rel     34.540924
+Error_iRPM_Abs     8.543045
+Error_iRPM_Rel    48.143288
+
+
+Erros por metodo:
+Metodo: CHROM
+Error_BPM_Abs     23.503201
+Error_BPM_Rel     35.365443
+Error_iRPM_Abs     8.410458
+Error_iRPM_Rel    47.276161
+
+Metodo: GBGR
+Error_BPM_Abs     22.165844
+Error_BPM_Rel     33.311009
+Error_iRPM_Abs     8.423794
+Error_iRPM_Rel    47.660516
+
+Metodo: GREEN
+Error_BPM_Abs     23.511427
+Error_BPM_Rel     35.426158
+Error_iRPM_Abs     9.387133
+Error_iRPM_Rel    52.048602
+
+Metodo: ICA
+Error_BPM_Abs     21.199159
+Error_BPM_Rel     31.829627
+Error_iRPM_Abs     8.799691
+Error_iRPM_Rel    49.552006
+
+Metodo: LGI
+Error_BPM_Abs     22.153853
+Error_BPM_Rel     33.321551
+Error_iRPM_Abs     8.602397
+Error_iRPM_Rel    48.252860
+
+Metodo: OMIT
+Error_BPM_Abs     22.170873
+Error_BPM_Rel     33.356435
+Error_iRPM_Abs     8.648289
+Error_iRPM_Rel    48.528299
+
+Metodo: PBV
+Error_BPM_Abs     20.299727
+Error_BPM_Rel     30.496549
+Error_iRPM_Abs     8.962202
+Error_iRPM_Rel    50.008092
+
+Metodo: PCA
+Error_BPM_Abs     23.192423
+Error_BPM_Rel     34.915554
+Error_iRPM_Abs     8.557488
+Error_iRPM_Rel    48.366760
+
+Metodo: POS
+Error_BPM_Abs     27.687302
+Error_BPM_Rel     41.775357
+Error_iRPM_Abs     7.112474
+Error_iRPM_Rel    41.673998
+
+Metodo: SSR
+Error_BPM_Abs     41.695283
+Error_BPM_Rel     63.448031
+Error_iRPM_Abs     8.097039
+Error_iRPM_Rel    46.045223
+
+
+Erros por patch:
+Patch: 4
+Error_BPM_Abs     26.781397
+Error_BPM_Rel     40.360374
+Error_iRPM_Abs     8.749518
+Error_iRPM_Rel    47.767867
+
+Patch: 6
+Error_BPM_Abs     21.769337
+Error_BPM_Rel     32.695647
+Error_iRPM_Abs     9.076744
+Error_iRPM_Rel    51.000217
+
+Patch: 9
+Error_BPM_Abs     26.196295
+Error_BPM_Rel     39.495055
+Error_iRPM_Abs     8.391115
+Error_iRPM_Rel    48.280842
+
+Patch: 10
+Error_BPM_Abs     22.782146
+Error_BPM_Rel     34.294968
+Error_iRPM_Abs     7.623115
+Error_iRPM_Rel    43.254743
+
+Patch: 18
+Error_BPM_Abs     21.735597
+Error_BPM_Rel     32.725563
+Error_iRPM_Abs     8.858328
+Error_iRPM_Rel    49.271270
+
+Patch: 36
+Error_BPM_Abs     22.636414
+Error_BPM_Rel     34.076344
+Error_iRPM_Abs     8.296747
+Error_iRPM_Rel    45.703855
+
+Patch: 50
+Error_BPM_Abs     22.560263
+Error_BPM_Rel     33.999669
+Error_iRPM_Abs    10.194079
+Error_iRPM_Rel    56.483797
+
+Patch: 69
+Error_BPM_Abs     25.048203
+Error_BPM_Rel     37.907681
+Error_iRPM_Abs     8.867109
+Error_iRPM_Rel    50.815709
+
+Patch: 101
+Error_BPM_Abs     26.505269
+Error_BPM_Rel     39.881083
+Error_iRPM_Abs     9.632867
+Error_iRPM_Rel    54.359338
+
+Patch: 104
+Error_BPM_Abs     22.758510
+Error_BPM_Rel     34.283615
+Error_iRPM_Abs     8.223025
+Error_iRPM_Rel    47.059493
+
+Patch: 107
+Error_BPM_Abs     23.314469
+Error_BPM_Rel     35.253978
+Error_iRPM_Abs     9.170235
+Error_iRPM_Rel    52.665499
+
+Patch: 108
+Error_BPM_Abs     21.723726
+Error_BPM_Rel     32.691403
+Error_iRPM_Abs     8.316034
+Error_iRPM_Rel    48.081808
+
+Patch: 109
+Error_BPM_Abs     26.894851
+Error_BPM_Rel     40.363949
+Error_iRPM_Abs     6.940294
+Error_iRPM_Rel    39.958082
+
+Patch: 135
+Error_BPM_Abs     19.291970
+Error_BPM_Rel     29.074662
+Error_iRPM_Abs     9.355777
+Error_iRPM_Rel    51.497892
+
+Patch: 151
+Error_BPM_Abs     25.770023
+Error_BPM_Rel     38.885981
+Error_iRPM_Abs     7.790396
+Error_iRPM_Rel    43.896952
+
+Patch: 188
+Error_BPM_Abs     22.848985
+Error_BPM_Rel     34.221066
+Error_iRPM_Abs     9.147759
+Error_iRPM_Rel    49.640172
+
+Patch: 199
+Error_BPM_Abs     18.370691
+Error_BPM_Rel     27.562680
+Error_iRPM_Abs     8.153190
+Error_iRPM_Rel    44.540734
+
+Patch: 266
+Error_BPM_Abs     20.289159
+Error_BPM_Rel     30.393433
+Error_iRPM_Abs     8.649315
+Error_iRPM_Rel    48.779622
+
+Patch: 280
+Error_BPM_Abs     21.950836
+Error_BPM_Rel     32.915623
+Error_iRPM_Abs     8.565642
+Error_iRPM_Rel    47.592160
+
+Patch: 299
+Error_BPM_Abs     21.538519
+Error_BPM_Rel     32.343384
+Error_iRPM_Abs     8.484659
+Error_iRPM_Rel    49.062597
+
+Patch: 330
+Error_BPM_Abs     23.212635
+Error_BPM_Rel     34.893077
+Error_iRPM_Abs     9.006825
+Error_iRPM_Rel    50.611771
+
+Patch: 333
+Error_BPM_Abs     22.521464
+Error_BPM_Rel     33.705885
+Error_iRPM_Abs     8.813348
+Error_iRPM_Rel    51.212138
+
+Patch: 336
+Error_BPM_Abs     19.841395
+Error_BPM_Rel     29.946921
+Error_iRPM_Abs     8.193866
+Error_iRPM_Rel    47.311442
+
+Patch: 337
+Error_BPM_Abs     26.009279
+Error_BPM_Rel     39.269663
+Error_iRPM_Abs     7.732806
+Error_iRPM_Rel    44.632396
+
+Patch: 338
+Error_BPM_Abs     23.622255
+Error_BPM_Rel     35.588892
+Error_iRPM_Abs     7.255725
+Error_iRPM_Rel    40.463337
+
+Patch: 347
+Error_BPM_Abs     23.140194
+Error_BPM_Rel     34.788485
+Error_iRPM_Abs     8.585372
+Error_iRPM_Rel    47.579238
+
+Patch: 364
+Error_BPM_Abs     20.307024
+Error_BPM_Rel     30.503081
+Error_iRPM_Abs     8.671959
+Error_iRPM_Rel    48.817610
+
+
+
+Analise Conjunta _tempo_10s
+
+==================================================
+
+Erros globais:
+Error_BPM_Abs     22.804733
+Error_BPM_Rel     34.822169
+Error_iRPM_Abs    11.434157
+Error_iRPM_Rel    64.280917
+
+
+Erros por metodo:
+Metodo: CHROM
+Error_BPM_Abs     22.789360
+Error_BPM_Rel     34.764171
+Error_iRPM_Abs    11.261671
+Error_iRPM_Rel    62.799367
+
+Metodo: GBGR
+Error_BPM_Abs     22.204021
+Error_BPM_Rel     33.791869
+Error_iRPM_Abs    11.176480
+Error_iRPM_Rel    62.947035
+
+Metodo: GREEN
+Error_BPM_Abs     25.102024
+Error_BPM_Rel     38.429144
+Error_iRPM_Abs    12.256161
+Error_iRPM_Rel    68.296861
+
+Metodo: ICA
+Error_BPM_Abs     22.029480
+Error_BPM_Rel     33.499508
+Error_iRPM_Abs    11.844906
+Error_iRPM_Rel    66.599853
+
+Metodo: LGI
+Error_BPM_Abs     21.647489
+Error_BPM_Rel     33.077327
+Error_iRPM_Abs    11.746183
+Error_iRPM_Rel    65.506542
+
+Metodo: OMIT
+Error_BPM_Abs     21.628387
+Error_BPM_Rel     33.046526
+Error_iRPM_Abs    11.767222
+Error_iRPM_Rel    65.666550
+
+Metodo: PBV
+Error_BPM_Abs     19.364626
+Error_BPM_Rel     29.582246
+Error_iRPM_Abs    12.010536
+Error_iRPM_Rel    66.938656
+
+Metodo: PCA
+Error_BPM_Abs     22.438722
+Error_BPM_Rel     34.205326
+Error_iRPM_Abs    11.339396
+Error_iRPM_Rel    63.857717
+
+Metodo: POS
+Error_BPM_Abs     26.845155
+Error_BPM_Rel     41.170275
+Error_iRPM_Abs     9.530471
+Error_iRPM_Rel    56.007316
+
+Metodo: SSR
+Error_BPM_Abs     55.024750
+Error_BPM_Rel     84.316746
+Error_iRPM_Abs    10.742530
+Error_iRPM_Rel    61.806389
+
+
+Erros por patch:
+Patch: 4
+Error_BPM_Abs     28.606527
+Error_BPM_Rel     43.656128
+Error_iRPM_Abs    11.934040
+Error_iRPM_Rel    64.740704
+
+Patch: 6
+Error_BPM_Abs     21.830828
+Error_BPM_Rel     33.091804
+Error_iRPM_Abs    12.012883
+Error_iRPM_Rel    66.707000
+
+Patch: 9
+Error_BPM_Abs     26.813488
+Error_BPM_Rel     40.948489
+Error_iRPM_Abs    11.250304
+Error_iRPM_Rel    65.137861
+
+Patch: 10
+Error_BPM_Abs     21.721401
+Error_BPM_Rel     33.191484
+Error_iRPM_Abs    10.356100
+Error_iRPM_Rel    58.275409
+
+Patch: 18
+Error_BPM_Abs     21.885156
+Error_BPM_Rel     33.485745
+Error_iRPM_Abs    11.412442
+Error_iRPM_Rel    63.446994
+
+Patch: 36
+Error_BPM_Abs     23.446009
+Error_BPM_Rel     35.815157
+Error_iRPM_Abs    11.356421
+Error_iRPM_Rel    61.357593
+
+Patch: 50
+Error_BPM_Abs     25.564338
+Error_BPM_Rel     38.954049
+Error_iRPM_Abs    13.235594
+Error_iRPM_Rel    74.253650
+
+Patch: 69
+Error_BPM_Abs     27.778276
+Error_BPM_Rel     42.643217
+Error_iRPM_Abs    12.380359
+Error_iRPM_Rel    71.103820
+
+Patch: 101
+Error_BPM_Abs     27.523888
+Error_BPM_Rel     41.890941
+Error_iRPM_Abs    12.994391
+Error_iRPM_Rel    72.645564
+
+Patch: 104
+Error_BPM_Abs     23.462220
+Error_BPM_Rel     35.986804
+Error_iRPM_Abs    10.308220
+Error_iRPM_Rel    59.004990
+
+Patch: 107
+Error_BPM_Abs     22.909360
+Error_BPM_Rel     34.957776
+Error_iRPM_Abs    12.628502
+Error_iRPM_Rel    72.313233
+
+Patch: 108
+Error_BPM_Abs     19.330593
+Error_BPM_Rel     29.549878
+Error_iRPM_Abs    11.192939
+Error_iRPM_Rel    64.646336
+
+Patch: 109
+Error_BPM_Abs     25.748839
+Error_BPM_Rel     39.117480
+Error_iRPM_Abs     9.180739
+Error_iRPM_Rel    52.983878
+
+Patch: 135
+Error_BPM_Abs     19.666428
+Error_BPM_Rel     30.227230
+Error_iRPM_Abs    12.193181
+Error_iRPM_Rel    66.910474
+
+Patch: 151
+Error_BPM_Abs     26.652413
+Error_BPM_Rel     40.750670
+Error_iRPM_Abs    10.506340
+Error_iRPM_Rel    59.705153
+
+Patch: 188
+Error_BPM_Abs     21.040409
+Error_BPM_Rel     31.940623
+Error_iRPM_Abs    11.932280
+Error_iRPM_Rel    63.617023
+
+Patch: 199
+Error_BPM_Abs     16.289627
+Error_BPM_Rel     24.965692
+Error_iRPM_Abs    10.577941
+Error_iRPM_Rel    57.159133
+
+Patch: 266
+Error_BPM_Abs     17.886028
+Error_BPM_Rel     27.260975
+Error_iRPM_Abs    12.046527
+Error_iRPM_Rel    68.066881
+
+Patch: 280
+Error_BPM_Abs     22.577439
+Error_BPM_Rel     34.302165
+Error_iRPM_Abs    11.562154
+Error_iRPM_Rel    64.293769
+
+Patch: 299
+Error_BPM_Abs     22.135909
+Error_BPM_Rel     33.604751
+Error_iRPM_Abs    11.535338
+Error_iRPM_Rel    66.860821
+
+Patch: 330
+Error_BPM_Abs     21.272242
+Error_BPM_Rel     32.438691
+Error_iRPM_Abs    11.926422
+Error_iRPM_Rel    66.925179
+
+Patch: 333
+Error_BPM_Abs     21.306860
+Error_BPM_Rel     32.382096
+Error_iRPM_Abs    11.998687
+Error_iRPM_Rel    69.897354
+
+Patch: 336
+Error_BPM_Abs     17.548729
+Error_BPM_Rel     26.955762
+Error_iRPM_Abs    10.495603
+Error_iRPM_Rel    60.843429
+
+Patch: 337
+Error_BPM_Abs     25.660724
+Error_BPM_Rel     39.429454
+Error_iRPM_Abs     9.702814
+Error_iRPM_Rel    56.240870
+
+Patch: 338
+Error_BPM_Abs     24.861893
+Error_BPM_Rel     38.123906
+Error_iRPM_Abs    10.021600
+Error_iRPM_Rel    55.694824
+
+Patch: 347
+Error_BPM_Abs     21.845054
+Error_BPM_Rel     33.340373
+Error_iRPM_Abs    11.734814
+Error_iRPM_Rel    64.003310
+
+Patch: 364
+Error_BPM_Abs     19.935597
+Error_BPM_Rel     30.528509
+Error_iRPM_Abs    12.348683
+Error_iRPM_Rel    69.257912
+
+
+
+Analise Conjunta _tempo_30s
+
+==================================================
+
+Erros globais:
+Error_BPM_Abs     23.138575
+Error_BPM_Rel     34.189368
+Error_iRPM_Abs     4.929156
+Error_iRPM_Rel    27.971251
+
+
+Erros por metodo:
+Metodo: CHROM
+Error_BPM_Abs     24.395501
+Error_BPM_Rel     36.117033
+Error_iRPM_Abs     4.846441
+Error_iRPM_Rel    27.872154
+
+Metodo: GBGR
+Error_BPM_Abs     22.118124
+Error_BPM_Rel     32.709934
+Error_iRPM_Abs     4.982937
+Error_iRPM_Rel    28.552367
+
+Metodo: GREEN
+Error_BPM_Abs     21.523180
+Error_BPM_Rel     31.672426
+Error_iRPM_Abs     5.800848
+Error_iRPM_Rel    31.738277
+
+Metodo: ICA
+Error_BPM_Abs     20.161258
+Error_BPM_Rel     29.742276
+Error_iRPM_Abs     4.993172
+Error_iRPM_Rel    28.242197
+
+Metodo: LGI
+Error_BPM_Abs     22.786809
+Error_BPM_Rel     33.626831
+Error_iRPM_Abs     4.672665
+Error_iRPM_Rel    26.685756
+
+Metodo: OMIT
+Error_BPM_Abs     22.848981
+Error_BPM_Rel     33.743821
+Error_iRPM_Abs     4.749622
+Error_iRPM_Rel    27.105485
+
+Metodo: PBV
+Error_BPM_Abs     21.468603
+Error_BPM_Rel     31.639427
+Error_iRPM_Abs     5.151784
+Error_iRPM_Rel    28.844888
+
+Metodo: PCA
+Error_BPM_Abs     24.134550
+Error_BPM_Rel     35.803340
+Error_iRPM_Abs     5.080105
+Error_iRPM_Rel    29.003064
+
+Metodo: POS
+Error_BPM_Abs     28.739987
+Error_BPM_Rel     42.531711
+Error_iRPM_Abs     4.089979
+Error_iRPM_Rel    23.757349
+
+Metodo: SSR
+Error_BPM_Abs     25.033450
+Error_BPM_Rel     37.362137
+Error_iRPM_Abs     4.790175
+Error_iRPM_Rel    26.343766
+
+
+Erros por patch:
+Patch: 4
+Error_BPM_Abs     24.499985
+Error_BPM_Rel     36.240682
+Error_iRPM_Abs     4.768865
+Error_iRPM_Rel    26.551820
+
+Patch: 6
+Error_BPM_Abs     21.692474
+Error_BPM_Rel     32.200451
+Error_iRPM_Abs     5.406571
+Error_iRPM_Rel    31.366739
+
+Patch: 9
+Error_BPM_Abs     25.424804
+Error_BPM_Rel     37.678261
+Error_iRPM_Abs     4.817128
+Error_iRPM_Rel    27.209567
+
+Patch: 10
+Error_BPM_Abs     24.108076
+Error_BPM_Rel     35.674324
+Error_iRPM_Abs     4.206883
+Error_iRPM_Rel    24.478910
+
+Patch: 18
+Error_BPM_Abs     21.548649
+Error_BPM_Rel     31.775336
+Error_iRPM_Abs     5.665686
+Error_iRPM_Rel    31.551616
+
+Patch: 36
+Error_BPM_Abs     21.624421
+Error_BPM_Rel     31.902829
+Error_iRPM_Abs     4.472154
+Error_iRPM_Rel    26.136683
+
+Patch: 50
+Error_BPM_Abs     18.805169
+Error_BPM_Rel     27.806694
+Error_iRPM_Abs     6.392185
+Error_iRPM_Rel    34.271480
+
+Patch: 69
+Error_BPM_Abs     21.635612
+Error_BPM_Rel     31.988262
+Error_iRPM_Abs     4.475546
+Error_iRPM_Rel    25.455570
+
+Patch: 101
+Error_BPM_Abs     25.231994
+Error_BPM_Rel     37.368761
+Error_iRPM_Abs     5.430962
+Error_iRPM_Rel    31.501557
+
+Patch: 104
+Error_BPM_Abs     21.878872
+Error_BPM_Rel     32.154629
+Error_iRPM_Abs     5.616532
+Error_iRPM_Rel    32.127623
+
+Patch: 107
+Error_BPM_Abs     23.820854
+Error_BPM_Rel     35.624231
+Error_iRPM_Abs     4.847401
+Error_iRPM_Rel    28.105830
+
+Patch: 108
+Error_BPM_Abs     24.715142
+Error_BPM_Rel     36.618310
+Error_iRPM_Abs     4.719903
+Error_iRPM_Rel    27.376147
+
+Patch: 109
+Error_BPM_Abs     28.327367
+Error_BPM_Rel     41.922036
+Error_iRPM_Abs     4.139739
+Error_iRPM_Rel    23.675837
+
+Patch: 135
+Error_BPM_Abs     18.823897
+Error_BPM_Rel     27.633951
+Error_iRPM_Abs     5.809022
+Error_iRPM_Rel    32.232164
+
+Patch: 151
+Error_BPM_Abs     24.667036
+Error_BPM_Rel     36.555120
+Error_iRPM_Abs     4.395466
+Error_iRPM_Rel    24.136700
+
+Patch: 188
+Error_BPM_Abs     25.109706
+Error_BPM_Rel     37.071619
+Error_iRPM_Abs     5.667107
+Error_iRPM_Rel    32.169107
+
+Patch: 199
+Error_BPM_Abs     20.972021
+Error_BPM_Rel     30.808916
+Error_iRPM_Abs     5.122251
+Error_iRPM_Rel    28.767735
+
+Patch: 266
+Error_BPM_Abs     23.293074
+Error_BPM_Rel     34.309006
+Error_iRPM_Abs     4.402800
+Error_iRPM_Rel    24.670547
+
+Patch: 280
+Error_BPM_Abs     21.167582
+Error_BPM_Rel     31.182445
+Error_iRPM_Abs     4.820001
+Error_iRPM_Rel    26.715149
+
+Patch: 299
+Error_BPM_Abs     20.791782
+Error_BPM_Rel     30.766675
+Error_iRPM_Abs     4.671311
+Error_iRPM_Rel    26.814816
+
+Patch: 330
+Error_BPM_Abs     25.638125
+Error_BPM_Rel     37.961059
+Error_iRPM_Abs     5.357329
+Error_iRPM_Rel    30.220010
+
+Patch: 333
+Error_BPM_Abs     24.039719
+Error_BPM_Rel     35.360622
+Error_iRPM_Abs     4.831675
+Error_iRPM_Rel    27.855619
+
+Patch: 336
+Error_BPM_Abs     22.707228
+Error_BPM_Rel     33.685871
+Error_iRPM_Abs     5.316694
+Error_iRPM_Rel    30.396459
+
+Patch: 337
+Error_BPM_Abs     26.444972
+Error_BPM_Rel     39.069925
+Error_iRPM_Abs     5.270296
+Error_iRPM_Rel    30.121802
+
+Patch: 338
+Error_BPM_Abs     22.072707
+Error_BPM_Rel     32.420126
+Error_iRPM_Abs     3.798382
+Error_iRPM_Rel    21.423978
+
+Patch: 347
+Error_BPM_Abs     24.759119
+Error_BPM_Rel     36.598627
+Error_iRPM_Abs     4.648569
+Error_iRPM_Rel    27.049147
+
+Patch: 364
+Error_BPM_Abs     20.771308
+Error_BPM_Rel     30.471297
+Error_iRPM_Abs     4.076053
+Error_iRPM_Rel    23.267231
+
