@@ -12,9 +12,10 @@ def calculate_errors(df):
     df['Error_iRPM_Rel'] = df['Error_iRPM_Abs'] / df['PRE_iRPM'] * 100
     return df
 
-def process_csv_files(folder_path, exclude_file):
-    """Lê e concatena os arquivos CSV em um DataFrame, exceto o arquivo especificado."""
-    all_files = [f for f in os.listdir(folder_path) if f.endswith('.csv') and f != exclude_file]
+def process_csv_files(folder_path, exclude_files):
+    """Lê e concatena os arquivos CSV em um DataFrame, exceto os arquivos especificados."""
+    # Filtra os arquivos CSV, excluindo os presentes na lista exclude_files
+    all_files = [f for f in os.listdir(folder_path) if f.endswith('.csv') and f not in exclude_files]
     dfs = []
     for file in all_files:
         file_path = os.path.join(folder_path, file)
@@ -119,14 +120,14 @@ def analyze_and_save_results(df, output_file, suffix=""):
             write_line("")
 
 if __name__ == "__main__":
-    folder_path = "17-12-Resultados/Gustavo"
-    output_folder = "17-12-Resultados/Gustavo_results"
-    exclude_file = "video_1_resultados.csv"
+    folder_path = "17-12-Resultados/Max"
+    output_folder = "17-12-Resultados/Max_results"
+    exclude_files = []  # Lista de arquivos para excluir
 
     os.makedirs(output_folder, exist_ok=True)
 
     # Processa os arquivos
-    combined_df = process_csv_files(folder_path, exclude_file)
+    combined_df = process_csv_files(folder_path, exclude_files)
 
     # Análise conjunta
     output_file = os.path.join(output_folder, "combined_analysis.txt")
