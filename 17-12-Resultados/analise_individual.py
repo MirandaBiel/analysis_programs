@@ -85,32 +85,32 @@ def generate_plots(df, output_folder):
 
     # Gráfico de erros absolutos BPM por método
     plt.figure()
-    df.groupby('Metodo')['Error_BPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto BPM por Metodo - {video_name}')
-    plt.ylabel('Erro Absoluto BPM')
+    df.groupby('Metodo')['Error_BPM_Abs'].mean().plot(kind='bar', title=f'{video_name}')
+    plt.ylabel('Erro Absoluto (bpm)')
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'erro_bpm_por_metodo.png'))
     plt.close()
 
     # Gráfico de erros absolutos iRPM por método
     plt.figure()
-    df.groupby('Metodo')['Error_iRPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto iRPM por Metodo - {video_name}')
-    plt.ylabel('Erro Absoluto iRPM')
+    df.groupby('Metodo')['Error_iRPM_Abs'].mean().plot(kind='bar', title=f'{video_name}')
+    plt.ylabel('Erro Absoluto (irpm)')
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'erro_irpm_por_metodo.png'))
     plt.close()
 
     # Gráfico de erros absolutos iRPM por patch
     plt.figure()
-    df.groupby('Patch')['Error_iRPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto iRPM por Patch - {video_name}')
-    plt.ylabel('Erro Absoluto iRPM')
+    df.groupby('Patch')['Error_iRPM_Abs'].mean().plot(kind='bar', title=f'{video_name}')
+    plt.ylabel('Erro Absoluto (irpm)')
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'erro_irpm_por_patch.png'))
     plt.close()
 
     # Gráfico de erros absolutos BPM por patch
     plt.figure()
-    df.groupby('Patch')['Error_BPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto BPM por Patch - {video_name}')
-    plt.ylabel('Erro Absoluto BPM')
+    df.groupby('Patch')['Error_BPM_Abs'].mean().plot(kind='bar', title=f'{video_name}')
+    plt.ylabel('Erro Absoluto (bpm)')
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'erro_bpm_por_patch.png'))
     plt.close()
@@ -118,9 +118,9 @@ def generate_plots(df, output_folder):
     # Gráfico de erro absoluto em função do SQI1
     plt.figure()
     plt.scatter(df['SQI1'], df['Error_BPM_Abs'], alpha=0.7)
-    plt.title(f'Erro Absoluto BPM vs SQI1 - {video_name}')
+    plt.title(f'{video_name}')
     plt.xlabel('SQI1')
-    plt.ylabel('Erro Absoluto BPM')
+    plt.ylabel('Erro Absoluto (bpm)')
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'erro_vs_sqi1.png'))
     plt.close()
@@ -128,9 +128,9 @@ def generate_plots(df, output_folder):
     # Gráfico de erro absoluto em função do SQI2
     plt.figure()
     plt.scatter(df['SQI2'], df['Error_BPM_Abs'], alpha=0.7)
-    plt.title(f'Erro Absoluto BPM vs SQI2 - {video_name}')
+    plt.title(f'{video_name}')
     plt.xlabel('SQI2')
-    plt.ylabel('Erro Absoluto BPM')
+    plt.ylabel('Erro Absoluto (bpm)')
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'erro_vs_sqi2.png'))
     plt.close()
