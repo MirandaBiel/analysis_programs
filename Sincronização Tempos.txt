@@ -1,10 +1,13 @@
 Sincronização Tempos
-csv_outputs\16-12-2024-gustavo_0.h264 - 3.808463
-csv_outputs\16-12-2024-gustavo_1.h264 - 3.971083
-csv_outputs\16-12-2024-gustavo_2.h264 - 6.073370
-csv_outputs\16-12-2024-gustavo_3.h264 - 3.703088
-csv_outputs\16-12-2024-gustavo_4.h264 - A partir daqui acabou a sincronia com flash
+Testes dia 16/12/24:
+"Video" = "Tempo" = "Indice do tempo"
+csv_outputs\16-12-2024-gustavo_0.h264 = 3.808463
+csv_outputs\16-12-2024-gustavo_1.h264 = 3.971083
+csv_outputs\16-12-2024-gustavo_2.h264 = 6.073370
+csv_outputs\16-12-2024-gustavo_3.h264 = 3.703088
 
+Testes dia 17/12/24:
+"Video" = "Tempo" = "Indice do tempo"
 max - 0  = 2.101 s = indice 130
 max - 1  = 1.600 s = indice 100
 max - 2  = 1.870 s = indice 116
@@ -18,3 +21,15 @@ max - 9  = 1.868 s = indice 116
 max - 10 = 0.667 s = indice 44
 max - 11 = 0.751 s = indice 49
 max - 12 = 0.770 s = indice 50
+
+Testes dia 06/01/25:
+"Video" = "Tempo" = "Indice do tempo"
+video_face_32 = 4.1045 = 125
+video_face_34 = 3.8709 = 118
+video_face_35 = 4.5717 = 139
+video_face_36 = 5.7397 = 174
+video_face_37 = 4.9387 = 150
+video_face_38 = 4.8720 = 148
+video_face_39 = 4.5717 = 139
+video_face_41 = 4.2046 = 128
+video_face_42 = 3.9710 = 121

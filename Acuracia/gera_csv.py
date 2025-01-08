@@ -6,7 +6,7 @@ import ecg_calc
 import csv
 import os
 
-def registrar_dados_csv(metodo, patch, ppg_bpm, ecg_bpm, ppg_irpm, pre_irpm, video_numero, fs, sec, sqi1, sqi2, nome_participante):
+def registrar_dados_csv(metodo, patch, ppg_bpm, ecg_bpm, ppg_irpm, pre_irpm, video_numero, sqi1, sqi2, nome_participante):
     """
     Registra os valores fornecidos em um arquivo CSV em uma estrutura de pastas específica.
 
@@ -19,8 +19,6 @@ def registrar_dados_csv(metodo, patch, ppg_bpm, ecg_bpm, ppg_irpm, pre_irpm, vid
         pre_irpm (float): Respirações por minuto estimadas via PRE.
         nome_participante (str): Nome do participante.
         video_numero (int): Número do vídeo sendo analisado.
-        fs (float): FS do vídeo sendo analisado.
-        sec (float): Tempo em segundos desde o início do vídeo.
     """
     # Construir o caminho do arquivo
     pasta_destino = os.path.join("csv_outputs", nome_participante)
@@ -30,7 +28,7 @@ def registrar_dados_csv(metodo, patch, ppg_bpm, ecg_bpm, ppg_irpm, pre_irpm, vid
     os.makedirs(pasta_destino, exist_ok=True)
 
     # Definir os headers do CSV
-    headers = ["Metodo", "Patch", "PPG_BPM", "ECG_BPM", "PPG_iRPM", "PRE_iRPM", "FS", "Tempo", "SQI1", "SQI2"]
+    headers = ["Metodo", "Patch", "PPG_BPM", "ECG_BPM", "PPG_iRPM", "PRE_iRPM", "SQI1", "SQI2"]
 
     # Verificar se o arquivo já existe
     try:
@@ -49,12 +47,12 @@ def registrar_dados_csv(metodo, patch, ppg_bpm, ecg_bpm, ppg_irpm, pre_irpm, vid
             escritor_csv.writerow(headers)
 
         # Escrever os valores na linha
-        escritor_csv.writerow([metodo, patch, ppg_bpm, ecg_bpm, ppg_irpm, pre_irpm, fs, sec, sqi1, sqi2])
+        escritor_csv.writerow([metodo, patch, ppg_bpm, ecg_bpm, ppg_irpm, pre_irpm, sqi1, sqi2])
 
 
-def ecg_pre_aquisition(ecg_folder, pre_folder, numbers):
+def ecg_pre_aquisition(ecg_folder, pre_folder, number):
     # Cria o padrão do nome do arquivo a partir de `numbers`
-    file_pattern = f"{numbers[0]}_{numbers[1]}.csv"
+    file_pattern = f"{number}.csv"
     found = False
 
     # Ler os dados do ECG
@@ -64,7 +62,7 @@ def ecg_pre_aquisition(ecg_folder, pre_folder, numbers):
             if file.endswith(file_pattern):
                 # Caminho completo do arquivo encontrado
                 file_path = os.path.join(root, file)
-                ecg_bpm = ecg_calc.calc_bpm(file_path, int(numbers[1].split('-')[1]))
+                ecg_bpm = ecg_calc.calc_bpm(file_path)
                 found = True
                 break
         if found:
@@ -78,7 +76,7 @@ def ecg_pre_aquisition(ecg_folder, pre_folder, numbers):
             if file.endswith(file_pattern):
                 # Caminho completo do arquivo encontrado
                 file_path = os.path.join(root, file)
-                pre_irpm = pressure.calc_irpm(file_path, int(numbers[1].split('-')[1]))
+                pre_irpm = pressure.calc_irpm(file_path)
                 found = True
                 break
         if found:
@@ -108,9 +106,8 @@ def process_patch(base_folder, ecg_folder, pre_folder):
                             parts = folder_name.split("_")
 
                             # Extrai os números
-                            numbers = [parts[-2], parts[-1].split(".")[0]]  # Terceiro de trás para frente
-                            
-                            video_number = int(numbers[0])
+                            video_number = int(parts[-1].split(".")[0])
+
                             #========== Extrai os dados do CSV ===========#
                             patch_folder_path = os.path.join(base_folder, video_name, method_name, pacth_name)
                             spectrum_path = os.path.join(patch_folder_path, f"espectro_frequencia_patch_{pacth_number}.csv")
@@ -151,102 +148,78 @@ def process_patch(base_folder, ecg_folder, pre_folder):
                                         filtered_data.append(float(row["Filtered Signal"]))
                             else:
                                 print(f"Arquivo {raw_signal_path} não encontrado na pasta {pacth_name}.")
-                            
-                            match video_number:
-                                case 0:
-                                    spectrum_data = spectrum_data[130:]
-                                    freq_data = freq_data[130:]
-                                    raw_signal_data = raw_signal_data[130:]
-                                    time = time[130:]
-                                    filtered_data = filtered_data[130:]
-                                case 1:
-                                    spectrum_data = spectrum_data[100:]
-                                    freq_data = freq_data[100:]
-                                    raw_signal_data = raw_signal_data[100:]
-                                    time = time[100:]
-                                    filtered_data = filtered_data[100:]
-                                case 2:
-                                    spectrum_data = spectrum_data[116:]
-                                    freq_data = freq_data[116:]
-                                    raw_signal_data = raw_signal_data[116:]
-                                    time = time[116:]
-                                    filtered_data = filtered_data[116:]
-                                case 3:
-                                    spectrum_data = spectrum_data[92:]
-                                    freq_data = freq_data[92:]
-                                    raw_signal_data = raw_signal_data[92:]
-                                    time = time[92:]
-                                    filtered_data = filtered_data[92:]
-                                case 4:
-                                    spectrum_data = spectrum_data[93:]
-                                    freq_data = freq_data[93:]
-                                    raw_signal_data = raw_signal_data[93:]
-                                    time = time[93:]
-                                    filtered_data = filtered_data[93:]
-                                case 5:
-                                    spectrum_data = spectrum_data[99:]
-                                    freq_data = freq_data[99:]
-                                    raw_signal_data = raw_signal_data[99:]
-                                    time = time[99:]
-                                    filtered_data = filtered_data[99:]
-                                case 6:
-                                    spectrum_data = spectrum_data[84:]
-                                    freq_data = freq_data[84:]
-                                    raw_signal_data = raw_signal_data[84:]
-                                    time = time[84:]
-                                    filtered_data = filtered_data[84:]
-                                case 7:
-                                    spectrum_data = spectrum_data[99:]
-                                    freq_data = freq_data[99:]
-                                    raw_signal_data = raw_signal_data[99:]
-                                    time = time[99:]
-                                    filtered_data = filtered_data[99:]
-                                case 8:
-                                    spectrum_data = spectrum_data[82:]
-                                    freq_data = freq_data[82:]
-                                    raw_signal_data = raw_signal_data[82:]
-                                    time = time[82:]
-                                    filtered_data = filtered_data[82:]
-                                case 9:
-                                    spectrum_data = spectrum_data[116:]
-                                    freq_data = freq_data[116:]
-                                    raw_signal_data = raw_signal_data[116:]
-                                    time = time[116:]
-                                    filtered_data = filtered_data[116:]
-                                case 10:
-                                    spectrum_data = spectrum_data[44:]
-                                    freq_data = freq_data[44:]
-                                    raw_signal_data = raw_signal_data[44:]
-                                    time = time[44:]
-                                    filtered_data = filtered_data[44:]
-                                case 11:
-                                    spectrum_data = spectrum_data[49:]
-                                    freq_data = freq_data[49:]
-                                    raw_signal_data = raw_signal_data[49:]
-                                    time = time[49:]
-                                    filtered_data = filtered_data[49:]
-                                case 12:
-                                    spectrum_data = spectrum_data[50:]
-                                    freq_data = freq_data[50:]
-                                    raw_signal_data = raw_signal_data[50:]
-                                    time = time[50:]
-                                    filtered_data = filtered_data[50:]
 
+                            match video_number:
+                                case 32:
+                                    spectrum_data = spectrum_data[125:]
+                                    freq_data = freq_data[125:]
+                                    raw_signal_data = raw_signal_data[125:]
+                                    time = time[125:]
+                                    filtered_data = filtered_data[125:]
+                                case 34:
+                                    spectrum_data = spectrum_data[118:]
+                                    freq_data = freq_data[118:]
+                                    raw_signal_data = raw_signal_data[118:]
+                                    time = time[118:]
+                                    filtered_data = filtered_data[118:]
+                                case 35:
+                                    spectrum_data = spectrum_data[139:]
+                                    freq_data = freq_data[139:]
+                                    raw_signal_data = raw_signal_data[139:]
+                                    time = time[139:]
+                                    filtered_data = filtered_data[139:]
+                                case 36:
+                                    spectrum_data = spectrum_data[174:]
+                                    freq_data = freq_data[174:]
+                                    raw_signal_data = raw_signal_data[174:]
+                                    time = time[174:]
+                                    filtered_data = filtered_data[174:]
+                                case 37:
+                                    spectrum_data = spectrum_data[150:]
+                                    freq_data = freq_data[150:]
+                                    raw_signal_data = raw_signal_data[150:]
+                                    time = time[150:]
+                                    filtered_data = filtered_data[150:]
+                                case 38:
+                                    spectrum_data = spectrum_data[148:]
+                                    freq_data = freq_data[148:]
+                                    raw_signal_data = raw_signal_data[148:]
+                                    time = time[148:]
+                                    filtered_data = filtered_data[148:]
+                                case 39:
+                                    spectrum_data = spectrum_data[139:]
+                                    freq_data = freq_data[139:]
+                                    raw_signal_data = raw_signal_data[139:]
+                                    time = time[139:]
+                                    filtered_data = filtered_data[139:]
+                                case 41:
+                                    spectrum_data = spectrum_data[128:]
+                                    freq_data = freq_data[128:]
+                                    raw_signal_data = raw_signal_data[128:]
+                                    time = time[128:]
+                                    filtered_data = filtered_data[128:]
+                                case 42:
+                                    spectrum_data = spectrum_data[121:]
+                                    freq_data = freq_data[121:]
+                                    raw_signal_data = raw_signal_data[121:]
+                                    time = time[121:]
+                                    filtered_data = filtered_data[121:]
+
+                            if time[0] != 0:
+                                time = [t - time[0] for t in time]
 
                             #============= Calcula FC e FR ==============#
-                            fs = len(raw_signal_data) / time[-1]
+                            fs = 30
                             ppg_bpm = pf.calc_frequencia_cardiaca(np.array(spectrum_data), np.array(freq_data))
                             ppg_irpm = pf.calc_frequencia_respiratoria(raw_signal_data, fs)
 
                             #============= Calculo com Pressao e ECG ==============#
-                            ecg_bpm, pre_irpm = ecg_pre_aquisition(ecg_folder, pre_folder, numbers)
-                            sec = numbers[1].split('-')[1]
-                            video_number = int(numbers[0])
+                            ecg_bpm, pre_irpm = ecg_pre_aquisition(ecg_folder, pre_folder, video_number)
                             
                             #============= Calculo dos SQIs ==============#
                             sqi1 = pf.analyze_signal_spectrum(np.array(spectrum_data), np.array(freq_data))
                             #sqis = sq.PPG_analysis(signal_hf, fs, 5)['LSQI']
-                            sqi2 = sq.PPG_analysis(filtered_data, fs, 5)['LSQI']
+                            sqi2 = float(sq.SNR(filtered_data))
                             
                             if ppg_bpm == None:
                                 ppg_bpm = 0
@@ -261,8 +234,8 @@ def process_patch(base_folder, ecg_folder, pre_folder):
                             if sqi2 == None:
                                 sqi2 = 0
 
-                            print(f"Analise video {int(numbers[0])}/{method_name}/patch_{pacth_number}:") 
-                            print(f"irpm: {round(ppg_irpm, 4)}, {round(pre_irpm, 4)}, bpm: {round(ppg_bpm, 4)}, {round(ecg_bpm, 4)}, SQI1: {round(sqi1, 4)}, SQI2: {sqi2}")
+                            print(f"Analise video {video_number}/{method_name}/patch_{pacth_number}:") 
+                            print(f"irpm: {round(ppg_irpm, 4)}, {round(pre_irpm, 4)}, bpm: {round(ppg_bpm, 4)}, {round(ecg_bpm, 4)}, SQI1: {round(sqi1, 4)}, SQI2: {round(sqi2, 4)}")
                             
                             
                             #============= Registra os dados no CSV ==============#                        
@@ -274,11 +247,9 @@ def process_patch(base_folder, ecg_folder, pre_folder):
                                 round(ppg_irpm, 4),
                                 round(pre_irpm, 4),
                                 video_number,
-                                fs,
-                                sec,
                                 sqi1,
                                 sqi2,
-                                "Max"
+                                "Gustavo_second_results"
                             )
 
                         except (IndexError, ValueError):
@@ -289,9 +260,9 @@ def process_patch(base_folder, ecg_folder, pre_folder):
 
 if __name__ == '__main__':
     # Caminho da pasta dos dados brutos
-    csv_folder = "csv_outputs/17-12-2024"
-    ecg_folder = "ECGs/Max/17-12-2024"
-    pre_folder = "Pressure/Max/17-12-2024"
+    csv_folder = "csv_outputs/Gustavo_second"
+    ecg_folder = "ECGs/Gustavo_second"
+    pre_folder = "Pressure/Gustavo_second"
     process_patch(csv_folder, ecg_folder, pre_folder)
 
     

@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Função para ler o arquivo CSV e gerar o gráfico
-def calc_bpm(csv_file, total_time):
+def calc_bpm(csv_file, total_time=30):
     try:
         # Ler o arquivo CSV
         df = pd.read_csv(csv_file, delimiter=',')
@@ -31,7 +31,7 @@ def calc_bpm(csv_file, total_time):
         
         fs = len(limited_data) / limited_time[-1]
 
-        peaks, _ = find_peaks(limited_data, height=400, distance=fs/2)
+        peaks, _ = find_peaks(limited_data, height=500, distance=fs/1.5)
 
         if len(peaks) < 2:
             print("Não foram encontrados picos R suficientes.")
@@ -44,7 +44,7 @@ def calc_bpm(csv_file, total_time):
         
         # plt.figure(figsize=(12, 6))
         # plt.plot(limited_data, label='Sinal Original', linewidth=0.7)  # Linha mais fina para o sinal original
-        # plt.plot(peaks, limited_data[peaks], "x", color="black", label='Picos Detectados', markersize=8) #picos pretos e maiores
+        # plt.plot(peaks, limited_data[peaks], "x", color="red", label='Picos Detectados', markersize=8) #picos pretos e maiores
         # plt.xlabel('Amostras')
         # plt.ylabel('Valor do ECG')
         # plt.title('Detecção de Picos com Média Móvel')
@@ -66,5 +66,5 @@ def calc_bpm(csv_file, total_time):
 # Exemplo de uso
 if __name__ == "__main__":
     # Informe o caminho do arquivo CSV
-    csv_file = 'Testes_16-12\ecg_salvar\guala\ecg_data_10.csv'  # Substitua pelo caminho do seu arquivo
+    csv_file = 'ECGs\Gustavo_second\ecg_data_18.csv'  # Substitua pelo caminho do seu arquivo
     calc_bpm(csv_file)

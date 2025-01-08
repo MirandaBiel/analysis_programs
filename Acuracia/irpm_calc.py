@@ -3,7 +3,7 @@ from numpy.fft import fft, fftfreq
 import numpy as np
 
 # Função para gerar o gráfico da FFT com limite de frequência
-def calc_irpm(csv_file, total_time):
+def calc_irpm(csv_file, total_time=30):
     try:
         # Ler o arquivo CSV
         df = pd.read_csv(csv_file, delimiter=',')
@@ -58,5 +58,5 @@ def calc_irpm(csv_file, total_time):
 
 # Exemplo de uso
 if __name__ == "__main__":
-    csv_file = 'Pressure\\Gustavo\\16-12-2024\\pressure_data_10_gustavo.csv'  # Substitua pelo caminho do seu arquivo
+    csv_file = 'Pressure\Gabriel_init\pressure_data_9.csv'  # Substitua pelo caminho do seu arquivo
     calc_irpm(csv_file)
