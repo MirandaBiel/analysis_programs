@@ -22,7 +22,7 @@ def csv_generator(bvp_patch, signal_filtered, time_array, spectrum, freqs, metho
     - video_name: Nome do vídeo para criar a pasta específica.
     """
     # Diretório base onde os arquivos serão salvos
-    base_dir = "csv_outputs/17-12-2024"
+    base_dir = "csv_outputs/Gustavo_sincronizacao"
     
     # Cria a estrutura de diretórios: csv_outputs/17-12-2024/{video_name}/{method_label}/patch_{patch_id}
     video_dir = os.path.join(base_dir, video_name)
@@ -222,7 +222,7 @@ def process_video(video_path, video_file):
 
 if __name__ == '__main__':
     # Caminho da pasta com os vídeos
-    video_folder = "videos/Gabriel_init"
+    video_folder = "videos/Gustavo_sincronizacao"
     
     # Obter lista de vídeos na pasta
     video_files = [f for f in os.listdir(video_folder) if f.endswith(('.mp4', '.avi', '.h264'))]
