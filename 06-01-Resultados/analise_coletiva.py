@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from unidecode import unidecode
+import glob
 
 def calculate_errors(df):
     """Calcula erros absolutos e relativos."""
@@ -12,99 +13,46 @@ def calculate_errors(df):
     df['Error_iRPM_Rel'] = df['Error_iRPM_Abs'] / df['PRE_iRPM'] * 100
     return df
 
-def process_csv_files(folder_path, exclude_files):
-    """Lê e concatena os arquivos CSV em um DataFrame, exceto os arquivos especificados."""
-    # Filtra os arquivos CSV, excluindo os presentes na lista exclude_files
-    all_files = [f for f in os.listdir(folder_path) if f.endswith('.csv') and f not in exclude_files]
+def process_csv_files(folder_path):
+    """
+    Lê todos os arquivos CSV de um diretório, processa e combina em um único DataFrame.
+    Retorna uma lista de DataFrames individuais e um DataFrame combinado.
+    """
+    csv_files = glob.glob(os.path.join(folder_path, "*.csv"))
     dfs = []
-    for file in all_files:
-        file_path = os.path.join(folder_path, file)
-        df = pd.read_csv(file_path)
-        df['Video'] = file  # Adiciona o nome do arquivo como coluna
-        df = calculate_errors(df)  # Calcula os erros individuais
+    
+    for file in csv_files:
+        # Lê o arquivo CSV
+        df = pd.read_csv(file)
+        # Adiciona uma coluna indicando o nome do vídeo (baseado no arquivo CSV)
+        df['Video'] = os.path.basename(file).replace(".csv", "")
         dfs.append(df)
+    
+    # Combina todos os DataFrames em um único DataFrame
     combined_df = pd.concat(dfs, ignore_index=True)
-    return combined_df
+    
+    return dfs, combined_df
 
-def filter_approximate(df, column, target, tolerance=0.1):
-    """Filtra os dados baseados em um valor aproximado."""
-    return df[np.isclose(df[column], target, atol=tolerance)]
+def analyze_collective_data(df, output_folder):
+    """Realiza análises coletivas e salva os resultados em um arquivo de texto."""
+    text_output_file = os.path.join(output_folder, "collective_analysis.txt")
+    plot_output_folder = os.path.join(output_folder, "plots_collective")
+    os.makedirs(plot_output_folder, exist_ok=True)
 
-def generate_plots(df, output_folder, suffix=""):
-    """Gera gráficos considerando o conjunto completo."""
-    # Gráfico de erros absolutos BPM por método
-    plt.figure()
-    #df.groupby('Metodo')['Error_BPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto (bpm) por Metodo {suffix}')
-    df.groupby('Metodo')['Error_BPM_Abs'].mean().plot(kind='bar')
-    plt.ylabel('Erro Absoluto (bpm)')
-    plt.tight_layout()
-    plt.savefig(os.path.join(output_folder, f'erro_bpm_por_metodo{suffix}.png'))
-    plt.close()
-
-    # Gráfico de erros absolutos iRPM por método
-    plt.figure()
-    #df.groupby('Metodo')['Error_iRPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto iRPM por Metodo {suffix}')
-    df.groupby('Metodo')['Error_iRPM_Abs'].mean().plot(kind='bar')
-    plt.ylabel('Erro Absoluto (irpm)')
-    plt.tight_layout()
-    plt.savefig(os.path.join(output_folder, f'erro_irpm_por_metodo{suffix}.png'))
-    plt.close()
-
-    # Gráfico de erros absolutos iRPM por patch
-    plt.figure()
-    #df.groupby('Patch')['Error_iRPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto iRPM por Patch {suffix}')
-    df.groupby('Patch')['Error_iRPM_Abs'].mean().plot(kind='bar')
-    plt.ylabel('Erro Absoluto (irpm)')
-    plt.tight_layout()
-    plt.savefig(os.path.join(output_folder, f'erro_irpm_por_patch{suffix}.png'))
-    plt.close()
-
-    # Gráfico de erros absolutos BPM por patch
-    plt.figure()
-    #df.groupby('Patch')['Error_BPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto BPM por Patch {suffix}')
-    df.groupby('Patch')['Error_BPM_Abs'].mean().plot(kind='bar')
-    plt.ylabel('Erro Absoluto (bpm)')
-    plt.tight_layout()
-    plt.savefig(os.path.join(output_folder, f'erro_bpm_por_patch{suffix}.png'))
-    plt.close()
-
-    # Gráfico de erro absoluto em função do SQI1
-    plt.figure()
-    plt.scatter(df['SQI1'], df['Error_BPM_Abs'], alpha=0.7)
-    #plt.title(f'Erro Absoluto BPM vs SQI1 {suffix}')
-    plt.xlabel('SQI1')
-    plt.ylabel('Erro Absoluto (bpm)')
-    plt.tight_layout()
-    plt.savefig(os.path.join(output_folder, f'erro_vs_sqi1{suffix}.png'))
-    plt.close()
-
-    # Gráfico de erro absoluto em função do SQI2
-    plt.figure()
-    plt.scatter(df['SQI2'], df['Error_BPM_Abs'], alpha=0.7)
-    #plt.title(f'Erro Absoluto BPM vs SQI2 {suffix}')
-    plt.xlabel('SQI2')
-    plt.ylabel('Erro Absoluto (bpm)')
-    plt.tight_layout()
-    plt.savefig(os.path.join(output_folder, f'erro_vs_sqi2{suffix}.png'))
-    plt.close()
-
-def analyze_and_save_results(df, output_file, suffix=""):
-    """Realiza as análises e salva os resultados em um arquivo de texto."""
-    with open(output_file, 'a') as f:
+    with open(text_output_file, 'w') as f:
         def write_line(text):
             f.write(unidecode(text) + '\n')
 
-        write_line(f"\n\nAnalise Conjunta {suffix}\n")
-        write_line("="*50)
+        write_line("Análise Coletiva de Todos os Vídeos\n")
 
         # 1. Erros globais
+        write_line("1. Erros Globais:")
         errors_global = df[['Error_BPM_Abs', 'Error_BPM_Rel', 'Error_iRPM_Abs', 'Error_iRPM_Rel']].mean()
-        write_line("\nErros globais:")
         write_line(errors_global.to_string())
         write_line("")
 
         # 2. Erros por método
-        write_line("\nErros por metodo:")
+        write_line("2. Erros por Método:")
         for method, group in df.groupby('Metodo'):
             errors_method = group[['Error_BPM_Abs', 'Error_BPM_Rel', 'Error_iRPM_Abs', 'Error_iRPM_Rel']].mean()
             write_line(f"Metodo: {method}")
@@ -112,40 +60,132 @@ def analyze_and_save_results(df, output_file, suffix=""):
             write_line("")
 
         # 3. Erros por patch
-        write_line("\nErros por patch:")
+        write_line("3. Erros por Patch:")
         for patch, group in df.groupby('Patch'):
             errors_patch = group[['Error_BPM_Abs', 'Error_BPM_Rel', 'Error_iRPM_Abs', 'Error_iRPM_Rel']].mean()
             write_line(f"Patch: {patch}")
             write_line(errors_patch.to_string())
             write_line("")
 
-if __name__ == "__main__":
-    folder_path = "17-12-Resultados/Gustavo"
-    output_folder = "17-12-Resultados/Gustavo_results"
-    exclude_files = ['video_1_resultados.csv', 'video_9_resultados.csv']  # Lista de arquivos para excluir
+        # 4. Top 100 casos com melhores SQI1 e SQI3
+        write_line("4. Top 100 casos com melhores SQI1 e SQI3 (incluindo o vídeo):")
+        top_sqi1 = df.nlargest(100, 'SQI1')
+        write_line("Top 100 SQI1:")
+        write_line(top_sqi1[['Video', 'Metodo', 'Patch', 'Error_BPM_Abs', 'Error_iRPM_Abs', 'SQI1']].to_string(index=False))
+        write_line("")
+        top_sqi3 = df.nlargest(100, 'SQI3')
+        write_line("Top 100 SQI3:")
+        write_line(top_sqi3[['Video', 'Metodo', 'Patch', 'Error_BPM_Abs', 'Error_iRPM_Abs', 'SQI3']].to_string(index=False))
+        write_line("")
 
+        # 5. Top 100 casos com menores SQI2 e SQI4
+        write_line("5. Top 100 casos com menores SQI2 e SQI4 (incluindo o vídeo):")
+        top_sqi2 = df.nsmallest(100, 'SQI2')
+        write_line("Top 100 SQI2:")
+        write_line(top_sqi2[['Video', 'Metodo', 'Patch', 'Error_BPM_Abs', 'Error_iRPM_Abs', 'SQI2']].to_string(index=False))
+        write_line("")
+        top_sqi4 = df.nsmallest(100, 'SQI4')
+        write_line("Top 100 SQI4:")
+        write_line(top_sqi4[['Video', 'Metodo', 'Patch', 'Error_BPM_Abs', 'Error_iRPM_Abs', 'SQI4']].to_string(index=False))
+        write_line("")
+
+        # 6. Top 30 combinações de patch e método para menor erro absoluto BPM e iRPM
+        write_line("6. Top 30 combinações de Patch e Método para menor erro absoluto BPM e iRPM:")
+        top_bpm = df.groupby(['Patch', 'Metodo'])['Error_BPM_Abs'].mean().nsmallest(30)
+        write_line("Top 30 BPM:")
+        write_line(top_bpm.to_string())
+        write_line("")
+        top_irpm = df.groupby(['Patch', 'Metodo'])['Error_iRPM_Abs'].mean().nsmallest(30)
+        write_line("Top 30 iRPM:")
+        write_line(top_irpm.to_string())
+        write_line("")
+
+        # 7. Variação do erro com limiares de SQI
+        write_line("7. Variação dos erros com limiares de SQI:")
+        for sqi in ['SQI1', 'SQI2', 'SQI3', 'SQI4']:
+            sqi_range = np.linspace(df[sqi].min(), df[sqi].max(), 11)
+            write_line(f"{sqi} - Intervalos: {sqi_range}")
+            for threshold in sqi_range[1:]:
+                filtered_df = df[df[sqi] >= threshold]
+                errors_filtered = filtered_df[['Error_BPM_Abs', 'Error_iRPM_Abs']].mean()
+                write_line(f"Limiar {threshold} - Erros: {errors_filtered.to_string()}")
+            write_line("")
+
+    # Geração de gráficos coletivos
+    generate_collective_plots(df, plot_output_folder)
+
+
+def generate_collective_plots(df, output_folder):
+    """Gera gráficos coletivos para todos os vídeos combinados."""
+    # Gráficos de dispersão para SQI vs erros
+    for col in ['SQI1', 'SQI2', 'SQI3', 'SQI4']:
+        # Erro BPM
+        plt.figure()
+        plt.scatter(df[col], df['Error_BPM_Abs'], alpha=0.7)
+        plt.title(f'Erro BPM vs {col} - Coletivo')
+        plt.xlabel(col)
+        plt.ylabel('Erro Absoluto (bpm)')
+        plt.tight_layout()
+        plt.savefig(os.path.join(output_folder, f'{col}_vs_Erro_bpm.png'))
+        plt.close()
+
+        # Erro iRPM
+        plt.figure()
+        plt.scatter(df[col], df['Error_iRPM_Abs'], alpha=0.7)
+        plt.title(f'Erro iRPM vs {col} - Coletivo')
+        plt.xlabel(col)
+        plt.ylabel('Erro Absoluto (irpm)')
+        plt.tight_layout()
+        plt.savefig(os.path.join(output_folder, f'{col}_vs_Erro_irpm.png'))
+        plt.close()
+
+    # Gráficos de barras para erros por método (BPM)
+    plt.figure()
+    df.groupby('Metodo')['Error_BPM_Abs'].mean().plot(kind='bar')
+    plt.title('Erro Absoluto BPM por Método - Coletivo')
+    plt.ylabel('Erro Absoluto (bpm)')
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_folder, 'Erro_por_metodo_bpm.png'))
+    plt.close()
+
+    # Gráficos de barras para erros por método (iRPM)
+    plt.figure()
+    df.groupby('Metodo')['Error_iRPM_Abs'].mean().plot(kind='bar')
+    plt.title('Erro Absoluto iRPM por Método - Coletivo')
+    plt.ylabel('Erro Absoluto (irpm)')
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_folder, 'Erro_por_metodo_irpm.png'))
+    plt.close()
+
+    # Gráficos de barras para erros por patch (BPM)
+    plt.figure()
+    df.groupby('Patch')['Error_BPM_Abs'].mean().plot(kind='bar')
+    plt.title('Erro Absoluto BPM por Patch - Coletivo')
+    plt.ylabel('Erro Absoluto (bpm)')
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_folder, 'Erro_por_patch_bpm.png'))
+    plt.close()
+
+    # Gráficos de barras para erros por patch (iRPM)
+    plt.figure()
+    df.groupby('Patch')['Error_iRPM_Abs'].mean().plot(kind='bar')
+    plt.title('Erro Absoluto iRPM por Patch - Coletivo')
+    plt.ylabel('Erro Absoluto (irpm)')
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_folder, 'Erro_por_patch_irpm.png'))
+    plt.close()
+
+if __name__ == "__main__":
+    folder_path = "06-01-Resultados/Gustavo_sincronizacao_data"
+    output_folder = "06-01-Resultados/Gustavo_sincronizacao_results"
     os.makedirs(output_folder, exist_ok=True)
 
-    # Processa os arquivos
-    combined_df = process_csv_files(folder_path, exclude_files)
+    dfs, combined_df = process_csv_files(folder_path)
 
-    # Análise conjunta
-    output_file = os.path.join(output_folder, "combined_analysis.txt")
-    analyze_and_save_results(combined_df, output_file)
-    generate_plots(combined_df, output_folder)
+    # Calcula os erros no DataFrame combinado
+    combined_df = calculate_errors(combined_df)
 
-    # Análise por tempo aproximado
-    for time in [10, 30]:
-        df_time = filter_approximate(combined_df, 'Tempo', time)
-        suffix = f"_tempo_{time}s"
-        analyze_and_save_results(df_time, output_file, suffix)
-        generate_plots(df_time, output_folder, suffix)
+    # Realiza as análises coletivas
+    analyze_collective_data(combined_df, output_folder)
 
-    # Análise por frequência de amostragem aproximada
-    for fs in [30, 60]:
-        df_fs = filter_approximate(combined_df, 'FS', fs)
-        suffix = f"_fs_{fs}"
-        analyze_and_save_results(df_fs, output_file, suffix)
-        generate_plots(df_fs, output_folder, suffix)
-
-    print("Processamento concluído.")
+    print("Análises coletivas concluídas.")
