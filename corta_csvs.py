@@ -17,7 +17,12 @@ corte_dados = {
 # Função para cortar os CSVs
 def cortar_csv(diretorio_base, diretorio_saida):
     for video, indice_corte in corte_dados.items():
-        video_dir = os.path.join(diretorio_base, video)
+        # Adicionar o sufixo .h264 para encontrar o diretório correto
+        video_dir = os.path.join(diretorio_base, f"{video}.h264")
+        if not os.path.exists(video_dir):
+            print(f"Diretório {video_dir} não encontrado. Pulando...")
+            continue
+
         metodo_dirs = [d for d in os.listdir(video_dir) if os.path.isdir(os.path.join(video_dir, d))]
 
         for metodo in metodo_dirs:
@@ -26,8 +31,10 @@ def cortar_csv(diretorio_base, diretorio_saida):
 
             for patch in patch_dirs:
                 patch_dir = os.path.join(metodo_dir, patch)
-                sinal_bruto_path = os.path.join(patch_dir, f"sinal_bruto_patch_{patch}.csv")
-                sinal_filtrado_path = os.path.join(patch_dir, f"sinal_filtrado_patch_{patch}.csv")
+                
+                # Ajustar nomes de arquivos para remover duplicação de "patch"
+                sinal_bruto_path = os.path.join(patch_dir, f"sinal_bruto_{patch}.csv")
+                sinal_filtrado_path = os.path.join(patch_dir, f"sinal_filtrado_{patch}.csv")
 
                 for sinal_path in [sinal_bruto_path, sinal_filtrado_path]:
                     if os.path.exists(sinal_path):
