@@ -1,0 +1,438 @@
+Analise do arquivo: video_1_resultados.csv
+
+Erros globais:
+Error_BPM_Abs     53.559098
+Error_BPM_Rel           inf
+Error_iRPM_Abs     4.874155
+Error_iRPM_Rel    30.463468
+
+Erros por metodo:
+Metodo: CHROM
+Error_BPM_Abs     53.677037
+Error_BPM_Rel           inf
+Error_iRPM_Abs     5.099837
+Error_iRPM_Rel    31.873981
+
+Metodo: GBGR
+Error_BPM_Abs     53.121481
+Error_BPM_Rel           inf
+Error_iRPM_Abs     5.019519
+Error_iRPM_Rel    31.371991
+
+Metodo: GREEN
+Error_BPM_Abs     54.577778
+Error_BPM_Rel           inf
+Error_iRPM_Abs     5.136256
+Error_iRPM_Rel    32.101597
+
+Metodo: ICA
+Error_BPM_Abs     54.368889
+Error_BPM_Rel           inf
+Error_iRPM_Abs     4.519837
+Error_iRPM_Rel    28.248981
+
+Metodo: LGI
+Error_BPM_Abs     53.185926
+Error_BPM_Rel           inf
+Error_iRPM_Abs     5.212837
+Error_iRPM_Rel    32.580231
+
+Metodo: OMIT
+Error_BPM_Abs     53.195556
+Error_BPM_Rel           inf
+Error_iRPM_Abs     5.479011
+Error_iRPM_Rel    34.243819
+
+Metodo: PBV
+Error_BPM_Abs     53.828148
+Error_BPM_Rel           inf
+Error_iRPM_Abs     5.055922
+Error_iRPM_Rel    31.599514
+
+Metodo: PCA
+Error_BPM_Abs     53.128148
+Error_BPM_Rel           inf
+Error_iRPM_Abs     5.019519
+Error_iRPM_Rel    31.371991
+
+Metodo: POS
+Error_BPM_Abs     52.968148
+Error_BPM_Rel           inf
+Error_iRPM_Abs     3.331930
+Error_iRPM_Rel    20.824560
+
+Metodo: SSR
+Error_BPM_Abs     53.04000
+Error_BPM_Rel          inf
+Error_iRPM_Abs     4.67780
+Error_iRPM_Rel    29.23625
+
+Erros por patch:
+Patch: 4
+Error_BPM_Abs     53.322222
+Error_BPM_Rel           inf
+Error_iRPM_Abs     5.322078
+Error_iRPM_Rel    33.262986
+
+Patch: 6
+Error_BPM_Abs     53.382222
+Error_BPM_Rel           inf
+Error_iRPM_Abs     2.696800
+Error_iRPM_Rel    16.855000
+
+Patch: 9
+Error_BPM_Abs     53.177778
+Error_BPM_Rel           inf
+Error_iRPM_Abs     7.160133
+Error_iRPM_Rel    44.750833
+
+Patch: 10
+Error_BPM_Abs     53.280000
+Error_BPM_Rel           inf
+Error_iRPM_Abs     7.160133
+Error_iRPM_Rel    44.750833
+
+Patch: 18
+Error_BPM_Abs     54.384444
+Error_BPM_Rel           inf
+Error_iRPM_Abs     5.551844
+Error_iRPM_Rel    34.699028
+
+Patch: 36
+Error_BPM_Abs     53.417778
+Error_BPM_Rel           inf
+Error_iRPM_Abs     5.092367
+Error_iRPM_Rel    31.827292
+
+Patch: 50
+Error_BPM_Abs     53.422222
+Error_BPM_Rel           inf
+Error_iRPM_Abs     7.160133
+Error_iRPM_Rel    44.750833
+
+Patch: 69
+Error_BPM_Abs     53.117778
+Error_BPM_Rel           inf
+Error_iRPM_Abs     3.156300
+Error_iRPM_Rel    19.726875
+
+Patch: 101
+Error_BPM_Abs     53.397778
+Error_BPM_Rel           inf
+Error_iRPM_Abs     2.904100
+Error_iRPM_Rel    18.150625
+
+Patch: 104
+Error_BPM_Abs     51.871111
+Error_BPM_Rel           inf
+Error_iRPM_Abs     2.444600
+Error_iRPM_Rel    15.278750
+
+Patch: 107
+Error_BPM_Abs     53.542222
+Error_BPM_Rel           inf
+Error_iRPM_Abs     2.139267
+Error_iRPM_Rel    13.370417
+
+Patch: 108
+Error_BPM_Abs     53.171111
+Error_BPM_Rel           inf
+Error_iRPM_Abs     4.075300
+Error_iRPM_Rel    25.470625
+
+Patch: 109
+Error_BPM_Abs     53.488889
+Error_BPM_Rel           inf
+Error_iRPM_Abs     5.672344
+Error_iRPM_Rel    35.452153
+
+Patch: 135
+Error_BPM_Abs     50.460000
+Error_BPM_Rel           inf
+Error_iRPM_Abs     4.644067
+Error_iRPM_Rel    29.025417
+
+Patch: 151
+Error_BPM_Abs     53.09400
+Error_BPM_Rel          inf
+Error_iRPM_Abs     7.11868
+Error_iRPM_Rel    44.49175
+
+Patch: 188
+Error_BPM_Abs     53.291111
+Error_BPM_Rel           inf
+Error_iRPM_Abs     1.800222
+Error_iRPM_Rel    11.251389
+
+Patch: 199
+Error_BPM_Abs     47.315556
+Error_BPM_Rel           inf
+Error_iRPM_Abs     6.011356
+Error_iRPM_Rel    37.570972
+
+Patch: 266
+Error_BPM_Abs     56.251111
+Error_BPM_Rel           inf
+Error_iRPM_Abs     6.241111
+Error_iRPM_Rel    39.006944
+
+Patch: 280
+Error_BPM_Abs     51.964444
+Error_BPM_Rel           inf
+Error_iRPM_Abs     5.672344
+Error_iRPM_Rel    35.452153
+
+Patch: 299
+Error_BPM_Abs     53.077778
+Error_BPM_Rel           inf
+Error_iRPM_Abs     6.930378
+Error_iRPM_Rel    43.314861
+
+Patch: 330
+Error_BPM_Abs     53.066667
+Error_BPM_Rel           inf
+Error_iRPM_Abs     4.632844
+Error_iRPM_Rel    28.955278
+
+Patch: 333
+Error_BPM_Abs     52.497778
+Error_BPM_Rel           inf
+Error_iRPM_Abs     6.591367
+Error_iRPM_Rel    41.196042
+
+Patch: 336
+Error_BPM_Abs     52.980000
+Error_BPM_Rel           inf
+Error_iRPM_Abs     5.563089
+Error_iRPM_Rel    34.769306
+
+Patch: 337
+Error_BPM_Abs     53.237778
+Error_BPM_Rel           inf
+Error_iRPM_Abs     7.619633
+Error_iRPM_Rel    47.622708
+
+Patch: 338
+Error_BPM_Abs     53.322222
+Error_BPM_Rel           inf
+Error_iRPM_Abs     0.542200
+Error_iRPM_Rel     3.388750
+
+Patch: 347
+Error_BPM_Abs     53.040000
+Error_BPM_Rel           inf
+Error_iRPM_Abs     3.615789
+Error_iRPM_Rel    22.598681
+
+Patch: 364
+Error_BPM_Abs     69.573333
+Error_BPM_Rel           inf
+Error_iRPM_Abs     3.834311
+Error_iRPM_Rel    23.964444
+
+Top 100 casos com melhores SQI1:
+Metodo  Patch  Error_BPM_Abs  Error_BPM_Rel  Error_iRPM_Abs  Error_iRPM_Rel     SQI1
+ GREEN      9          53.26            inf          7.7289       48.305625 0.853922
+  OMIT      9          53.18            inf          7.7289       48.305625 0.848468
+   LGI      9          53.18            inf          7.7289       48.305625 0.848282
+ GREEN    337          53.32            inf          7.7289       48.305625 0.845891
+ CHROM      9          53.18            inf          7.7289       48.305625 0.845766
+   PBV      9          53.24            inf          7.7289       48.305625 0.839017
+  GBGR      9          53.12            inf          7.7289       48.305625 0.833408
+ GREEN    101          53.38            inf          5.6611       35.381875 0.832847
+   PCA      9          53.12            inf          7.7289       48.305625 0.830158
+ GREEN     10          53.36            inf          7.7289       48.305625 0.826394
+   LGI    101          53.44            inf          5.6611       35.381875 0.825710
+  OMIT    101          53.44            inf          5.6611       35.381875 0.825528
+ GREEN    109          53.18            inf          7.7289       48.305625 0.824289
+ GREEN    347          53.24            inf          0.5422        3.388750 0.823752
+   LGI    337          53.26            inf          7.7289       48.305625 0.823150
+  OMIT    337          53.26            inf          7.7289       48.305625 0.823143
+   POS      9          53.10            inf          2.6100       16.312500 0.822683
+ GREEN    151          53.20            inf          7.7289       48.305625 0.819881
+ GREEN    330          53.30            inf          3.5933       22.458125 0.818766
+ CHROM    101          53.44            inf          1.5256        9.535000 0.815828
+ GREEN    108          53.14            inf          7.7289       48.305625 0.815522
+   LGI    108          53.24            inf          7.7289       48.305625 0.813462
+  OMIT    108          53.24            inf          7.7289       48.305625 0.812787
+   PBV    337          53.36            inf          7.7289       48.305625 0.812395
+ CHROM    337          53.24            inf          7.7289       48.305625 0.810700
+  OMIT    151          53.10            inf          7.7289       48.305625 0.809784
+   LGI    151          53.10            inf          7.7289       48.305625 0.809517
+  OMIT    109          53.16            inf          7.7289       48.305625 0.808177
+ GREEN    338          53.38            inf          0.5422        3.388750 0.807904
+   ICA    338          53.34            inf          0.5422        3.388750 0.807900
+   LGI    109          53.16            inf          7.7289       48.305625 0.807850
+   LGI     10          53.30            inf          7.7289       48.305625 0.806588
+  OMIT     10          53.30            inf          7.7289       48.305625 0.806471
+ CHROM    151          53.10            inf          7.7289       48.305625 0.805649
+   LGI    338          53.34            inf          0.5422        3.388750 0.805028
+  OMIT    338          53.34            inf          0.5422        3.388750 0.804791
+ GREEN     50          53.22            inf          7.7289       48.305625 0.804119
+  GBGR     36          53.38            inf          1.5256        9.535000 0.803169
+   POS      4          52.88            inf         10.8811       68.006875 0.803110
+ CHROM     10          53.30            inf          7.7289       48.305625 0.803034
+ GREEN    299          53.24            inf          7.7289       48.305625 0.801879
+   PBV    151          53.22            inf          7.7289       48.305625 0.800528
+ CHROM    338          53.34            inf          0.5422        3.388750 0.800024
+  OMIT    336          53.06            inf          7.7289       48.305625 0.799614
+   POS    336          53.22            inf          2.6100       16.312500 0.799475
+   POS    101          53.32            inf          1.5256        9.535000 0.799096
+  OMIT      6          53.38            inf          0.5422        3.388750 0.798516
+   LGI      6          53.38            inf          0.5422        3.388750 0.798467
+   PBV     10          53.32            inf          7.7289       48.305625 0.798007
+   PCA     36          53.36            inf          1.5256        9.535000 0.797868
+ CHROM    109          53.16            inf          7.7289       48.305625 0.797614
+ CHROM    108          53.26            inf          0.5422        3.388750 0.796517
+   POS     36          53.32            inf          1.5256        9.535000 0.796419
+   LGI     69          53.18            inf          0.5422        3.388750 0.796059
+  OMIT     69          53.18            inf          0.5422        3.388750 0.795083
+  OMIT    330          53.18            inf          5.6611       35.381875 0.794415
+   LGI    336          53.04            inf          7.7289       48.305625 0.793991
+   LGI    330          53.18            inf          5.6611       35.381875 0.793577
+ GREEN    280          53.28            inf          2.6100       16.312500 0.793255
+   PBV    338          53.38            inf          0.5422        3.388750 0.793198
+   PCA      6          53.38            inf          1.5256        9.535000 0.792418
+  GBGR    336          53.12            inf          7.7289       48.305625 0.792303
+ CHROM      6          53.42            inf          0.5422        3.388750 0.791893
+  GBGR    101          53.32            inf          1.5256        9.535000 0.791069
+   PCA    337          53.20            inf          7.7289       48.305625 0.790995
+  GBGR      4          52.96            inf          7.7289       48.305625 0.790273
+   PCA    101          53.32            inf          1.5256        9.535000 0.789597
+   PCA    338          53.30            inf          0.5422        3.388750 0.788812
+   PCA     10          53.28            inf          7.7289       48.305625 0.786879
+   PCA    151          53.02            inf          7.7289       48.305625 0.786718
+  GBGR      6          53.38            inf          1.5256        9.535000 0.786025
+  GBGR    337          53.20            inf          7.7289       48.305625 0.785936
+ CHROM     36          53.44            inf          7.7289       48.305625 0.785731
+  GBGR    151          53.02            inf          7.7289       48.305625 0.783830
+   PCA    108          53.24            inf          0.5422        3.388750 0.781957
+   POS    338          53.18            inf          0.5422        3.388750 0.781778
+  GBGR    338          53.30            inf          0.5422        3.388750 0.781456
+  OMIT    299          53.00            inf          7.7289       48.305625 0.781132
+  OMIT     36          53.48            inf          7.7289       48.305625 0.780968
+   PCA    336          53.14            inf          7.7289       48.305625 0.780579
+   LGI     36          53.48            inf          7.7289       48.305625 0.780424
+   PBV    108          53.24            inf          7.7289       48.305625 0.780325
+   LGI    299          53.00            inf          7.7289       48.305625 0.779585
+  GBGR    108          53.24            inf          0.5422        3.388750 0.779405
+   POS    151          53.00            inf          4.6778       29.236250 0.779302
+   POS     10          53.16            inf          2.6100       16.312500 0.779076
+  GBGR     10          53.28            inf          7.7289       48.305625 0.778697
+   ICA    188          53.30            inf          0.5422        3.388750 0.778590
+  OMIT    266          53.28            inf          5.6611       35.381875 0.777791
+   LGI    266          53.28            inf          5.6611       35.381875 0.777763
+   POS    337          53.14            inf          6.7455       42.159375 0.777408
+   POS      6          53.36            inf          2.6100       16.312500 0.777069
+   LGI    107          53.28            inf          2.6100       16.312500 0.776980
+   ICA     69          53.00            inf          7.7289       48.305625 0.776873
+ CHROM    330          53.10            inf          5.6611       35.381875 0.776761
+  OMIT    107          53.28            inf          2.6100       16.312500 0.776343
+   POS    330          53.00            inf         10.8811       68.006875 0.775518
+  GBGR    107          53.28            inf          2.6100       16.312500 0.774906
+   SSR    151          53.04            inf          4.6778       29.236250 0.774775
+   PCA      4          52.84            inf          7.7289       48.305625 0.774420
+
+Top 100 casos com menores SQI2:
+Metodo  Patch  Error_BPM_Abs  Error_BPM_Rel  Error_iRPM_Abs  Error_iRPM_Rel         SQI2
+   ICA    364          44.20            inf          0.5422        3.388750 1.087114e-07
+   PCA    199          39.36            inf          7.7289       48.305625 1.295055e-07
+   ICA     18          58.78            inf          1.5256        9.535000 5.459069e-07
+ CHROM      4          53.22            inf          3.5933       22.458125 1.091240e-06
+   ICA    107          53.14            inf          1.5256        9.535000 1.127621e-06
+ CHROM    364          73.10            inf          7.7289       48.305625 1.196721e-06
+   SSR    151          53.04            inf          4.6778       29.236250 1.409016e-06
+ GREEN    104          53.08            inf          1.5256        9.535000 1.574781e-06
+   LGI    109          53.16            inf          7.7289       48.305625 1.889001e-06
+   PBV    135          59.88            inf          3.5933       22.458125 1.977454e-06
+   POS    337          53.14            inf          6.7455       42.159375 2.012080e-06
+   LGI    135          46.40            inf          0.5422        3.388750 2.081028e-06
+   LGI     10          53.30            inf          7.7289       48.305625 2.408717e-06
+   ICA    199          74.72            inf          3.5933       22.458125 2.601983e-06
+   ICA    299          53.38            inf          7.7289       48.305625 2.707101e-06
+  OMIT    109          53.16            inf          7.7289       48.305625 2.840666e-06
+   LGI    280          53.14            inf          7.7289       48.305625 3.217173e-06
+   PCA     36          53.36            inf          1.5256        9.535000 3.273273e-06
+   PBV    266          53.42            inf          5.6611       35.381875 4.147712e-06
+ GREEN    299          53.24            inf          7.7289       48.305625 5.164869e-06
+   POS      4          52.88            inf         10.8811       68.006875 5.227748e-06
+ GREEN     69          52.98            inf          7.7289       48.305625 6.141577e-06
+   PCA    336          53.14            inf          7.7289       48.305625 6.195626e-06
+ CHROM     50          53.38            inf          7.7289       48.305625 6.215417e-06
+  GBGR    336          53.12            inf          7.7289       48.305625 6.534544e-06
+   PBV    109          53.14            inf          0.5422        3.388750 6.541522e-06
+  OMIT    336          53.06            inf          7.7289       48.305625 6.708280e-06
+  OMIT    333          52.42            inf          7.7289       48.305625 7.318844e-06
+   PCA    108          53.24            inf          0.5422        3.388750 7.420401e-06
+ CHROM    347          53.02            inf          3.5933       22.458125 7.618410e-06
+ GREEN    364          72.94            inf          7.7289       48.305625 7.661717e-06
+   PBV      4          53.98            inf          3.5933       22.458125 8.016301e-06
+   PBV    333          52.66            inf          7.7289       48.305625 8.242000e-06
+   PBV    330          53.44            inf          5.6611       35.381875 8.276608e-06
+   POS    333          52.92            inf          4.6778       29.236250 8.316760e-06
+   PBV      9          53.24            inf          7.7289       48.305625 8.352987e-06
+   PBV    299          52.98            inf          7.7289       48.305625 8.546023e-06
+   PCA      9          53.12            inf          7.7289       48.305625 8.654178e-06
+   POS    364          72.42            inf          2.6100       16.312500 8.903664e-06
+  OMIT     18          53.90            inf          5.6611       35.381875 8.934254e-06
+   PCA    104          53.10            inf          1.5256        9.535000 9.166177e-06
+  GBGR    199          39.42            inf          7.7289       48.305625 9.257875e-06
+   ICA    101          53.42            inf          1.5256        9.535000 9.882777e-06
+   POS    338          53.18            inf          0.5422        3.388750 1.024211e-05
+ CHROM    107          53.32            inf          2.6100       16.312500 1.042371e-05
+   POS     18          53.38            inf          6.7455       42.159375 1.043852e-05
+   LGI    364          72.72            inf          3.5933       22.458125 1.078628e-05
+  GBGR     18          53.78            inf          5.6611       35.381875 1.087966e-05
+   PBV    364          72.98            inf          1.5256        9.535000 1.116814e-05
+ GREEN     18          54.24            inf          7.7289       48.305625 1.164788e-05
+   ICA    188          53.30            inf          0.5422        3.388750 1.171888e-05
+  GBGR    333          52.36            inf          7.7289       48.305625 1.176718e-05
+ CHROM    337          53.24            inf          7.7289       48.305625 1.177595e-05
+  GBGR      9          53.12            inf          7.7289       48.305625 1.237531e-05
+   LGI    347          53.04            inf          3.5933       22.458125 1.269218e-05
+  OMIT    107          53.28            inf          2.6100       16.312500 1.271540e-05
+  OMIT    101          53.44            inf          5.6611       35.381875 1.310430e-05
+   ICA    109          56.12            inf          3.5933       22.458125 1.344046e-05
+   LGI    151          53.10            inf          7.7289       48.305625 1.395853e-05
+  GBGR    151          53.02            inf          7.7289       48.305625 1.420949e-05
+   PBV    101          53.50            inf          1.5256        9.535000 1.425684e-05
+ GREEN    337          53.32            inf          7.7289       48.305625 1.439816e-05
+   POS     50          53.52            inf          2.6100       16.312500 1.471957e-05
+  GBGR     10          53.28            inf          7.7289       48.305625 1.502975e-05
+  OMIT    347          53.06            inf          3.5933       22.458125 1.531998e-05
+   PCA    280          53.26            inf          7.7289       48.305625 1.551069e-05
+ GREEN    188          53.20            inf          6.7455       42.159375 1.590780e-05
+   PBV    107          56.20            inf          0.5422        3.388750 1.593536e-05
+  GBGR      6          53.38            inf          1.5256        9.535000 1.615606e-05
+   ICA    330          52.56            inf          1.5256        9.535000 1.617149e-05
+ CHROM    104          53.14            inf          1.5256        9.535000 1.624344e-05
+   LGI    338          53.34            inf          0.5422        3.388750 1.664653e-05
+   POS     69          53.06            inf          2.6100       16.312500 1.666920e-05
+   LGI     18          53.86            inf          5.6611       35.381875 1.724552e-05
+  GBGR    188          53.28            inf          0.5422        3.388750 1.739277e-05
+   PCA    299          53.02            inf          7.7289       48.305625 1.758842e-05
+   PCA    109          53.16            inf          7.7289       48.305625 1.764559e-05
+ CHROM    135          59.88            inf          2.6100       16.312500 1.776672e-05
+   PBV    347          53.34            inf          3.5933       22.458125 1.803519e-05
+  OMIT    135          46.50            inf          7.7289       48.305625 1.814592e-05
+   PBV    280          52.32            inf          5.6611       35.381875 1.857688e-05
+   POS    330          53.00            inf         10.8811       68.006875 1.888909e-05
+   POS    299          53.10            inf          0.5422        3.388750 1.917904e-05
+ CHROM    280          53.04            inf          7.7289       48.305625 1.932765e-05
+   PCA     69          53.08            inf          1.5256        9.535000 1.936242e-05
+   POS    104          53.18            inf          1.5256        9.535000 2.013790e-05
+ CHROM    101          53.44            inf          1.5256        9.535000 2.017530e-05
+   PCA     18          53.64            inf          5.6611       35.381875 2.102039e-05
+ GREEN      4          53.42            inf          3.5933       22.458125 2.177663e-05
+  OMIT    108          53.24            inf          7.7289       48.305625 2.186110e-05
+ GREEN    333          53.14            inf          0.5422        3.388750 2.189356e-05
+ GREEN    107          52.88            inf          1.5256        9.535000 2.261552e-05
+  OMIT    199          39.44            inf          7.7289       48.305625 2.275818e-05
+   LGI     36          53.48            inf          7.7289       48.305625 2.334595e-05
+   POS    199          39.94            inf          0.5422        3.388750 2.385693e-05
+   ICA    108          52.78            inf          3.5933       22.458125 2.408004e-05
+   LGI    188          53.30            inf          0.5422        3.388750 2.418666e-05
+   LGI      6          53.38            inf          0.5422        3.388750 2.440449e-05
+  OMIT    337          53.26            inf          7.7289       48.305625 2.444623e-05
+   POS    135          41.84            inf          0.5422        3.388750 2.466706e-05
+

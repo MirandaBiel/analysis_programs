@@ -14,7 +14,6 @@ def calculate_errors(df):
 
 def process_csv_files(folder_path, exclude_files):
     """Lê e concatena os arquivos CSV em um DataFrame, exceto os arquivos especificados."""
-    # Filtra os arquivos CSV, excluindo os presentes na lista exclude_files
     all_files = [f for f in os.listdir(folder_path) if f.endswith('.csv') and f not in exclude_files]
     dfs = []
     for file in all_files:
@@ -34,7 +33,6 @@ def generate_plots(df, output_folder, suffix=""):
     """Gera gráficos considerando o conjunto completo."""
     # Gráfico de erros absolutos BPM por método
     plt.figure()
-    #df.groupby('Metodo')['Error_BPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto (bpm) por Metodo {suffix}')
     df.groupby('Metodo')['Error_BPM_Abs'].mean().plot(kind='bar')
     plt.ylabel('Erro Absoluto (bpm)')
     plt.tight_layout()
@@ -43,7 +41,6 @@ def generate_plots(df, output_folder, suffix=""):
 
     # Gráfico de erros absolutos iRPM por método
     plt.figure()
-    #df.groupby('Metodo')['Error_iRPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto iRPM por Metodo {suffix}')
     df.groupby('Metodo')['Error_iRPM_Abs'].mean().plot(kind='bar')
     plt.ylabel('Erro Absoluto (irpm)')
     plt.tight_layout()
@@ -52,7 +49,6 @@ def generate_plots(df, output_folder, suffix=""):
 
     # Gráfico de erros absolutos iRPM por patch
     plt.figure()
-    #df.groupby('Patch')['Error_iRPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto iRPM por Patch {suffix}')
     df.groupby('Patch')['Error_iRPM_Abs'].mean().plot(kind='bar')
     plt.ylabel('Erro Absoluto (irpm)')
     plt.tight_layout()
@@ -61,31 +57,46 @@ def generate_plots(df, output_folder, suffix=""):
 
     # Gráfico de erros absolutos BPM por patch
     plt.figure()
-    #df.groupby('Patch')['Error_BPM_Abs'].mean().plot(kind='bar', title=f'Erro Absoluto BPM por Patch {suffix}')
     df.groupby('Patch')['Error_BPM_Abs'].mean().plot(kind='bar')
     plt.ylabel('Erro Absoluto (bpm)')
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, f'erro_bpm_por_patch{suffix}.png'))
     plt.close()
 
-    # Gráfico de erro absoluto em função do SQI1
+    # Gráfico de erro absoluto BPM em função do SQI1
     plt.figure()
     plt.scatter(df['SQI1'], df['Error_BPM_Abs'], alpha=0.7)
-    #plt.title(f'Erro Absoluto BPM vs SQI1 {suffix}')
     plt.xlabel('SQI1')
     plt.ylabel('Erro Absoluto (bpm)')
     plt.tight_layout()
-    plt.savefig(os.path.join(output_folder, f'erro_vs_sqi1{suffix}.png'))
+    plt.savefig(os.path.join(output_folder, f'erro_bpm_vs_sqi1{suffix}.png'))
     plt.close()
 
-    # Gráfico de erro absoluto em função do SQI2
+    # Gráfico de erro absoluto BPM em função do SQI2
     plt.figure()
     plt.scatter(df['SQI2'], df['Error_BPM_Abs'], alpha=0.7)
-    #plt.title(f'Erro Absoluto BPM vs SQI2 {suffix}')
     plt.xlabel('SQI2')
     plt.ylabel('Erro Absoluto (bpm)')
     plt.tight_layout()
-    plt.savefig(os.path.join(output_folder, f'erro_vs_sqi2{suffix}.png'))
+    plt.savefig(os.path.join(output_folder, f'erro_bpm_vs_sqi2{suffix}.png'))
+    plt.close()
+
+    # Gráfico de erro absoluto iRPM em função do SQI1
+    plt.figure()
+    plt.scatter(df['SQI1'], df['Error_iRPM_Abs'], alpha=0.7)
+    plt.xlabel('SQI1')
+    plt.ylabel('Erro Absoluto (irpm)')
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_folder, f'erro_irpm_vs_sqi1{suffix}.png'))
+    plt.close()
+
+    # Gráfico de erro absoluto iRPM em função do SQI2
+    plt.figure()
+    plt.scatter(df['SQI2'], df['Error_iRPM_Abs'], alpha=0.7)
+    plt.xlabel('SQI2')
+    plt.ylabel('Erro Absoluto (irpm)')
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_folder, f'erro_irpm_vs_sqi2{suffix}.png'))
     plt.close()
 
 def analyze_and_save_results(df, output_file, suffix=""):
@@ -120,7 +131,7 @@ def analyze_and_save_results(df, output_file, suffix=""):
             write_line("")
 
 if __name__ == "__main__":
-    folder_path = "17-12-Resultados/Gustavo"
+    folder_path = "17-12-Resultados/Gustavo_data"
     output_folder = "17-12-Resultados/Gustavo_results"
     exclude_files = ['video_1_resultados.csv', 'video_9_resultados.csv']  # Lista de arquivos para excluir
 
