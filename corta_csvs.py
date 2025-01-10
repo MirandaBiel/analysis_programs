@@ -3,15 +3,15 @@ import pandas as pd
 
 # Dicionário com os índices de corte para cada vídeo
 corte_dados = {
-    "video_face_32": 123,
-    "video_face_34": 116,
-    "video_face_35": 137,
-    "video_face_36": 172,
-    "video_face_37": 148,
-    "video_face_38": 146,
-    "video_face_39": 137,
-    "video_face_41": 126,
-    "video_face_42": 119,
+    "video_face_32": 126,
+    "video_face_34": 119,
+    "video_face_35": 140,
+    "video_face_36": 175,
+    "video_face_37": 151,
+    "video_face_38": 149,
+    "video_face_39": 140,
+    "video_face_41": 129,
+    "video_face_42": 121,
 }
 
 # Função para cortar os CSVs
