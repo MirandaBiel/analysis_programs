@@ -83,8 +83,8 @@ def process_and_save_csv_graphs(input_dir, output_dir):
 
 if __name__ == "__main__":
     # Diretórios de entrada e saída
-    input_dir = input("Digite o diretório raiz dos arquivos CSV: ").strip()
-    output_dir = input("Digite o diretório onde os gráficos serão salvos: ").strip()
+    input_dir = "csv_outputs\Gustavo_sincronizacao_cortados"
+    output_dir = "csv_outputs\Gustavo_plots"
 
     # Processa os arquivos e salva os gráficos
     process_and_save_csv_graphs(input_dir, output_dir)
