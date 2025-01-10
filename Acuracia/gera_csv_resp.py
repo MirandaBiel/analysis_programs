@@ -6,7 +6,7 @@ import ecg_calc
 import csv
 import os
 
-def registrar_dados_csv(metodo, patch, ppg_bpm, ecg_bpm, ppg_irpm, pre_irpm, video_numero, sqi1, sqi2, sqi3, sqi4, nome_participante):
+def registrar_dados_csv(metodo, patch, ppg_irpm, ppg_irpm2, ppg_irpm3, pre_irpm, video_numero, sqi1, sqi2, sqi3, sqi4, nome_participante):
     """
     Registra os valores fornecidos em um arquivo CSV em uma estrutura de pastas específica.
 
@@ -28,7 +28,7 @@ def registrar_dados_csv(metodo, patch, ppg_bpm, ecg_bpm, ppg_irpm, pre_irpm, vid
     os.makedirs(pasta_destino, exist_ok=True)
 
     # Definir os headers do CSV
-    headers = ["Metodo", "Patch", "PPG_BPM", "ECG_BPM", "PPG_iRPM", "PRE_iRPM", "SQI1", "SQI2", "SQI3", "SQI4"]
+    headers = ["Metodo", "Patch", "PPG_iRPM_1", "PPG_iRPM_2", "PPG_iRPM_3", "PRE_iRPM", "SQI1", "SQI2", "SQI3", "SQI4"]
 
     # Verificar se o arquivo já existe
     try:
@@ -47,26 +47,12 @@ def registrar_dados_csv(metodo, patch, ppg_bpm, ecg_bpm, ppg_irpm, pre_irpm, vid
             escritor_csv.writerow(headers)
 
         # Escrever os valores na linha
-        escritor_csv.writerow([metodo, patch, ppg_bpm, ecg_bpm, ppg_irpm, pre_irpm, sqi1, sqi2, sqi3, sqi4])
+        escritor_csv.writerow([metodo, patch, ppg_irpm, ppg_irpm2, ppg_irpm3, pre_irpm, sqi1, sqi2, sqi3, sqi4])
 
 
-def ecg_pre_aquisition(ecg_folder, pre_folder, number):
+def ecg_pre_aquisition(pre_folder, number):
     # Cria o padrão do nome do arquivo a partir de `numbers`
     file_pattern = f"{number}.csv"
-    found = False
-
-    # Ler os dados do ECG
-    for root, dirs, files in os.walk(ecg_folder):
-        for file in files:
-            # Verifica se o arquivo termina com o padrão esperado
-            if file.endswith(file_pattern):
-                # Caminho completo do arquivo encontrado
-                file_path = os.path.join(root, file)
-                ecg_bpm = ecg_calc.calc_bpm(file_path)
-                found = True
-                break
-        if found:
-            break
     
     found = False
     # Ler os dados da pressão
@@ -82,10 +68,10 @@ def ecg_pre_aquisition(ecg_folder, pre_folder, number):
         if found:
             break
 
-    return ecg_bpm, pre_irpm
+    return pre_irpm
 
 
-def process_patch(base_folder, ecg_folder, pre_folder):
+def process_patch(base_folder, pre_folder):
     # Verifica se o caminho inicial é uma pasta
     if os.path.exists(base_folder):
     # Lista todas as pastas dos metodos no diretório base
@@ -210,11 +196,13 @@ def process_patch(base_folder, ecg_folder, pre_folder):
 
                             #============= Calcula FC e FR ==============#
                             fs = 30
-                            ppg_bpm = pf.calc_frequencia_cardiaca(np.array(spectrum_data), np.array(freq_data))
                             ppg_irpm = pf.calc_frequencia_respiratoria(raw_signal_data, fs)
+                            ppg_irpm2 = pf.FFT_Method(raw_signal_data, fs)
+                            ppg_irpm3 = pf.calc_frequencia_respiratoria2(raw_signal_data, fs)
+
 
                             #============= Calculo com Pressao e ECG ==============#
-                            ecg_bpm, pre_irpm = ecg_pre_aquisition(ecg_folder, pre_folder, video_number)
+                            pre_irpm = ecg_pre_aquisition(pre_folder, video_number)
                             
                             #============= Calculo dos SQIs ==============#
                             sqi1 = pf.analyze_signal_spectrum(np.array(spectrum_data), np.array(freq_data))
@@ -223,14 +211,12 @@ def process_patch(base_folder, ecg_folder, pre_folder):
                             sqi3 = float(sq.PPG_analysis(filtered_data, fs, 5))
                             sqi4 = float(sq.PPG_analysis2(filtered_data, fs, 5))
                             
-                            if ppg_bpm == None:
-                                ppg_bpm = 0
                             if ppg_irpm == None:
                                 ppg_irpm = 0
-                            if ecg_bpm == None:
-                                ecg_bpm = 0
-                            if pre_irpm == None:
-                                pre_irpm = 0
+                            if ppg_irpm2 == None:
+                                ppg_irpm2 = 0
+                            if ppg_irpm3 == None:
+                                ppg_irpm3 = 0
                             if sqi1 == None:
                                 sqi1 = 0
                             if sqi2 == None:
@@ -241,23 +227,23 @@ def process_patch(base_folder, ecg_folder, pre_folder):
                                 sqi4 = 0
 
                             print(f"Analise video {video_number}/{method_name}/patch_{pacth_number}:") 
-                            print(f"irpm: {round(ppg_irpm, 4)}, {round(pre_irpm, 4)}, bpm: {round(ppg_bpm, 4)}, {round(ecg_bpm, 4)}, SQI1: {round(sqi1, 2)}, SQI2: {round(sqi2, 2)}, SQI3: {round(sqi3, 2)}, SQI4: {round(sqi4, 2)}")
+                            print(f"irpm_0: {round(pre_irpm, 6)}, 1: {round(ppg_irpm, 6)}, 2: {round(ppg_irpm2, 6)}, 3: {round(ppg_irpm3, 6)}, SQI1: {round(sqi1, 4)}, SQI2: {round(sqi2, 4)}, SQI3: {round(sqi3, 4)}, SQI4: {round(sqi4, 4)}")
                             
                             
                             #============= Registra os dados no CSV ==============#                        
                             registrar_dados_csv(
                                 method_name,
                                 pacth_number,
-                                ppg_bpm,
-                                ecg_bpm,
                                 ppg_irpm,
+                                ppg_irpm2,
+                                ppg_irpm3,
                                 pre_irpm,
                                 video_number,
                                 sqi1,
                                 sqi2,
                                 sqi3,
                                 sqi4,
-                                "Gabriel_init_data"
+                                "Gustavo_sincronizacao_resp_test"
                             )
 
                         except (IndexError, ValueError):
@@ -268,9 +254,8 @@ def process_patch(base_folder, ecg_folder, pre_folder):
 
 if __name__ == '__main__':
     # Caminho da pasta dos dados brutos
-    csv_folder = "csv_outputs/Gabriel_init"
-    ecg_folder = "ECGs/Gabriel_init"
-    pre_folder = "Pressure/Gabriel_init"
-    process_patch(csv_folder, ecg_folder, pre_folder)
+    csv_folder = "csv_outputs/Gustavo_sincronizacao"
+    pre_folder = "Pressure/Gustavo_sincronizacao"
+    process_patch(csv_folder, pre_folder)
 
     

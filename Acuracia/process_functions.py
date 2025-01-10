@@ -169,38 +169,23 @@ def analyze_signal_spectrum(spectrum, freqs, min_bpm=30, max_bpm=200, num_peaks=
     return quality_index
 
 # Função que calcula a frequencia respiratoria
-def calc_frequencia_respiratoria(signal, fs):
-    # Pre-processamento do sinal
-    nyquist = 0.5 * fs
-    f_low = 0.1
-    f_high = 0.5
-    # Calcular as frequências normalizadas
-    wn_low = f_low / nyquist
-    wn_high = f_high / nyquist
-    # Calcular os coeficientes do filtro Butterworth
-    b, a = butter(2, [wn_low, wn_high], btype='band')
-    # Aplicar o filtro passa-faixa
-    y = filtfilt(b, a, signal)
-
-    signal_pe = peak_enhancement(y)
-    data = hampel_filter(signal_pe)
-
+def calc_frequencia_respiratoria(signal, fs, padding_factor=1):
     Median_sig = []
     tamanho_v_deslizante = fs
-    for i in range(int(len(data) - tamanho_v_deslizante + 1)):
-        v_deslizante = data[i:int(i+tamanho_v_deslizante)]
+    for i in range(int(len(signal) - tamanho_v_deslizante + 1)):
+        v_deslizante = signal[i:int(i+tamanho_v_deslizante)]
         Median = np.median(v_deslizante)
         Median_sig.append(Median)
     Median_sig = np.array(Median_sig)
 
     # 2: Aplicação da FFT no vetor resultante e seleção do pico de frequência dominante dentro da faixa RR válida - entre 6 rpm (0,1 Hz) e 30 rpm (0.5 Hz)
-    FFT_sig = np.fft.fft(Median_sig, n=len(Median_sig))
+    FFT_sig = np.fft.fft(Median_sig, n=len(Median_sig)*padding_factor)
     f = np.fft.fftfreq(len(FFT_sig), d=1/fs)
     spectrum = np.abs(FFT_sig)  # Calcular o modulo espectral
 
     # Encontrar os indices correspondentes as frequencias entre 0.1 e 0.5 bpm
-    indice_inicio = np.argmax(f >= f_low)
-    indice_fim = np.argmax(f >= f_high)
+    indice_inicio = np.argmax(f >= 0.1)
+    indice_fim = np.argmax(f >= 0.5)
 
     # Encontrar os picos no espectro dentro da faixa desejada
     peaks, _ = find_peaks(spectrum[indice_inicio:indice_fim])

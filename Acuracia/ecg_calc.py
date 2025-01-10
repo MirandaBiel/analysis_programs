@@ -31,7 +31,7 @@ def calc_bpm(csv_file, total_time=30):
         
         fs = len(limited_data) / limited_time[-1]
 
-        peaks, _ = find_peaks(limited_data, height=500, distance=fs/1.5)
+        peaks, _ = find_peaks(limited_data, height=400, distance=fs/1.5)
 
         if len(peaks) < 2:
             print("Não foram encontrados picos R suficientes.")
