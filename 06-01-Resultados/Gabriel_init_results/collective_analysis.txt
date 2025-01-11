@@ -1,0 +1,2748 @@
+Analise Coletiva de Todos os Videos
+
+1. Erros Globais:
+Error_BPM_Abs      4.119941
+Error_BPM_Rel      6.235989
+Error_iRPM_Abs     3.016031
+Error_iRPM_Rel    32.808572
+
+2. Erros por Metodo:
+Metodo: CHROM
+Error_BPM_Abs      2.495147
+Error_BPM_Rel      3.797504
+Error_iRPM_Abs     2.595152
+Error_iRPM_Rel    28.401061
+
+Metodo: GBGR
+Error_BPM_Abs      3.648016
+Error_BPM_Rel      5.519881
+Error_iRPM_Abs     2.404684
+Error_iRPM_Rel    25.730328
+
+Metodo: GREEN
+Error_BPM_Abs      5.010916
+Error_BPM_Rel      7.548417
+Error_iRPM_Abs     3.014198
+Error_iRPM_Rel    32.413138
+
+Metodo: ICA
+Error_BPM_Abs      7.796313
+Error_BPM_Rel     11.738054
+Error_iRPM_Abs     2.801852
+Error_iRPM_Rel    30.787018
+
+Metodo: LGI
+Error_BPM_Abs      2.762354
+Error_BPM_Rel      4.198037
+Error_iRPM_Abs     2.522180
+Error_iRPM_Rel    27.182234
+
+Metodo: OMIT
+Error_BPM_Abs      2.675964
+Error_BPM_Rel      4.076057
+Error_iRPM_Abs     2.557459
+Error_iRPM_Rel    27.629614
+
+Metodo: PBV
+Error_BPM_Abs      6.603634
+Error_BPM_Rel     10.006072
+Error_iRPM_Abs     3.408396
+Error_iRPM_Rel    37.794805
+
+Metodo: PCA
+Error_BPM_Abs      2.943021
+Error_BPM_Rel      4.456365
+Error_iRPM_Abs     2.327143
+Error_iRPM_Rel    24.928828
+
+Metodo: POS
+Error_BPM_Abs      3.246558
+Error_BPM_Rel      4.936968
+Error_iRPM_Abs     5.312178
+Error_iRPM_Rel    58.333230
+
+Metodo: SSR
+Error_BPM_Abs      1.353662
+Error_BPM_Rel      2.092677
+Error_iRPM_Abs     8.444150
+Error_iRPM_Rel    88.884615
+
+3. Erros por Patch:
+Patch: 4
+Error_BPM_Abs      2.522460
+Error_BPM_Rel      3.860779
+Error_iRPM_Abs     2.195234
+Error_iRPM_Rel    22.607383
+
+Patch: 6
+Error_BPM_Abs      2.776563
+Error_BPM_Rel      4.213498
+Error_iRPM_Abs     3.130255
+Error_iRPM_Rel    34.301915
+
+Patch: 9
+Error_BPM_Abs      1.402132
+Error_BPM_Rel      2.130815
+Error_iRPM_Abs     2.452514
+Error_iRPM_Rel    27.037603
+
+Patch: 10
+Error_BPM_Abs      1.623320
+Error_BPM_Rel      2.465015
+Error_iRPM_Abs     2.054463
+Error_iRPM_Rel    20.992122
+
+Patch: 18
+Error_BPM_Abs     11.015085
+Error_BPM_Rel     16.963482
+Error_iRPM_Abs     4.863594
+Error_iRPM_Rel    53.990361
+
+Patch: 36
+Error_BPM_Abs      1.907930
+Error_BPM_Rel      2.910908
+Error_iRPM_Abs     1.868846
+Error_iRPM_Rel    20.935219
+
+Patch: 50
+Error_BPM_Abs      2.680643
+Error_BPM_Rel      4.033305
+Error_iRPM_Abs     2.344972
+Error_iRPM_Rel    24.405804
+
+Patch: 69
+Error_BPM_Abs      3.561557
+Error_BPM_Rel      5.395137
+Error_iRPM_Abs     2.286110
+Error_iRPM_Rel    24.650715
+
+Patch: 101
+Error_BPM_Abs      1.341718
+Error_BPM_Rel      2.065471
+Error_iRPM_Abs     2.660359
+Error_iRPM_Rel    28.647656
+
+Patch: 104
+Error_BPM_Abs      4.632974
+Error_BPM_Rel      7.051773
+Error_iRPM_Abs     3.382498
+Error_iRPM_Rel    36.930974
+
+Patch: 107
+Error_BPM_Abs      4.038424
+Error_BPM_Rel      6.139737
+Error_iRPM_Abs     2.592774
+Error_iRPM_Rel    30.317827
+
+Patch: 108
+Error_BPM_Abs      1.385667
+Error_BPM_Rel      2.123370
+Error_iRPM_Abs     3.632864
+Error_iRPM_Rel    41.458905
+
+Patch: 109
+Error_BPM_Abs      2.218359
+Error_BPM_Rel      3.347508
+Error_iRPM_Abs     3.175311
+Error_iRPM_Rel    33.157690
+
+Patch: 135
+Error_BPM_Abs     11.794645
+Error_BPM_Rel     17.626973
+Error_iRPM_Abs     2.686485
+Error_iRPM_Rel    28.847344
+
+Patch: 151
+Error_BPM_Abs      1.289144
+Error_BPM_Rel      1.970748
+Error_iRPM_Abs     3.063141
+Error_iRPM_Rel    32.620327
+
+Patch: 188
+Error_BPM_Abs      2.253146
+Error_BPM_Rel      3.468480
+Error_iRPM_Abs     2.968606
+Error_iRPM_Rel    32.203390
+
+Patch: 199
+Error_BPM_Abs     13.728279
+Error_BPM_Rel     20.736895
+Error_iRPM_Abs     4.769313
+Error_iRPM_Rel    54.956323
+
+Patch: 266
+Error_BPM_Abs      1.652484
+Error_BPM_Rel      2.516665
+Error_iRPM_Abs     2.471121
+Error_iRPM_Rel    26.536751
+
+Patch: 280
+Error_BPM_Abs      4.829799
+Error_BPM_Rel      7.346529
+Error_iRPM_Abs     3.260597
+Error_iRPM_Rel    38.049316
+
+Patch: 299
+Error_BPM_Abs      4.782981
+Error_BPM_Rel      7.229304
+Error_iRPM_Abs     4.640724
+Error_iRPM_Rel    50.809370
+
+Patch: 330
+Error_BPM_Abs      2.535085
+Error_BPM_Rel      3.806517
+Error_iRPM_Abs     2.883289
+Error_iRPM_Rel    32.817885
+
+Patch: 333
+Error_BPM_Abs      6.855090
+Error_BPM_Rel     10.230267
+Error_iRPM_Abs     3.194575
+Error_iRPM_Rel    32.378286
+
+Patch: 336
+Error_BPM_Abs      2.113589
+Error_BPM_Rel      3.228089
+Error_iRPM_Abs     2.586185
+Error_iRPM_Rel    27.893343
+
+Patch: 337
+Error_BPM_Abs      1.539285
+Error_BPM_Rel      2.340080
+Error_iRPM_Abs     2.764512
+Error_iRPM_Rel    29.505012
+
+Patch: 338
+Error_BPM_Abs      1.715680
+Error_BPM_Rel      2.614045
+Error_iRPM_Abs     2.560305
+Error_iRPM_Rel    27.832006
+
+Patch: 347
+Error_BPM_Abs      3.544066
+Error_BPM_Rel      5.342155
+Error_iRPM_Abs     3.569759
+Error_iRPM_Rel    38.401234
+
+Patch: 364
+Error_BPM_Abs     11.812832
+Error_BPM_Rel     17.688070
+Error_iRPM_Abs     3.369209
+Error_iRPM_Rel    33.567603
+
+4. Top 100 casos com melhores SQI1 e SQI3 (incluindo o video):
+Top 100 SQI1:
+              Video Metodo  Patch  Error_BPM_Abs  Error_iRPM_Abs     SQI1
+ video_1_resultados  CHROM      9       0.077071        5.685912 0.838353
+ video_1_resultados  GREEN     10       0.177630        5.685912 0.836543
+ video_1_resultados  GREEN      9       0.003376        5.685912 0.835770
+ video_0_resultados    PCA      4       0.553489        0.419612 0.834841
+ video_1_resultados    LGI      9       0.077071        5.685912 0.834425
+ video_1_resultados   OMIT      9       0.077071        5.685912 0.834338
+ video_1_resultados  GREEN    338       0.077071        1.528868 0.833120
+ video_1_resultados  GREEN    101       0.117294        8.863741 0.832252
+ video_0_resultados   GBGR      4       0.533622        0.419612 0.831551
+ video_1_resultados  CHROM    101       0.197741        4.706697 0.830693
+ video_0_resultados  GREEN    101       0.235609        0.419612 0.826757
+ video_1_resultados    POS      9       0.023488        2.628176 0.824797
+ video_0_resultados  CHROM      4       0.553489        0.419612 0.824124
+ video_1_resultados  GREEN     36       0.063711        3.607390 0.823669
+ video_1_resultados   OMIT    101       0.217853        2.628176 0.823366
+ video_1_resultados    LGI    101       0.217853        2.628176 0.823303
+ video_1_resultados    PCA      9       0.077071        5.685912 0.822737
+ video_1_resultados  GREEN    109       0.197741        5.685912 0.816979
+ video_1_resultados  CHROM     10       0.217853        5.685912 0.816873
+ video_1_resultados   GBGR      9       0.077071        5.685912 0.815971
+ video_5_resultados  GREEN    330       0.276335        0.297483 0.815558
+ video_1_resultados   OMIT      6       0.003376        3.607390 0.814829
+ video_1_resultados    LGI      6       0.003376        3.607390 0.814818
+ video_1_resultados    PBV      4       0.003376        3.607390 0.814399
+ video_1_resultados  GREEN    266       0.083823        5.685912 0.813949
+ video_1_resultados  CHROM      4       0.023488        3.607390 0.813935
+ video_1_resultados    PCA    101       0.237965        2.628176 0.813776
+ video_1_resultados  GREEN    299       0.137406        5.685912 0.813574
+ video_1_resultados  GREEN    330       0.036848        8.863741 0.813467
+ video_0_resultados   OMIT    151       0.255476        0.419612 0.813169
+ video_0_resultados    LGI    151       0.255476        0.419612 0.812956
+ video_0_resultados    POS      4       0.513754        0.419612 0.812697
+ video_1_resultados    PCA      6       0.003376        3.607390 0.812251
+ video_1_resultados  CHROM      6       0.016736        3.607390 0.811088
+ video_1_resultados  CHROM    338       0.117294        5.685912 0.810116
+ video_1_resultados  GREEN    151       0.157518        5.685912 0.809752
+ video_0_resultados    ICA    151       0.295211        1.632839 0.809528
+ video_0_resultados  CHROM    151       0.235609        0.419612 0.808889
+ video_1_resultados   OMIT    337       0.137406        5.685912 0.808520
+ video_1_resultados    LGI    337       0.137406        5.685912 0.808140
+ video_1_resultados  GREEN    337       0.137406        5.685912 0.806982
+ video_1_resultados    LGI      4       0.003376        3.607390 0.806498
+ video_5_resultados  GREEN    338       0.216534        1.762014 0.806465
+ video_1_resultados   OMIT      4       0.003376        3.607390 0.805855
+ video_1_resultados   GBGR    101       0.258077        2.628176 0.805843
+ video_2_resultados  GREEN    330       0.399708        0.262258 0.805147
+ video_1_resultados  CHROM    151       0.217853        5.685912 0.804575
+ video_5_resultados  GREEN     10       0.216534        1.762014 0.804306
+ video_1_resultados  CHROM    337       0.177630        5.685912 0.802325
+ video_1_resultados   GBGR      6       0.023488        1.528868 0.801958
+ video_1_resultados    POS    101       0.137406        2.628176 0.801870
+ video_1_resultados  CHROM     36       0.036848        3.607390 0.801809
+ video_5_resultados    ICA      6       0.176667        0.297483 0.801407
+ video_1_resultados    POS    266       0.144158        2.628176 0.801200
+ video_1_resultados   OMIT    266       0.023488        5.685912 0.800745
+ video_1_resultados    LGI    266       0.023488        5.685912 0.800631
+ video_1_resultados    PCA    337       0.117294        5.685912 0.800352
+ video_1_resultados    POS      6       0.103935        6.785219 0.800338
+ video_1_resultados  CHROM    266       0.023488        5.685912 0.799096
+ video_1_resultados   OMIT     36       0.056959        3.607390 0.798438
+ video_1_resultados    LGI     36       0.056959        3.607390 0.798315
+ video_5_resultados    PBV      6       0.176667        0.297483 0.797618
+ video_1_resultados    PCA    266       0.043599        5.685912 0.797592
+ video_0_resultados    LGI      4       0.593224        5.737742 0.796989
+ video_1_resultados  CHROM    109       0.237965        5.685912 0.796733
+ video_5_resultados  GREEN    337       0.296268        1.762014 0.796649
+ video_1_resultados   GBGR    266       0.043599        5.685912 0.796374
+ video_5_resultados  CHROM      6       0.216534        0.297483 0.795769
+ video_5_resultados  CHROM      4       0.336136        0.297483 0.794578
+ video_1_resultados   OMIT    338       0.157518        5.685912 0.793930
+ video_1_resultados  GREEN      6       0.056959        3.607390 0.793580
+ video_1_resultados   OMIT    109       0.237965        5.685912 0.793095
+ video_1_resultados    LGI    338       0.177630        5.685912 0.793090
+ video_0_resultados    LGI      6       0.573357        1.632839 0.793082
+ video_0_resultados   OMIT      6       0.573357        1.632839 0.792754
+ video_5_resultados  GREEN      6       0.216534        0.297483 0.792637
+ video_0_resultados  CHROM      6       0.553489        1.632839 0.791948
+ video_1_resultados    LGI    109       0.237965        5.685912 0.791919
+ video_1_resultados    POS     36       0.003376        0.549654 0.790892
+ video_1_resultados    ICA    337       0.197741        5.685912 0.790733
+ video_0_resultados    PCA    151       0.295211        5.737742 0.789959
+ video_5_resultados    POS    337       0.216534        0.297483 0.789930
+ video_1_resultados  CHROM    280       0.043599        2.628176 0.789101
+ video_0_resultados   OMIT    108       0.533622        5.737742 0.789075
+ video_0_resultados   OMIT      9       0.513754        1.632839 0.788294
+ video_0_resultados    LGI      9       0.513754        1.632839 0.787978
+ video_0_resultados   OMIT      4       0.593224        5.737742 0.787302
+ video_1_resultados   GBGR    337       0.077071        1.528868 0.787138
+ video_1_resultados    SSR    151       0.043599        3.607390 0.786804
+ video_0_resultados    LGI    108       0.533622        5.737742 0.786803
+ video_1_resultados    POS    299       0.103935        1.528868 0.786361
+ video_6_resultados  GREEN    337       0.029701        0.297483 0.786159
+ video_1_resultados    PCA     36       0.077071        3.607390 0.785892
+ video_5_resultados   OMIT      4       0.336136        0.297483 0.785888
+ video_0_resultados    ICA      4       0.613092        0.419612 0.785851
+ video_5_resultados    LGI      4       0.336136        0.297483 0.785831
+ video_5_resultados   OMIT      6       0.216534        0.297483 0.785455
+ video_5_resultados  GREEN      9       0.156734        1.762014 0.785442
+ video_1_resultados   OMIT    299       0.097183        5.685912 0.785392
+ video_1_resultados    PBV    101       0.137406        3.607390 0.785100
+ video_1_resultados   OMIT    151       0.177630        5.685912 0.784967
+ video_2_resultados  GREEN    299       0.558649        0.262258 0.784945
+ video_1_resultados    PCA    299       0.056959        5.685912 0.784893
+ video_1_resultados    LGI    151       0.177630        5.685912 0.784439
+ video_1_resultados    LGI    299       0.097183        5.685912 0.784299
+ video_5_resultados    LGI      6       0.216534        0.297483 0.784011
+ video_1_resultados    POS    337       0.003376        1.528868 0.783990
+ video_1_resultados    POS    151       0.063711        1.528868 0.783671
+ video_1_resultados   OMIT     10       0.258077        5.685912 0.782906
+ video_5_resultados    PBV      4       0.316202        0.297483 0.782711
+ video_0_resultados  CHROM      9       0.513754        1.632839 0.782607
+ video_7_resultados  GREEN    330       0.800403        0.273973 0.782306
+ video_1_resultados    LGI     10       0.278188        5.685912 0.782039
+ video_5_resultados  CHROM     10       0.136800        1.762014 0.781949
+ video_1_resultados  GREEN    280       0.056959        2.628176 0.781676
+ video_1_resultados  CHROM     50       0.157518        4.706697 0.781128
+ video_5_resultados  CHROM    337       0.236468        1.762014 0.780545
+ video_1_resultados   GBGR    299       0.003376        5.685912 0.780105
+ video_7_resultados  GREEN    101       0.720845        0.273973 0.779978
+ video_1_resultados   OMIT     50       0.177630        4.706697 0.779504
+ video_5_resultados    LGI    337       0.236468        1.762014 0.779469
+ video_5_resultados   OMIT    337       0.236468        1.762014 0.779430
+ video_1_resultados   GBGR     36       0.097183        3.607390 0.779065
+ video_0_resultados  GREEN     36       0.354814        0.419612 0.778794
+ video_5_resultados  CHROM    266       0.256401        0.297483 0.778729
+ video_1_resultados    PCA    338       0.177630        1.528868 0.778656
+ video_1_resultados    LGI     50       0.177630        4.706697 0.778192
+ video_0_resultados    PCA    108       0.513754        5.737742 0.778087
+ video_2_resultados  GREEN    101       0.499046        0.262258 0.777632
+ video_0_resultados    PCA      6       0.593224        1.632839 0.776911
+ video_0_resultados  CHROM    108       0.553489        5.737742 0.776824
+ video_1_resultados    POS     50       0.056959        5.685912 0.776612
+ video_7_resultados  GREEN    337       0.780514        0.273973 0.775656
+ video_0_resultados  GREEN     50       0.017065        0.419612 0.775553
+ video_1_resultados    POS    109       0.056959        1.528868 0.775413
+ video_1_resultados  CHROM    299       0.137406        5.685912 0.775411
+ video_2_resultados  GREEN    338       0.499046        0.262258 0.775216
+ video_1_resultados    PCA     50       0.177630        2.628176 0.774759
+ video_5_resultados  GREEN    151       0.316202        1.762014 0.774749
+ video_5_resultados    LGI    338       0.176667        1.762014 0.774576
+ video_5_resultados  CHROM    338       0.196601        1.762014 0.774482
+ video_5_resultados    PCA    337       0.216534        1.762014 0.773706
+ video_5_resultados   OMIT      9       0.236468        1.762014 0.773637
+ video_5_resultados   OMIT    338       0.176667        1.762014 0.773490
+ video_5_resultados    LGI      9       0.236468        1.762014 0.773473
+ video_1_resultados    PCA    109       0.237965        5.685912 0.773083
+ video_2_resultados  GREEN     10       0.518914        0.262258 0.772907
+ video_0_resultados  GREEN    151       0.374681        5.737742 0.772803
+ video_1_resultados    PBV     36       0.043599        3.607390 0.772311
+ video_5_resultados    LGI    266       0.276335        0.297483 0.771422
+ video_5_resultados  CHROM      9       0.236468        1.762014 0.771304
+ video_5_resultados   OMIT    266       0.276335        0.297483 0.771182
+ video_5_resultados  GREEN    299       0.296268        0.297483 0.771056
+ video_1_resultados  GREEN    108       0.036848        5.685912 0.770848
+ video_7_resultados  CHROM     10       0.641287        0.273973 0.770622
+ video_1_resultados    ICA    280       0.063711        2.628176 0.770538
+ video_5_resultados    PCA    338       0.156734        1.762014 0.770322
+ video_5_resultados   OMIT    188       0.216534        0.297483 0.770000
+ video_1_resultados    PCA    151       0.157518        5.685912 0.769722
+ video_5_resultados    LGI    188       0.216534        0.297483 0.769712
+ video_5_resultados    POS      9       0.176667        1.762014 0.769444
+ video_5_resultados  CHROM    188       0.216534        0.297483 0.769426
+ video_7_resultados    PBV    101       0.720845        0.273973 0.769356
+ video_1_resultados   OMIT    188       0.016736       10.942263 0.769354
+ video_1_resultados    LGI    188       0.016736       10.942263 0.769264
+ video_1_resultados   GBGR      4       0.003376        3.607390 0.768619
+ video_5_resultados  GREEN     18       0.435803        6.475973 0.768607
+ video_5_resultados    POS    188       0.116866        0.297483 0.767726
+ video_5_resultados  GREEN    101       0.196601        0.297483 0.767579
+ video_5_resultados   GBGR      4       0.316202        0.297483 0.767447
+ video_6_resultados  CHROM      9       0.030100        0.297483 0.767003
+ video_1_resultados    POS    330       0.164270        6.785219 0.766937
+ video_0_resultados    PCA      9       0.493887        1.632839 0.766567
+ video_1_resultados  CHROM    188       0.036848        0.549654 0.766484
+ video_1_resultados  CHROM    330       0.023488        5.685912 0.766403
+ video_0_resultados    POS    108       0.394549        6.576967 0.766330
+ video_7_resultados    PBV     10       0.720845        0.273973 0.766063
+ video_5_resultados    PCA      4       0.316202        0.297483 0.766012
+ video_1_resultados   OMIT     69       0.016736        2.628176 0.765862
+ video_0_resultados    POS      9       0.434284        6.576967 0.765857
+ video_0_resultados  GREEN    108       0.513754        5.737742 0.765594
+ video_1_resultados    LGI     69       0.016736        2.628176 0.765537
+ video_5_resultados   GBGR    337       0.216534        1.762014 0.765196
+ video_1_resultados   GBGR     50       0.177630        2.628176 0.764668
+ video_2_resultados   GBGR    330       0.359973        0.262258 0.763936
+ video_5_resultados   OMIT    336       0.276335        1.762014 0.763419
+ video_1_resultados   OMIT    330       0.043599        5.685912 0.763333
+ video_5_resultados    LGI    336       0.276335        1.762014 0.763254
+ video_1_resultados    PCA      4       0.003376        3.607390 0.763181
+ video_1_resultados   OMIT    336       0.137406        3.607390 0.763055
+ video_5_resultados    PCA      9       0.236468        1.762014 0.763012
+ video_1_resultados    LGI    330       0.043599        5.685912 0.762891
+ video_7_resultados  CHROM    101       0.720845        0.273973 0.762798
+ video_1_resultados    LGI    336       0.137406        3.607390 0.762549
+ video_5_resultados  GREEN    266       0.256401        0.297483 0.762394
+ video_6_resultados    LGI      9       0.010167        0.297483 0.761881
+ video_6_resultados   OMIT      9       0.010167        0.297483 0.761224
+ video_1_resultados  CHROM    336       0.137406        3.607390 0.760797
+ video_7_resultados  GREEN    338       0.700956        1.780822 0.759897
+ video_1_resultados    PCA    188       0.043599        3.607390 0.759833
+ video_2_resultados    PCA    330       0.379841        0.262258 0.759573
+ video_0_resultados   OMIT    330       0.632959        1.632839 0.759348
+ video_7_resultados    LGI    188       0.979409        0.273973 0.759094
+ video_1_resultados    POS    338       0.036848        1.528868 0.758781
+ video_5_resultados    ICA    151       0.336136        1.762014 0.758645
+ video_5_resultados    ICA    336       0.296268        1.762014 0.758425
+ video_7_resultados   OMIT    188       0.979409        0.273973 0.758356
+ video_1_resultados    POS     10       0.097183        1.528868 0.758302
+ video_0_resultados    LGI    330       0.632959        1.632839 0.758281
+ video_0_resultados    PCA    330       0.593224        0.419612 0.757828
+ video_1_resultados    PBV    338       0.036848        5.685912 0.757799
+ video_1_resultados    PCA     10       0.278188        5.685912 0.757731
+ video_1_resultados    PCA    330       0.083823        5.685912 0.757470
+ video_5_resultados    POS    336       0.495604        0.297483 0.757468
+ video_2_resultados    POS    330       0.320238        0.262258 0.756633
+ video_0_resultados    POS      6       0.573357        6.576967 0.756605
+ video_1_resultados    POS    107       0.036848        1.528868 0.755954
+ video_5_resultados    ICA      4       0.296268        0.297483 0.755756
+ video_5_resultados   GBGR    338       0.116866        1.762014 0.755314
+ video_1_resultados  GREEN    347       0.003376        5.685912 0.755258
+ video_1_resultados   GBGR    151       0.117294        1.528868 0.754779
+ video_7_resultados  CHROM    188       0.979409        0.273973 0.754759
+ video_7_resultados    POS    336       1.039077        0.273973 0.753828
+ video_5_resultados  GREEN    109       0.276335        1.762014 0.753558
+ video_5_resultados  CHROM    336       0.276335        1.762014 0.753275
+ video_0_resultados    POS    151       0.315079        0.419612 0.753184
+ video_5_resultados    PCA    336       0.276335        1.762014 0.753117
+ video_1_resultados   GBGR    330       0.083823        5.685912 0.753105
+ video_2_resultados   OMIT    330       0.379841        0.262258 0.753098
+ video_0_resultados   GBGR    330       0.553489        0.419612 0.752970
+ video_9_resultados    LGI     36       0.305029        4.344828 0.752931
+ video_9_resultados   OMIT     36       0.305029        4.344828 0.752754
+ video_1_resultados    POS     69       0.103935        5.685912 0.752365
+ video_2_resultados    LGI    330       0.379841        0.262258 0.752198
+ video_9_resultados    PCA     36       0.305029        4.344828 0.751784
+ video_1_resultados  CHROM     69       0.023488        5.685912 0.751498
+ video_9_resultados    PCA      9       0.224940        4.344828 0.751429
+ video_7_resultados  GREEN    151       0.720845        0.273973 0.751424
+ video_0_resultados   GBGR      6       0.613092        1.632839 0.751308
+ video_9_resultados  CHROM      9       0.224940        4.344828 0.751022
+ video_5_resultados  CHROM    330       0.276335        1.762014 0.750919
+ video_5_resultados   GBGR      9       0.256401        1.762014 0.749733
+ video_7_resultados    LGI    101       0.720845        0.273973 0.749580
+ video_0_resultados   GBGR    108       0.493887        5.737742 0.749540
+ video_1_resultados   OMIT    108       0.177630        1.528868 0.749236
+ video_5_resultados  CHROM    109       0.276335        0.297483 0.749060
+ video_9_resultados   GBGR      9       0.244962        4.344828 0.748856
+ video_6_resultados  CHROM    337       0.209103        0.297483 0.748591
+ video_7_resultados   OMIT    101       0.720845        0.273973 0.748558
+ video_5_resultados    ICA    338       0.076999        1.762014 0.748438
+ video_1_resultados    PCA     69       0.036848        2.628176 0.748395
+ video_1_resultados    LGI    108       0.177630        1.528868 0.748269
+ video_5_resultados  GREEN    188       0.296268        0.297483 0.747959
+ video_1_resultados    POS    108       0.016736        1.528868 0.747808
+ video_9_resultados   OMIT      9       0.224940        4.344828 0.747585
+ video_9_resultados    LGI      9       0.224940        4.344828 0.747249
+ video_7_resultados  CHROM      6       0.860072        0.273973 0.747179
+ video_2_resultados  CHROM    330       0.399708        0.262258 0.747117
+ video_2_resultados    ICA    338       0.419576        0.262258 0.746931
+ video_1_resultados   GBGR    338       0.217853        1.528868 0.746922
+ video_9_resultados   GBGR     36       0.285007        4.344828 0.746796
+ video_7_resultados    LGI      6       0.840182        0.273973 0.746654
+ video_7_resultados   OMIT      6       0.840182        0.273973 0.746599
+ video_5_resultados   OMIT     10       0.116866        0.297483 0.746405
+ video_6_resultados    POS      4       0.189569        0.297483 0.746174
+ video_5_resultados    LGI     10       0.116866        0.297483 0.746043
+ video_1_resultados    POS      4       0.023488        5.685912 0.746018
+ video_0_resultados   OMIT    101       0.215741        7.790194 0.745999
+ video_1_resultados   OMIT    107       0.237965        5.685912 0.745870
+ video_7_resultados    ICA    330       0.879961        0.273973 0.745855
+ video_1_resultados    LGI    107       0.217853        5.685912 0.745617
+ video_0_resultados    LGI    101       0.215741        7.790194 0.745494
+ video_5_resultados    POS    338       0.096933        1.762014 0.745453
+ video_0_resultados   GBGR      9       0.474019        1.632839 0.745439
+ video_1_resultados  CHROM    107       0.217853        5.685912 0.745290
+ video_0_resultados   GBGR    151       0.315079        5.737742 0.745245
+ video_7_resultados    ICA      6       0.860072        0.273973 0.745166
+ video_2_resultados  CHROM      9       0.439443        0.262258 0.745161
+ video_0_resultados    PCA    266       0.573357        0.419612 0.744986
+ video_5_resultados    PCA    188       0.196601        0.297483 0.744899
+ video_1_resultados    LGI    280       0.083823        2.628176 0.744815
+ video_6_resultados   OMIT    188       0.049634        0.297483 0.744469
+ video_1_resultados   OMIT    280       0.083823        2.628176 0.744467
+ video_6_resultados  CHROM    188       0.069568        0.297483 0.744426
+ video_6_resultados    LGI    188       0.049634        0.297483 0.744300
+ video_5_resultados  GREEN    108       0.276335        1.762014 0.743808
+ video_0_resultados    PBV    101       0.215741        7.790194 0.743617
+ video_6_resultados  CHROM      6       0.029701        0.297483 0.743436
+ video_5_resultados    PCA    266       0.296268        0.297483 0.743415
+ video_0_resultados  GREEN    104       0.036933        5.737742 0.743207
+ video_9_resultados    POS      9       0.144851        2.275862 0.743046
+ video_2_resultados    POS    108       0.359973       12.576967 0.742537
+ video_0_resultados    PCA    336       0.434284        5.737742 0.742499
+ video_6_resultados  GREEN    330       0.089901        8.535469 0.742305
+ video_0_resultados    POS    336       0.334946        6.576967 0.742239
+ video_1_resultados    PBV      9       0.097183        4.706697 0.741874
+ video_1_resultados   GBGR    188       0.103935        3.607390 0.741723
+ video_9_resultados    POS     36       0.204918        4.344828 0.741633
+ video_7_resultados    ICA    188       0.919740        0.273973 0.741591
+ video_0_resultados   GBGR    266       0.553489        7.790194 0.741550
+ video_1_resultados    PCA    336       0.137406        3.607390 0.741271
+ video_0_resultados    POS    330       0.533622        6.576967 0.741146
+ video_2_resultados  GREEN    337       0.459311        0.262258 0.740892
+ video_7_resultados    PCA    188       0.919740        0.273973 0.740846
+ video_2_resultados   OMIT      9       0.479179        0.262258 0.740786
+ video_6_resultados    LGI      6       0.049634        0.297483 0.740768
+ video_7_resultados    POS    188       1.039077        6.438356 0.740660
+ video_5_resultados   GBGR    336       0.276335        1.762014 0.740595
+ video_2_resultados    LGI      9       0.479179        0.262258 0.740412
+ video_5_resultados   OMIT    330       0.276335        1.762014 0.740401
+ video_7_resultados  GREEN     10       0.621398        0.273973 0.740123
+ video_6_resultados   OMIT      6       0.049634        0.297483 0.740095
+ video_0_resultados   OMIT    266       0.632959        0.419612 0.739950
+ video_7_resultados    POS      9       0.879961        0.273973 0.739941
+ video_0_resultados    LGI    266       0.632959        0.419612 0.739692
+ video_1_resultados    PCA    108       0.217853        1.528868 0.739309
+ video_5_resultados    LGI    330       0.276335        1.762014 0.739278
+ video_5_resultados    ICA    337       0.156734        1.762014 0.738873
+ video_0_resultados    LGI    336       0.513754        0.419612 0.738836
+ video_6_resultados    PCA      9       0.009767        0.297483 0.738820
+ video_1_resultados    PCA    107       0.197741        5.685912 0.738815
+ video_6_resultados    PCA      6       0.009767        0.297483 0.738398
+ video_6_resultados  GREEN    338       0.209502        0.297483 0.738334
+ video_7_resultados  GREEN    188       0.919740        0.273973 0.737296
+ video_2_resultados  GREEN    347       0.260635        0.262258 0.737213
+ video_2_resultados  GREEN    151       0.538781        0.262258 0.736929
+ video_6_resultados    PCA      4       0.209502        0.297483 0.736903
+ video_6_resultados   GBGR      4       0.209502        0.297483 0.736899
+ video_0_resultados   OMIT    336       0.533622        1.632839 0.736848
+ video_0_resultados  CHROM    336       0.513754        1.632839 0.736761
+ video_2_resultados    ICA    337       0.459311        0.262258 0.736606
+ video_1_resultados    ICA      4       0.124046        3.607390 0.736377
+ video_0_resultados   GBGR    336       0.394549        3.685291 0.736294
+ video_6_resultados  CHROM    108       0.109435        0.297483 0.735998
+ video_5_resultados    POS      6       0.176667        0.297483 0.735403
+ video_5_resultados    POS      4       0.356069        0.297483 0.734729
+ video_9_resultados    LGI    337       0.285007        4.344828 0.734416
+ video_9_resultados   OMIT    337       0.285007        4.344828 0.734315
+ video_6_resultados   OMIT    337       0.229036        0.297483 0.733952
+ video_1_resultados    POS    188       0.144158        1.528868 0.733881
+ video_6_resultados  GREEN    151       0.129368        0.297483 0.733462
+ video_6_resultados  GREEN      9       0.009767        0.297483 0.733419
+ video_5_resultados  CHROM    108       0.176667        1.762014 0.733351
+ video_0_resultados  CHROM    101       0.195873        7.790194 0.732986
+ video_6_resultados    LGI    337       0.229036        0.297483 0.732966
+ video_2_resultados  GREEN    109       0.439443        0.262258 0.732815
+ video_0_resultados  CHROM    330       0.732297        1.632839 0.732667
+ video_7_resultados    POS      4       0.720845        0.273973 0.732299
+ video_7_resultados    PCA      6       0.800403        0.273973 0.732078
+ video_9_resultados  CHROM     36       0.345074        4.344828 0.731823
+ video_2_resultados  GREEN     36       0.340106        0.262258 0.731561
+ video_1_resultados    ICA     10       0.338524        5.685912 0.731101
+ video_5_resultados  CHROM     36       0.176667        0.297483 0.730817
+ video_5_resultados    POS    330       0.336136        1.762014 0.730684
+ video_1_resultados  CHROM    108       0.117294        1.528868 0.730580
+ video_1_resultados  GREEN    188       0.077071        0.549654 0.730477
+ video_1_resultados   GBGR    107       0.177630        1.528868 0.730427
+ video_5_resultados   GBGR    266       0.316202        0.297483 0.730408
+ video_6_resultados  CHROM     36       0.030100        0.297483 0.730377
+ video_1_resultados   GBGR    336       0.137406        3.607390 0.730324
+ video_7_resultados    POS    266       0.899851        0.273973 0.729960
+ video_6_resultados    ICA    188       0.129368        0.297483 0.729843
+ video_6_resultados    PBV     36       0.050034        0.297483 0.729675
+ video_7_resultados   OMIT      9       0.820293        0.273973 0.729575
+ video_7_resultados    LGI      9       0.820293        0.273973 0.729548
+ video_2_resultados    PCA    338       0.618251        0.262258 0.729345
+ video_1_resultados   GBGR    109       0.237965        5.685912 0.729282
+ video_1_resultados    PCA    280       0.103935        3.607390 0.729136
+ video_9_resultados    ICA    101       0.244962        4.344828 0.729131
+ video_7_resultados  CHROM      9       0.820293        0.273973 0.729121
+ video_9_resultados    POS    337       0.084784       14.689655 0.729097
+ video_5_resultados    PCA      6       0.236468        0.297483 0.728992
+ video_1_resultados    ICA    347       0.224605        2.628176 0.728658
+ video_6_resultados   OMIT      4       0.189569        0.297483 0.728398
+ video_7_resultados    POS    337       0.899851        0.273973 0.728288
+ video_5_resultados  GREEN      4       0.236468        0.297483 0.728140
+ video_5_resultados   OMIT    108       0.136800        1.762014 0.727107
+ video_0_resultados    PCA    101       0.215741        1.632839 0.727095
+ video_1_resultados  CHROM    347       0.244717        5.685912 0.726954
+ video_5_resultados    LGI     36       0.176667        0.297483 0.726848
+ video_5_resultados   OMIT     36       0.176667        0.297483 0.726396
+ video_5_resultados    PCA     10       0.116866        0.297483 0.726096
+ video_5_resultados    POS    266       0.316202        0.297483 0.725908
+ video_2_resultados  CHROM    338       0.558649        0.262258 0.725708
+ video_7_resultados    PCA      9       0.840182        0.273973 0.725647
+ video_2_resultados    PCA      9       0.479179        0.262258 0.725636
+ video_7_resultados    PCA      4       0.661177        0.273973 0.725260
+ video_5_resultados    LGI    108       0.116866        1.762014 0.725135
+ video_9_resultados  CHROM    336       0.365096        4.344828 0.724895
+ video_0_resultados    POS    266       0.652827        6.576967 0.724767
+ video_7_resultados   OMIT    266       0.840182        0.273973 0.724746
+ video_6_resultados    LGI      4       0.189569        0.297483 0.724627
+ video_7_resultados   GBGR      4       0.661177        0.273973 0.724519
+ video_7_resultados    LGI      4       0.681066        1.780822 0.724498
+ video_7_resultados    LGI    266       0.840182        0.273973 0.724269
+ video_7_resultados  CHROM    330       0.860072        0.273973 0.723931
+ video_2_resultados   OMIT    338       0.578516        0.262258 0.723715
+ video_7_resultados   OMIT    330       0.840182        0.273973 0.723474
+ video_7_resultados   OMIT      4       0.681066        1.780822 0.723178
+ video_9_resultados    PCA    336       0.365096        4.344828 0.722942
+ video_7_resultados   OMIT     10       0.621398        0.273973 0.722901
+ video_7_resultados    LGI     10       0.621398        0.273973 0.722816
+ video_7_resultados  CHROM     36       0.601508        0.273973 0.722675
+ video_7_resultados    LGI    330       0.840182        0.273973 0.722624
+ video_7_resultados  CHROM      4       0.720845        1.780822 0.722580
+ video_5_resultados    ICA    299       0.216534        0.297483 0.722563
+ video_0_resultados  CHROM    266       0.692562        0.419612 0.722320
+ video_9_resultados    LGI    336       0.365096        4.344828 0.722198
+ video_9_resultados   OMIT    336       0.365096        4.344828 0.722174
+ video_2_resultados  GREEN      9       0.439443        0.262258 0.722122
+ video_7_resultados  CHROM    151       0.561729        0.273973 0.722061
+ video_0_resultados    ICA     36       0.394549        1.632839 0.721994
+ video_7_resultados  CHROM    266       0.820293        0.273973 0.721782
+ video_6_resultados   OMIT    108       0.089501        0.297483 0.721643
+ video_2_resultados  CHROM    151       0.657986        0.262258 0.721388
+ video_1_resultados    POS    280       0.164270        2.628176 0.721305
+ video_2_resultados    LGI    338       0.578516        0.262258 0.721250
+ video_6_resultados    LGI    108       0.089501        0.297483 0.720944
+ video_9_resultados    PBV    336       0.365096        4.344828 0.720866
+ video_7_resultados   OMIT    151       0.561729        0.273973 0.720816
+ video_7_resultados    PCA    101       0.740735        0.273973 0.720139
+ video_5_resultados   OMIT    299       0.196601        1.762014 0.720027
+ video_6_resultados   GBGR      6       0.050034        0.297483 0.719997
+ video_5_resultados  CHROM    299       0.196601        1.762014 0.719977
+ video_6_resultados    POS    101       0.030100        0.297483 0.719909
+ video_7_resultados    LGI    151       0.561729        0.273973 0.719834
+ video_1_resultados   GBGR     10       0.298300        5.685912 0.719625
+ video_7_resultados  CHROM     50       0.840182        0.273973 0.719602
+ video_5_resultados    LGI    299       0.196601        1.762014 0.719227
+ video_6_resultados  GREEN    266       0.109834        0.297483 0.718893
+ video_7_resultados  CHROM     69       0.919740        0.273973 0.718733
+ video_9_resultados    PCA    337       0.224940        4.344828 0.718675
+ video_1_resultados    ICA    109       0.258077        5.685912 0.718343
+ video_7_resultados   GBGR      9       0.840182        0.273973 0.717739
+ video_1_resultados    PBV     10       0.137406        0.549654 0.717599
+ video_1_resultados   OMIT    333       0.043599        5.685912 0.717241
+ video_1_resultados    LGI    333       0.043599        5.685912 0.716792
+ video_1_resultados   GBGR    108       0.237965        1.528868 0.716782
+ video_1_resultados    ICA    104       0.003376        5.685912 0.716254
+ video_7_resultados  CHROM    337       0.740735        0.273973 0.716033
+ video_6_resultados  GREEN    101       0.010167        0.297483 0.715949
+ video_7_resultados  GREEN    266       0.999298        1.780822 0.715931
+ video_0_resultados  GREEN     69       0.076668        5.737742 0.715729
+ video_7_resultados   OMIT     36       0.601508        0.273973 0.715672
+ video_7_resultados    LGI     36       0.601508        0.273973 0.715574
+ video_7_resultados  GREEN      6       0.919740        0.273973 0.715459
+ video_5_resultados  GREEN     36       0.276335        0.297483 0.715404
+ video_2_resultados    POS    101       0.459311        0.262258 0.715275
+ video_6_resultados    PBV      9       0.109834        1.762014 0.715212
+ video_6_resultados    PCA    188       0.009767        0.297483 0.715033
+ video_5_resultados   OMIT    109       0.216534        0.297483 0.714971
+ video_5_resultados  CHROM    333       0.022668        1.762014 0.714961
+ video_7_resultados   GBGR      6       0.780514        0.273973 0.714947
+ video_6_resultados    ICA    337       0.089501        0.297483 0.714835
+ video_5_resultados   OMIT    333       0.022668        1.762014 0.714358
+ video_9_resultados    LGI    101       0.244962        4.344828 0.714265
+ video_1_resultados    PCA    333       0.063711        5.685912 0.714250
+ video_5_resultados    LGI    333       0.022668        1.762014 0.714135
+ video_5_resultados    PCA    330       0.276335        1.762014 0.714021
+ video_1_resultados  CHROM    333       0.063711        5.685912 0.713790
+ video_9_resultados   OMIT    101       0.244962        4.344828 0.713593
+ video_6_resultados  GREEN     10       0.050034        0.297483 0.713369
+ video_6_resultados  CHROM      4       0.169635        0.297483 0.713305
+ video_6_resultados    ICA     36       0.109834        2.356979 0.713290
+ video_1_resultados    POS    336       0.016736        1.528868 0.713149
+ video_0_resultados    PCA     10       0.374681        5.737742 0.712898
+ video_2_resultados  CHROM    108       0.340106        0.262258 0.712811
+ video_7_resultados  GREEN      9       0.661177        0.273973 0.712417
+ video_5_resultados    LGI    109       0.216534        0.297483 0.711784
+ video_7_resultados    PCA    151       0.561729        0.273973 0.711735
+ video_7_resultados    POS      6       0.860072        0.273973 0.711378
+ video_2_resultados    POS    338       0.538781        0.262258 0.711216
+ video_2_resultados  CHROM    101       0.479179        0.262258 0.711101
+ video_1_resultados  GREEN     50       0.036848        0.549654 0.710875
+ video_7_resultados    LGI     69       0.820293        0.273973 0.710737
+ video_2_resultados   GBGR      9       0.499046        0.262258 0.710714
+ video_7_resultados    SSR    151       0.641287       14.657534 0.710555
+ video_5_resultados  GREEN    347       0.037132        0.297483 0.710548
+ video_7_resultados   OMIT     69       0.820293        0.273973 0.710532
+ video_9_resultados    PCA    101       0.244962        4.344828 0.710260
+ video_9_resultados   GBGR    336       0.345074       10.551724 0.710141
+ video_1_resultados   OMIT    347       0.224605        5.685912 0.710109
+ video_3_resultados  GREEN    151       1.344602        0.209806 0.710042
+ video_2_resultados    POS     10       0.518914        0.262258 0.709947
+ video_2_resultados    ICA      9       0.459311        0.262258 0.709937
+ video_9_resultados    ICA    337       0.385118        2.275862 0.709924
+ video_9_resultados    SSR    151       0.285007        4.344828 0.709921
+ video_1_resultados    LGI    347       0.224605        5.685912 0.709496
+ video_5_resultados    PCA     36       0.196601        0.297483 0.709436
+ video_9_resultados   GBGR    337       0.204918        4.344828 0.709425
+ video_5_resultados    PCA    333       0.062536        1.762014 0.709183
+ video_6_resultados  CHROM    101       0.129768        0.297483 0.709050
+ video_9_resultados  CHROM    337       0.425163       12.620690 0.708898
+ video_4_resultados  GREEN    330       0.562776        0.273973 0.708821
+ video_7_resultados    POS    280       0.681066        0.273973 0.708786
+ video_0_resultados   OMIT     10       0.334946        5.737742 0.708494
+ video_0_resultados    LGI     10       0.334946        5.737742 0.708326
+ video_9_resultados    POS      6       0.124829        4.344828 0.708002
+ video_5_resultados  CHROM    101       0.076999        0.297483 0.707981
+ video_2_resultados    POS      4       0.618251        0.262258 0.707890
+ video_7_resultados    POS    330       0.860072        0.273973 0.707577
+ video_5_resultados    LGI    101       0.076999        0.297483 0.707365
+ video_5_resultados   OMIT    101       0.076999        0.297483 0.707330
+ video_0_resultados    SSR    151       0.156138        0.419612 0.707094
+ video_8_resultados  GREEN    101       7.138121        6.334471 0.706741
+ video_9_resultados  CHROM    101       0.244962        4.344828 0.706590
+ video_2_resultados    PCA    109       0.479179        0.262258 0.706499
+ video_7_resultados  CHROM    336       0.800403        0.273973 0.706210
+ video_5_resultados   GBGR    188       0.196601        1.762014 0.706030
+ video_6_resultados    ICA      9       0.029701        0.297483 0.705588
+ video_6_resultados    PBV    188       0.149302        0.297483 0.705549
+ video_7_resultados   OMIT    336       0.800403        0.273973 0.705541
+ video_7_resultados  GREEN    108       0.939630        0.273973 0.705325
+ video_7_resultados  CHROM    280       0.621398        0.273973 0.705253
+ video_7_resultados    LGI    336       0.800403        0.273973 0.705152
+ video_0_resultados    POS     10       0.513754        6.576967 0.705127
+ video_4_resultados  GREEN    101       0.463329        0.273973 0.704845
+ video_6_resultados   GBGR      9       0.029701        0.297483 0.704828
+ video_9_resultados  GREEN    330       0.365096        2.275862 0.704589
+ video_7_resultados    POS    151       0.720845        8.493151 0.704552
+ video_0_resultados    PBV     36       0.394549        1.632839 0.704503
+ video_7_resultados    PCA    266       0.760624        0.273973 0.704407
+ video_8_resultados  GREEN     10       7.237240        8.382253 0.704345
+ video_6_resultados    POS    337       0.129368        0.297483 0.704110
+ video_9_resultados    PCA    333       0.124829        4.344828 0.704052
+ video_6_resultados   OMIT     36       0.010167        0.297483 0.703869
+ video_2_resultados   OMIT    337       0.419576        0.262258 0.703865
+ video_9_resultados    LGI    333       0.184896        4.344828 0.703540
+ video_9_resultados   OMIT    333       0.184896        4.344828 0.703284
+ video_6_resultados   OMIT    101       0.129768        0.297483 0.703179
+ video_5_resultados   GBGR     10       0.096933        0.297483 0.702943
+ video_7_resultados   GBGR    151       0.581619        0.273973 0.702731
+ video_5_resultados    PBV    188       0.296268        0.297483 0.702724
+ video_5_resultados    PCA    108       0.057066        1.762014 0.702642
+ video_7_resultados   GBGR    188       0.860072        0.273973 0.702637
+ video_5_resultados    POS     36       0.236468        1.762014 0.702573
+ video_9_resultados  GREEN    101       0.264985        2.275862 0.702458
+ video_6_resultados    LGI     36       0.010167        0.297483 0.702361
+ video_6_resultados    LGI    101       0.149701        0.297483 0.702240
+ video_2_resultados    LGI    337       0.419576        0.262258 0.702231
+ video_5_resultados    PCA    299       0.176667        1.762014 0.702230
+ video_5_resultados    PCA    101       0.096933        1.762014 0.701858
+ video_7_resultados    POS     69       0.760624       12.602740 0.701787
+ video_0_resultados    ICA    330       0.354814        0.419612 0.701424
+ video_1_resultados    PBV    109       0.258077        5.685912 0.701394
+ video_7_resultados    PCA    330       0.820293        0.273973 0.701210
+ video_7_resultados    LGI    280       0.621398        0.273973 0.701067
+ video_9_resultados   OMIT     50       0.445185        4.344828 0.700610
+ video_7_resultados   OMIT     50       0.800403        0.273973 0.700578
+ video_9_resultados    LGI     50       0.445185        4.344828 0.700533
+ video_9_resultados    ICA      9       0.285007       12.620690 0.700418
+ video_7_resultados  GREEN     36       0.521950        0.273973 0.700155
+ video_0_resultados   GBGR     10       0.414416        5.737742 0.699849
+ video_6_resultados   OMIT    151       0.149701        0.297483 0.699647
+ video_7_resultados    LGI     50       0.800403        0.273973 0.699313
+ video_9_resultados   GBGR    101       0.244962        4.344828 0.699266
+ video_6_resultados    PBV    101       0.149701        0.297483 0.699151
+ video_6_resultados    PCA    337       0.268903        0.297483 0.699065
+ video_2_resultados    POS    337       0.359973        0.262258 0.698994
+ video_9_resultados    LGI    109       0.345074        4.344828 0.698851
+ video_9_resultados    PCA      6       0.244962        4.344828 0.698848
+ video_6_resultados  CHROM    151       0.089901        0.297483 0.698782
+ video_4_resultados    POS      4       0.702003        1.780822 0.698767
+ video_5_resultados    PCA     69       0.037132        1.762014 0.698673
+ video_9_resultados   OMIT    109       0.345074        4.344828 0.698573
+ video_9_resultados    POS    151       0.224940        4.344828 0.698501
+ video_7_resultados    PCA     10       0.601508        0.273973 0.698279
+ video_1_resultados    ICA    336       0.003376        3.607390 0.698176
+ video_2_resultados   OMIT    101       0.518914        0.262258 0.698061
+ video_6_resultados    LGI    151       0.149701        0.297483 0.697940
+ video_9_resultados    PCA    151       0.305029        4.344828 0.697922
+ video_2_resultados    PCA    337       0.379841        0.262258 0.697850
+ video_0_resultados  GREEN      9       0.493887        0.419612 0.697813
+ video_7_resultados    PCA     36       0.601508        0.273973 0.697687
+ video_8_resultados  CHROM    108       0.239443       16.573379 0.697658
+ video_2_resultados   GBGR    266       0.439443        0.262258 0.697466
+ video_1_resultados   GBGR    333       0.144158        1.528868 0.697274
+ video_2_resultados   OMIT    108       0.320238        0.262258 0.697241
+ video_7_resultados    PCA     69       0.740735        0.273973 0.697154
+ video_2_resultados  CHROM      6       0.479179        6.419612 0.697036
+ video_1_resultados   GBGR     69       0.077071        2.628176 0.697004
+ video_0_resultados  CHROM    337       0.811767        5.737742 0.696835
+ video_0_resultados   OMIT    188       0.414416        0.419612 0.696742
+ video_2_resultados    LGI    101       0.518914        0.262258 0.696564
+ video_6_resultados    ICA    101       0.069967        0.297483 0.696562
+ video_5_resultados   OMIT     69       0.076999        0.297483 0.696478
+ video_6_resultados    POS     36       0.109435        0.297483 0.696275
+ video_0_resultados  CHROM     10       0.315079        5.737742 0.696190
+ video_9_resultados   GBGR    151       0.305029        4.344828 0.696005
+ video_2_resultados    LGI    108       0.320238        0.262258 0.695935
+ video_0_resultados    LGI    337       0.811767        5.737742 0.695907
+ video_7_resultados   OMIT    280       0.621398        0.273973 0.695741
+ video_7_resultados    POS    108       0.879961        6.438356 0.695489
+ video_0_resultados    POS    337       0.632959        6.576967 0.695464
+ video_5_resultados    LGI     69       0.057066        0.297483 0.695295
+ video_5_resultados    PBV     10       0.156734        0.297483 0.695130
+ video_7_resultados    POS     10       0.700956        1.780822 0.694837
+ video_2_resultados   GBGR    338       0.677854        0.262258 0.694707
+ video_2_resultados    LGI    109       0.439443        0.262258 0.694694
+ video_8_resultados    LGI    108       0.239443       16.573379 0.694644
+ video_2_resultados   OMIT    109       0.439443        0.262258 0.694572
+ video_0_resultados  GREEN    330       0.652827        5.737742 0.694440
+ video_9_resultados   OMIT      4       0.244962        4.344828 0.694421
+ video_7_resultados   OMIT    337       0.681066        0.273973 0.694161
+ video_0_resultados   OMIT    337       0.811767        5.737742 0.694147
+ video_8_resultados   OMIT    108       0.239443       16.573379 0.694142
+ video_1_resultados  GREEN      4       0.264828        3.607390 0.694097
+ video_9_resultados    LGI      6       0.244962        4.344828 0.694086
+ video_0_resultados   OMIT     36       0.394549        1.632839 0.693908
+ video_9_resultados    LGI      4       0.244962        4.344828 0.693798
+ video_7_resultados    PCA    336       0.820293        0.273973 0.693717
+ video_9_resultados   OMIT      6       0.244962        4.344828 0.693707
+ video_2_resultados  CHROM    337       0.419576        0.262258 0.693629
+ video_5_resultados  CHROM     69       0.096933        0.297483 0.693539
+ video_5_resultados   GBGR    330       0.276335        1.762014 0.693496
+ video_7_resultados    PCA    280       0.641287        0.273973 0.693447
+ video_2_resultados  CHROM    109       0.399708        0.262258 0.693415
+ video_0_resultados    LGI     36       0.394549        1.632839 0.693391
+ video_9_resultados    PCA     50       0.445185        4.344828 0.693359
+ video_5_resultados    PBV      9       0.176667        0.297483 0.692949
+ video_6_resultados  GREEN    188       0.010167        0.297483 0.692917
+ video_7_resultados   GBGR    266       0.720845        0.273973 0.692878
+ video_5_resultados  CHROM    151       0.256401        1.762014 0.692850
+ video_2_resultados   OMIT      6       0.499046        0.262258 0.692778
+ video_6_resultados  CHROM    109       0.049634        0.297483 0.692734
+ video_5_resultados   GBGR     36       0.216534        1.762014 0.692667
+ video_7_resultados    LGI    337       0.681066        0.273973 0.691501
+ video_5_resultados   GBGR    101       0.116866        1.762014 0.691352
+ video_9_resultados    PCA      4       0.285007        4.344828 0.691311
+ video_6_resultados    PCA    151       0.289236        0.297483 0.691210
+ video_2_resultados    LGI      6       0.499046        0.262258 0.691037
+ video_0_resultados    LGI    188       0.414416        0.419612 0.690934
+ video_9_resultados   GBGR    333       0.064762        4.344828 0.690905
+ video_2_resultados    PCA    101       0.558649        0.262258 0.690726
+ video_9_resultados    POS    101       0.164873       12.620690 0.690665
+ video_1_resultados    PBV      6       0.056959        3.607390 0.690182
+ video_5_resultados   OMIT    151       0.236468        1.762014 0.690027
+ video_0_resultados   GBGR    101       0.215741        1.632839 0.690001
+ video_8_resultados  GREEN    108       7.395830       10.430034 0.689988
+ video_2_resultados    PCA    266       0.439443        0.262258 0.689872
+ video_6_resultados   OMIT    109       0.049634        0.297483 0.689744
+ video_9_resultados  CHROM     50       0.425163        4.344828 0.689543
+ video_5_resultados    LGI    151       0.236468        1.762014 0.689502
+ video_4_resultados    LGI     10       0.463329        0.273973 0.689324
+ video_2_resultados  CHROM     36       0.399708        0.262258 0.689192
+ video_9_resultados   GBGR      4       0.285007        4.344828 0.689191
+ video_5_resultados    POS    299       0.076999       12.654462 0.689162
+ video_9_resultados    LGI    151       0.285007        4.344828 0.689158
+ video_4_resultados   OMIT     10       0.463329        0.273973 0.689135
+ video_6_resultados    LGI    109       0.049634        0.297483 0.689100
+ video_1_resultados   GBGR    280       0.103935        3.607390 0.689081
+ video_6_resultados    PCA    108       0.069568        0.297483 0.689044
+ video_0_resultados   OMIT    280       0.593224        1.632839 0.688952
+ video_2_resultados  GREEN    108       0.419576        0.262258 0.688910
+ video_9_resultados   OMIT    151       0.285007        4.344828 0.688888
+ video_5_resultados    POS    280       0.136800        1.762014 0.688838
+ video_7_resultados    POS    109       0.641287       14.657534 0.688567
+ video_9_resultados    ICA     50       0.405140        4.344828 0.688536
+ video_5_resultados    POS    151       0.136800        8.535469 0.688428
+ video_9_resultados  CHROM    333       0.224940        6.413793 0.688374
+ video_7_resultados  GREEN    347       0.700956        1.780822 0.688363
+ video_9_resultados   GBGR      6       0.224940        4.344828 0.688194
+ video_6_resultados    PCA    101       0.149701        0.297483 0.687735
+ video_7_resultados    POS    101       0.840182        6.438356 0.687612
+ video_0_resultados    LGI    280       0.593224        1.632839 0.687564
+ video_2_resultados   OMIT    151       0.677854        0.262258 0.687559
+ video_9_resultados    POS    336       0.285007        2.275862 0.687396
+ video_9_resultados  CHROM      4       0.204918        4.344828 0.687326
+ video_7_resultados   GBGR    101       0.740735        0.273973 0.687276
+ video_2_resultados   GBGR      4       0.618251        0.262258 0.687139
+ video_5_resultados    PCA    109       0.196601        0.297483 0.686999
+ video_0_resultados    PCA    280       0.593224        1.632839 0.686900
+ video_8_resultados    POS      4       0.199795        0.191126 0.686790
+ video_6_resultados  GREEN     18       0.249369        0.297483 0.686746
+ video_2_resultados    PCA      4       0.618251        0.262258 0.686704
+ video_2_resultados    LGI    151       0.677854        0.262258 0.686605
+ video_5_resultados    ICA     18       0.455737        2.356979 0.686425
+ video_7_resultados   GBGR    336       0.820293        0.273973 0.686094
+ video_2_resultados   GBGR    109       0.578516        0.262258 0.686024
+ video_6_resultados  GREEN     36       0.030100        1.762014 0.685797
+ video_9_resultados    POS     10       0.365096       14.689655 0.685509
+ video_4_resultados    PCA      4       0.642334        1.780822 0.685317
+ video_7_resultados   GBGR    330       0.800403        0.273973 0.685184
+ video_0_resultados  CHROM     36       0.394549        1.632839 0.685019
+ video_5_resultados    PCA    151       0.216534        1.762014 0.684638
+ video_5_resultados   GBGR     69       0.022668        1.762014 0.684505
+ video_4_resultados   GBGR      4       0.662224        1.780822 0.684404
+ video_9_resultados  CHROM    109       0.285007        4.344828 0.684334
+ video_5_resultados   GBGR    151       0.196601        1.762014 0.684244
+ video_0_resultados  CHROM    280       0.573357        0.419612 0.684165
+ video_9_resultados  CHROM      6       0.264985        4.344828 0.683994
+ video_9_resultados   OMIT    330       0.405140        6.413793 0.683954
+ video_6_resultados  CHROM    266       0.030100        0.297483 0.683912
+ video_9_resultados    POS    333       0.124829       12.620690 0.683767
+ video_2_resultados  CHROM     10       0.677854        0.262258 0.683600
+ video_6_resultados    POS      9       0.029701        0.297483 0.683520
+ video_9_resultados    LGI    330       0.425163        6.413793 0.683402
+ video_5_resultados    POS    109       0.057066        0.297483 0.683356
+ video_2_resultados    ICA      6       0.558649        0.262258 0.683128
+ video_8_resultados    POS    109       0.179971        0.191126 0.682615
+ video_8_resultados    PCA      4       0.199795        0.191126 0.682571
+ video_7_resultados  CHROM    108       0.800403        0.273973 0.682505
+ video_2_resultados   OMIT     10       0.657986        0.262258 0.682503
+ video_6_resultados   OMIT    266       0.030100        0.297483 0.682291
+ video_6_resultados   GBGR    151       0.368971        0.297483 0.682102
+ video_9_resultados    POS    109       0.264985       10.551724 0.682032
+ video_6_resultados    LGI    266       0.030100        0.297483 0.682006
+ video_9_resultados   OMIT    108       0.325051        4.344828 0.681848
+ video_4_resultados  CHROM     10       0.483218        6.438356 0.681825
+ video_9_resultados    LGI    108       0.325051        4.344828 0.681811
+ video_6_resultados    POS      6       0.129768        0.297483 0.681779
+ video_6_resultados  CHROM    107       0.229436        0.297483 0.681630
+ video_9_resultados    PCA    109       0.385118        4.344828 0.681533
+ video_9_resultados  GREEN     36       0.585341        4.344828 0.681052
+ video_8_resultados   GBGR      4       0.199795        0.191126 0.680986
+ video_2_resultados   OMIT     36       0.439443        0.262258 0.680865
+ video_8_resultados    PCA    108       0.239443        6.334471 0.680756
+ video_7_resultados    PCA     50       0.780514        0.273973 0.680679
+ video_3_resultados  GREEN    337       1.900893        0.209806 0.680371
+ video_5_resultados    POS     10       0.076999        0.297483 0.680294
+ video_9_resultados    ICA    336       0.365096       10.551724 0.680175
+ video_5_resultados    PCA    280       0.096933        1.762014 0.680173
+ video_2_resultados    POS      9       0.459311        0.262258 0.679804
+ video_4_resultados  GREEN     36       0.960566        2.328767 0.679526
+ video_2_resultados   OMIT      4       0.598384       14.629418 0.679370
+ video_1_resultados  GREEN     69       0.036848        5.685912 0.679348
+ video_2_resultados    LGI     36       0.439443        0.262258 0.679338
+ video_7_resultados  GREEN      4       0.840182        1.780822 0.679272
+ video_9_resultados    POS    188       0.015327        8.482759 0.679120
+ video_7_resultados    ICA      4       0.800403        1.780822 0.679064
+ video_7_resultados  CHROM    104       0.979409        0.273973 0.679046
+ video_5_resultados  CHROM    280       0.096933        1.762014 0.678857
+ video_7_resultados    LGI    108       0.681066        0.273973 0.678824
+ video_2_resultados    LGI     10       0.657986        0.262258 0.678777
+ video_0_resultados    PCA    337       0.811767        5.737742 0.678661
+ video_8_resultados  GREEN    151       7.316535        8.382253 0.678655
+ video_2_resultados    PCA     10       0.657986        0.262258 0.678424
+ video_5_resultados   OMIT    280       0.096933        1.762014 0.678044
+ video_2_resultados    PCA      6       0.518914        0.262258 0.678015
+ video_2_resultados    LGI      4       0.598384       14.629418 0.677954
+ video_9_resultados  CHROM    330       0.425163        6.413793 0.677790
+ video_5_resultados   GBGR    333       0.142270        1.762014 0.677760
+ video_5_resultados    LGI    280       0.096933        1.762014 0.677695
+ video_2_resultados    POS    266       0.439443        0.262258 0.677601
+ video_8_resultados  GREEN    330       7.157945        6.334471 0.677597
+ video_6_resultados    ICA    109       0.009767        0.297483 0.677312
+ video_7_resultados    LGI    104       0.979409        0.273973 0.676660
+ video_7_resultados   GBGR     36       0.601508        0.273973 0.676655
+ video_2_resultados   GBGR    101       0.578516        0.262258 0.676555
+ video_9_resultados    POS      4       0.164873        6.413793 0.676503
+ video_9_resultados    PBV      4       0.325051        2.275862 0.676345
+ video_5_resultados    ICA    330       0.276335        1.762014 0.676320
+ video_4_resultados    ICA     10       0.383771        0.273973 0.676306
+ video_5_resultados    ICA     10       0.176667        0.297483 0.676110
+ video_1_resultados    PCA    347       0.204493        5.685912 0.675684
+ video_6_resultados    POS    151       0.408838        0.297483 0.675613
+ video_7_resultados   OMIT    104       0.979409        0.273973 0.675329
+ video_5_resultados    POS     69       0.037132        2.356979 0.675265
+ video_4_resultados  GREEN    338       0.343992        0.273973 0.675263
+ video_7_resultados   OMIT    108       0.681066        0.273973 0.675211
+ video_6_resultados    POS    188       0.149701        0.297483 0.675083
+ video_7_resultados    PBV      4       0.740735        1.780822 0.675045
+ video_7_resultados    POS     36       0.800403        0.273973 0.674989
+ video_9_resultados   GBGR     50       0.445185        4.344828 0.674713
+ video_6_resultados    PCA    109       0.089501        0.297483 0.674531
+ video_1_resultados    PCA    104       0.144158        5.685912 0.674455
+ video_7_resultados    PBV    188       1.118635        0.273973 0.674442
+ video_4_resultados    POS     10       0.602555        2.328767 0.674283
+ video_8_resultados  GREEN    337       7.336359        6.334471 0.674237
+ video_9_resultados  GREEN    337       0.445185        2.275862 0.674138
+ video_7_resultados   GBGR    280       0.661177        0.273973 0.674016
+ video_2_resultados    ICA     69       0.518914        0.262258 0.674004
+ video_8_resultados    PBV    108       7.871601        4.286689 0.673864
+ video_1_resultados    POS    104       0.385499        1.528868 0.673841
+ video_0_resultados    ICA    101       0.235609        0.419612 0.673785
+ video_5_resultados    ICA      9       0.256401        0.297483 0.673644
+ video_8_resultados    POS     36       0.080852        0.191126 0.673021
+ video_4_resultados    PBV     10       0.363881        0.273973 0.672565
+ video_3_resultados  CHROM     69       1.821423        0.209806 0.672545
+ video_6_resultados  CHROM     50       0.109834        0.297483 0.672305
+ video_4_resultados  CHROM    338       0.184876        0.273973 0.672293
+ video_9_resultados  GREEN    338       0.505252        2.275862 0.671947
+ video_7_resultados  GREEN    299       0.581619       12.602740 0.671615
+ video_6_resultados   OMIT    330       0.149701        0.297483 0.671519
+ video_2_resultados    POS    109       0.459311       16.681870 0.671463
+ video_4_resultados   OMIT    338       0.204765        0.273973 0.671232
+ video_5_resultados    ICA    266       0.296268        6.475973 0.671043
+ video_4_resultados    PCA     10       0.522997        1.780822 0.670880
+ video_6_resultados   GBGR    101       0.149701        0.297483 0.670870
+ video_4_resultados    LGI    338       0.204765        0.273973 0.670614
+ video_2_resultados  CHROM      4       0.598384       14.629418 0.670590
+ video_2_resultados   OMIT    266       0.459311        0.262258 0.670582
+ video_6_resultados    PCA    266       0.030100        0.297483 0.670562
+ video_2_resultados    PCA    108       0.300371        0.262258 0.670469
+ video_2_resultados    PCA     36       0.479179        0.262258 0.670292
+ video_7_resultados    POS    104       1.138525       12.602740 0.670246
+ video_6_resultados    LGI    330       0.149701        0.297483 0.670153
+ video_7_resultados    POS    338       0.740735       14.657534 0.670152
+ video_8_resultados    LGI     36       0.199795        8.382253 0.670055
+ video_8_resultados   OMIT     36       0.199795        8.382253 0.670012
+ video_5_resultados   GBGR      6       0.256401        0.297483 0.669977
+ video_2_resultados    PBV      4       0.598384       14.629418 0.669940
+ video_2_resultados    LGI    266       0.459311        0.262258 0.669895
+ video_9_resultados   OMIT     10       0.525274        4.344828 0.669823
+ video_9_resultados    POS    330       0.244962       18.827586 0.669656
+ video_9_resultados    LGI     10       0.525274        4.344828 0.669454
+ video_9_resultados    PCA    108       0.325051        4.344828 0.669450
+ video_2_resultados  GREEN    333       0.340106        0.262258 0.669383
+ video_8_resultados  GREEN    338       7.276888       10.430034 0.669381
+ video_2_resultados    PBV     10       0.717589        0.262258 0.669248
+ video_6_resultados  CHROM    330       0.149701        0.297483 0.669175
+ video_5_resultados   GBGR    280       0.096933        1.762014 0.668979
+video_10_resultados  CHROM      9       1.003960        0.380623 0.668625
+ video_4_resultados  CHROM    330       0.443439        0.273973 0.668605
+ video_0_resultados   GBGR    280       0.553489        1.632839 0.668581
+ video_9_resultados  CHROM    108       0.365096       10.551724 0.668526
+ video_6_resultados   GBGR    337       0.288837        0.297483 0.668503
+ video_4_resultados  GREEN     10       0.562776        0.273973 0.668448
+ video_9_resultados    PCA    330       0.405140        6.413793 0.668324
+ video_2_resultados  CHROM     50       0.379841        0.262258 0.668278
+ video_5_resultados    POS    108       0.002735        2.356979 0.668250
+ video_0_resultados  CHROM     69       0.002802        1.632839 0.668199
+ video_4_resultados    ICA    266       0.463329        0.273973 0.667940
+ video_0_resultados    PBV    108       0.632959        1.632839 0.667670
+ video_5_resultados  GREEN     69       0.316202        0.297483 0.667651
+ video_9_resultados    POS    107       0.015327       10.551724 0.667626
+ video_1_resultados    POS    333       0.063711        1.528868 0.667579
+ video_9_resultados    LGI    188       0.184896        4.344828 0.667325
+ video_1_resultados   OMIT    104       0.124046        5.685912 0.667019
+ video_7_resultados    PCA    108       0.601508        0.273973 0.666951
+ video_9_resultados   OMIT    188       0.184896        4.344828 0.666782
+video_10_resultados    LGI      9       0.983871        0.380623 0.666729
+video_10_resultados   OMIT      9       0.983871        0.380623 0.666659
+ video_5_resultados    POS    101       0.156734        6.475973 0.666302
+ video_4_resultados  GREEN    151       0.642334        0.273973 0.666230
+ video_0_resultados    ICA    108       0.394549        5.737742 0.666021
+ video_8_resultados  CHROM     36       0.219619        8.382253 0.665956
+ video_1_resultados  GREEN    333       0.137406        5.685912 0.665806
+ video_1_resultados    LGI    104       0.124046        2.628176 0.665524
+ video_9_resultados    POS     50       0.405140       12.620690 0.665389
+ video_9_resultados   OMIT    107       0.224940        4.344828 0.665330
+ video_2_resultados  GREEN    280       0.181165        0.262258 0.665196
+ video_9_resultados    LGI    107       0.224940        4.344828 0.665191
+ video_7_resultados    PCA    337       0.621398        0.273973 0.665066
+ video_1_resultados    PBV    151       0.358635        0.549654 0.664773
+ video_2_resultados   GBGR     36       0.499046        0.262258 0.664641
+ video_0_resultados    PBV    188       0.573357        7.790194 0.664390
+ video_9_resultados  CHROM    188       0.164873        4.344828 0.664289
+ video_9_resultados    PCA    107       0.184896        4.344828 0.664278
+ video_4_resultados    LGI      4       0.682113        1.780822 0.664276
+ video_9_resultados    PBV     36       0.224940        4.344828 0.664265
+ video_4_resultados    LGI    151       0.602555        0.273973 0.664182
+ video_9_resultados  CHROM    107       0.224940        4.344828 0.664173
+ video_4_resultados   OMIT    151       0.602555        0.273973 0.664088
+ video_9_resultados    PBV     50       0.445185        4.344828 0.664064
+ video_7_resultados   GBGR     10       0.561729        0.273973 0.664053
+ video_0_resultados    LGI     69       0.002802        5.737742 0.663809
+ video_4_resultados   OMIT      4       0.682113        1.780822 0.663720
+ video_4_resultados    PCA    338       0.224655        0.273973 0.663432
+ video_6_resultados   OMIT     50       0.129768        0.297483 0.663173
+ video_7_resultados    PCA    104       0.959519        0.273973 0.663156
+ video_3_resultados   OMIT     69       1.841290        0.209806 0.662847
+ video_8_resultados    PCA    109       0.199795        6.334471 0.662471
+ video_2_resultados   GBGR     10       0.638119        0.262258 0.662321
+ video_3_resultados    LGI     69       1.841290        0.209806 0.662317
+ video_6_resultados    LGI     50       0.149701        0.297483 0.661988
+ video_6_resultados    PCA     36       0.029701        0.297483 0.661940
+ video_0_resultados    ICA      6       0.454152        7.790194 0.661788
+ video_6_resultados   GBGR    266       0.050034        0.297483 0.661768
+ video_7_resultados  GREEN    109       0.800403        0.273973 0.661554
+ video_0_resultados   OMIT     69       0.022670        5.737742 0.661229
+ video_8_resultados    POS    330       7.138121       14.525597 0.661099
+ video_4_resultados  GREEN      9       0.164986        0.273973 0.660943
+ video_9_resultados    PCA     10       0.545296        4.344828 0.660606
+ video_5_resultados    PBV    108       0.595272        0.297483 0.660475
+ video_6_resultados    ICA    336       0.109834        0.297483 0.660212
+ video_2_resultados   OMIT    280       0.578516        0.262258 0.660105
+ video_5_resultados  CHROM    104       0.102403        0.297483 0.660065
+ video_8_resultados  CHROM    109       0.199795        6.334471 0.659770
+ video_4_resultados    PCA    151       0.602555        0.273973 0.659587
+ video_5_resultados  CHROM     50       0.176667        0.297483 0.659372
+ video_9_resultados  CHROM     10       0.445185        4.344828 0.659124
+video_10_resultados  CHROM    266       0.963782        0.380623 0.658611
+ video_5_resultados    PBV    333       0.176667        0.297483 0.658511
+ video_8_resultados   GBGR    109       0.279090        6.334471 0.658380
+ video_4_resultados   OMIT    330       0.423550        0.273973 0.658302
+ video_2_resultados    LGI    280       0.598384        0.262258 0.658014
+ video_0_resultados  CHROM    188       0.434284        0.419612 0.658006
+ video_2_resultados  CHROM    280       0.598384        0.262258 0.657660
+ video_5_resultados    LGI    104       0.102403        0.297483 0.657588
+ video_9_resultados   GBGR    107       0.164873        4.344828 0.657554
+ video_9_resultados   GBGR    330       0.405140        6.413793 0.657545
+ video_1_resultados   GBGR    104       0.184382        5.685912 0.657404
+ video_4_resultados    LGI    330       0.423550        0.273973 0.657365
+ video_8_resultados    PCA     36       0.179971        0.191126 0.657304
+ video_4_resultados    PCA      9       0.403660        0.273973 0.657213
+ video_6_resultados  GREEN    109       0.009767        0.297483 0.657203
+ video_6_resultados  CHROM    336       0.029701        0.297483 0.657114
+ video_4_resultados    POS     36       0.861119        0.273973 0.656927
+ video_0_resultados  GREEN    109       0.434284        5.737742 0.656862
+ video_7_resultados    PBV    337       0.939630        0.273973 0.656817
+ video_5_resultados    PCA    104       0.142270        1.762014 0.656761
+ video_7_resultados    POS    347       0.502061       12.602740 0.656583
+ video_5_resultados   OMIT    104       0.102403        0.297483 0.656569
+ video_7_resultados   GBGR     69       0.601508        0.273973 0.656402
+video_10_resultados   OMIT    266       0.983871        1.695502 0.656377
+ video_4_resultados  CHROM      4       0.702003        1.780822 0.656265
+video_10_resultados    LGI    266       0.983871        1.695502 0.656224
+ video_6_resultados    PCA    330       0.169635        0.297483 0.656107
+ video_7_resultados    PBV    109       0.899851        0.273973 0.656083
+ video_1_resultados    PBV    330       0.137406        2.628176 0.655976
+ video_2_resultados  CHROM     69       0.499046        0.262258 0.655847
+ video_4_resultados  CHROM    101       0.542887        0.273973 0.655516
+ video_8_resultados  CHROM    337       0.160148        0.191126 0.655343
+ video_8_resultados  CHROM    266       0.160148        8.382253 0.654914
+ video_2_resultados    POS     36       0.439443        0.262258 0.654889
+ video_3_resultados    POS    330       1.304867        0.209806 0.654624
+ video_4_resultados    LGI    101       0.562776        0.273973 0.654575
+ video_9_resultados    LGI     69       0.264985        4.344828 0.654316
+ video_4_resultados  GREEN    108       0.582666        0.273973 0.654183
+ video_8_resultados   OMIT    151       0.318738        0.191126 0.654114
+ video_9_resultados   OMIT     69       0.264985        4.344828 0.653831
+ video_6_resultados    PBV    107       0.109834        6.475973 0.653741
+ video_9_resultados    POS    108       0.204918       12.620690 0.653738
+ video_5_resultados   GBGR    299       0.156734        1.762014 0.653637
+ video_4_resultados    POS    101       0.562776        0.273973 0.653580
+ video_7_resultados    ICA     10       0.780514        1.780822 0.653558
+ video_8_resultados    LGI    151       0.318738        0.191126 0.653405
+ video_5_resultados    PBV    330       0.415870        0.297483 0.653208
+ video_7_resultados    PBV      6       1.158414        0.273973 0.653168
+ video_7_resultados  CHROM    338       0.601508        0.273973 0.653100
+ video_4_resultados   OMIT    101       0.562776        0.273973 0.652978
+ video_7_resultados  GREEN    280       0.720845        4.383562 0.652309
+ video_7_resultados   OMIT    338       0.601508        0.273973 0.652297
+video_10_resultados    LGI    101       0.722710        1.695502 0.652246
+ video_4_resultados   OMIT    108       0.522997        0.273973 0.652093
+ video_4_resultados    LGI    108       0.522997        0.273973 0.652013
+ video_4_resultados  GREEN      4       0.284323        1.780822 0.651975
+video_10_resultados    ICA      9       1.305299        2.456747 0.651516
+ video_4_resultados    ICA    108       0.503108        0.273973 0.651423
+ video_6_resultados   OMIT    107       0.269303        0.297483 0.651320
+ video_8_resultados   GBGR     36       5.948694        0.191126 0.651295
+ video_2_resultados  GREEN    266       0.558649        0.262258 0.651266
+ video_8_resultados  CHROM    151       0.318738        0.191126 0.650984
+ video_6_resultados    LGI    107       0.269303        0.297483 0.650554
+ video_6_resultados    POS    108       0.050034        0.297483 0.650525
+ video_7_resultados    LGI    338       0.601508        0.273973 0.650477
+ video_5_resultados    LGI    107       0.156734        1.762014 0.650381
+ video_7_resultados    POS     50       0.979409        0.273973 0.650315
+ video_9_resultados   GBGR     10       0.565318        4.344828 0.650248
+ video_9_resultados  CHROM     69       0.184896        4.344828 0.650093
+ video_5_resultados   OMIT    107       0.156734        1.762014 0.649957
+ video_5_resultados   GBGR    108       0.042602        1.762014 0.649729
+ video_6_resultados  CHROM     10       0.069967        0.297483 0.649341
+ video_8_resultados   OMIT    109       0.140324        6.334471 0.649318
+ video_4_resultados   GBGR    266       0.662224        0.273973 0.649246
+ video_9_resultados  CHROM    280       0.285007       10.551724 0.649244
+ video_7_resultados  CHROM    109       0.561729        0.273973 0.648922
+ video_6_resultados    POS    266       0.030100        0.297483 0.648733
+ video_4_resultados    LGI      9       0.324102        0.273973 0.648659
+ video_8_resultados    LGI    109       0.140324        6.334471 0.648374
+ video_8_resultados    PCA    266       0.140324        6.334471 0.648196
+ video_6_resultados    PBV    337       0.010167        0.297483 0.648184
+ video_8_resultados    POS    108       0.080852        0.191126 0.648141
+ video_6_resultados  GREEN    299       0.069568        4.416476 0.648115
+ video_7_resultados    ICA      9       0.939630        0.273973 0.648077
+ video_4_resultados   OMIT      9       0.324102        0.273973 0.647960
+ video_9_resultados   GBGR    108       0.305029        4.344828 0.647881
+ video_0_resultados   OMIT    299       0.632959        5.737742 0.647786
+ video_4_resultados    POS    151       0.741782        1.780822 0.647625
+ video_9_resultados    PCA     69       0.285007        4.344828 0.647513
+ video_3_resultados    PCA     69       1.841290        0.209806 0.647465
+ video_2_resultados    PCA    188       0.538781        0.262258 0.647368
+ video_0_resultados    POS    280       0.533622        6.576967 0.647341
+ video_8_resultados  CHROM    101       0.239443        6.334471 0.647268
+video_10_resultados  CHROM    336       0.883424        2.456747 0.647215
+ video_2_resultados  CHROM    299       0.757324        0.262258 0.647113
+ video_3_resultados  GREEN     10       1.364469        0.209806 0.647070
+ video_0_resultados    PCA    299       0.632959        5.737742 0.646971
+ video_0_resultados    LGI    299       0.632959        5.737742 0.646945
+ video_0_resultados   GBGR    299       0.593224        5.737742 0.646870
+ video_7_resultados   OMIT    347       0.521950        1.780822 0.646744
+ video_5_resultados    LGI     50       0.176667        0.297483 0.646701
+ video_0_resultados  CHROM    299       0.632959        5.737742 0.646652
+ video_2_resultados   OMIT    188       0.518914        0.262258 0.646549
+ video_5_resultados    POS    333       0.182137        8.535469 0.646191
+ video_2_resultados    LGI    188       0.518914        0.262258 0.646110
+ video_6_resultados    PBV    330       0.069967        0.297483 0.645973
+ video_3_resultados    PBV    337       2.198906       16.629418 0.645927
+video_10_resultados   OMIT    336       0.883424        2.456747 0.645923
+ video_8_resultados    LGI    266       0.179971        8.382253 0.645789
+video_10_resultados    LGI    336       0.883424        2.456747 0.645774
+ video_6_resultados    POS     69       0.289236        0.297483 0.645752
+ video_8_resultados    PBV     50       0.179971        0.191126 0.645719
+ video_7_resultados   GBGR     50       0.760624        0.273973 0.645671
+ video_1_resultados    ICA    266       0.526281        3.607390 0.645354
+ video_0_resultados    PBV      6       0.474019        7.790194 0.645248
+ video_0_resultados    PCA     36       0.394549        0.419612 0.645183
+video_10_resultados   OMIT    101       0.722710        1.695502 0.645107
+ video_8_resultados    LGI      4       0.219619        0.191126 0.645027
+
+Top 100 SQI3:
+              Video Metodo  Patch  Error_BPM_Abs  Error_iRPM_Abs     SQI3
+ video_7_resultados  CHROM    199      29.242392       10.547945 0.207430
+ video_7_resultados    PCA    199      29.242392       10.547945 0.206880
+ video_7_resultados    ICA    199      29.222503       10.547945 0.205637
+ video_8_resultados    ICA    299       0.457504        0.191126 0.200790
+ video_8_resultados    PCA    299       0.437681        8.382253 0.198782
+ video_8_resultados  CHROM    299       0.378209        6.334471 0.189533
+ video_2_resultados    PBV    337       0.240768        2.314709 0.187397
+video_10_resultados    PBV     10       0.983871        0.380623 0.186631
+video_10_resultados  CHROM    135       3.414674        1.695502 0.185235
+video_10_resultados    ICA    135       3.615567        1.695502 0.184858
+video_10_resultados    ICA     10       0.943692        0.380623 0.181078
+ video_0_resultados  CHROM    280       0.573357        0.419612 0.179025
+ video_7_resultados    ICA    108      11.540735        1.780822 0.177896
+ video_7_resultados    LGI    199      29.222503       10.547945 0.177402
+ video_7_resultados   OMIT    199      29.222503       10.547945 0.176936
+ video_7_resultados   GBGR    199      29.242392       10.547945 0.176887
+ video_5_resultados    ICA    347      15.385969        1.762014 0.175477
+video_10_resultados    PBV    336       1.265121        0.380623 0.174648
+ video_0_resultados    PCA    280       0.593224        1.632839 0.173834
+ video_2_resultados  GREEN    199      23.505669        0.262258 0.173493
+ video_1_resultados    PBV    347       0.465946        2.628176 0.172535
+video_10_resultados    PCA     18      20.912442        1.695502 0.172284
+ video_7_resultados    PCA      9       0.840182        0.273973 0.172166
+ video_7_resultados  CHROM      9       0.820293        0.273973 0.171779
+ video_5_resultados    PCA      6       0.236468        0.297483 0.171212
+ video_2_resultados  GREEN     18      23.525536        0.262258 0.171022
+ video_7_resultados  GREEN     18       0.342945        1.780822 0.170981
+ video_1_resultados    PCA     10       0.278188        5.685912 0.170635
+ video_7_resultados   OMIT     18       0.382724        1.780822 0.169860
+video_10_resultados  CHROM    151       0.803067        6.608997 0.169615
+ video_7_resultados    LGI     18       0.382724        1.780822 0.169590
+ video_7_resultados    PBV     18       0.442392        1.780822 0.169511
+video_10_resultados    PCA    151       0.803067        0.380623 0.169061
+ video_2_resultados    PBV    336      23.605006        0.262258 0.168944
+video_10_resultados  GREEN     50       6.429076        1.695502 0.168725
+video_10_resultados   GBGR    336       0.803067        6.608997 0.168681
+ video_7_resultados    ICA     18      21.525265        1.780822 0.168085
+ video_4_resultados    ICA     10       0.383771        0.273973 0.168034
+video_10_resultados    PCA    135       3.032978        1.695502 0.167731
+video_10_resultados    POS    338       1.024049       10.761246 0.167674
+ video_3_resultados    ICA      6      29.278377        0.209806 0.167659
+ video_0_resultados    POS    338       0.573357        6.576967 0.166716
+ video_5_resultados    PCA    188       0.196601        0.297483 0.166713
+ video_2_resultados    ICA    151       0.022225        4.367161 0.166470
+ video_7_resultados   GBGR     18      21.505376        1.780822 0.166331
+ video_5_resultados    PCA    347       0.022668        1.762014 0.166204
+ video_4_resultados    PCA    338       0.224655        0.273973 0.166129
+ video_8_resultados    PBV     18       0.057914       10.430034 0.165757
+ video_0_resultados   GBGR     18       0.300815        6.576967 0.165737
+video_10_resultados    PCA    336       0.823157       14.913495 0.165369
+ video_7_resultados  GREEN     36       0.521950        0.273973 0.165337
+ video_8_resultados    POS     18       0.335447        2.238908 0.165250
+ video_5_resultados    ICA    266       0.296268        6.475973 0.165216
+ video_7_resultados    PBV    199      16.533000        4.383562 0.164934
+ video_2_resultados  GREEN    336      18.320238        0.262258 0.164651
+ video_2_resultados    ICA    337       0.459311        0.262258 0.164650
+ video_6_resultados   GBGR    337       0.288837        0.297483 0.164262
+ video_0_resultados    ICA    199      23.798522        1.632839 0.163975
+ video_7_resultados    POS      9       0.879961        0.273973 0.163782
+video_10_resultados   GBGR    338       1.003960        6.608997 0.163722
+ video_8_resultados   GBGR     18       0.018267       16.573379 0.163684
+ video_5_resultados    PCA    109       0.196601        0.297483 0.163590
+ video_2_resultados  GREEN    107      24.896397        0.262258 0.163143
+ video_8_resultados  GREEN     18       0.417857       10.430034 0.163093
+ video_0_resultados   GBGR    338       0.712430        5.737742 0.162933
+ video_0_resultados    LGI     18       4.368059        8.629418 0.162816
+ video_0_resultados   OMIT     18       4.368059        8.629418 0.162815
+ video_0_resultados    LGI    338       0.712430        1.632839 0.162788
+ video_2_resultados  CHROM    364       0.499046        1.790194 0.162630
+ video_0_resultados    PBV    280      20.460774        7.790194 0.162449
+ video_5_resultados  CHROM      6       0.216534        0.297483 0.162251
+ video_0_resultados   OMIT    338       0.712430        1.632839 0.162193
+ video_5_resultados  CHROM    299       0.196601        1.762014 0.162164
+ video_7_resultados  GREEN    336       0.482171        2.328767 0.161497
+ video_2_resultados    ICA    107       1.273880        0.262258 0.161291
+video_10_resultados    POS    108       0.923603        6.608997 0.161272
+video_10_resultados  GREEN    135      16.472710        0.380623 0.160891
+video_10_resultados   GBGR     18      16.472710        1.695502 0.160490
+video_10_resultados  GREEN    299       9.883424       14.913495 0.160413
+ video_9_resultados    PCA    347       0.405140        2.275862 0.160151
+ video_9_resultados   GBGR    337       0.204918        4.344828 0.160131
+ video_2_resultados  CHROM     69       0.499046        0.262258 0.159741
+ video_1_resultados   GBGR     10       0.298300        5.685912 0.159580
+video_10_resultados    ICA    107      21.816460        2.456747 0.159528
+ video_0_resultados    LGI    299       0.632959        5.737742 0.158969
+ video_0_resultados   OMIT    299       0.632959        5.737742 0.158958
+video_10_resultados    PBV    199      22.198157        1.695502 0.158950
+ video_7_resultados  CHROM     18       0.402613        1.780822 0.158909
+ video_0_resultados    POS    299       0.394549        6.576967 0.158907
+ video_5_resultados    ICA    330       0.276335        1.762014 0.158876
+ video_2_resultados   OMIT     18      23.644741        0.262258 0.158620
+ video_4_resultados    PCA    333       0.622445        8.493151 0.158374
+ video_7_resultados    LGI    104       0.979409        0.273973 0.158216
+ video_0_resultados    POS     10       0.513754        6.576967 0.158190
+ video_2_resultados    LGI     18      23.644741        0.262258 0.157909
+ video_9_resultados    POS    337       0.084784       14.689655 0.157840
+ video_9_resultados    PCA     18       0.064762       14.689655 0.157823
+ video_7_resultados   OMIT    104       0.979409        0.273973 0.157550
+ video_7_resultados    PCA     36       0.601508        0.273973 0.157325
+video_10_resultados  GREEN    338       0.883424        6.608997 0.157190
+video_10_resultados  GREEN    199      18.863335        1.695502 0.157016
+video_10_resultados  GREEN    280      19.847710        1.695502 0.156957
+ video_5_resultados  CHROM    347       0.037132        1.762014 0.156872
+ video_2_resultados    PBV    299      13.532159        2.314709 0.156701
+ video_6_resultados  GREEN     50      25.604851        0.297483 0.156631
+ video_7_resultados    LGI      9       0.820293        0.273973 0.156579
+ video_7_resultados   OMIT      9       0.820293        0.273973 0.156560
+video_10_resultados  CHROM     36       0.823157        1.695502 0.156483
+ video_4_resultados  CHROM    338       0.184876        0.273973 0.156431
+ video_9_resultados    PCA    337       0.224940        4.344828 0.156406
+ video_7_resultados    POS    151       0.720845        8.493151 0.156394
+ video_0_resultados  GREEN    364      25.308456        1.632839 0.156379
+ video_7_resultados  CHROM     36       0.601508        0.273973 0.156331
+ video_7_resultados   GBGR    151       0.581619        0.273973 0.156322
+video_10_resultados  GREEN      4       0.501728        1.695502 0.155995
+ video_3_resultados  CHROM    299       1.523410        0.209806 0.155980
+ video_0_resultados    POS    188       0.235609        6.576967 0.155746
+ video_4_resultados  CHROM    347       0.363881        2.328767 0.155549
+ video_0_resultados  GREEN    199      24.772032        3.685291 0.155449
+video_10_resultados   OMIT    266       0.983871        1.695502 0.155427
+video_10_resultados    LGI    266       0.983871        1.695502 0.155394
+ video_2_resultados    LGI     69       0.479179        0.262258 0.155290
+ video_3_resultados  GREEN    364       0.569767        0.209806 0.155116
+ video_2_resultados   OMIT     69       0.479179        0.262258 0.155114
+ video_7_resultados    ICA    151       0.601508        2.328767 0.155059
+ video_7_resultados   OMIT      6       0.840182        0.273973 0.155020
+ video_0_resultados  GREEN    336      22.785277        1.632839 0.154918
+ video_3_resultados    PCA    104      10.205529        0.209806 0.154895
+ video_7_resultados   GBGR    336       0.820293        0.273973 0.154872
+ video_7_resultados    LGI      6       0.840182        0.273973 0.154838
+ video_9_resultados   GBGR    338       0.465207        4.344828 0.154825
+ video_9_resultados   GBGR     10       0.565318        4.344828 0.154709
+video_10_resultados    PCA      9       0.903514       12.837370 0.154631
+video_10_resultados   GBGR      9       0.863335       12.837370 0.154554
+ video_2_resultados  CHROM    337       0.419576        0.262258 0.154452
+ video_7_resultados    PCA    108       0.601508        0.273973 0.154418
+ video_7_resultados  GREEN    199       6.071121       10.547945 0.154327
+ video_8_resultados    PCA     18      24.206403        0.191126 0.154298
+ video_9_resultados   OMIT    347       0.505252        2.275862 0.154251
+ video_4_resultados  CHROM      4       0.702003        1.780822 0.154143
+ video_6_resultados    LGI    337       0.229036        0.297483 0.154076
+ video_8_resultados    POS     50       0.100676        6.334471 0.154068
+ video_6_resultados   OMIT    337       0.229036        0.297483 0.153925
+ video_3_resultados    PCA    299       1.463807        0.209806 0.153852
+ video_0_resultados  GREEN     18      25.268721        1.632839 0.153851
+ video_7_resultados   GBGR      9       0.840182        0.273973 0.153752
+ video_6_resultados    PCA    299       0.448305        0.297483 0.153710
+ video_8_resultados    PBV     50       0.179971        0.191126 0.153631
+ video_9_resultados    LGI    347       0.505252        2.275862 0.153418
+ video_3_resultados    PBV    107      19.715001        4.314709 0.153323
+ video_1_resultados    POS     10       0.097183        1.528868 0.153308
+ video_6_resultados    PCA    337       0.268903        0.297483 0.153129
+ video_6_resultados  CHROM    299       0.448305        0.297483 0.152965
+ video_0_resultados   OMIT    188       0.414416        0.419612 0.152869
+ video_7_resultados    ICA    333      15.956204        0.273973 0.152827
+ video_2_resultados    LGI    108       0.320238        0.262258 0.152725
+ video_0_resultados    LGI    188       0.414416        0.419612 0.152624
+ video_5_resultados   GBGR    364      42.820011        0.297483 0.152590
+ video_6_resultados    PBV    338       0.349037        0.297483 0.152491
+ video_3_resultados    PBV    364      11.092484        0.209806 0.152362
+ video_0_resultados   GBGR    188       0.235609        7.790194 0.152362
+ video_4_resultados  CHROM     10       0.483218        6.438356 0.152056
+ video_6_resultados    PBV    109      19.325781        2.356979 0.151998
+ video_8_resultados   GBGR    199       0.513861        0.191126 0.151988
+ video_2_resultados   OMIT    108       0.320238        0.262258 0.151933
+ video_3_resultados    PBV    151       1.662482        6.367161 0.151799
+ video_9_resultados    POS    338       0.285007       14.689655 0.151780
+ video_4_resultados  CHROM    333       0.662224        8.493151 0.151749
+ video_2_resultados   GBGR     18      23.684477        0.262258 0.151602
+ video_7_resultados    POS    336       1.039077        0.273973 0.151500
+ video_9_resultados    PCA    338       0.485229        4.344828 0.151334
+ video_7_resultados    POS      4       0.720845        0.273973 0.151248
+ video_5_resultados    PCA    330       0.276335        1.762014 0.151234
+ video_3_resultados   OMIT    104      10.185661        0.209806 0.151224
+video_10_resultados    LGI    108       0.722710        0.380623 0.151197
+video_10_resultados   GBGR    299      17.236103       14.913495 0.151129
+ video_2_resultados    ICA      9       0.459311        0.262258 0.151121
+video_10_resultados   OMIT    108       0.722710        0.380623 0.151096
+ video_7_resultados    PCA    336       0.820293        0.273973 0.151081
+video_10_resultados    LGI     10       0.702621        0.380623 0.150985
+ video_0_resultados   GBGR     10       0.414416        5.737742 0.150865
+ video_3_resultados    LGI    104      10.185661        0.209806 0.150830
+video_10_resultados   OMIT     10       0.702621        0.380623 0.150830
+ video_8_resultados    PCA    199       0.513861        0.191126 0.150673
+ video_0_resultados    PCA    299       0.632959        5.737742 0.150584
+ video_0_resultados  CHROM    107       0.454152        1.632839 0.150535
+ video_7_resultados    PCA    104       0.959519        0.273973 0.150449
+ video_8_resultados    LGI     18       0.021381        6.334471 0.150292
+ video_2_resultados  GREEN    364      26.326861        2.314709 0.150281
+ video_2_resultados    PCA      4       0.618251        0.262258 0.150273
+video_10_resultados   GBGR    108       0.762889        0.380623 0.150159
+ video_5_resultados  CHROM    188       0.216534        0.297483 0.150144
+ video_2_resultados    POS    347       0.260635        0.262258 0.150053
+ video_0_resultados   OMIT     10       0.334946        5.737742 0.149974
+video_10_resultados  GREEN    337       0.722710        6.608997 0.149920
+ video_0_resultados    LGI     10       0.334946        5.737742 0.149867
+ video_8_resultados   OMIT     18       0.021381        6.334471 0.149829
+ video_5_resultados    PCA    299       0.176667        1.762014 0.149641
+ video_0_resultados    LGI    151       0.255476        0.419612 0.149592
+video_10_resultados    PBV    338       0.803067       10.761246 0.149583
+ video_7_resultados    PCA    135       0.223608        0.273973 0.149499
+ video_8_resultados   OMIT     50       0.199795        0.191126 0.149418
+ video_0_resultados   GBGR    299       0.593224        5.737742 0.149416
+video_10_resultados    LGI    338       0.923603        6.608997 0.149351
+ video_8_resultados    PCA    337       0.259266        0.191126 0.149345
+video_10_resultados    PCA    108       0.742799        0.380623 0.149220
+ video_7_resultados    ICA    299       7.542945        0.273973 0.149214
+ video_0_resultados    POS    280       0.533622        6.576967 0.149184
+video_10_resultados    POS     36       0.823157       14.913495 0.149181
+ video_0_resultados   OMIT    151       0.255476        0.419612 0.149171
+ video_8_resultados    LGI     50       0.199795        0.191126 0.149055
+video_10_resultados   OMIT    338       0.923603        6.608997 0.149052
+ video_4_resultados    PBV     10       0.363881        0.273973 0.148907
+ video_7_resultados    LGI    330       0.840182        0.273973 0.148885
+ video_8_resultados  GREEN    280       7.276888        6.334471 0.148697
+video_10_resultados  GREEN     36       1.124496        1.695502 0.148671
+ video_7_resultados   OMIT    330       0.840182        0.273973 0.148595
+ video_0_resultados    LGI    280       0.593224        1.632839 0.148567
+ video_8_resultados    PCA    330       7.475126        6.334471 0.148540
+ video_0_resultados   OMIT    280       0.593224        1.632839 0.148438
+video_10_resultados    POS    151       0.983871       14.913495 0.148438
+ video_4_resultados    PCA    104       0.324102       10.547945 0.148421
+video_10_resultados    PBV      9       1.245032        0.380623 0.148338
+ video_8_resultados    PCA    109       0.199795        6.334471 0.148308
+video_10_resultados  CHROM    108       0.722710        0.380623 0.148203
+ video_2_resultados  CHROM     18      23.724212        0.262258 0.148187
+ video_1_resultados    LGI    330       0.043599        5.685912 0.148165
+video_10_resultados  GREEN     10       0.682532        0.380623 0.148083
+video_10_resultados  GREEN     18      22.298603       12.837370 0.147975
+ video_1_resultados   OMIT    330       0.043599        5.685912 0.147913
+ video_9_resultados  GREEN     36       0.585341        4.344828 0.147692
+video_10_resultados    POS    336       0.803067       16.989619 0.147666
+video_10_resultados    PBV    280      20.149049        1.695502 0.147589
+ video_7_resultados    PBV    299       7.562834        6.438356 0.147573
+video_10_resultados    LGI    336       0.883424        2.456747 0.147480
+video_10_resultados    PCA    330       1.044139        6.608997 0.147455
+ video_2_resultados   OMIT    347       0.558649        0.262258 0.147268
+video_10_resultados   OMIT    336       0.883424        2.456747 0.147225
+ video_9_resultados    POS     36       0.204918        4.344828 0.147035
+video_10_resultados    POS     10       0.762889       14.913495 0.146918
+ video_2_resultados    LGI    347       0.578516        0.262258 0.146915
+ video_8_resultados    ICA     36       7.058826        0.191126 0.146861
+video_10_resultados    POS    299      16.894585       14.913495 0.146851
+video_10_resultados  GREEN    107       4.962558        0.380623 0.146821
+ video_3_resultados    ICA      4       4.980363        0.209806 0.146783
+video_10_resultados   GBGR     36       0.702621        1.695502 0.146604
+ video_8_resultados    PCA    135       0.137209        0.191126 0.146375
+video_10_resultados  GREEN    151       0.702621        0.380623 0.146345
+ video_3_resultados  GREEN    109       1.364469        0.209806 0.146208
+ video_2_resultados   OMIT    135       0.300371       10.524515 0.146205
+video_10_resultados   GBGR      6       0.782978        4.532872 0.146177
+video_10_resultados  GREEN      9      10.204853        0.380623 0.146173
+video_10_resultados    ICA    336       7.111103        6.608997 0.146123
+ video_7_resultados    PCA      6       0.800403        0.273973 0.145886
+ video_3_resultados    POS    333       1.424072        0.209806 0.145886
+ video_9_resultados    POS    199       0.004695       14.689655 0.145850
+ video_2_resultados    ICA     18       3.260635        1.790194 0.145718
+ video_2_resultados   GBGR    347       0.538781        0.262258 0.145596
+ video_7_resultados  CHROM    104       0.979409        0.273973 0.145595
+video_10_resultados    PCA      6       0.843246       14.913495 0.145592
+ video_9_resultados  CHROM    347       0.625385        2.275862 0.145545
+ video_8_resultados    PBV    336       0.576447        0.191126 0.145532
+ video_7_resultados    POS     10       0.700956        1.780822 0.145492
+ video_9_resultados    LGI    337       0.285007        4.344828 0.145297
+ video_0_resultados    LGI    364       0.772032        6.576967 0.145295
+ video_7_resultados    ICA     36       0.581619        1.780822 0.145132
+ video_2_resultados    PCA    108       0.300371        0.262258 0.144965
+ video_0_resultados    PBV      4       0.752165        5.737742 0.144915
+ video_9_resultados   OMIT    337       0.285007        4.344828 0.144913
+ video_3_resultados    POS    104      10.324734        0.209806 0.144903
+ video_0_resultados    ICA    336       0.235609        3.685291 0.144822
+ video_9_resultados    PBV    101      20.967988        4.344828 0.144743
+ video_7_resultados    ICA    280       9.969464        4.383562 0.144604
+video_10_resultados   OMIT    104       0.823157        2.456747 0.144580
+ video_9_resultados   GBGR    199       2.988010       14.689655 0.144406
+ video_1_resultados    ICA    337       0.197741        5.685912 0.144390
+ video_7_resultados   GBGR     10       0.561729        0.273973 0.144352
+video_10_resultados    LGI    299      17.376728       14.913495 0.144318
+ video_1_resultados    PBV    109       0.258077        5.685912 0.144309
+video_10_resultados   OMIT    299      17.356639       14.913495 0.144268
+ video_8_resultados  GREEN    336       0.398033        0.191126 0.144259
+ video_0_resultados    POS    347      21.474019        6.576967 0.144257
+ video_2_resultados    LGI    135       0.240768       10.524515 0.144222
+ video_0_resultados    ICA     10       0.374681        5.737742 0.144131
+ video_0_resultados    LGI    107       0.533622        1.632839 0.144107
+ video_2_resultados    POS    108       0.359973       12.576967 0.144061
+ video_3_resultados  CHROM    104      10.185661        0.209806 0.144033
+ video_5_resultados  CHROM    108       0.176667        1.762014 0.143967
+video_10_resultados    PCA    299      17.296371       14.913495 0.143831
+video_10_resultados    LGI    104       0.823157        2.456747 0.143703
+ video_8_resultados   GBGR    188       0.279090        8.382253 0.143697
+ video_7_resultados    PCA     18      21.405928        4.383562 0.143685
+ video_5_resultados    PCA    107       0.116866        1.762014 0.143630
+ video_9_resultados   OMIT    338       0.505252        4.344828 0.143406
+video_10_resultados   GBGR    101       0.521817        1.695502 0.143405
+video_10_resultados    POS      6       0.762889       14.913495 0.143398
+ video_9_resultados    LGI    338       0.505252        4.344828 0.143388
+ video_2_resultados    PBV    108      13.393086        2.314709 0.143310
+ video_9_resultados    POS     18       0.024718       14.689655 0.143303
+video_10_resultados    POS      9       0.843246        2.456747 0.143268
+video_10_resultados    POS    101       0.561996       16.989619 0.143149
+ video_8_resultados  CHROM    109       0.199795        6.334471 0.143143
+ video_8_resultados    LGI    199       0.494037        0.191126 0.143102
+ video_3_resultados    PBV     10       1.563145        0.209806 0.142960
+ video_6_resultados    POS    337       0.129368        0.297483 0.142930
+ video_4_resultados    PCA    280       1.068163        0.273973 0.142914
+video_10_resultados   GBGR    135       6.568692        1.695502 0.142835
+ video_7_resultados    POS     36       0.800403        0.273973 0.142649
+ video_0_resultados    PCA    337       0.811767        5.737742 0.142644
+ video_8_resultados  CHROM    330       7.534597        6.334471 0.142619
+ video_3_resultados    PBV    109       7.218312        0.209806 0.142619
+ video_3_resultados   GBGR    333       1.424072        0.209806 0.142612
+ video_2_resultados    PCA     18       3.220900        2.314709 0.142607
+video_10_resultados  GREEN    333      19.747264        2.456747 0.142602
+video_10_resultados   OMIT     18      16.492799        6.608997 0.142506
+ video_2_resultados    POS    104       0.320238       10.524515 0.142490
+video_10_resultados    POS    266       0.943692        1.695502 0.142374
+ video_4_resultados    ICA    337       5.197030        0.273973 0.142370
+ video_7_resultados    ICA      9       0.939630        0.273973 0.142361
+ video_3_resultados    LGI    337       1.900893        0.209806 0.142292
+ video_9_resultados   OMIT    299       0.625385       14.689655 0.142283
+ video_7_resultados    PCA     10       0.601508        0.273973 0.142249
+ video_3_resultados   OMIT    337       1.900893        0.209806 0.142237
+ video_0_resultados    PCA     36       0.394549        0.419612 0.142226
+ video_7_resultados    POS    330       0.860072        0.273973 0.142223
+ video_8_resultados   OMIT    199       0.494037        0.191126 0.142215
+ video_3_resultados    PCA     69       1.841290        0.209806 0.142198
+video_10_resultados    LGI    280      17.195924        2.456747 0.142131
+ video_9_resultados    LGI    299       0.625385       14.689655 0.142127
+ video_9_resultados    ICA      9       0.285007       12.620690 0.142120
+video_10_resultados   GBGR     10       0.642353        0.380623 0.142117
+ video_7_resultados    PCA    151       0.561729        0.273973 0.142107
+video_10_resultados    PCA     36       0.762889        1.695502 0.142095
+ video_5_resultados  CHROM    107       0.136800        1.762014 0.142081
+ video_1_resultados    POS    330       0.164270        6.785219 0.141986
+ video_9_resultados   GBGR    299       0.585341        4.344828 0.141967
+ video_8_resultados    PCA    333       7.633716        0.191126 0.141935
+ video_9_resultados   GBGR     36       0.285007        4.344828 0.141885
+ video_0_resultados    PCA    347       0.851503        0.419612 0.141867
+video_10_resultados   OMIT    151       0.782978        0.380623 0.141844
+video_10_resultados   OMIT    280      17.195924        2.456747 0.141818
+ video_2_resultados  GREEN     50       0.518914        8.472064 0.141798
+ video_2_resultados  CHROM    108       0.340106        0.262258 0.141778
+ video_7_resultados    PCA    109       0.422503        0.273973 0.141773
+video_10_resultados   OMIT      6       0.903514       10.761246 0.141755
+ video_4_resultados    PBV    337       5.296478        0.273973 0.141738
+video_10_resultados    LGI    151       0.782978        0.380623 0.141513
+ video_8_resultados  CHROM    333       7.633716        0.191126 0.141493
+ video_2_resultados    LGI    109       0.439443        0.262258 0.141477
+ video_7_resultados    ICA     10       0.780514        1.780822 0.141444
+ video_4_resultados    PCA    299       5.216920        0.273973 0.141362
+video_10_resultados    LGI      6       0.903514       10.761246 0.141286
+ video_7_resultados    POS    109       0.641287       14.657534 0.141242
+ video_2_resultados   OMIT    109       0.439443        0.262258 0.141201
+ video_2_resultados    PBV     69      17.843417        2.314709 0.141176
+video_10_resultados    ICA    338       0.762889       10.761246 0.140958
+video_10_resultados    LGI     18      16.492799        6.608997 0.140925
+video_10_resultados   OMIT      9       0.983871        0.380623 0.140881
+ video_0_resultados  CHROM    299       0.632959        5.737742 0.140861
+ video_1_resultados    PBV     36       0.043599        3.607390 0.140854
+ video_1_resultados    ICA    151       0.566504        1.528868 0.140849
+ video_6_resultados    ICA     50      18.947044        4.416476 0.140844
+video_10_resultados  CHROM    299      17.356639       14.913495 0.140829
+ video_9_resultados  CHROM      4       0.204918        4.344828 0.140774
+ video_6_resultados    ICA     69       0.109834        0.297483 0.140719
+ video_7_resultados   OMIT    336       0.800403        0.273973 0.140594
+ video_2_resultados    PBV    107       0.752610        0.262258 0.140515
+ video_7_resultados  GREEN    299       0.581619       12.602740 0.140508
+ video_0_resultados   OMIT    107       0.553489        1.632839 0.140325
+ video_0_resultados    POS    266       0.652827        6.576967 0.140308
+ video_7_resultados    LGI    336       0.800403        0.273973 0.140271
+ video_3_resultados  CHROM      6       1.702218        4.314709 0.140267
+ video_0_resultados  GREEN    280       0.036933        0.419612 0.140244
+video_10_resultados  CHROM      4      10.325389        1.695502 0.140224
+ video_7_resultados   GBGR    330       0.800403        0.273973 0.140118
+ video_7_resultados  CHROM    188       0.979409        0.273973 0.140048
+ video_9_resultados    PCA     36       0.305029        4.344828 0.139994
+ video_4_resultados  CHROM    299       5.216920        0.273973 0.139958
+video_10_resultados  CHROM     18       1.305299        0.380623 0.139929
+ video_8_resultados    SSR    151       0.318738        0.191126 0.139917
+ video_3_resultados   OMIT    135      38.973741        0.209806 0.139895
+ video_3_resultados    PBV    199      15.801094        6.367161 0.139837
+video_10_resultados    PCA     10       0.682532        0.380623 0.139769
+ video_3_resultados    ICA    104      10.205529        0.209806 0.139765
+ video_7_resultados    PBV    338       1.019188        0.273973 0.139737
+ video_0_resultados    SSR    151       0.156138        0.419612 0.139660
+ video_0_resultados    ICA    151       0.295211        1.632839 0.139630
+ video_2_resultados    POS     10       0.518914        0.262258 0.139615
+ video_2_resultados    ICA    108      17.922887        2.314709 0.139599
+ video_9_resultados    LGI     10       0.525274        4.344828 0.139573
+video_10_resultados  CHROM      9       1.003960        0.380623 0.139556
+video_10_resultados    LGI      9       0.983871        0.380623 0.139485
+ video_2_resultados    ICA      4       2.063868        2.314709 0.139477
+ video_9_resultados    POS    299       0.445185       12.620690 0.139457
+video_10_resultados   OMIT    109       1.245032        1.695502 0.139404
+ video_3_resultados   GBGR    338      10.384337        0.209806 0.139399
+ video_9_resultados    LGI    199       3.008032       14.689655 0.139370
+ video_8_resultados    POS    188       6.265874        0.191126 0.139353
+ video_2_resultados    PBV    364      26.386463        4.367161 0.139331
+ video_1_resultados   GBGR    266       0.043599        5.685912 0.139283
+ video_7_resultados  GREEN    347       0.700956        1.780822 0.139218
+ video_3_resultados  GREEN     18      20.807716        0.209806 0.139210
+ video_7_resultados    ICA    266       0.601508        0.273973 0.139209
+video_10_resultados    PCA     69      17.718246        0.380623 0.139188
+ video_9_resultados   OMIT     10       0.525274        4.344828 0.139121
+video_10_resultados    PBV    108       0.682532       12.837370 0.139108
+video_10_resultados  CHROM     10       0.702621        0.380623 0.139106
+ video_0_resultados    PBV     36       0.394549        1.632839 0.139078
+video_10_resultados    PBV    364      18.280746        0.380623 0.139058
+ video_7_resultados  CHROM    336       0.800403        0.273973 0.139055
+video_10_resultados    ICA      9       1.305299        2.456747 0.139033
+video_10_resultados    POS    109       0.903514        6.608997 0.139033
+ video_8_resultados  CHROM    108       0.239443       16.573379 0.139025
+ video_3_resultados  GREEN    107      72.808178        0.209806 0.138989
+video_10_resultados    LGI    101       0.722710        1.695502 0.138985
+video_10_resultados   OMIT    101       0.722710        1.695502 0.138955
+video_10_resultados    LGI    109       1.245032        1.695502 0.138935
+ video_4_resultados  GREEN    266       0.503108        0.273973 0.138928
+ video_7_resultados    LGI     10       0.621398        0.273973 0.138888
+ video_7_resultados   OMIT     10       0.621398        0.273973 0.138872
+ video_7_resultados    PBV    333      15.856757        0.273973 0.138731
+ video_1_resultados    PBV    151       0.358635        0.549654 0.138702
+ video_0_resultados  CHROM    337       0.811767        5.737742 0.138675
+ video_6_resultados    PBV    337       0.010167        0.297483 0.138599
+ video_0_resultados    PBV    199      23.560112        5.737742 0.138597
+ video_2_resultados  CHROM    135       0.379841        1.790194 0.138591
+ video_8_resultados    POS    199       0.553509        8.382253 0.138573
+video_10_resultados   GBGR    109       0.622264        2.456747 0.138573
+ video_7_resultados   OMIT    151       0.561729        0.273973 0.138539
+ video_7_resultados    LGI    151       0.561729        0.273973 0.138527
+ video_3_resultados    PCA     10       1.483675        0.209806 0.138523
+ video_9_resultados   OMIT    199       3.028055       14.689655 0.138515
+ video_3_resultados  GREEN     10       1.364469        0.209806 0.138489
+video_10_resultados    ICA    280      19.867799        0.380623 0.138476
+ video_0_resultados  CHROM      9       0.513754        1.632839 0.138449
+ video_3_resultados   OMIT      6       1.682350        0.209806 0.138352
+ video_1_resultados  CHROM    199      17.735172        0.549654 0.138351
+video_10_resultados    PCA    101       0.602174        1.695502 0.138283
+ video_0_resultados   OMIT    266       0.632959        0.419612 0.138278
+ video_4_resultados    PBV    330      24.290953        0.273973 0.138271
+ video_3_resultados    LGI      6       1.682350        0.209806 0.138229
+video_10_resultados   OMIT    347      10.425835        6.608997 0.138168
+video_10_resultados    LGI    347      10.425835        6.608997 0.138126
+ video_2_resultados    PCA      6       0.518914        0.262258 0.138110
+ video_3_resultados  CHROM    135      10.238180        0.209806 0.138106
+ video_8_resultados    PCA    188       0.279090        8.382253 0.138102
+ video_1_resultados    PBV    188       0.237965        5.685912 0.138087
+ video_0_resultados    LGI    266       0.632959        0.419612 0.137984
+ video_7_resultados    POS    104       1.138525       12.602740 0.137964
+ video_1_resultados    SSR    151       0.043599        3.607390 0.137908
+ video_7_resultados    PBV     69       1.576094        0.273973 0.137894
+video_10_resultados    ICA    101       0.582085        1.695502 0.137870
+ video_4_resultados    PBV    347      16.593715        6.438356 0.137870
+ video_4_resultados    ICA    107       0.403660        0.273973 0.137826
+ video_3_resultados    LGI     36       7.337518        0.209806 0.137819
+ video_3_resultados  CHROM    337       1.940628        0.209806 0.137736
+ video_0_resultados   GBGR    280       0.553489        1.632839 0.137699
+video_10_resultados    PCA    347      17.517353        1.695502 0.137691
+ video_0_resultados    PCA    266       0.573357        0.419612 0.137671
+ video_1_resultados    PBV    108       4.220088        3.607390 0.137632
+ video_7_resultados  CHROM    135       0.422503        0.273973 0.137630
+ video_3_resultados  CHROM     50       1.483675        0.209806 0.137613
+ video_1_resultados    PCA    199      17.735172        0.549654 0.137564
+video_10_resultados  CHROM    347      10.405746        6.608997 0.137470
+ video_0_resultados    PCA    151       0.295211        5.737742 0.137439
+ video_3_resultados   OMIT     36       7.337518        0.209806 0.137410
+ video_3_resultados   GBGR    337       7.218312        0.209806 0.137400
+ video_2_resultados    POS    199       2.684477        2.314709 0.137396
+ video_7_resultados   GBGR    101       0.740735        0.273973 0.137388
+ video_3_resultados   GBGR    104      10.284999        0.209806 0.137327
+ video_0_resultados    LGI    330       0.632959        1.632839 0.137307
+ video_8_resultados    PBV    299      27.358385        0.191126 0.137274
+ video_9_resultados   OMIT    104      24.351748       10.551724 0.137228
+ video_9_resultados   GBGR    109       0.425163        4.344828 0.137215
+ video_1_resultados    POS    266       0.144158        2.628176 0.137180
+ video_0_resultados  CHROM    347       0.930973        0.419612 0.137155
+ video_0_resultados   OMIT    333       0.672695        5.737742 0.137130
+video_10_resultados  CHROM    336       0.883424        2.456747 0.137128
+video_10_resultados  GREEN    108       7.211549        0.380623 0.137059
+ video_7_resultados   GBGR    337       0.581619        0.273973 0.137039
+ video_7_resultados   OMIT    333      10.566149        0.273973 0.136864
+ video_7_resultados    SSR    151       0.641287       14.657534 0.136838
+ video_7_resultados    LGI    333      10.566149        0.273973 0.136736
+ video_9_resultados    LGI    104      24.351748        4.344828 0.136679
+ video_5_resultados    PCA    337       0.216534        1.762014 0.136650
+ video_5_resultados    ICA    151       0.336136        1.762014 0.136586
+ video_0_resultados    LGI    333       0.692562        5.737742 0.136563
+ video_3_resultados    ICA    107      23.000231        0.209806 0.136486
+video_10_resultados    ICA    151       0.762889       14.913495 0.136457
+ video_1_resultados    ICA    188      13.451373        2.628176 0.136453
+ video_0_resultados  CHROM    266       0.692562        0.419612 0.136336
+ video_0_resultados    ICA     18       4.228986        1.632839 0.136223
+ video_3_resultados    POS    338      10.218312        0.209806 0.136192
+ video_5_resultados  GREEN     50       0.356069        0.297483 0.136179
+ video_7_resultados  CHROM    151       0.561729        0.273973 0.136159
+video_10_resultados  CHROM    101       0.642353        1.695502 0.136154
+ video_3_resultados    POS    337       1.881026        0.209806 0.136139
+ video_0_resultados   OMIT    330       0.632959        1.632839 0.136096
+ video_7_resultados  GREEN    333       0.840182        4.383562 0.136090
+ video_7_resultados  CHROM      6       0.860072        0.273973 0.135886
+ video_9_resultados  GREEN    107       8.574217        8.482759 0.135764
+ video_7_resultados    PBV    336       0.760624        2.328767 0.135734
+ video_3_resultados    LGI    333       1.563145        0.209806 0.135713
+ video_7_resultados    PBV      6       1.158414        0.273973 0.135705
+ video_5_resultados    PBV    347       0.435803        0.297483 0.135697
+ video_3_resultados  CHROM    333       1.563145        0.209806 0.135625
+ video_2_resultados    LGI    107       0.419576        0.262258 0.135565
+ video_7_resultados    PCA    188       0.919740        0.273973 0.135462
+ video_3_resultados    PBV    101       4.933544        4.314709 0.135404
+ video_6_resultados    ICA    108       0.069967        4.416476 0.135377
+video_10_resultados  CHROM    266       0.963782        0.380623 0.135374
+video_10_resultados   GBGR    347      17.517353        1.695502 0.135360
+ video_3_resultados   OMIT    333       1.563145        0.209806 0.135360
+ video_7_resultados    POS     69       0.760624       12.602740 0.135330
+ video_0_resultados  CHROM    330       0.732297        1.632839 0.135321
+ video_5_resultados    PCA     69       0.037132        1.762014 0.135275
+ video_8_resultados  GREEN      6       7.316535       10.430034 0.135255
+video_10_resultados    PCA    109       0.742799        2.456747 0.135246
+ video_3_resultados  CHROM     69       1.821423        0.209806 0.135204
+video_10_resultados  CHROM    330      10.385657        0.380623 0.135150
+ video_2_resultados    PCA     50       0.320238        0.262258 0.135095
+video_10_resultados    PBV    109       1.807532        1.695502 0.135044
+ video_4_resultados  CHROM    104       0.324102       10.547945 0.135038
+ video_2_resultados  GREEN    337       0.459311        0.262258 0.134937
+ video_1_resultados    POS    104       0.385499        1.528868 0.134920
+ video_7_resultados    PBV    330       1.814768        0.273973 0.134909
+ video_9_resultados  CHROM    364      13.800024        2.275862 0.134859
+ video_7_resultados   GBGR     36       0.601508        0.273973 0.134755
+ video_1_resultados    ICA    101      17.594389        5.685912 0.134664
+ video_0_resultados    LGI    135      13.765410        1.632839 0.134625
+ video_1_resultados   GBGR    330       0.083823        5.685912 0.134598
+ video_7_resultados   GBGR      6       0.780514        0.273973 0.134562
+ video_7_resultados    LGI    109       0.482171        0.273973 0.134550
+ video_6_resultados    ICA      4       4.993156        0.297483 0.134550
+ video_4_resultados  CHROM    107       0.403660        1.780822 0.134514
+ video_7_resultados    POS    101       0.840182        6.438356 0.134497
+ video_7_resultados    POS    333       1.019188        0.273973 0.134490
+ video_7_resultados  CHROM    109       0.561729        0.273973 0.134482
+video_10_resultados   OMIT    337       1.003960        6.608997 0.134470
+ video_2_resultados    PBV     10       0.717589        0.262258 0.134446
+video_10_resultados    LGI    337       1.003960        6.608997 0.134444
+ video_2_resultados    PCA    104       0.499046        0.262258 0.134439
+ video_4_resultados    PBV    333       0.562776        0.273973 0.134407
+ video_0_resultados   OMIT    135      13.765410        1.632839 0.134383
+ video_8_resultados    ICA    336       0.018267        0.191126 0.134370
+ video_0_resultados    PCA    364      15.017065        6.576967 0.134370
+video_10_resultados  GREEN    266       0.762889        1.695502 0.134342
+video_10_resultados    PCA      4      17.195924        1.695502 0.134337
+ video_7_resultados   OMIT    109       0.482171        0.273973 0.134317
+ video_5_resultados    ICA    107      19.791285        1.762014 0.134262
+ video_2_resultados    PCA     69       0.439443        0.262258 0.134240
+ video_9_resultados  CHROM    104       0.075394        4.344828 0.134197
+ video_9_resultados  CHROM    107       0.224940        4.344828 0.134171
+ video_7_resultados  CHROM    101       0.720845        0.273973 0.134150
+ video_3_resultados    ICA     69       2.039966        4.314709 0.134098
+video_10_resultados    ICA    109      10.405746        1.695502 0.134064
+ video_8_resultados   GBGR     50       0.259266        0.191126 0.134048
+video_10_resultados    ICA    104       0.863335        1.695502 0.134039
+ video_0_resultados   GBGR    347       0.851503        7.790194 0.133939
+ video_0_resultados    POS    330       0.533622        6.576967 0.133927
+ video_4_resultados    PBV    188       0.204765        0.273973 0.133904
+ video_2_resultados    POS     50       0.439443        0.262258 0.133835
+ video_9_resultados    LGI     36       0.305029        4.344828 0.133769
+ video_5_resultados  CHROM     69       0.096933        0.297483 0.133699
+ video_1_resultados  GREEN     18       0.197741        0.549654 0.133665
+video_10_resultados    LGI     36       0.823157        1.695502 0.133663
+ video_9_resultados   OMIT     36       0.305029        4.344828 0.133636
+ video_0_resultados   GBGR    364       0.593224        6.576967 0.133573
+ video_1_resultados    PBV    330       0.137406        2.628176 0.133566
+ video_2_resultados    PCA    135       0.220900        1.790194 0.133555
+video_10_resultados   OMIT     36       0.823157        1.695502 0.133543
+ video_2_resultados    PBV    266       2.421484       14.629418 0.133519
+ video_1_resultados    ICA      4       0.124046        3.607390 0.133430
+ video_2_resultados  CHROM    280       0.598384        0.262258 0.133423
+ video_7_resultados    POS    337       0.899851        0.273973 0.133404
+ video_2_resultados   OMIT    107       0.399708        0.262258 0.133393
+ video_7_resultados   GBGR    104       0.919740        2.328767 0.133378
+ video_9_resultados    POS    333       0.124829       12.620690 0.133281
+ video_4_resultados   GBGR    188       0.224655        0.273973 0.133267
+ video_7_resultados   GBGR      4       0.661177        0.273973 0.133265
+ video_9_resultados  CHROM     18       0.004695        4.344828 0.133205
+ video_4_resultados   OMIT     10       0.463329        0.273973 0.133204
+ video_4_resultados    LGI     10       0.463329        0.273973 0.133198
+ video_0_resultados    PBV    107       0.553489        1.632839 0.133197
+ video_3_resultados    PCA      6       1.662482        0.209806 0.133137
+ video_7_resultados    PBV    266       1.556204        1.780822 0.133092
+ video_9_resultados    POS     10       0.365096       14.689655 0.133087
+ video_1_resultados    ICA    109       0.258077        5.685912 0.133077
+ video_3_resultados  GREEN    333       6.999769        0.209806 0.132995
+ video_7_resultados    ICA    101      10.526370        0.273973 0.132957
+ video_0_resultados    PBV    151       0.116403        6.576967 0.132948
+ video_7_resultados   OMIT    299      10.347365        0.273973 0.132920
+video_10_resultados    POS    280      17.115567       12.837370 0.132805
+ video_9_resultados    PCA    104      24.451859       10.551724 0.132781
+ video_8_resultados   GBGR    299       0.497152        0.191126 0.132760
+ video_7_resultados    PBV    151       0.621398        1.780822 0.132760
+ video_1_resultados    PBV    333       0.258077        5.685912 0.132712
+ video_2_resultados    LGI    104       0.479179        0.262258 0.132706
+ video_7_resultados    ICA    338       0.681066        0.273973 0.132676
+video_10_resultados   GBGR    151       0.803067        0.380623 0.132659
+ video_8_resultados    POS    151       0.298914        0.191126 0.132659
+ video_4_resultados    LGI    337       5.236809        0.273973 0.132651
+ video_4_resultados   OMIT    337       5.236809        0.273973 0.132632
+ video_7_resultados    LGI    299      10.347365        0.273973 0.132632
+ video_7_resultados    PBV    104      10.546260        2.328767 0.132611
+ video_2_resultados  GREEN    151       0.538781        0.262258 0.132550
+ video_4_resultados    PBV    104       7.563881        0.273973 0.132518
+ video_7_resultados    LGI     36       0.601508        0.273973 0.132502
+ video_2_resultados  CHROM    109       0.399708        0.262258 0.132479
+ video_5_resultados   GBGR     18       0.535471        6.475973 0.132443
+ video_1_resultados  GREEN    347       0.003376        5.685912 0.132403
+ video_0_resultados    POS      9       0.434284        6.576967 0.132381
+ video_3_resultados  CHROM     10       1.503542        0.209806 0.132379
+ video_7_resultados   OMIT     36       0.601508        0.273973 0.132366
+video_10_resultados    SSR    151       0.943692       14.913495 0.132296
+ video_0_resultados    PBV    101       0.215741        7.790194 0.132266
+ video_2_resultados   OMIT    104       0.479179        0.262258 0.132243
+ video_3_resultados  CHROM     36       7.397120        0.209806 0.132238
+ video_7_resultados   GBGR    280       0.661177        0.273973 0.132232
+ video_2_resultados   GBGR    199       8.346728        2.314709 0.132150
+ video_2_resultados  CHROM     50       0.379841        0.262258 0.132110
+ video_7_resultados   GBGR    338       0.482171        0.273973 0.132107
+ video_3_resultados   GBGR    135      39.212151        0.209806 0.132099
+ video_3_resultados    POS     18      16.145926        0.209806 0.132095
+ video_3_resultados    PCA    337       1.861158        0.209806 0.132073
+ video_9_resultados   GBGR    347       0.385118        2.275862 0.131956
+video_10_resultados  CHROM    338       0.963782        6.608997 0.131913
+ video_8_resultados    PCA    108       0.239443        6.334471 0.131894
+ video_7_resultados    PCA    101       0.740735        0.273973 0.131843
+ video_7_resultados  CHROM    333      10.566149        0.273973 0.131827
+video_10_resultados    POS    188      17.155746       14.913495 0.131825
+ video_2_resultados    POS     69       0.300371        0.262258 0.131796
+ video_1_resultados    PBV    337       0.378747        0.549654 0.131788
+ video_8_resultados    ICA    280       0.077738        6.334471 0.131769
+ video_4_resultados    PCA    347       0.483218        0.273973 0.131749
+ video_0_resultados    PCA    336       0.434284        5.737742 0.131709
+video_10_resultados   GBGR    188      17.135657        1.695502 0.131696
+ video_0_resultados    PCA    330       0.593224        0.419612 0.131687
+ video_3_resultados    LGI    135      27.503080        0.209806 0.131676
+ video_0_resultados   GBGR    108       0.493887        5.737742 0.131669
+ video_0_resultados    PCA     10       0.374681        5.737742 0.131639
+ video_7_resultados  GREEN     10       0.621398        0.273973 0.131559
+video_10_resultados    POS    330       1.044139        6.608997 0.131526
+ video_0_resultados   OMIT    364       0.672695        6.576967 0.131525
+ video_0_resultados    PBV    330       1.209118        1.632839 0.131456
+ video_9_resultados    LGI     18       0.044740       14.689655 0.131400
+ video_4_resultados    PBV    336       0.542887        0.273973 0.131356
+ video_8_resultados    ICA     69      24.563231       14.525597 0.131310
+ video_1_resultados    POS    101       0.137406        2.628176 0.131254
+ video_6_resultados  CHROM     69       0.109435        0.297483 0.131246
+ video_9_resultados   OMIT     18       0.044740       14.689655 0.131210
+ video_3_resultados    PCA     36       1.404204        0.209806 0.131138
+ video_1_resultados  GREEN    199      27.616784        2.628176 0.131054
+ video_0_resultados    LGI    101       0.215741        7.790194 0.131019
+ video_2_resultados  CHROM    101       0.479179        0.262258 0.130978
+video_10_resultados    PCA    338       0.963782        6.608997 0.130966
+ video_4_resultados  CHROM     69       0.383771        0.273973 0.130942
+ video_2_resultados    PCA    101       0.558649        0.262258 0.130935
+ video_0_resultados   OMIT    101       0.215741        7.790194 0.130930
+ video_8_resultados    PBV    347      22.541205        6.334471 0.130929
+ video_0_resultados  GREEN    266       0.970708        2.472064 0.130878
+ video_0_resultados  GREEN    104       0.036933        5.737742 0.130830
+ video_8_resultados  CHROM    135       0.256152        0.191126 0.130814
+ video_2_resultados   GBGR    104       0.578516        0.262258 0.130810
+ video_4_resultados   OMIT      4       0.682113        1.780822 0.130775
+ video_0_resultados   GBGR    266       0.553489        7.790194 0.130699
+ video_4_resultados    PBV     69       0.463329       10.547945 0.130671
+ video_2_resultados    PCA    364       0.340106        4.367161 0.130635
+video_10_resultados    PCA    280      17.175835        2.456747 0.130629
+ video_0_resultados    LGI     69       0.002802        5.737742 0.130603
+ video_3_resultados    ICA     50       1.205529        0.209806 0.130528
+ video_0_resultados    POS    135      13.685940        8.629418 0.130522
+video_10_resultados   OMIT     50       0.782978        1.695502 0.130494
+ video_0_resultados   OMIT     69       0.022670        5.737742 0.130488
+ video_0_resultados  CHROM    104       0.116403        5.737742 0.130469
+ video_2_resultados  CHROM    333       0.518914        0.262258 0.130466
+ video_6_resultados    PBV    104       2.023456        0.297483 0.130465
+ video_3_resultados    PBV    108       1.046588        6.367161 0.130449
+ video_4_resultados    LGI      4       0.682113        1.780822 0.130438
+video_10_resultados   GBGR    107       0.541907        0.380623 0.130430
+ video_0_resultados   GBGR    333       0.732297        5.737742 0.130410
+ video_3_resultados  GREEN    101       1.265131        0.209806 0.130402
+ video_4_resultados   OMIT     69       0.383771        0.273973 0.130364
+ video_5_resultados    ICA     69      28.223179        0.297483 0.130362
+ video_4_resultados   GBGR    347       0.562776        6.438356 0.130349
+ video_2_resultados    POS    107       0.379841        0.262258 0.130345
+video_10_resultados    PBV    151       0.602174        0.380623 0.130316
+video_10_resultados    LGI     50       0.782978        1.695502 0.130307
+ video_7_resultados   GBGR    266       0.720845        0.273973 0.130272
+ video_4_resultados    LGI    347       0.363881        2.328767 0.130258
+ video_7_resultados    PBV     50       0.700956        0.273973 0.130161
+ video_2_resultados    LGI    333       0.538781        0.262258 0.130153
+ video_4_resultados    POS      4       0.702003        1.780822 0.130146
+ video_3_resultados  GREEN     36       1.185661        0.209806 0.130114
+ video_8_resultados  GREEN    299       7.276888        6.334471 0.130044
+ video_4_resultados    POS    109       0.562776        0.273973 0.129984
+ video_3_resultados    PCA    188       1.920761        0.209806 0.129973
+video_10_resultados    POS    333      16.934764       14.913495 0.129922
+ video_3_resultados    PBV      9      10.019637        4.314709 0.129883
+ video_3_resultados   GBGR     69       1.861158        0.209806 0.129871
+ video_0_resultados   OMIT    337       0.811767        5.737742 0.129858
+ video_2_resultados  CHROM    338       0.558649        0.262258 0.129856
+ video_0_resultados    POS    333       0.871370        6.576967 0.129837
+ video_9_resultados    ICA    108       0.505252       12.620690 0.129800
+ video_0_resultados    LGI    337       0.811767        5.737742 0.129796
+ video_4_resultados    LGI     69       0.383771        0.273973 0.129782
+ video_2_resultados   OMIT    333       0.538781        0.262258 0.129780
+ video_4_resultados    ICA      9       5.495373        1.780822 0.129772
+ video_2_resultados    POS      6       0.419576        0.262258 0.129767
+ video_7_resultados    POS    108       0.879961        6.438356 0.129747
+ video_7_resultados  CHROM    280       0.621398        0.273973 0.129729
+ video_4_resultados   OMIT    347       0.363881        2.328767 0.129719
+ video_2_resultados  GREEN      9       0.439443        0.262258 0.129696
+ video_9_resultados    POS    364      24.582624        6.413793 0.129684
+video_10_resultados  CHROM    280      17.216014        2.456747 0.129674
+ video_3_resultados    POS     69       1.761820        0.209806 0.129666
+ video_5_resultados    PCA      9       0.236468        1.762014 0.129651
+ video_0_resultados    PBV    364      25.308456        1.632839 0.129626
+ video_7_resultados    ICA    188       0.919740        0.273973 0.129606
+ video_3_resultados    ICA    347       8.907054        0.209806 0.129563
+video_10_resultados    POS      4       0.702621        1.695502 0.129516
+ video_7_resultados    POS    338       0.740735       14.657534 0.129498
+ video_3_resultados  CHROM    101       4.834206        0.209806 0.129489
+ video_0_resultados    PCA    188       0.315079        7.790194 0.129479
+ video_1_resultados   GBGR    151       0.117294        1.528868 0.129464
+ video_7_resultados  GREEN      6       0.919740        0.273973 0.129453
+ video_1_resultados   OMIT     10       0.258077        5.685912 0.129452
+ video_2_resultados  CHROM    104       0.479179        0.262258 0.129449
+ video_4_resultados  CHROM    280       0.125207        0.273973 0.129432
+ video_8_resultados    POS    108       0.080852        0.191126 0.129422
+ video_7_resultados    PCA    347       0.502061        0.273973 0.129421
+ video_0_resultados   GBGR    330       0.553489        0.419612 0.129378
+ video_0_resultados  CHROM    188       0.434284        0.419612 0.129371
+ video_3_resultados    LGI    101       4.734869        0.209806 0.129346
+ video_1_resultados    LGI     10       0.278188        5.685912 0.129307
+ video_4_resultados    PCA      4       0.642334        1.780822 0.129271
+ video_8_resultados  CHROM    337       0.160148        0.191126 0.129261
+ video_8_resultados  CHROM    101       0.239443        6.334471 0.129212
+ video_3_resultados   OMIT    101       4.734869        0.209806 0.129181
+video_10_resultados    POS    347       7.291907        6.608997 0.129159
+ video_5_resultados    PCA    135       0.102403        0.297483 0.129108
+ video_5_resultados   GBGR    347       0.042602        1.762014 0.129098
+ video_0_resultados    PCA      9       0.493887        1.632839 0.129043
+ video_0_resultados    POS      6       0.573357        6.576967 0.129006
+ video_9_resultados   GBGR     18       0.044740       14.689655 0.128983
+ video_0_resultados    PBV    299       0.652827        1.632839 0.128980
+ video_9_resultados    PCA    299       0.605363        4.344828 0.128859
+ video_9_resultados    POS     50       0.405140       12.620690 0.128787
+video_10_resultados    ICA    108       6.970478       16.989619 0.128778
+ video_9_resultados  CHROM     36       0.345074        4.344828 0.128774
+ video_0_resultados    ICA     36       0.394549        1.632839 0.128752
+ video_4_resultados   GBGR     69       0.423550        0.273973 0.128728
+ video_0_resultados    PCA      6       0.593224        1.632839 0.128704
+ video_7_resultados    PCA    333      10.586039        0.273973 0.128637
+video_10_resultados    ICA    337      21.555299        1.695502 0.128611
+ video_0_resultados   GBGR    107      24.195873        1.632839 0.128603
+ video_2_resultados    ICA    104       0.459311        0.262258 0.128581
+video_10_resultados  CHROM    107       0.682532        0.380623 0.128558
+video_10_resultados  CHROM      6       0.883424       10.761246 0.128528
+ video_6_resultados   GBGR    299      26.461994        0.297483 0.128491
+ video_3_resultados    ICA    337       4.416988        0.209806 0.128463
+ video_7_resultados   GBGR    108       0.521950        0.273973 0.128460
+ video_2_resultados    ICA    199      13.552026        6.419612 0.128447
+ video_4_resultados   GBGR      4       0.662224        1.780822 0.128427
+ video_7_resultados  CHROM    347       0.502061        4.383562 0.128421
+ video_3_resultados  GREEN      4       1.086324        0.209806 0.128408
+ video_0_resultados   GBGR      9       0.474019        1.632839 0.128370
+ video_4_resultados    POS    280      29.681008        6.438356 0.128341
+ video_3_resultados  GREEN      9       5.211690        0.209806 0.128305
+video_10_resultados   GBGR    337       1.003960        6.608997 0.128301
+ video_8_resultados  CHROM     50       0.179971        0.191126 0.128290
+ video_6_resultados    PBV    108       0.149302        2.356979 0.128252
+ video_7_resultados    PBV    188       1.118635        0.273973 0.128249
+ video_2_resultados   OMIT      6       0.499046        0.262258 0.128239
+ video_3_resultados  CHROM    151       1.404204        0.209806 0.128159
+video_10_resultados   GBGR     50      17.075389        1.695502 0.128137
+ video_0_resultados  CHROM     36       0.394549        1.632839 0.128117
+ video_0_resultados    ICA    337       7.413398        3.685291 0.128111
+ video_9_resultados  GREEN    108       5.550858        8.482759 0.128039
+ video_9_resultados    LGI      4       0.244962        4.344828 0.128018
+video_10_resultados  GREEN    347      10.204853        1.695502 0.127994
+ video_3_resultados  CHROM      9       6.940167        0.209806 0.127947
+ video_9_resultados    POS    280       0.064762       14.689655 0.127946
+ video_9_resultados    PCA    333       0.124829        4.344828 0.127922
+ video_5_resultados  GREEN    108       0.276335        1.762014 0.127887
+ video_0_resultados   GBGR    135      13.685940        5.737742 0.127883
+ video_2_resultados   GBGR     50       0.300371        0.262258 0.127868
+ video_1_resultados    POS      4       0.023488        5.685912 0.127856
+video_10_resultados    PBV     69       0.642353        0.380623 0.127853
+ video_7_resultados  CHROM      4       0.720845        1.780822 0.127789
+ video_8_resultados  CHROM    151       0.318738        0.191126 0.127770
+ video_2_resultados    PCA    109       0.479179        0.262258 0.127760
+ video_7_resultados   GBGR    107       0.422503        0.273973 0.127733
+ video_9_resultados    LGI    333       0.184896        4.344828 0.127691
+ video_7_resultados   OMIT      4       0.681066        1.780822 0.127658
+ video_9_resultados   OMIT      4       0.244962        4.344828 0.127639
+ video_6_resultados    PCA    108       0.069568        0.297483 0.127601
+ video_7_resultados    POS    266       0.899851        0.273973 0.127598
+ video_7_resultados    LGI      4       0.681066        1.780822 0.127573
+ video_9_resultados   OMIT    333       0.184896        4.344828 0.127567
+ video_2_resultados    LGI      6       0.499046        0.262258 0.127551
+ video_7_resultados    PBV    135      37.287995        4.383562 0.127539
+ video_9_resultados    PCA     10       0.545296        4.344828 0.127519
+ video_2_resultados    LGI      9       0.479179        0.262258 0.127488
+ video_7_resultados    LGI    338       0.601508        0.273973 0.127468
+ video_0_resultados    POS    108       0.394549        6.576967 0.127455
+ video_8_resultados    PCA     50       0.219619        0.191126 0.127441
+ video_0_resultados  GREEN      9       0.493887        0.419612 0.127436
+ video_7_resultados    ICA      6       0.860072        0.273973 0.127416
+ video_4_resultados    PCA     69       0.403660        0.273973 0.127393
+ video_0_resultados  CHROM    336       0.513754        1.632839 0.127317
+ video_2_resultados    PCA    333       0.538781        0.262258 0.127316
+ video_2_resultados   OMIT      9       0.479179        0.262258 0.127278
+ video_5_resultados    ICA     10       0.176667        0.297483 0.127266
+ video_3_resultados    ICA     10      19.655398        0.209806 0.127253
+video_10_resultados  GREEN    336       1.003960        2.456747 0.127193
+ video_7_resultados   OMIT    338       0.601508        0.273973 0.127185
+ video_0_resultados    PCA     69       0.042537        1.632839 0.127178
+ video_8_resultados    ICA    109      10.547813        6.334471 0.127155
+video_10_resultados  GREEN    101      10.305299        1.695502 0.127132
+video_10_resultados   GBGR      4      17.175835        1.695502 0.127123
+video_10_resultados    POS     50      16.934764       14.913495 0.127109
+ video_1_resultados   GBGR    104       0.184382        5.685912 0.127090
+ video_5_resultados  CHROM      9       0.236468        1.762014 0.127021
+ video_7_resultados    POS    280       0.681066        0.273973 0.126969
+ video_4_resultados  GREEN    188       0.542887        0.273973 0.126962
+ video_7_resultados    PCA    280       0.641287        0.273973 0.126959
+ video_7_resultados   GBGR     69       0.601508        0.273973 0.126956
+ video_7_resultados   GBGR    109       0.342945        0.273973 0.126871
+ video_5_resultados    POS     18      10.980654       16.773455 0.126866
+ video_4_resultados  CHROM    337       5.236809        0.273973 0.126858
+video_10_resultados  GREEN    109      10.385657       10.761246 0.126836
+ video_5_resultados  CHROM    135       0.062536        0.297483 0.126801
+ video_2_resultados    POS    330       0.320238        0.262258 0.126800
+ video_8_resultados    ICA    364      14.829751        2.238908 0.126794
+ video_7_resultados    PCA    337       0.621398        0.273973 0.126787
+ video_6_resultados    ICA    280      28.275947        0.297483 0.126762
+ video_8_resultados   OMIT    188       0.298914        8.382253 0.126747
+ video_0_resultados  CHROM      6       0.553489        1.632839 0.126729
+ video_2_resultados    LGI    188       0.518914        0.262258 0.126711
+ video_1_resultados  CHROM    330       0.023488        5.685912 0.126707
+video_10_resultados    PBV     50      16.854407        0.380623 0.126672
+ video_4_resultados    ICA    188       0.264434        0.273973 0.126644
+ video_2_resultados   OMIT    188       0.518914        0.262258 0.126579
+ video_9_resultados   GBGR    280       0.224940        4.344828 0.126505
+ video_2_resultados  CHROM     36       0.399708        0.262258 0.126490
+ video_8_resultados    LGI    299       0.378209        6.334471 0.126485
+ video_2_resultados    SSR    151       0.618251       16.681870 0.126435
+ video_7_resultados    PCA     69       0.740735        0.273973 0.126432
+ video_4_resultados   OMIT    109       0.483218        0.273973 0.126427
+ video_7_resultados  CHROM    337       0.740735        0.273973 0.126421
+ video_7_resultados    PCA    266       0.760624        0.273973 0.126402
+ video_7_resultados   GBGR    333      10.645707        0.273973 0.126397
+ video_3_resultados  GREEN    151       1.344602        0.209806 0.126393
+ video_4_resultados    LGI    109       0.483218        0.273973 0.126393
+ video_6_resultados    PCA     69       0.010167        0.297483 0.126382
+ video_8_resultados    LGI    188       0.298914        8.382253 0.126367
+ video_9_resultados   GBGR    364      13.579779        2.275862 0.126356
+ video_0_resultados    PCA    135      13.825012        1.632839 0.126353
+ video_8_resultados   OMIT    299       0.378209        6.334471 0.126317
+ video_7_resultados  GREEN    266       0.999298        1.780822 0.126259
+ video_9_resultados    ICA    364      16.923494        2.275862 0.126153
+ video_7_resultados  GREEN     69       1.078856        0.273973 0.126150
+ video_7_resultados  GREEN    151       0.720845        0.273973 0.126128
+ video_8_resultados   OMIT    337       0.199795        0.191126 0.126124
+ video_0_resultados    PBV    337       0.811767        1.632839 0.126117
+ video_9_resultados    PCA     69       0.285007        4.344828 0.126079
+ video_9_resultados  GREEN     69       5.530836        2.275862 0.126073
+ video_9_resultados   GBGR    188       0.204918        4.344828 0.126068
+ video_9_resultados  CHROM    338       0.525274        2.275862 0.126063
+ video_6_resultados  GREEN     10       0.050034        0.297483 0.126049
+ video_5_resultados   GBGR    135       0.017199        0.297483 0.126003
+ video_8_resultados    LGI    337       0.199795        0.191126 0.125986
+ video_0_resultados    ICA    101       0.235609        0.419612 0.125984
+ video_7_resultados  CHROM    266       0.820293        0.273973 0.125924
+ video_7_resultados    POS      6       0.860072        0.273973 0.125758
+ video_3_resultados    ICA    101       1.900893        4.314709 0.125744
+ video_9_resultados    ICA    336       0.365096       10.551724 0.125688
+ video_1_resultados    POS    336       0.016736        1.528868 0.125666
+video_10_resultados    PBV     18      16.492799        6.608997 0.125655
+ video_5_resultados   OMIT     18       0.495604        6.475973 0.125632
+ video_6_resultados  CHROM    337       0.209103        0.297483 0.125622
+ video_7_resultados  GREEN    338       0.700956        1.780822 0.125562
+ video_3_resultados    POS    101       0.967118        0.209806 0.125553
+ video_3_resultados   OMIT    188       2.079701        0.209806 0.125544
+ video_1_resultados    PBV     18      24.774278        5.685912 0.125532
+ video_1_resultados   GBGR     18      24.774278        5.685912 0.125532
+ video_4_resultados    PBV      9       0.085428        0.273973 0.125467
+video_10_resultados    POS    337       0.943692        6.608997 0.125455
+ video_3_resultados    POS    135      26.509703       14.576967 0.125454
+ video_3_resultados    PBV     36       7.595796        0.209806 0.125438
+ video_9_resultados  CHROM    109       0.285007        4.344828 0.125432
+ video_0_resultados    ICA    280       0.434284        7.790194 0.125431
+ video_9_resultados  GREEN     10       0.425163        2.275862 0.125412
+ video_4_resultados    PCA    109       0.463329        0.273973 0.125406
+ video_3_resultados    LGI    188       2.079701        0.209806 0.125401
+ video_3_resultados  GREEN    280       1.046588        2.262258 0.125351
+ video_1_resultados   OMIT     18      24.814501        5.685912 0.125346
+ video_5_resultados    LGI    364       0.256401        2.356979 0.125340
+ video_7_resultados  GREEN      4       0.840182        1.780822 0.125323
+ video_1_resultados    ICA    333      20.068132       10.942263 0.125305
+ video_8_resultados    PBV    280       7.970720        6.334471 0.125291
+ video_0_resultados    POS    151       0.315079        0.419612 0.125239
+ video_2_resultados   GBGR    108       0.260635        0.262258 0.125220
+ video_5_resultados  GREEN    364      28.043777        6.475973 0.125217
+ video_9_resultados   GBGR      6       0.224940        4.344828 0.125213
+ video_9_resultados    ICA    151       0.244962        2.275862 0.125197
+ video_3_resultados    LGI    338       1.503542        0.209806 0.125182
+ video_3_resultados   OMIT    338       1.503542        0.209806 0.125171
+ video_4_resultados    ICA    280       0.045649        1.780822 0.125170
+ video_8_resultados  GREEN    109       6.920059       10.430034 0.125153
+ video_2_resultados   GBGR    107       0.499046        0.262258 0.125149
+ video_1_resultados    PBV      6       0.056959        3.607390 0.125139
+video_10_resultados    PBV    299       0.662442       14.913495 0.125138
+ video_1_resultados   GBGR    336       0.137406        3.607390 0.125136
+ video_0_resultados    ICA    330       0.354814        0.419612 0.125115
+video_10_resultados    LGI    188       0.903514        2.456747 0.125102
+ video_9_resultados    ICA    107       0.224940        4.344828 0.125095
+ video_4_resultados    LGI    199      27.612500        0.273973 0.125088
+ video_5_resultados    LGI     18       0.495604        6.475973 0.125084
+ video_1_resultados    LGI     18      24.814501        5.685912 0.125045
+ video_7_resultados    POS    347       0.502061       12.602740 0.125024
+video_10_resultados   OMIT    188       0.903514        2.456747 0.125007
+ video_1_resultados    ICA    266       0.526281        3.607390 0.124998
+video_10_resultados   GBGR    266       1.003960        1.695502 0.124980
+ video_1_resultados    PCA    337       0.117294        5.685912 0.124979
+ video_2_resultados    PCA      9       0.479179        0.262258 0.124971
+ video_7_resultados   OMIT     69       0.820293        0.273973 0.124941
+ video_2_resultados   GBGR      6       0.538781        0.262258 0.124843
+ video_4_resultados   OMIT    199      27.612500        0.273973 0.124828
+ video_7_resultados    LGI     69       0.820293        0.273973 0.124825
+ video_3_resultados    LGI     10       1.503542        0.209806 0.124819
+ video_2_resultados   GBGR    337       0.300371        0.262258 0.124817
+ video_4_resultados    POS    337       5.316367        0.273973 0.124801
+ video_0_resultados    POS    337       0.632959        6.576967 0.124798
+ video_1_resultados    PCA    364       0.660311        5.685912 0.124788
+ video_7_resultados    PCA    338       0.561729        0.273973 0.124681
+ video_2_resultados    ICA     36       6.399708        0.262258 0.124638
+ video_8_resultados    PCA    104       5.532394        0.191126 0.124570
+ video_2_resultados    PBV    338      22.254013        0.262258 0.124561
+ video_3_resultados  GREEN     69       1.284999        0.209806 0.124558
+ video_2_resultados   GBGR    280       0.677854        0.262258 0.124528
+ video_0_resultados    PBV      6       0.474019        7.790194 0.124492
+ video_5_resultados   OMIT    364       0.256401        2.356979 0.124489
+ video_4_resultados    POS    108       0.662224        0.273973 0.124485
+ video_9_resultados    PBV      4       0.325051        2.275862 0.124480
+ video_4_resultados    POS    188       0.025760        0.273973 0.124471
+ video_7_resultados    LGI    280       0.621398        0.273973 0.124466
+ video_7_resultados   GBGR     50       0.760624        0.273973 0.124460
+ video_3_resultados    ICA    151      10.284999        0.209806 0.124432
+ video_2_resultados    POS    101       0.459311        0.262258 0.124404
+ video_8_resultados    ICA    104       5.710808        0.191126 0.124395
+ video_8_resultados   GBGR    109       0.279090        6.334471 0.124354
+ video_9_resultados    POS    266       0.204918        2.275862 0.124349
+video_10_resultados   GBGR    280      17.155746        2.456747 0.124337
+ video_9_resultados    SSR    151       0.285007        4.344828 0.124321
+ video_3_resultados   OMIT     10       1.503542        0.209806 0.124316
+ video_7_resultados    ICA    104       0.860072        2.328767 0.124316
+ video_2_resultados   GBGR     69       0.359973        0.262258 0.124309
+ video_9_resultados    PCA     50       0.445185        4.344828 0.124229
+ video_3_resultados   GBGR     10       1.483675        0.209806 0.124228
+ video_4_resultados    PBV    107       0.483218        0.273973 0.124170
+ video_8_resultados  CHROM    104       5.532394        0.191126 0.124148
+ video_7_resultados  GREEN    109       0.800403        0.273973 0.124132
+ video_8_resultados    PBV    338      24.880412        0.191126 0.124116
+ video_7_resultados   OMIT    280       0.621398        0.273973 0.124116
+ video_2_resultados   OMIT     10       0.657986        0.262258 0.124100
+ video_3_resultados    PCA    101       4.675266        0.209806 0.124088
+ video_3_resultados  GREEN    104       1.126059        0.209806 0.124084
+video_10_resultados    ICA    199      18.461549        1.695502 0.124081
+video_10_resultados  CHROM     69       7.151282        0.380623 0.124047
+ video_7_resultados  CHROM    364      12.415873        1.780822 0.124005
+ video_7_resultados  GREEN    188       0.919740        0.273973 0.123999
+ video_2_resultados   GBGR      9       0.499046        0.262258 0.123990
+ video_5_resultados  CHROM    109       0.276335        0.297483 0.123933
+ video_3_resultados  GREEN    135       7.496458        2.262258 0.123927
+ video_6_resultados    POS     69       0.289236        0.297483 0.123885
+ video_4_resultados    PCA    199      27.592610        0.273973 0.123837
+ video_9_resultados    PCA      4       0.285007        4.344828 0.123826
+ video_1_resultados  GREEN    338       0.077071        1.528868 0.123818
+ video_3_resultados    PBV      6       9.860696       16.629418 0.123792
+ video_2_resultados    LGI     10       0.657986        0.262258 0.123782
+ video_2_resultados  CHROM      4       0.598384       14.629418 0.123770
+ video_7_resultados    POS    188       1.039077        6.438356 0.123737
+ video_4_resultados  CHROM    336       4.509047       10.547945 0.123698
+ video_6_resultados  CHROM    135      15.957010        0.297483 0.123660
+ video_2_resultados    PBV      4       0.598384       14.629418 0.123595
+video_10_resultados    ICA    347      19.566460        1.695502 0.123579
+ video_4_resultados   GBGR    109       0.423550        0.273973 0.123574
+ video_2_resultados    PCA    151       0.697722        0.262258 0.123558
+ video_2_resultados    PCA    199       8.406331        2.314709 0.123537
+ video_8_resultados  CHROM    199       0.553509        0.191126 0.123534
+ video_0_resultados    PBV    104       0.022670        5.737742 0.123523
+ video_4_resultados  GREEN    104      22.461119        0.273973 0.123516
+ video_2_resultados    LGI    101       0.518914        0.262258 0.123491
+ video_9_resultados  GREEN    299       8.333950        2.275862 0.123482
+ video_4_resultados    PBV    109       0.423550        0.273973 0.123481
+ video_4_resultados    PBV    280      23.515262        1.780822 0.123440
+video_10_resultados  GREEN    330       0.943692        1.695502 0.123423
+video_10_resultados   GBGR    330       1.044139        6.608997 0.123393
+
+5. Top 100 casos com menores SQI2 e SQI4 (incluindo o video):
+Top 100 SQI2:
+              Video Metodo  Patch  Error_BPM_Abs  Error_iRPM_Abs      SQI2
+ video_7_resultados    ICA    199      29.222503       10.547945 -0.065965
+ video_7_resultados  CHROM    199      29.242392       10.547945 -0.065167
+ video_7_resultados    PCA    199      29.242392       10.547945 -0.065030
+ video_0_resultados  GREEN    364      25.308456        1.632839 -0.060820
+ video_2_resultados    PBV    337       0.240768        2.314709 -0.057235
+video_10_resultados    ICA    199      18.461549        1.695502 -0.056714
+video_10_resultados  GREEN    199      18.863335        1.695502 -0.056282
+ video_2_resultados    PBV     69      17.843417        2.314709 -0.054682
+ video_0_resultados    PBV    364      25.308456        1.632839 -0.053526
+ video_2_resultados  GREEN    364      26.326861        2.314709 -0.052378
+video_10_resultados    ICA    109      10.405746        1.695502 -0.051253
+ video_0_resultados    ICA    199      23.798522        1.632839 -0.051036
+video_10_resultados    ICA    135       3.615567        1.695502 -0.050014
+ video_2_resultados    ICA    108      17.922887        2.314709 -0.049501
+ video_2_resultados  GREEN    337       0.459311        0.262258 -0.046844
+ video_0_resultados  CHROM     18       4.387926        4.524515 -0.045591
+ video_2_resultados    PBV    364      26.386463        4.367161 -0.045030
+ video_2_resultados  GREEN    151       0.538781        0.262258 -0.042710
+ video_0_resultados    PCA     18       0.300815        6.576967 -0.042403
+video_10_resultados  GREEN    107       4.962558        0.380623 -0.042286
+ video_7_resultados    PCA    135       0.223608        0.273973 -0.040715
+video_10_resultados  CHROM    135       3.414674        1.695502 -0.040265
+video_10_resultados    LGI    199      18.863335        2.456747 -0.039649
+ video_2_resultados    PBV    108      13.393086        2.314709 -0.039624
+ video_2_resultados    PBV    151       0.638119        0.262258 -0.039616
+ video_2_resultados    ICA    364      13.412953        1.790194 -0.039450
+video_10_resultados    ICA    364      27.040683        2.456747 -0.039346
+ video_2_resultados  GREEN    108       0.419576        0.262258 -0.038695
+ video_7_resultados    ICA     18      21.525265        1.780822 -0.038165
+ video_0_resultados  GREEN     10       0.414416        5.737742 -0.038047
+ video_4_resultados    ICA    199       2.253384        2.328767 -0.037962
+ video_6_resultados    PBV    338       0.349037        0.297483 -0.037689
+video_10_resultados   OMIT    199      18.863335        2.456747 -0.037679
+ video_2_resultados    PBV    299      13.532159        2.314709 -0.037590
+ video_7_resultados  CHROM     18       0.402613        1.780822 -0.037040
+ video_7_resultados    ICA    333      15.956204        0.273973 -0.036994
+ video_6_resultados    PCA     18      25.026778        0.297483 -0.036760
+ video_7_resultados  GREEN    135       7.105376        0.273973 -0.036017
+video_10_resultados   GBGR     18      16.472710        1.695502 -0.035887
+ video_5_resultados  GREEN    199      30.316202        0.297483 -0.035749
+video_10_resultados   OMIT     18      16.492799        6.608997 -0.035630
+ video_4_resultados  GREEN    199       2.253384        0.273973 -0.035625
+ video_0_resultados    PBV      6       0.474019        7.790194 -0.035376
+video_10_resultados   GBGR    199      18.883424        2.456747 -0.035291
+video_10_resultados  CHROM     69       7.151282        0.380623 -0.034948
+ video_9_resultados  GREEN    135      18.645407        2.275862 -0.034624
+video_10_resultados    LGI     18      16.492799        6.608997 -0.034343
+ video_7_resultados    PBV    135      37.287995        4.383562 -0.034232
+ video_6_resultados    LGI    101       0.149701        0.297483 -0.033889
+ video_6_resultados   OMIT    101       0.129768        0.297483 -0.033653
+ video_6_resultados    PBV    101       0.149701        0.297483 -0.033607
+ video_7_resultados    PBV    333      15.856757        0.273973 -0.033504
+ video_5_resultados    LGI    199      25.512215        0.297483 -0.032456
+ video_4_resultados  GREEN    347       1.278798        2.328767 -0.032320
+ video_5_resultados   OMIT    199      25.512215        0.297483 -0.032224
+video_10_resultados    ICA    107      21.816460        2.456747 -0.032062
+ video_2_resultados    ICA     18       3.260635        1.790194 -0.031761
+ video_6_resultados   GBGR     18       0.349037        0.297483 -0.031746
+video_10_resultados  GREEN    109      10.385657       10.761246 -0.031661
+ video_2_resultados  CHROM    336       0.558649        0.262258 -0.031410
+ video_6_resultados   GBGR    101       0.149701        0.297483 -0.031373
+ video_2_resultados    PBV    333      13.770569        2.314709 -0.031220
+ video_0_resultados  GREEN    338       0.553489        5.737742 -0.030143
+ video_0_resultados    PCA    364      15.017065        6.576967 -0.029768
+ video_0_resultados    LGI     10       0.334946        5.737742 -0.029490
+ video_5_resultados   GBGR    199      25.492282        0.297483 -0.029426
+ video_0_resultados   OMIT     10       0.334946        5.737742 -0.029423
+ video_7_resultados  CHROM     36       0.601508        0.273973 -0.028514
+video_10_resultados  GREEN    104       7.713782        1.695502 -0.028450
+ video_1_resultados  CHROM     18      24.814501        5.685912 -0.028438
+ video_2_resultados  GREEN    135       9.037378        1.790194 -0.028429
+ video_6_resultados  GREEN    338       0.209502        0.297483 -0.028336
+video_10_resultados    PCA     18      20.912442        1.695502 -0.028234
+ video_2_resultados    PBV    280       0.101695        6.419612 -0.028209
+ video_9_resultados    PBV    135      15.982449        2.275862 -0.027921
+ video_2_resultados    LGI    333       0.538781        0.262258 -0.027837
+ video_6_resultados   GBGR     50       0.189569        0.297483 -0.027786
+ video_2_resultados   OMIT    333       0.538781        0.262258 -0.027704
+ video_0_resultados  GREEN      6       0.632959        4.524515 -0.027646
+ video_6_resultados    LGI     50       0.149701        0.297483 -0.027093
+ video_2_resultados    ICA    135       8.883152        1.790194 -0.027065
+ video_3_resultados  CHROM     18      20.748114        0.209806 -0.027016
+ video_6_resultados   OMIT     50       0.129768        0.297483 -0.026879
+ video_3_resultados    PBV    266       4.993147        0.209806 -0.026864
+ video_6_resultados    PBV     18       0.368971        0.297483 -0.026838
+ video_5_resultados    PBV    266       0.057066        2.356979 -0.026808
+ video_9_resultados  GREEN    336       3.588678        8.482759 -0.026644
+video_10_resultados  GREEN    347      10.204853        1.695502 -0.026633
+ video_3_resultados    ICA    107      23.000231        0.209806 -0.026454
+ video_0_resultados  GREEN    151       0.374681        5.737742 -0.026359
+ video_5_resultados    ICA     36      24.136800        1.762014 -0.026263
+ video_2_resultados  CHROM     18      23.724212        0.262258 -0.026246
+ video_0_resultados    PBV     10       0.136271        1.632839 -0.026199
+ video_6_resultados    PBV     50       0.249369        0.297483 -0.026191
+ video_6_resultados    LGI    338       0.189569        0.297483 -0.025986
+ video_7_resultados    PCA     18      21.405928        4.383562 -0.025957
+ video_0_resultados   GBGR     10       0.414416        5.737742 -0.025910
+ video_1_resultados    PCA     18      24.754166        5.685912 -0.025893
+ video_7_resultados    PCA    364      14.782724        1.780822 -0.025794
+video_10_resultados    PCA    199      18.903514        2.456747 -0.025777
+
+Top 100 SQI4:
+              Video Metodo  Patch  Error_BPM_Abs  Error_iRPM_Abs         SQI4
+ video_3_resultados    PBV    151       1.662482        6.367161 5.651722e-08
+ video_8_resultados   OMIT    199       0.494037        0.191126 8.295478e-08
+ video_8_resultados    PBV    337       0.216504        0.191126 1.117529e-07
+ video_9_resultados  GREEN    199       3.108144       10.551724 1.618448e-07
+ video_5_resultados   OMIT     69       0.076999        0.297483 1.653066e-07
+video_10_resultados  GREEN    151       0.702621        0.380623 1.887964e-07
+ video_8_resultados    PCA      4       0.199795        0.191126 2.448594e-07
+ video_4_resultados    PBV    109       0.423550        0.273973 2.495970e-07
+video_10_resultados    PCA      6       0.843246       14.913495 2.550210e-07
+ video_9_resultados    PBV     50       0.445185        4.344828 2.845725e-07
+ video_1_resultados    ICA    337       0.197741        5.685912 3.401143e-07
+ video_6_resultados    PCA     36       0.029701        0.297483 4.293622e-07
+ video_2_resultados    PBV     18       3.479179        2.314709 4.891935e-07
+ video_7_resultados    POS      9       0.879961        0.273973 5.034397e-07
+ video_2_resultados    ICA    108      17.922887        2.314709 5.099313e-07
+ video_6_resultados    PBV     69       2.023456        0.297483 5.556983e-07
+ video_6_resultados  CHROM    199      11.770964        0.297483 5.626443e-07
+ video_6_resultados   GBGR     10       0.169635        0.297483 5.665330e-07
+ video_9_resultados  GREEN    299       8.333950        2.275862 6.014033e-07
+ video_6_resultados  CHROM      6       0.029701        0.297483 6.527405e-07
+ video_9_resultados    LGI    364      13.639846        2.275862 6.616933e-07
+ video_2_resultados    ICA    199      13.552026        6.419612 7.090054e-07
+ video_8_resultados    POS    151       0.298914        0.191126 7.170193e-07
+ video_0_resultados    PBV     50       0.017065        7.790194 7.421563e-07
+ video_3_resultados    PCA    199       9.026259        0.209806 7.535787e-07
+ video_3_resultados   OMIT    108       1.722085        0.209806 7.697961e-07
+ video_0_resultados    ICA     69       8.480642        3.685291 7.996697e-07
+ video_6_resultados   GBGR    280       3.020133        0.297483 9.009128e-07
+ video_9_resultados    ICA     18       3.108144        4.344828 9.038049e-07
+ video_0_resultados    PBV      9       0.871370        7.790194 9.337097e-07
+ video_6_resultados    ICA    337       0.089501        0.297483 9.497544e-07
+ video_8_resultados  CHROM    108       0.239443       16.573379 9.561881e-07
+ video_0_resultados  CHROM     18       4.387926        4.524515 9.578083e-07
+ video_4_resultados    ICA    266       0.463329        0.273973 9.608042e-07
+ video_4_resultados  CHROM    364       0.252693        1.780822 9.718388e-07
+ video_0_resultados   GBGR    135      13.685940        5.737742 1.079151e-06
+ video_8_resultados  GREEN     10       7.237240        8.382253 1.092497e-06
+ video_3_resultados    ICA    336       5.569306        2.262258 1.138230e-06
+ video_3_resultados    LGI    107       2.079701       14.576967 1.213208e-06
+ video_8_resultados    ICA    104       5.710808        0.191126 1.224688e-06
+ video_8_resultados   GBGR    135      11.122703        0.191126 1.233681e-06
+ video_6_resultados  CHROM    151       0.089901        0.297483 1.295510e-06
+ video_4_resultados    PCA    107       0.383771        1.780822 1.344124e-06
+ video_5_resultados   GBGR     36       0.216534        1.762014 1.373248e-06
+ video_4_resultados    POS      4       0.702003        1.780822 1.374698e-06
+ video_8_resultados  GREEN    199       6.939883       12.477816 1.416319e-06
+ video_6_resultados    POS      4       0.189569        0.297483 1.425555e-06
+ video_4_resultados  GREEN     10       0.562776        0.273973 1.426727e-06
+video_10_resultados    ICA      6      22.338782        2.456747 1.439670e-06
+ video_2_resultados   GBGR    336       0.638119        0.262258 1.444386e-06
+ video_4_resultados    POS      6       0.164986        0.273973 1.495632e-06
+ video_5_resultados  CHROM    188       0.216534        0.297483 1.509604e-06
+ video_9_resultados    ICA    347       0.945741        2.275862 1.592205e-06
+ video_2_resultados    PCA      6       0.518914        0.262258 1.690567e-06
+ video_9_resultados   GBGR      6       0.224940        4.344828 1.804724e-06
+ video_8_resultados  GREEN    107       5.552218        6.334471 1.812247e-06
+ video_5_resultados    POS    333       0.182137        8.535469 1.822084e-06
+ video_3_resultados    LGI     18      20.748114        0.209806 1.875857e-06
+ video_7_resultados  CHROM    199      29.242392       10.547945 1.878180e-06
+ video_3_resultados  CHROM    330       1.722085        0.209806 1.907491e-06
+ video_0_resultados    POS    151       0.315079        0.419612 1.941373e-06
+ video_0_resultados    ICA    266      18.911105        7.790194 1.946087e-06
+ video_7_resultados    LGI    109       0.482171        0.273973 1.948430e-06
+ video_4_resultados  GREEN      9       0.164986        0.273973 1.994075e-06
+ video_3_resultados    PCA    299       1.463807        0.209806 2.007028e-06
+ video_5_resultados    LGI    151       0.236468        1.762014 2.027682e-06
+ video_5_resultados    PBV    299       0.316202        0.297483 2.044735e-06
+ video_9_resultados   GBGR    199       2.988010       14.689655 2.046903e-06
+ video_7_resultados  GREEN     69       1.078856        0.273973 2.060014e-06
+ video_3_resultados    PBV    188       4.615663       12.524515 2.071228e-06
+ video_9_resultados    POS    338       0.285007       14.689655 2.074156e-06
+ video_8_resultados    ICA    107      68.529280        0.191126 2.082764e-06
+ video_8_resultados    ICA    151       7.435478        0.191126 2.106579e-06
+ video_6_resultados  CHROM    333      23.491894        0.297483 2.144235e-06
+ video_6_resultados  GREEN    199      11.990233        0.297483 2.162250e-06
+ video_2_resultados    LGI    299       0.975867        0.262258 2.221804e-06
+video_10_resultados    POS    337       0.943692        6.608997 2.236531e-06
+ video_6_resultados   GBGR    108       0.029701        0.297483 2.325138e-06
+ video_4_resultados   GBGR     36       0.940677        0.273973 2.446598e-06
+ video_0_resultados    POS      6       0.573357        6.576967 2.451427e-06
+ video_6_resultados    POS    109       0.050034        0.297483 2.469157e-06
+ video_1_resultados  GREEN    188       0.077071        0.549654 2.512792e-06
+ video_9_resultados    PCA    188       0.204918        4.344828 2.522079e-06
+ video_7_resultados   GBGR    188       0.860072        0.273973 2.555186e-06
+ video_2_resultados    POS    109       0.459311       16.681870 2.575301e-06
+ video_5_resultados    LGI    188       0.216534        0.297483 2.576386e-06
+ video_8_resultados    PCA    337       0.259266        0.191126 2.598637e-06
+ video_2_resultados    PBV    104       0.479179        0.262258 2.601468e-06
+ video_2_resultados  CHROM     10       0.677854        0.262258 2.630243e-06
+ video_6_resultados    PCA    108       0.069568        0.297483 2.637944e-06
+ video_6_resultados  GREEN    336       0.528439        1.762014 2.682221e-06
+ video_2_resultados   GBGR    299       2.187788        0.262258 2.683243e-06
+ video_6_resultados    POS    347       0.010167       12.654462 2.712811e-06
+ video_4_resultados   GBGR    333       0.682113        8.493151 2.739031e-06
+video_10_resultados    PBV    135      19.104407        0.380623 2.750872e-06
+ video_9_resultados    PBV     69      15.161536        8.482759 2.754311e-06
+ video_7_resultados   OMIT    336       0.800403        0.273973 2.790831e-06
+video_10_resultados   GBGR      9       0.863335       12.837370 2.804485e-06
+ video_0_resultados    PBV    135       1.447529        0.419612 2.838135e-06
+ video_1_resultados    PBV    333       0.258077        5.685912 2.973832e-06
+
+6. Top 100 combinacoes de Patch e Metodo para menor erro absoluto BPM e iRPM:
+Top 100 BPM:
+Patch  Metodo
+109    GBGR      0.405266
+       PCA       0.414417
+101    GBGR      0.419614
+109    POS       0.423343
+       LGI       0.458254
+50     CHROM     0.458334
+109    OMIT      0.460060
+50     OMIT      0.480034
+       PCA       0.481812
+       LGI       0.481852
+36     PCA       0.482883
+151    LGI       0.488443
+       OMIT      0.488443
+       CHROM     0.490285
+108    POS       0.493605
+107    CHROM     0.493735
+108    CHROM     0.495560
+36     POS       0.496115
+108    LGI       0.497371
+       OMIT      0.497377
+338    PCA       0.497486
+6      PCA       0.497806
+       GBGR      0.499602
+       POS       0.499606
+338    CHROM     0.501096
+       OMIT      0.504993
+188    PCA       0.505119
+6      CHROM     0.506311
+108    PCA       0.506434
+338    LGI       0.506822
+6      LGI       0.508721
+       OMIT      0.508721
+107    POS       0.508809
+266    GBGR      0.509018
+       PCA       0.512614
+36     GREEN     0.516593
+107    LGI       0.522623
+       OMIT      0.524451
+266    POS       0.525340
+109    CHROM     0.525598
+10     PCA       0.526513
+107    PCA       0.527902
+9      LGI       0.528230
+       OMIT      0.528230
+10     GBGR      0.531925
+188    LGI       0.538827
+       OMIT      0.538827
+4      POS       0.548414
+336    PCA       0.600535
+101    CHROM     0.754932
+       PCA       0.760381
+       OMIT      0.760460
+       LGI       0.762272
+108    GBGR      0.769986
+336    POS       0.942934
+       GBGR      0.948444
+337    POS       0.971595
+101    POS       0.976243
+9      CHROM     0.982766
+337    PCA       0.996554
+4      GREEN     1.000278
+36     GBGR      1.010890
+337    LGI       1.012889
+       OMIT      1.012889
+36     LGI       1.015103
+       OMIT      1.015103
+       CHROM     1.016911
+69     CHROM     1.030285
+337    CHROM     1.034734
+266    LGI       1.051984
+       OMIT      1.053786
+       CHROM     1.059211
+9      PCA       1.092192
+       GBGR      1.099400
+10     GREEN     1.115555
+9      POS       1.116041
+10     CHROM     1.130059
+       POS       1.139022
+       OMIT      1.141004
+       LGI       1.142833
+151    GREEN     1.144415
+330    POS       1.159862
+       GBGR      1.172427
+       GREEN     1.177092
+338    GREEN     1.180749
+330    PCA       1.185052
+337    GREEN     1.214872
+188    CHROM     1.235370
+338    POS       1.276853
+       GBGR      1.321125
+336    OMIT      1.327766
+       LGI       1.327772
+151    PCA       1.331951
+       GBGR      1.337343
+       SSR       1.353662
+       POS       1.368755
+347    OMIT      1.414598
+       LGI       1.416404
+       CHROM     1.447233
+337    GBGR      1.472667
+
+Top 100 iRPM:
+Patch  Metodo
+36     PCA       1.079403
+107    ICA       1.092790
+69     PCA       1.114282
+36     GBGR      1.212542
+4      GBGR      1.216389
+       PCA       1.216389
+69     CHROM     1.259118
+336    LGI       1.281746
+151    LGI       1.281964
+       OMIT      1.281964
+135    ICA       1.300344
+10     PBV       1.353867
+69     LGI       1.354315
+       OMIT      1.354315
+336    OMIT      1.392040
+69     GBGR      1.487455
+135    PCA       1.514111
+338    PCA       1.580560
+4      POS       1.593434
+188    CHROM     1.615279
+36     ICA       1.624426
+10     LGI       1.632291
+       OMIT      1.632291
+4      GREEN     1.648754
+135    PBV       1.649538
+50     GBGR      1.660436
+       PCA       1.660436
+9      POS       1.701385
+107    GBGR      1.709817
+336    PBV       1.725972
+151    PCA       1.765431
+10     GBGR      1.769278
+       ICA       1.769278
+       PCA       1.769278
+330    ICA       1.770159
+338    CHROM     1.770386
+347    ICA       1.791014
+101    GBGR      1.792302
+       PCA       1.792302
+266    PCA       1.826845
+50     CHROM     1.849393
+       LGI       1.849393
+       OMIT      1.849393
+266    CHROM     1.893473
+101    GREEN     1.927651
+36     CHROM     1.934344
+       LGI       1.934344
+       OMIT      1.934344
+135    GREEN     1.939879
+108    GBGR      1.946003
+       PCA       1.946003
+151    GBGR      1.947916
+280    GBGR      1.950526
+9      LGI       1.950744
+       OMIT      1.950744
+347    PCA       1.958059
+338    LGI       1.958473
+       OMIT      1.958473
+4      ICA       1.979564
+6      GBGR      2.003330
+266    LGI       2.013007
+       OMIT      2.013007
+135    LGI       2.071527
+       OMIT      2.071527
+36     PBV       2.073669
+135    GBGR      2.074530
+9      CHROM     2.087730
+107    PCA       2.087730
+336    GREEN     2.088154
+337    GBGR      2.090720
+266    POS       2.106703
+330    CHROM     2.138831
+36     GREEN     2.143990
+364    GBGR      2.216818
+101    LGI       2.218922
+       OMIT      2.218922
+188    ICA       2.240494
+50     GREEN     2.290495
+109    CHROM     2.310312
+       LGI       2.310312
+       OMIT      2.310312
+280    CHROM     2.315476
+10     GREEN     2.321991
+151    GREEN     2.321991
+10     CHROM     2.325829
+336    CHROM     2.326037
+364    ICA       2.327507
+       GREEN     2.329665
+337    LGI       2.331646
+       OMIT      2.331646
+       PCA       2.331646
+101    ICA       2.333158
+107    GREEN     2.349765
+338    ICA       2.360274
+364    CHROM     2.372208
+109    GBGR      2.379516
+       PCA       2.379516
+9      GREEN     2.402788
+18     CHROM     2.407465
+101    CHROM     2.407879
+
+7. Variacao dos erros com limiares de SQI:
+SQI1 - Intervalos: [0.15821993 0.2262332  0.29424646 0.36225972 0.43027298 0.49828625
+ 0.56629951 0.63431277 0.70232603 0.7703393  0.83835256]
+Limiar 0.2262331955340747 - Erros: Error_BPM_Abs     4.118736
+Error_iRPM_Abs    3.017997
+Limiar 0.2942464582700809 - Erros: Error_BPM_Abs     3.790555
+Error_iRPM_Abs    3.003736
+Limiar 0.36225972100608705 - Erros: Error_BPM_Abs     3.098271
+Error_iRPM_Abs    2.972834
+Limiar 0.4302729837420933 - Erros: Error_BPM_Abs     2.186496
+Error_iRPM_Abs    2.916269
+Limiar 0.49828624647809944 - Erros: Error_BPM_Abs     1.473656
+Error_iRPM_Abs    2.846314
+Limiar 0.5662995092141057 - Erros: Error_BPM_Abs     0.755805
+Error_iRPM_Abs    2.711607
+Limiar 0.6343127719501118 - Erros: Error_BPM_Abs     0.442386
+Error_iRPM_Abs    2.574807
+Limiar 0.702326034686118 - Erros: Error_BPM_Abs     0.336873
+Error_iRPM_Abs    2.424169
+Limiar 0.7703392974221241 - Erros: Error_BPM_Abs     0.222080
+Error_iRPM_Abs    3.128259
+Limiar 0.8383525601581303 - Erros: Error_BPM_Abs     0.077071
+Error_iRPM_Abs    5.685912
+
+SQI2 - Intervalos: [-6.59647433e-02 -5.27871288e-02 -3.96095143e-02 -2.64318998e-02
+ -1.32542853e-02 -7.66708275e-05  1.31009437e-02  2.62785582e-02
+  3.94561726e-02  5.26337871e-02  6.58114016e-02]
+Limiar -0.05278712879314389 - Erros: Error_BPM_Abs     4.061379
+Error_iRPM_Abs    3.010130
+Limiar -0.039609514301740284 - Erros: Error_BPM_Abs     4.027285
+Error_iRPM_Abs    3.015821
+Limiar -0.026431899810336668 - Erros: Error_BPM_Abs     3.885845
+Error_iRPM_Abs    3.035283
+Limiar -0.013254285318933058 - Erros: Error_BPM_Abs     3.737157
+Error_iRPM_Abs    3.052325
+Limiar -7.667082752944865e-05 - Erros: Error_BPM_Abs     4.083478
+Error_iRPM_Abs    2.760847
+Limiar 0.013100943663874168 - Erros: Error_BPM_Abs     6.254112
+Error_iRPM_Abs    2.728288
+Limiar 0.02627855815527777 - Erros: Error_BPM_Abs     10.923490
+Error_iRPM_Abs     2.876894
+Limiar 0.03945617264668139 - Erros: Error_BPM_Abs     14.543081
+Error_iRPM_Abs     3.937441
+Limiar 0.052633787138085 - Erros: Error_BPM_Abs     24.215832
+Error_iRPM_Abs     5.952921
+Limiar 0.0658114016294886 - Erros: Error_BPM_Abs     29.222503
+Error_iRPM_Abs    10.547945
+
+SQI3 - Intervalos: [0.06405658 0.07839391 0.09273125 0.10706858 0.12140592 0.13574325
+ 0.15008059 0.16441792 0.17875526 0.19309259 0.20742993]
+Limiar 0.07839391107690825 - Erros: Error_BPM_Abs     4.160755
+Error_iRPM_Abs    3.040213
+Limiar 0.09273124598796102 - Erros: Error_BPM_Abs     4.248431
+Error_iRPM_Abs    3.087436
+Limiar 0.10706858089901378 - Erros: Error_BPM_Abs     4.318006
+Error_iRPM_Abs    3.027172
+Limiar 0.12140591581006654 - Erros: Error_BPM_Abs     4.277291
+Error_iRPM_Abs    3.124556
+Limiar 0.1357432507211193 - Erros: Error_BPM_Abs     4.885943
+Error_iRPM_Abs    3.411879
+Limiar 0.15008058563217205 - Erros: Error_BPM_Abs     5.823182
+Error_iRPM_Abs    3.148891
+Limiar 0.16441792054322482 - Erros: Error_BPM_Abs     7.772166
+Error_iRPM_Abs    3.576692
+Limiar 0.17875525545427756 - Erros: Error_BPM_Abs     8.229384
+Error_iRPM_Abs    4.453188
+Limiar 0.19309259036533033 - Erros: Error_BPM_Abs     17.720494
+Error_iRPM_Abs     8.043443
+Limiar 0.2074299252763831 - Erros: Error_BPM_Abs     29.242392
+Error_iRPM_Abs    10.547945
+
+SQI4 - Intervalos: [5.65172233e-08 6.96523659e-05 1.39248214e-04 2.08844063e-04
+ 2.78439912e-04 3.48035760e-04 4.17631609e-04 4.87227458e-04
+ 5.56823306e-04 6.26419155e-04 6.96015004e-04]
+Limiar 6.965236586077534e-05 - Erros: Error_BPM_Abs     3.663031
+Error_iRPM_Abs    3.058525
+Limiar 0.0001392482144982114 - Erros: Error_BPM_Abs     2.890496
+Error_iRPM_Abs    3.033208
+Limiar 0.00020884406313564745 - Erros: Error_BPM_Abs     2.439832
+Error_iRPM_Abs    2.871761
+Limiar 0.00027843991177308353 - Erros: Error_BPM_Abs     3.028052
+Error_iRPM_Abs    2.805928
+Limiar 0.0003480357604105196 - Erros: Error_BPM_Abs     1.959692
+Error_iRPM_Abs    3.961692
+Limiar 0.00041763160904795564 - Erros: Error_BPM_Abs     1.176548
+Error_iRPM_Abs    3.069433
+Limiar 0.0004872274576853917 - Erros: Error_BPM_Abs     1.694273
+Error_iRPM_Abs    3.886282
+Limiar 0.0005568233063228278 - Erros: Error_BPM_Abs     0.444077
+Error_iRPM_Abs    2.984388
+Limiar 0.0006264191549602638 - Erros: Error_BPM_Abs     0.860072
+Error_iRPM_Abs    0.273973
+Limiar 0.0006960150035977 - Erros: Error_BPM_Abs     0.860072
+Error_iRPM_Abs    0.273973
+

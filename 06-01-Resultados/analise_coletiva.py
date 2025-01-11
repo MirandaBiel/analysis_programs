@@ -69,11 +69,11 @@ def analyze_collective_data(df, output_folder):
 
         # 4. Top 100 casos com melhores SQI1 e SQI3
         write_line("4. Top 100 casos com melhores SQI1 e SQI3 (incluindo o vídeo):")
-        top_sqi1 = df.nlargest(100, 'SQI1')
+        top_sqi1 = df.nlargest(1000, 'SQI1')
         write_line("Top 100 SQI1:")
         write_line(top_sqi1[['Video', 'Metodo', 'Patch', 'Error_BPM_Abs', 'Error_iRPM_Abs', 'SQI1']].to_string(index=False))
         write_line("")
-        top_sqi3 = df.nlargest(100, 'SQI3')
+        top_sqi3 = df.nlargest(1000, 'SQI3')
         write_line("Top 100 SQI3:")
         write_line(top_sqi3[['Video', 'Metodo', 'Patch', 'Error_BPM_Abs', 'Error_iRPM_Abs', 'SQI3']].to_string(index=False))
         write_line("")
@@ -89,14 +89,14 @@ def analyze_collective_data(df, output_folder):
         write_line(top_sqi4[['Video', 'Metodo', 'Patch', 'Error_BPM_Abs', 'Error_iRPM_Abs', 'SQI4']].to_string(index=False))
         write_line("")
 
-        # 6. Top 30 combinações de patch e método para menor erro absoluto BPM e iRPM
-        write_line("6. Top 30 combinações de Patch e Método para menor erro absoluto BPM e iRPM:")
-        top_bpm = df.groupby(['Patch', 'Metodo'])['Error_BPM_Abs'].mean().nsmallest(30)
-        write_line("Top 30 BPM:")
+        # 6. Top 100 combinações de patch e método para menor erro absoluto BPM e iRPM
+        write_line("6. Top 100 combinações de Patch e Método para menor erro absoluto BPM e iRPM:")
+        top_bpm = df.groupby(['Patch', 'Metodo'])['Error_BPM_Abs'].mean().nsmallest(100)
+        write_line("Top 100 BPM:")
         write_line(top_bpm.to_string())
         write_line("")
-        top_irpm = df.groupby(['Patch', 'Metodo'])['Error_iRPM_Abs'].mean().nsmallest(30)
-        write_line("Top 30 iRPM:")
+        top_irpm = df.groupby(['Patch', 'Metodo'])['Error_iRPM_Abs'].mean().nsmallest(100)
+        write_line("Top 100 iRPM:")
         write_line(top_irpm.to_string())
         write_line("")
 
