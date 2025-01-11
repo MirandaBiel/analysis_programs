@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Caminho do arquivo de entrada e saída
-bvp_input_file = "sinal_filtrado_patch_10.csv"  # Substitua pelo caminho do arquivo BVP original
-bvp_output_file = "sinal_filtrado_patch_10_invertido.csv"  # Caminho para salvar o arquivo modificado
+bvp_input_file = "POS.csv"  # Substitua pelo caminho do arquivo BVP original
+bvp_output_file = "POSi.csv"  # Caminho para salvar o arquivo modificado
 
 # Ler os dados do BVP
 bvp_data = pd.read_csv(bvp_input_file)
