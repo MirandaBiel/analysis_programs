@@ -69,6 +69,7 @@ plt.plot(thresholds, mean_error_bpm, label="Erro Médio BPM", color="blue")
 plt.xlabel("Limiar SQI1")
 plt.ylabel("Erro Médio BPM")
 plt.title("Erro Médio BPM vs Limiar SQI1")
+plt.xlim(0.6, 0.83)  # Limite do eixo X
 plt.grid(True)
 plt.legend()
 
@@ -78,6 +79,7 @@ plt.plot(thresholds, mean_error_irpm, label="Erro Médio iRPM", color="green")
 plt.xlabel("Limiar SQI1")
 plt.ylabel("Erro Médio iRPM")
 plt.title("Erro Médio iRPM vs Limiar SQI1")
+plt.xlim(0.6, 0.83)  # Limite do eixo X
 plt.grid(True)
 plt.legend()
 
