@@ -197,8 +197,8 @@ def generate_plots(df, output_folder, video_name):
 
 
 if __name__ == "__main__":
-    folder_path = "06-01-Resultados/Gustavo_sincronizacao_data"
-    output_folder = "06-01-Resultados/Gustavo_sincronizacao_results"
+    folder_path = "06-01-Resultados/Gabriel_second_data"
+    output_folder = "06-01-Resultados/Gabriel_second_results"
     os.makedirs(output_folder, exist_ok=True)
 
     dfs, combined_df = process_csv_files(folder_path)
