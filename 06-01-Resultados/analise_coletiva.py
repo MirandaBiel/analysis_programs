@@ -58,9 +58,9 @@ def analyze_collective_data(df, output_folder):
             write_line(errors_patch.to_string())
             write_line("")
 
-        # 4. Top 100 melhores casos com menor erro absoluto
+        # 4. Top 1000 melhores casos com menor erro absoluto
         write_line("4. Top 100 melhores casos com menor erro absoluto (incluindo vídeo, patch, método e SQIs):")
-        top_cases = df.nsmallest(100, 'Error_BPM_Abs')
+        top_cases = df.nsmallest(1000, 'Error_BPM_Abs')
         write_line(top_cases[['Video', 'Metodo', 'Patch', 'Error_BPM_Abs', 'Error_BPM_Rel', 'Error_iRPM_Abs', 'Error_iRPM_Rel', 'SQI1', 'SQI2']].to_string(index=False))
         write_line("")
 
@@ -131,8 +131,8 @@ def generate_collective_plots(df, output_folder):
     plt.close()
 
 if __name__ == "__main__":
-    folder_path = "06-01-Resultados/Gustavo_sincronizacao_data"
-    output_folder = "06-01-Resultados/Gustavo_sincronizacao_results"
+    folder_path = "06-01-Resultados/Gabriel_init_data"
+    output_folder = "06-01-Resultados/Gabriel_init_results"
     os.makedirs(output_folder, exist_ok=True)
 
     dfs, combined_df = process_csv_files(folder_path)
