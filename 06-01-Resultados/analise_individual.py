@@ -137,14 +137,21 @@ def generate_plots(df, output_folder, video_name):
     for subfolder in subfolders:
         os.makedirs(os.path.join(output_folder, subfolder), exist_ok=True)
 
+    # Ajustes de estilo
+    title_fontsize = 16
+    label_fontsize = 14
+    tick_fontsize = 12
+
     # Gráficos de dispersão para SQI vs erros
     for col in ['SQI1', 'SQI2', 'SQI3', 'SQI4']:
         # Erro BPM
         plt.figure()
         plt.scatter(df[col], df['Error_BPM_Abs'], alpha=0.7)
-        plt.title(f'Erro BPM vs {col} - {video_name}')
-        plt.xlabel(col)
-        plt.ylabel('Erro Absoluto (bpm)')
+        plt.title(f'{video_name}'.split(".")[0], fontsize=title_fontsize)
+        plt.xlabel(col, fontsize=label_fontsize)
+        plt.ylabel('Erro Absoluto (bpm)', fontsize=label_fontsize)
+        plt.xticks(fontsize=tick_fontsize)
+        plt.yticks(fontsize=tick_fontsize)
         plt.tight_layout()
         plt.savefig(os.path.join(output_folder, f'{col}_vs_Erro_bpm', f'{video_name}_erro_bpm_vs_{col}.png'))
         plt.close()
@@ -152,9 +159,11 @@ def generate_plots(df, output_folder, video_name):
         # Erro iRPM
         plt.figure()
         plt.scatter(df[col], df['Error_iRPM_Abs'], alpha=0.7)
-        plt.title(f'Erro iRPM vs {col} - {video_name}')
-        plt.xlabel(col)
-        plt.ylabel('Erro Absoluto (irpm)')
+        plt.title(f'Erro iRPM vs {col} - {video_name}', fontsize=title_fontsize)
+        plt.xlabel(col, fontsize=label_fontsize)
+        plt.ylabel('Erro Absoluto (irpm)', fontsize=label_fontsize)
+        plt.xticks(fontsize=tick_fontsize)
+        plt.yticks(fontsize=tick_fontsize)
         plt.tight_layout()
         plt.savefig(os.path.join(output_folder, f'{col}_vs_Erro_irpm', f'{video_name}_erro_irpm_vs_{col}.png'))
         plt.close()
@@ -162,8 +171,10 @@ def generate_plots(df, output_folder, video_name):
     # Gráficos de barras para erros por método (BPM)
     plt.figure()
     df.groupby('Metodo')['Error_BPM_Abs'].mean().plot(kind='bar')
-    plt.title(f'Erro Absoluto BPM por Método - {video_name}')
-    plt.ylabel('Erro Absoluto (bpm)')
+    plt.title(f'Erro Absoluto BPM por Método - {video_name}', fontsize=title_fontsize)
+    plt.ylabel('Erro Absoluto (bpm)', fontsize=label_fontsize)
+    plt.xticks(fontsize=tick_fontsize, rotation=45)
+    plt.yticks(fontsize=tick_fontsize)
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'Erro_por_metodo_bpm', f'{video_name}_erro_bpm_por_metodo.png'))
     plt.close()
@@ -171,8 +182,10 @@ def generate_plots(df, output_folder, video_name):
     # Gráficos de barras para erros por método (iRPM)
     plt.figure()
     df.groupby('Metodo')['Error_iRPM_Abs'].mean().plot(kind='bar')
-    plt.title(f'Erro Absoluto iRPM por Método - {video_name}')
-    plt.ylabel('Erro Absoluto (irpm)')
+    plt.title(f'Erro Absoluto iRPM por Método - {video_name}', fontsize=title_fontsize)
+    plt.ylabel('Erro Absoluto (irpm)', fontsize=label_fontsize)
+    plt.xticks(fontsize=tick_fontsize, rotation=45)
+    plt.yticks(fontsize=tick_fontsize)
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'Erro_por_metodo_irpm', f'{video_name}_erro_irpm_por_metodo.png'))
     plt.close()
@@ -180,8 +193,10 @@ def generate_plots(df, output_folder, video_name):
     # Gráficos de barras para erros por patch (BPM)
     plt.figure()
     df.groupby('Patch')['Error_BPM_Abs'].mean().plot(kind='bar')
-    plt.title(f'Erro Absoluto BPM por Patch - {video_name}')
-    plt.ylabel('Erro Absoluto (bpm)')
+    plt.title(f'Erro Absoluto BPM por Patch - {video_name}', fontsize=title_fontsize)
+    plt.ylabel('Erro Absoluto (bpm)', fontsize=label_fontsize)
+    plt.xticks(fontsize=tick_fontsize, rotation=45)
+    plt.yticks(fontsize=tick_fontsize)
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'Erro_por_patch_bpm', f'{video_name}_erro_bpm_por_patch.png'))
     plt.close()
@@ -189,16 +204,18 @@ def generate_plots(df, output_folder, video_name):
     # Gráficos de barras para erros por patch (iRPM)
     plt.figure()
     df.groupby('Patch')['Error_iRPM_Abs'].mean().plot(kind='bar')
-    plt.title(f'Erro Absoluto iRPM por Patch - {video_name}')
-    plt.ylabel('Erro Absoluto (irpm)')
+    plt.title(f'Erro Absoluto iRPM por Patch - {video_name}', fontsize=title_fontsize)
+    plt.ylabel('Erro Absoluto (irpm)', fontsize=label_fontsize)
+    plt.xticks(fontsize=tick_fontsize, rotation=45)
+    plt.yticks(fontsize=tick_fontsize)
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'Erro_por_patch_irpm', f'{video_name}_erro_irpm_por_patch.png'))
     plt.close()
 
 
 if __name__ == "__main__":
-    folder_path = "06-01-Resultados/Gabriel_second_data"
-    output_folder = "06-01-Resultados/Gabriel_second_results"
+    folder_path = "06-01-Resultados/Gabriel_init_data"
+    output_folder = "06-01-Resultados/Gabriel_init_results"
     os.makedirs(output_folder, exist_ok=True)
 
     dfs, combined_df = process_csv_files(folder_path)

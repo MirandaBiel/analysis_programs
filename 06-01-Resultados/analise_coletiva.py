@@ -85,25 +85,45 @@ def analyze_collective_data(df, output_folder):
 
 def generate_collective_plots(df, output_folder):
     """Gera gráficos coletivos para todos os vídeos combinados."""
-    for col in ['SQI1', 'SQI2']:
+    # Identificar colunas que representam os SQIs
+    sqi_columns = [col for col in df.columns if col.startswith("SQI")]
+
+    for sqi_col in sqi_columns:
+        # Inicializar listas para armazenar os erros médios
+        sqi_thresholds = np.linspace(df[sqi_col].min(), df[sqi_col].max(), 20)
+        bpm_errors = []
+        irpm_errors = []
+
+        for threshold in sqi_thresholds:
+            filtered_df = df[df[sqi_col] >= threshold]
+            bpm_errors.append(filtered_df['Error_BPM_Abs'].mean())
+            irpm_errors.append(filtered_df['Error_iRPM_Abs'].mean())
+
+        # Gráfico de erros médios para BPM
         plt.figure()
-        plt.scatter(df[col], df['Error_BPM_Abs'], alpha=0.7)
-        plt.title(f'Erro BPM vs {col} - Coletivo')
-        plt.xlabel(col)
-        plt.ylabel('Erro Absoluto Médio (bpm)')
+        plt.plot(sqi_thresholds, bpm_errors, marker='o', label=f'Erro Médio BPM')
+        plt.title(f'')
+        plt.xlabel(f'Limiar de {sqi_col}')
+        plt.ylabel('Erro absoluto médio (bpm)')
+        plt.grid(True)
+        plt.legend()
         plt.tight_layout()
-        plt.savefig(os.path.join(output_folder, f'{col}_vs_Erro_bpm.png'))
+        plt.savefig(os.path.join(output_folder, f'Variacao_Erro_BPM_com_{sqi_col}.png'))
         plt.close()
 
+        # Gráfico de erros médios para iRPM
         plt.figure()
-        plt.scatter(df[col], df['Error_iRPM_Abs'], alpha=0.7)
-        plt.title(f'Erro iRPM vs {col} - Coletivo')
-        plt.xlabel(col)
-        plt.ylabel('Erro Absoluto (irpm)')
+        plt.plot(sqi_thresholds, irpm_errors, marker='o', color='orange', label=f'Erro Médio iRPM')
+        plt.title(f'Variação do Erro Médio iRPM com Limiar de {sqi_col}')
+        plt.xlabel(f'Limiar de {sqi_col}')
+        plt.ylabel('Erro Médio iRPM')
+        plt.grid(True)
+        plt.legend()
         plt.tight_layout()
-        plt.savefig(os.path.join(output_folder, f'{col}_vs_Erro_irpm.png'))
+        plt.savefig(os.path.join(output_folder, f'Variacao_Erro_iRPM_com_{sqi_col}.png'))
         plt.close()
 
+    # Gráficos existentes (como barras por método e patch)
     plt.figure()
     df.groupby('Metodo')['Error_BPM_Abs'].mean().plot(kind='bar')
     plt.title('Erro Absoluto BPM por Método - Coletivo')
@@ -136,9 +156,10 @@ def generate_collective_plots(df, output_folder):
     plt.savefig(os.path.join(output_folder, 'Erro_por_patch_irpm.png'))
     plt.close()
 
+
 if __name__ == "__main__":
-    folder_path = "06-01-Resultados/Gustavo_sincronizacao_data"
-    output_folder = "06-01-Resultados/Gustavo_sincronizacao_results"
+    folder_path = "06-01-Resultados/geral_data"
+    output_folder = "06-01-Resultados/geral_results"
     os.makedirs(output_folder, exist_ok=True)
 
     dfs, combined_df = process_csv_files(folder_path)
