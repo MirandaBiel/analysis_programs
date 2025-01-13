@@ -89,22 +89,26 @@ def generate_collective_plots(df, output_folder):
     sqi_columns = [col for col in df.columns if col.startswith("SQI")]
 
     for sqi_col in sqi_columns:
-        # Inicializar listas para armazenar os erros médios
+        # Inicializar listas para armazenar os erros médios e o número de amostras
         sqi_thresholds = np.linspace(df[sqi_col].min(), df[sqi_col].max(), 20)
         bpm_errors = []
         irpm_errors = []
+        num_samples = []
 
         for threshold in sqi_thresholds:
             filtered_df = df[df[sqi_col] >= threshold]
             bpm_errors.append(filtered_df['Error_BPM_Abs'].mean())
             irpm_errors.append(filtered_df['Error_iRPM_Abs'].mean())
+            num_samples.append(len(filtered_df))
 
         # Gráfico de erros médios para BPM
         plt.figure()
         plt.plot(sqi_thresholds, bpm_errors, marker='o', label=f'Erro Médio BPM')
-        plt.title(f'')
+        for i, (x, y, n) in enumerate(zip(sqi_thresholds, bpm_errors, num_samples)):
+            plt.text(x, y, f'{n}', fontsize=8, ha='center', va='bottom')  # Adiciona o número de amostras
+        plt.title(f'Variação do Erro Médio BPM com Limiar de {sqi_col}')
         plt.xlabel(f'Limiar de {sqi_col}')
-        plt.ylabel('Erro absoluto médio (bpm)')
+        plt.ylabel('Erro Médio BPM')
         plt.grid(True)
         plt.legend()
         plt.tight_layout()
@@ -114,6 +118,8 @@ def generate_collective_plots(df, output_folder):
         # Gráfico de erros médios para iRPM
         plt.figure()
         plt.plot(sqi_thresholds, irpm_errors, marker='o', color='orange', label=f'Erro Médio iRPM')
+        for i, (x, y, n) in enumerate(zip(sqi_thresholds, irpm_errors, num_samples)):
+            plt.text(x, y, f'{n}', fontsize=8, ha='center', va='bottom')  # Adiciona o número de amostras
         plt.title(f'Variação do Erro Médio iRPM com Limiar de {sqi_col}')
         plt.xlabel(f'Limiar de {sqi_col}')
         plt.ylabel('Erro Médio iRPM')
