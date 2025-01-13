@@ -103,12 +103,12 @@ def generate_collective_plots(df, output_folder):
 
         # Gráfico de erros médios para BPM
         plt.figure()
-        plt.plot(sqi_thresholds, bpm_errors, marker='o', label=f'Erro Médio BPM')
+        plt.plot(sqi_thresholds, bpm_errors, marker='o')
         for i, (x, y, n) in enumerate(zip(sqi_thresholds, bpm_errors, num_samples)):
             plt.text(x, y, f'{n}', fontsize=8, ha='center', va='bottom')  # Adiciona o número de amostras
-        plt.title(f'Variação do Erro Médio BPM com Limiar de {sqi_col}')
+        plt.title(f'')
         plt.xlabel(f'Limiar de {sqi_col}')
-        plt.ylabel('Erro Médio BPM')
+        plt.ylabel('Erro absoluto médio (bpm)')
         plt.grid(True)
         plt.legend()
         plt.tight_layout()
