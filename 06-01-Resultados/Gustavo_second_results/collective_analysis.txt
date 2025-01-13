@@ -230,6 +230,39 @@ Error_BPM_Rel     26.184798
 Error_iRPM_Abs     5.599327
 Error_iRPM_Rel    33.036918
 
+Top 30 combinacoes de Patch e Metodo com menor erro absoluto BPM:
+Patch  Metodo
+333    CHROM     0.621293
+       LGI       0.631270
+       OMIT      0.631270
+266    PBV       0.648798
+10     POS       0.652239
+337    POS       0.673017
+280    CHROM     0.675203
+333    PCA       0.683909
+280    OMIT      0.693329
+333    GBGR      0.694772
+280    LGI       0.695138
+       PCA       0.697029
+       GBGR      0.697916
+       POS       0.702353
+347    PCA       0.703289
+10     GBGR      0.709320
+347    CHROM     0.709609
+       GBGR      0.709628
+       LGI       0.713237
+10     PCA       0.713885
+347    OMIT      0.714143
+69     CHROM     0.714192
+337    PCA       0.715653
+151    SSR       0.715917
+69     LGI       0.716842
+337    LGI       0.718391
+       OMIT      0.718391
+69     OMIT      0.718658
+280    GREEN     0.718694
+69     GBGR      0.718738
+
 4. Top 100 melhores casos com menor erro absoluto (incluindo video, patch, metodo e SQIs):
               Video Metodo  Patch  Error_BPM_Abs  Error_BPM_Rel  Error_iRPM_Abs  Error_iRPM_Rel     SQI1      SQI2
 video_12_resultados  CHROM    333       0.000048       0.000090        5.685291       31.584949 0.762492 -0.009638
